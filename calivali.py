@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import numpy as np
 import pandas as pd
-import csv, glob, sys, os, re
+import csv, glob, sys, os, re, shutil
 import math
 import pyproj
 
@@ -9,6 +9,7 @@ import datacube
 import DEAPlotting
 import matplotlib.pyplot as plt
 
+fignum = 1
 
 #
 # Action functions are defined to retrieve specific parts of the header for each
@@ -182,10 +183,11 @@ def make_spec_df(in_df):
 ## Figure 1
 ### Plot panel radiances for all/good/bad panels
 #
-def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output, field_data):
+def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output, field_data, fignum):
 
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(11.0, 5.0))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2], fontweight='bold')
+    fig.suptitle(fig_title, fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     #
@@ -207,16 +209,17 @@ def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output,
     all_panel_spec.plot(title = " All panel radiances", legend=False, ax=axes[2])
 
     #
-    # Check that output directory exists, if not, create it.
+    # Remove old files in directory and create a new one
     #
     directory = os.path.dirname(output)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
+    os.makedirs(directory)
 
     #
     # Save plot to output directory.
     #
-    plt.savefig(output+'Fig01_PanelRadiances.png')
+    plt.savefig(output+'Fig'+str(fignum)+'_PanelRadiances.png')
     
 #
 ## Figure 2
@@ -231,7 +234,7 @@ def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output,
 # put the bad panels on the top of the division and first in the
 # difference.
 #
-def FIG_bad_panel_analysis(good_panel_spec, bad_panel_spec, field_data):
+def FIG_bad_panel_analysis(good_panel_spec, bad_panel_spec, output, field_data, fignum):
 
     good_panel_mean = good_panel_spec.mean(axis=1)
 
@@ -243,8 +246,9 @@ def FIG_bad_panel_analysis(good_panel_spec, bad_panel_spec, field_data):
         pd.Series.to_frame(good_bad_div)
         pd.Series.to_frame(good_bad_diff)
 
+        fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
         fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(9.5, 9.5))
-        fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2], fontweight='bold')
+        fig.suptitle(fig_title, fontweight='bold')
 
         good_bad_div.plot(title='(average bad panels / average good panels)', legend=False, ax=axes[0,0])
 
@@ -255,10 +259,11 @@ def FIG_bad_panel_analysis(good_panel_spec, bad_panel_spec, field_data):
         plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
         bad_panel_mean.plot(title='Average bad panels', legend=False, ax=axes[1,1])
-        plt.savefig(output+'Fig02_GoodBadPanelCompare.png')
+        plt.savefig(output+'Fig'+str(fignum)+'_GoodBadPanelCompare.png')
 
     except NameError:
         pass
+    
     return good_panel_mean
 
 #
@@ -268,21 +273,22 @@ def FIG_bad_panel_analysis(good_panel_spec, bad_panel_spec, field_data):
 #
 # These plots are used to identify any ground spectra that are bogus.
 #
-def FIG_ground_spectra(good_grounds_spec, all_grounds_spec, field_data, output):
+def FIG_ground_spectra(good_grounds_spec, all_grounds_spec, output, field_data, fignum):
     good_median = good_grounds_spec.median(axis=1)
     good_norm = good_grounds_spec.div(good_median, axis=0)
     all_norm = all_grounds_spec.div(good_median, axis=0)
 
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(9.6, 6.0))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2], fontweight='bold')
+    fig.suptitle(fig_title, fontweight='bold')
     plt.tight_layout(pad=5.5, w_pad=1.0, h_pad=1.0)
 
     all_norm.plot(title="All ground radiances normalised to \nthe median ground radiance", legend=False, ax=axes[0])
 
     good_norm.plot(title="Good ground radiances normalised to \nthe median ground radiance", legend=False, ax=axes[1])
 
-    plt.savefig(output+'Fig03_GroundRadiances.png')
-    
+    plt.savefig(output+'Fig'+str(fignum)+'_GroundRadiances.png')
+
 #
 ### Create dataframe with relative time stamps
 #
@@ -381,33 +387,35 @@ def multi_timeline_plot(n, m, gpta, adta, axes):
 #
 ### Plot timelines for ALL panel and ground data, with one line in one panel
 #
-def FIG_all_timelines(gpta, adta, output, field_data):
+def FIG_all_timelines(gpta, adta, output, field_data, fignum):
+
     n, m = panel_plot_layout(len(gpta.Line.unique()))
 
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=m, ncols=n, figsize=(11.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Time Stamps for each line, including ALL data', fontweight='bold')
+    fig.suptitle(fig_title+': Time Stamps for each line, including ALL data', fontweight='bold')
     plt.tight_layout(pad=4.5, w_pad=1.0, h_pad=2.5)
 
     multi_timeline_plot(n, m, gpta, adta, axes)
 
+    plt.savefig(output+'Fig'+str(fignum)+'_AllTimeLineData.png')
 
-    plt.savefig(output+'Fig04_AllTimeLineData.png')
-    
 #
 ## Figure 5
 #
 ### Plot timelines for GOOD panel and ground data, with one line in one panel
 #
-def FIG_good_timelines(gpta, gpt, adt, output, field_data):
+def FIG_good_timelines(gpta, gpt, adt, output, field_data, fignum):
     n, m = panel_plot_layout(len(gpta.Line.unique()))
 
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=m, ncols=n, figsize=(11.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Time Stamps for each line, including GOOD data', fontweight='bold')
+    fig.suptitle(fig_title+': Time Stamps for each line, including GOOD data', fontweight='bold')
     plt.tight_layout(pad=4.5, w_pad=1.0, h_pad=2.5)
 
     multi_timeline_plot(n, m, gpt, adt, axes)
 
-    plt.savefig(output+'Fig05_GoodTimeLineData.png')
+    plt.savefig(output+'Fig'+str(fignum)+'_GoodTimeLineData.png')
 
 #
 ## Figure 6
@@ -459,10 +467,11 @@ def normalise_spectra(good_panel_mean, good_panel_spec, all_panel_spec, gpt, gpt
 #
 #
 #
-def FIG_normalised_panels_timeline(gpt, gpta, output, field_data):
+def FIG_normalised_panels_timeline(gpt, gpta, output, field_data, fignum):
     # 5.
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(9.5, 4.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Time vs Normalised, Wavelength-averaged Panels', fontweight='bold')
+    fig.suptitle(fig_title+': Time vs Normalised, Wavelength-averaged Panels', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     gpta.plot.scatter(x='date_saved', y='Normalised_Averaged_Panels', title='All Panels', color='black', ax=axes[0])
@@ -475,7 +484,7 @@ def FIG_normalised_panels_timeline(gpt, gpta, output, field_data):
     axes[1].set_ylabel("")
     axes[1].set_xlabel("Time (seconds)")
 
-    plt.savefig(output+'Fig06_TimevsAvgPanels.png')
+    plt.savefig(output+'Fig'+str(fignum)+'_TimevsAvgPanels.png')
 
 #
 ## Figure X7
@@ -513,7 +522,8 @@ def FIG_normalised_panels_timeline(gpt, gpta, output, field_data):
 #
 #sdf_dst['Insolation']*=248
 #sdf_dst.plot.line(x='Time', y='Insolation', ax=ax2)
-#plt.savefig(output+'Fig07_TimevsAvgPanelsInsolation.png')
+#plt.savefig(output+'Fig'+str(fignum)+'_TimevsAvgPanelsInsolation.png')
+
 
 #
 ### Define the K-factor
@@ -596,9 +606,11 @@ def create_reflectances(good_panels, good_panel_spec, good_grounds_spec, k_f):
 # The Line-averaged reflectances are shown in order to identify any outlying
 # lines that might have been caused by bad panel spectra (for example).
 #
-def FIG_reflectances(good_panels, all_refls, colpac, output, field_data):
+def FIG_reflectances(good_panels, all_refls, colpac, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axy = plt.subplots(nrows=1, ncols=2, figsize=(13.5, 5.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Ground Reflectances.\nBlack: Individual reflectances. Colour: Average Reflectances for each line', fontweight='bold')
+    fig.suptitle(fig_title+': Ground Reflectances.\nBlack: Individual reflectances. Colour: Average Reflectances for each line', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     maska = all_refls[np.logical_xor(all_refls.index > 1350, all_refls.index < 1480)]
@@ -617,8 +629,8 @@ def FIG_reflectances(good_panels, all_refls, colpac, output, field_data):
         line.plot(ax=axy[0], color=colpac[i], legend=True, label='Line'+str(i))
         line.plot(ax=axy[1], color=colpac[i], legend=False, label='Line'+str(i))
 
-    plt.savefig(output+'Fig07_Reflectances.png')
-    
+    plt.savefig(output+'Fig'+str(fignum)+'_Reflectances.png')
+
 #
 # Read in the spectral responses for each band
 #
@@ -694,9 +706,11 @@ def reformat_df(good_grounds, result_df):
 #
 # Plot band reflectances
 #
-def FIG_band_reflectances(ground_bands, result_df, band, colpac, output, field_data):
+def FIG_band_reflectances(ground_bands, result_df, band, colpac, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(11.5, 6.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': \nGround Reflectances averaged into '+field_data[3]+' Bands\n        Line Averaged                                                         Individual spectra', fontweight='bold')
+    fig.suptitle(fig_title+': \nGround Reflectances averaged into '+field_data[3]+' Bands\n        Line Averaged                                                         Individual spectra', fontweight='bold')
     axes[0].set_ylabel("Reflectance")
     axes[0].set_xlabel("Band Number")
     axes[1].set_xlabel("Band Number")
@@ -715,8 +729,27 @@ def FIG_band_reflectances(ground_bands, result_df, band, colpac, output, field_d
 
     result_df.T.plot(legend=False, ax=axes[1])
 
-    plt.savefig(output+'Fig08_BandReflectances.png')
+    plt.savefig(output+'Fig'+str(fignum)+'_BandReflectances.png')
+
+#
+### Figure 9
+#
+# Histograms of individual spectra by band
+#
+# The histograms can be used to identify bad ground data, through outliers.
+#
+def FIG_spec_histogram(ground_bands, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
+    plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=0.3)
     
+    fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
+    bands_only = ground_bands.filter(like='band')
+    bands_only.hist(bins=50, ax=axes)
+    fig.suptitle(fig_title+': Histograms by band for individual spectra', fontweight='bold')
+
+    plt.savefig(output+'Fig'+str(fignum)+'_BandHistograms.png')
+
 #
 # BRDF CALCULATION
 #
@@ -822,9 +855,11 @@ def RL_brdf(solar, view, ra, hb, br, brdf0, brdf1, brdf2):
 # This plot will show where the satellite bands fall, with respect to the
 # spectrum and in particular, with respect to the atmospheric absorbtion features.
 #
-def FIG_band_extents(all_refls, band_min, band_max, output, field_data):
+def FIG_band_extents(all_refls, band_min, band_max, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 6.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': \nMedian ground reflectance with '+field_data[3]+' Bands shown as black bars', fontweight='bold')
+    fig.suptitle(fig_title+': \nMedian ground reflectance with '+field_data[3]+' Bands shown as black bars', fontweight='bold')
     axes.set_ylabel("Reflectance")
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
@@ -832,7 +867,7 @@ def FIG_band_extents(all_refls, band_min, band_max, output, field_data):
     all_refls['Median'] = med
     all_refls.plot(y='Median', ax=axes, legend=False)
 
-    if field_data[3] == 'Landsat 8': 
+    if field_data[3] == 'Landsat-8': 
         y_cord = [0.065, 0.075, 0.08, 0.09, 0.11, 0.18, 0.15, 0.12]
     elif field_data[3] == 'Sentinel':
         y_cord = [0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12, 0.13, 0.14, 0.15, 0.17, 0.15]
@@ -845,8 +880,8 @@ def FIG_band_extents(all_refls, band_min, band_max, output, field_data):
             arrowprops=dict(edgecolor='black', arrowstyle = '|-|, widthA=0.3, widthB=0.3'))
         plt.text((band_max[i]+band_min[i]-35)/2, y_cord[i]+0.002, i+1, fontsize=8)
 
-    plt.savefig(output+'Fig09_BandWavelengths.png')
-    
+    plt.savefig(output+'Fig'+str(fignum)+'_BandWavelengths.png')
+
 #
 # Query Satellite data, based on manual input location and time
 #
@@ -862,7 +897,7 @@ def create_sat_arrays(dc, query, query2):
 #
 ### Plot relative locations of field and satellite data
 #
-def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data):
+def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, fignum):
 
     wgs_84 = pyproj.Proj(init='epsg:4326')
     aus_albers = pyproj.Proj(init='epsg:3577')
@@ -881,8 +916,9 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data):
 
     satloc_df = pd.DataFrame(satloc)
 
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': GeoLocations for data taken with LS8 (black) and field data (colours).\nReference position = '+str(xloc[0][0])+', '+str(xloc[0][1]), fontweight='bold')
+    fig.suptitle(fig_title+': GeoLocations for data taken with LS8 (black) and field data (colours).\nReference position = '+str(xloc[0][0])+', '+str(xloc[0][1]), fontweight='bold')
     plt.tight_layout(pad=4.0, w_pad=1.0, h_pad=1.0)
 
     def gridlines(satloc_df):
@@ -910,7 +946,8 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data):
 
     gridlines(satloc_df)
 
-    plt.savefig(output+'Fig10_SatFieldLocations.png')
+    plt.savefig(output+'Fig'+str(fignum)+'_SatFieldLocations.png')
+
     return xloc
     
 #
@@ -971,34 +1008,40 @@ def create_field_from_sat(sat_array, ground_brdf, xloc):
 #
 # Plot large-area context RGB array for satellite data
 #
-def FIG_sat_bigRGB(sat_bigarray, output, field_data):
-    DEAPlotting.three_band_image(sat_bigarray, bands = ['red', 'green', 'blue'], time = 0, contrast_enhance=False)
-    plt.title(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' Large Area Context: RGB colours', fontweight='bold')
+def FIG_sat_bigRGB(sat_bigarray, output, field_data, fignum):
 
-    plt.savefig(output+'Fig11_Satellite_bigRGB.png')
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
+    DEAPlotting.three_band_image(sat_bigarray, bands = ['red', 'green', 'blue'], time = 0, contrast_enhance=False)
+    plt.title(fig_title+': Large Area Context: RGB colours', fontweight='bold')
+
+    plt.savefig(output+'Fig'+str(fignum)+'_Satellite_bigRGB.png')
 
 #
 ### FIGURE 12
 #
 # Plot RGB array for satellite data
 #
-def FIG_sat_RGB(sat_array, output, field_data):
+def FIG_sat_RGB(sat_array, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     DEAPlotting.three_band_image(sat_array, bands = ['red', 'green', 'blue'], time = 0, contrast_enhance=False)
 
-    plt.title(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' RGB colours', fontweight='bold')
-    plt.savefig(output+'Fig12_Satellite_RGB.png')
-    
+    plt.title(fig_title+': RGB colours', fontweight='bold')
+    plt.savefig(output+'Fig'+str(fignum)+'_Satellite_RGB.png')
+
 #
 ### FIGURE 13
 #
 # Plot RGB array for Field data
 #
-def FIG_field_RGB(field_array, output, field_data):
+def FIG_field_RGB(field_array, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     DEAPlotting.three_band_image(field_array, bands = ['red', 'green', 'blue'], time = 0, contrast_enhance=False)
 
-    plt.title(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+'Field RGB colours', fontweight='bold')
-    plt.savefig(output+'Fig13_Field_rgb.png')
-    
+    plt.title(fig_title+': Field RGB colours', fontweight='bold')
+    plt.savefig(output+'Fig'+str(fignum)+'_Field_rgb.png')
+
 #
 ## Figure 14
 #
@@ -1006,12 +1049,13 @@ def FIG_field_RGB(field_array, output, field_data):
 #
 # Each panel shows the ratio of satellite/field data.
 #
-def FIG_ratio_arrays(sat_array, field_array, output, field_data):
+def FIG_ratio_arrays(sat_array, field_array, output, field_data, fignum):
     newarr = sat_array/field_array
     newarr.reset_index('time', drop=True, inplace=True)
 
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=3, ncols=3, figsize=(11.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Ratio of satellite/field reflectance', fontweight='bold')
+    fig.suptitle(fig_title+': Ratio of satellite/field reflectance', fontweight='bold')
 
     newarr.coastal_aerosol.plot(ax=axes[0,0])
     newarr.blue.plot(ax=axes[0,1])
@@ -1024,8 +1068,8 @@ def FIG_ratio_arrays(sat_array, field_array, output, field_data):
 
     axes[2,1].axis('off')
     axes[2,2].axis('off')
-    plt.savefig(output+'Fig14_RatioSatOverFieldData.png')
-    
+    plt.savefig(output+'Fig'+str(fignum)+'_RatioSatOverFieldData.png')
+
 #
 ### Create statistics dataframe, comparing satellite and field data
 #
@@ -1060,9 +1104,11 @@ def create_stats(sat_array, ground_brdf):
 # Error bars are shown for the field data, based on the standard deviation of
 # the pixels within the field.
 #
-def FIG_ALL_sat_field_bands(fstat_df, output, field_data):
+def FIG_ALL_sat_field_bands(fstat_df, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Satellite and Field data comparison by band', fontweight='bold')
+    fig.suptitle(fig_title+': Satellite and Field data comparison by band', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     fstat_df.plot(x=fstat_df.index, y='LS8_mean', ax=axes, color='black')
@@ -1070,8 +1116,9 @@ def FIG_ALL_sat_field_bands(fstat_df, output, field_data):
     axes.set_ylabel('Reflectance')
     plt.errorbar(x=fstat_df.index, y=fstat_df['Field_mean'], yerr=fstat_df['Field_SD'], color='blue')
     axes.set_xticklabels(['Band0','Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7'])
-    plt.savefig(output+'Fig15_LS8FieldBandCompare.png')
-    
+
+    plt.savefig(output+'Fig'+str(fignum)+'_LS8FieldBandCompare.png')
+
 #
 # Create a statistics dataframe to compare field and satellite for a subset of pixels
 #
@@ -1110,9 +1157,11 @@ def create_SUB_stats(sat_array, field_array, fstat_df, inpix):
 # pixels between coordinates (2,2) and (3,3), inclusive, from the top-left
 # corner.
 #
-def FIG_SUB_sat_field_bands(finner_df, output, field_data):
+def FIG_SUB_sat_field_bands(finner_df, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Satellite and Field data comparison by band for inner pixels', fontweight='bold')
+    fig.suptitle(fig_title+': Satellite and Field data comparison by band for inner pixels', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     finner_df.plot(x=finner_df.index, y='LS8_inner_mean', ax=axes, color='black')
@@ -1120,8 +1169,9 @@ def FIG_SUB_sat_field_bands(finner_df, output, field_data):
     axes.set_ylabel('Reflectance')
     plt.errorbar(x=finner_df.index, y=finner_df['Field_inner_mean'], yerr=finner_df['Field_SD'], color='blue')
     axes.set_xticklabels(['Band0','Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7'])
-    plt.savefig(output+'Fig16_InnerLS8FieldBandCompare.png')
-    
+
+    plt.savefig(output+'Fig'+str(fignum)+'_InnerLS8FieldBandCompare.png')
+
 #
 # # Figure 17
 #
@@ -1130,9 +1180,11 @@ def FIG_SUB_sat_field_bands(finner_df, output, field_data):
 # Plot shows a pixel-by-pixel comparison of all pixels where field data exists.
 # Different band data are shown in different colours and different symbols.
 #
-def FIG_sat_field_scatter_compare(sat_array, field_array, output, field_data):
+def FIG_sat_field_scatter_compare(sat_array, field_array, output, field_data, fignum):
+
+    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
-    fig.suptitle(field_data[3]+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+': Pixel by pixel comparison of field and satellite data', fontweight='bold')
+    fig.suptitle(fig_title+': Pixel by pixel comparison of field and satellite data', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     plot_scale = [0.0, 0.3, 0.0, 0.3]
@@ -1169,6 +1221,5 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, output, field_data):
     plt.figtext(0.185, 0.809, "Band 5 - NIR")
     plt.figtext(0.185, 0.786, "Band 6 - SWIR1")
     plt.figtext(0.185, 0.766, "Band 7 - SWIR2")
-    plt.savefig(output+'Fig17_PixelByPixelComparison.png')
-
+    plt.savefig(output+'Fig'+str(fignum)+'_PixelByPixelComparison.png')
 
