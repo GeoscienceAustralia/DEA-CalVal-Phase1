@@ -21,11 +21,11 @@ def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output,
     axes[0].set_ylabel("Radiance")
 
     #
-    # Plot the bad panel radiances, if they exist (found in line 8)
+    # Plot the bad panel radiances, if they exist
     #
     try:
         bad_panel_spec.plot(title = "Bad panel radiances", legend=False, ax=axes[1])
-    except NameError:
+    except AttributeError:
         pass
     #
     # Plot the ALL panel radiances

@@ -21,12 +21,12 @@ def FIG_band_extents(all_refls, band_min, band_max, output, field_data, fignum):
     all_refls['Median'] = med
     all_refls.plot(y='Median', ax=axes, legend=False)
 
-    if field_data[3] == 'Landsat-8': 
+    if field_data[3] == 'Landsat8': 
         y_cord = [0.065, 0.075, 0.08, 0.09, 0.11, 0.18, 0.15, 0.12]
     elif field_data[3] == 'Sentinel':
         y_cord = [0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12, 0.13, 0.14, 0.15, 0.17, 0.15]
     else:
-        print("Incorrect Satellite name - must be one of Landsat 8 or Sentinel")
+        print("Incorrect Satellite name - must be one of Landsat8 or Sentinel")
 
     for i in range(len(band_min)):
         plt.annotate('', xy = (band_min[i], y_cord[i]),  xycoords = 'data', \

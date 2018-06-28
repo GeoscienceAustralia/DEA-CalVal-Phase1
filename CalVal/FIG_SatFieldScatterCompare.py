@@ -18,14 +18,13 @@ import matplotlib.pyplot as plt
 # Plot shows a pixel-by-pixel comparison of all pixels where field data exists.
 # Different band data are shown in different colours and different symbols.
 #
-def FIG_sat_field_scatter_compare(sat_array, field_array, output, field_data, fignum):
+def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, field_data, fignum):
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
     fig.suptitle(fig_title+': Pixel by pixel comparison of field and satellite data', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
-    plot_scale = [0.0, 0.3, 0.0, 0.3]
     plt.xlim(plot_scale[0], plot_scale[1])
     plt.ylim(plot_scale[2], plot_scale[3])
     p1, p2 = [-1, 2], [-1, 2]

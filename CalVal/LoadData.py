@@ -96,9 +96,9 @@ def load_spectrum_to_df(infile, li):
 # return a concatenated dataframe made up of all the individual
 # dataframes.
 #
-def load_from_dir(indir, suffix):
+def load_from_dir(indir, suffix, firstGoodLine):
     all_dfs = []
-    for li in range(1, len(glob.glob(indir+'line*'))+1):
+    for li in range(firstGoodLine, len(glob.glob(indir+'line*'))+1):
         home2 = indir+'line'+str(li)+'/'
 
         #

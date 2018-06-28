@@ -1,4 +1,5 @@
 import numpy as np
+from datetime import timedelta
 
 
 #
@@ -14,8 +15,9 @@ def make_timeline(in_df, good_panels):
     gpt = good_panels[['date_saved', 'Line']].loc[good_panels['Wavelength']==350]
     
     out_df = temp_df.copy()
+
     for i in range(len(out_df)):
-        out_df.iloc[[i], [0]]=(temp_df.iloc[i][0]-gpt.iloc[0][0]).seconds
+        out_df.iloc[[i], [0]]=int((temp_df.iloc[i][0]-gpt.iloc[0][0]).total_seconds())
 
     out_df['ones'] = np.ones(len(out_df))
     return out_df

@@ -32,17 +32,17 @@ def panel_plot_layout(nlines):
 
 
 def multi_timeline_plot(n, m, gpta, adta, axes):
-    k=0
     for i in range(m):
         for j in range(n):
-            k+=1
-            if k > gpta.Line.max():
-                break
-            elif gpta[(gpta['Line']==k)].empty:
+
+            k = (n*i)+j+1   # Panel number
+
+            if gpta[(gpta['Line']==k)].empty:
                 axes[i,j].axis('off')
+
             else:
-                temp_loop = gpta[(gpta['Line']==k)]
-                all_loop = adta[(adta['Line']==k)]
+                temp_loop = gpta[(gpta['Line']==k)].astype(float)
+                all_loop = adta[(adta['Line']==k)].astype(float)
                 all_loop.plot(x='date_saved', y='ones', kind='scatter', legend=False, ax=axes[i,j], color='orange', marker='|')
                 temp_loop.plot(x='date_saved', y='ones', kind='scatter', legend=False, ax=axes[i,j], marker='x', sharey=True, title='line'+str(k))
                 if i==m-1:
@@ -52,9 +52,9 @@ def multi_timeline_plot(n, m, gpta, adta, axes):
                 axes[i,j].set_ylabel("")
                 axes[i,j].set_yticks([])
     
-    if k in [2, 4, 6, 8, 12, 15]:
+    if k in [1, 3, 5, 7, 11, 14]:
         axes[-1, -1].axis('off')
-    if k in [11, 14]:
+    if k in [10, 13]:
         axes[-1, -1].axis('off')
         axes[-1, -2].axis('off')
 
