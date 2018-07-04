@@ -41,7 +41,7 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
         plt.scatter(field_array.swir1[0]/10000, sat_array.swir1[0]/10000, marker='D', facecolors='none', edgecolors='darkblue')
         plt.scatter(field_array.swir2[0]/10000, sat_array.swir2[0]/10000, marker='*', facecolors='none', edgecolors='black')
 
-    elif field_data[3] == 'Sentinel':
+    elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         plt.scatter(field_array.nbar_coastal_aerosol[0]/10000, sat_array.nbar_coastal_aerosol[0]/10000, marker='o', facecolors='none', edgecolors='red')
         plt.scatter(field_array.nbar_blue[0]/10000, sat_array.nbar_blue[0]/10000, marker='^', facecolors='none', edgecolors='orange')
         plt.scatter(field_array.nbar_green[0]/10000, sat_array.nbar_green[0]/10000, marker='s', facecolors='none', edgecolors='yellow')
@@ -55,12 +55,12 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
         plt.scatter(field_array.nbar_swir_3[0]/10000, sat_array.nbar_swir_3[0]/10000, marker='*', facecolors='none', edgecolors='black')
     
     else:
-        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     x_stretch = (plot_scale[1]-plot_scale[0])
     y_stretch = (plot_scale[3]-plot_scale[2])
 
-    if field_data[3] == 'Sentinel':
+    if field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         plt.scatter((0.1*x_stretch)+plot_scale[0], (0.950*y_stretch)+plot_scale[2], marker='o', facecolors='none', edgecolors='red')
         plt.scatter((0.1*x_stretch)+plot_scale[0], (0.925*y_stretch)+plot_scale[2], marker='^', facecolors='none', edgecolors='orange')
         plt.scatter((0.1*x_stretch)+plot_scale[0], (0.900*y_stretch)+plot_scale[2], marker='s', facecolors='none', edgecolors='yellow')
@@ -103,6 +103,6 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
         plt.figtext(0.185, 0.766, "Band 7 - SWIR2")
 
     else:
-        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_PixelByPixelComparison.png')

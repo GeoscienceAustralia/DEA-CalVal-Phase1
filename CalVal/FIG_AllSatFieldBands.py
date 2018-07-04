@@ -26,10 +26,10 @@ def FIG_ALL_sat_field_bands(fstat_df, output, field_data, fignum):
     if field_data[3] =='Landsat8':
         axes.set_xticklabels(['Band 0', 'Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7'])
 
-    elif field_data[3] =='Sentinel':
+    elif field_data[3] =='Sentinel2a' or field_data[3] == 'Sentinel2b':
         axes.set_xticklabels(['Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7', 'Band 8', 'Band 8a', 'Band 11', 'Band 12'])
 
     else:
-        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_LS8FieldBandCompare.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_FieldBandCompare.png')

@@ -43,7 +43,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                     field_array.swir1[0][j][i] = cum6*10000/count
                     field_array.swir2[0][j][i] = cum7*10000/count
 
-    elif field_data[3] == 'Sentinel':
+    elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         for i in range(len(sat_array.x)):
             for j in range(len(sat_array.y)):
                 count = 0
@@ -88,6 +88,6 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                     field_array.nbar_swir_3[0][j][i] = cum12*10000/count
 
     else:
-        print('Satellite name must be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name must be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     return field_array                

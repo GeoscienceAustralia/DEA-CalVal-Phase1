@@ -18,7 +18,7 @@ def create_SUB_stats(sat_array, field_array, fstat_df, inpix, field_data):
                             ['Band7', float(sat_array.swir2[0][inpix[0]:inpix[1],inpix[2]:inpix[3]].mean()/10000), float(field_array.swir2[0][inpix[0]:inpix[1],inpix[2]:inpix[3]].mean()/10000)],
                            ])
 
-    elif field_data[3] == 'Sentinel':
+    elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         inner_array = np.array([['', 'Sat_inner_mean', 'Field_inner_mean'],
                             ['Band1', float(sat_array.nbar_coastal_aerosol[0][inpix[0]:inpix[1],inpix[2]:inpix[3]].mean()/10000), float(field_array.nbar_coastal_aerosol[0][inpix[0]:inpix[1],inpix[2]:inpix[3]].mean()/10000)],
                             ['Band2', float(sat_array.nbar_blue[0][inpix[0]:inpix[1],inpix[2]:inpix[3]].mean()/10000), float(field_array.nbar_blue[0][inpix[0]:inpix[1],inpix[2]:inpix[3]].mean()/10000)],
@@ -34,7 +34,7 @@ def create_SUB_stats(sat_array, field_array, fstat_df, inpix, field_data):
                            ])
 
     else:
-        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     inner_df = pd.DataFrame(data=inner_array[1:,1:],
                       index=inner_array[1:,0],

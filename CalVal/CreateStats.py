@@ -17,7 +17,7 @@ def create_stats(sat_array, ground_brdf, field_data):
                         ['Band7', float(sat_array.swir2.mean()/10000), float(sat_array.swir2.std()/10000), float(ground_brdf['band7'].mean()), float(ground_brdf['band7'].std())],
                         ])
 
-    elif field_data[3] == 'Sentinel':
+    elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         data_array = np.array([['','Sat_mean','Sat_SD', 'Field_mean', 'Field_SD'],
                         ['Band1', float(sat_array.nbar_coastal_aerosol.mean()/10000), float(sat_array.nbar_coastal_aerosol.std()/10000), float(ground_brdf['band1'].mean()), float(ground_brdf['band1'].std())],
                         ['Band2', float(sat_array.nbar_blue.mean()/10000), float(sat_array.nbar_blue.std()/10000), float(ground_brdf['band2'].mean()), float(ground_brdf['band2'].std())],
@@ -33,7 +33,7 @@ def create_stats(sat_array, ground_brdf, field_data):
                         ])
 
     else:
-        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     stat_df = pd.DataFrame(data=data_array[1:,1:],
                       index=data_array[1:,0],

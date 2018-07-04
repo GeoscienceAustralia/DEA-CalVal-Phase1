@@ -33,7 +33,7 @@ def FIG_ratio_arrays(sat_array, field_array, output, field_data, fignum):
         axes[3,1].axis('off')
         axes[3,2].axis('off')
     
-    elif field_data[3] == 'Sentinel':
+    elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         newarr.nbar_coastal_aerosol.plot(ax=axes[0,0], levels=levels)
         newarr.nbar_blue.plot(ax=axes[0,1], levels=levels)
         newarr.nbar_green.plot(ax=axes[0,2], levels=levels)
@@ -48,6 +48,6 @@ def FIG_ratio_arrays(sat_array, field_array, output, field_data, fignum):
         axes[3,2].axis('off')
 
     else:
-        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_RatioSatOverFieldData.png')
