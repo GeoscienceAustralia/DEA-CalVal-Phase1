@@ -22,6 +22,7 @@ from . import FIG_Reflectances
 from . import FIG_SatBigRGB
 from . import FIG_SatFieldLocations
 from . import FIG_SatFieldScatterCompare
+from . import FIG_SatFieldAvgScatterCompare
 from . import FIG_SatRGB
 from . import FIG_SpecHistogram
 from . import FIG_SubSatFieldBands

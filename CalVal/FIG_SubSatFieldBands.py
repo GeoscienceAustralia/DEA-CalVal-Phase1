@@ -22,10 +22,20 @@ def FIG_SUB_sat_field_bands(finner_df, output, field_data, fignum):
     fig.suptitle(fig_title+': Satellite and Field data comparison by band for inner pixels', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
-    finner_df.plot(x=finner_df.index, y='LS8_inner_mean', ax=axes, color='black')
+    if field_data[3] == 'Landsat8':
+        finner_df.plot(x=finner_df.index, y='Sat_inner_mean', ax=axes, color='black')
+        axes.set_xticklabels(['Band0','Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7'])
+
+    elif field_data[3] == 'Sentinel':
+        finner_df.plot(x=finner_df.index, y='Sat_inner_mean', ax=axes, color='black')
+        axes.set_xticklabels(['Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7', 'Band 8', 'Band 8a', 'Band 11', 'Band 12'])
+
+    else:
+        print('Satellite name should be one of Landsat8 or Sentinel. I got', field_data[3])
+
     finner_df.plot(y='Field_inner_mean', ax=axes, color='blue')
     axes.set_ylabel('Reflectance')
-    plt.errorbar(x=finner_df.index, y=finner_df['Field_inner_mean'], yerr=finner_df['Field_SD'], color='blue')
-    axes.set_xticklabels(['Band0','Band 1','Band 2','Band 3','Band 4','Band 5','Band 6', 'Band 7'])
+    plt.errorbar(x=finner_df.index, y=finner_df['Field_inner_mean'], yerr=finner_df['Field_SD'], color='blue', capsize=3)
+    plt.errorbar(x=finner_df.index, y=finner_df['Sat_inner_mean'], yerr=finner_df['Sat_SD'], color='black', capsize=3)
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_InnerLS8FieldBandCompare.png')
