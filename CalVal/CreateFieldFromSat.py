@@ -9,6 +9,13 @@ import numpy as np
 # within the pixel.
 #
 def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
+    if field_data[3] == 'Landsat8':
+        halfpix = 12.5
+    elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
+        halfpix = 5.0
+    else:
+        print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
+
     field_array = sat_array.astype(float)
 
     if field_data[3] == 'Landsat8':
@@ -17,7 +24,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                 count = 0
                 cum1, cum2, cum3, cum4, cum5, cum6, cum7 = 0,0,0,0,0,0,0
                 for k in range(len(xloc)):
-                    if (sat_array.x[i]-12.5 < xloc[k][0] < sat_array.x[i]+12.5) and (sat_array.y[j]-12.5 < xloc[k][1] < sat_array.y[j]+12.5):
+                    if (sat_array.x[i]-halfpix < xloc[k][0] < sat_array.x[i]+halfpix) and (sat_array.y[j]-halfpix < xloc[k][1] < sat_array.y[j]+halfpix):
                         cum1 = cum1+ground_brdf.iloc[k]['band1']
                         cum2 = cum2+ground_brdf.iloc[k]['band2']
                         cum3 = cum3+ground_brdf.iloc[k]['band3']
@@ -26,7 +33,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                         cum6 = cum6+ground_brdf.iloc[k]['band6']
                         cum7 = cum7+ground_brdf.iloc[k]['band7']
                         count=count+1
-                if count<10:
+                if count < 10:
                     field_array.coastal_aerosol[0][j][i] = np.nan
                     field_array.blue[0][j][i] = np.nan
                     field_array.green[0][j][i] = np.nan
@@ -49,7 +56,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                 count = 0
                 cum1, cum2, cum3, cum4, cum5, cum6, cum7, cum8, cum8a, cum11, cum12 = 0,0,0,0,0,0,0,0,0,0,0
                 for k in range(len(xloc)):
-                    if (sat_array.x[i]-12.5 < xloc[k][0] < sat_array.x[i]+12.5) and (sat_array.y[j]-12.5 < xloc[k][1] < sat_array.y[j]+12.5):
+                    if (sat_array.x[i]-halfpix < xloc[k][0] < sat_array.x[i]+halfpix) and (sat_array.y[j]-halfpix < xloc[k][1] < sat_array.y[j]+halfpix):
                         cum1 = cum1+ground_brdf.iloc[k]['band1']
                         cum2 = cum2+ground_brdf.iloc[k]['band2']
                         cum3 = cum3+ground_brdf.iloc[k]['band3']
@@ -62,7 +69,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                         cum11 = cum11+ground_brdf.iloc[k]['band11']
                         cum12 = cum12+ground_brdf.iloc[k]['band12']
                         count=count+1
-                if count<10:
+                if count < 2:
                     field_array.nbar_coastal_aerosol[0][j][i] = np.nan
                     field_array.nbar_blue[0][j][i] = np.nan
                     field_array.nbar_green[0][j][i] = np.nan

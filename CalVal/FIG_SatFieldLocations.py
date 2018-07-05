@@ -32,14 +32,21 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
     fig.suptitle(fig_title+': GeoLocations for data taken with Satellite (black) and field data (colours).\nReference position = '+str(xloc[0][0])+', '+str(xloc[0][1]), fontweight='bold')
     plt.tight_layout(pad=4.0, w_pad=1.0, h_pad=1.0)
 
-    def gridlines(satloc_df):
-        axes.axhline(satloc_df[1].unique()[0]+12.5, linestyle='--', color='black', linewidth=0.5)
-        for i in range(len(satloc_df[1].unique())):
-            axes.axhline(satloc_df[1].unique()[0]-(12.5+(25*i)), linestyle='--', color='black', linewidth=0.5)
+    def gridlines(satloc_df, field_data):
+        if field_data[3] == 'Landsat8':
+            halfpix = 12.5
+        elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
+            halfpix = 5.0
+        else:
+            print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
-        axes.axvline(satloc_df[0].unique()[0]-12.5, linestyle='--', color='black', linewidth=0.5)
+        axes.axhline(satloc_df[1].unique()[0]+halfpix, linestyle='--', color='black', linewidth=0.5)
+        for i in range(len(satloc_df[1].unique())):
+            axes.axhline(satloc_df[1].unique()[0]-(halfpix+(2*halfpix*i)), linestyle='--', color='black', linewidth=0.5)
+
+        axes.axvline(satloc_df[0].unique()[0]-halfpix, linestyle='--', color='black', linewidth=0.5)
         for i in range(len(satloc_df[0].unique())):
-            axes.axvline(satloc_df[0].unique()[0]+(12.5+(25*i)), linestyle='--', color='black', linewidth=0.5)
+            axes.axvline(satloc_df[0].unique()[0]+(halfpix+(2*halfpix*i)), linestyle='--', color='black', linewidth=0.5)
 
 
     rr = pd.DataFrame(relxloc)
@@ -55,7 +62,7 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
     axes.set_xlabel("Relative Aus Albers Longitude (m)")
     axes.set_ylabel("Relative Aus Albers Latitude (m)")
 
-    gridlines(satloc_df)
+    gridlines(satloc_df, field_data)
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_SatFieldLocations.png')
 

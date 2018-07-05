@@ -29,5 +29,6 @@ from . import FIG_SubSatFieldBands
 from . import KFactor
 from . import LoadData
 from . import MakeSpecDF
+from . import Query
 from . import ReformatDF
 from . import SpecRename
