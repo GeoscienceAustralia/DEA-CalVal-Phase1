@@ -1,0 +1,5 @@
+convert +append LKG_03MAY18__Landsat8_Fig6_TimevsAvgPanels.png LKG_05APR18__Sentinel2b_Fig6_TimevsAvgPanels.png LKG_12FEB18_Site1_Landsat8_Fig6_TimevsAvgPanels.png out1.png
+convert +append LKG_12FEB18_Site2_Landsat8_Fig6_TimevsAvgPanels.png LKG_26MAR18__Sentinel2b_Fig6_TimevsAvgPanels.png NRB_08MAR18__Sentinel2b_Fig6_TimevsAvgPanels.png out2.png
+convert +append NRB_17APR18__Landsat8_Fig6_TimevsAvgPanels.png PIN_20MAY18_CSIRO_Sentinel2a_Fig6_TimevsAvgPanels.png PIN_20MAY18__Sentinel2a_Fig6_TimevsAvgPanels.png out3.png
+convert -append out1.png out2.png out3.png PIN_22MAY18__Sentinel2a_Fig6_TimevsAvgPanels.png ALL.png
+rm -f out*
