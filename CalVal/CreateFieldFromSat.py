@@ -33,7 +33,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                         cum6 = cum6+ground_brdf.iloc[k]['band6']
                         cum7 = cum7+ground_brdf.iloc[k]['band7']
                         count=count+1
-                if count < 10:
+                if count < 1:
                     field_array.coastal_aerosol[0][j][i] = np.nan
                     field_array.blue[0][j][i] = np.nan
                     field_array.green[0][j][i] = np.nan
@@ -69,7 +69,7 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                         cum11 = cum11+ground_brdf.iloc[k]['band11']
                         cum12 = cum12+ground_brdf.iloc[k]['band12']
                         count=count+1
-                if count < 2:
+                if count < 1:
                     field_array.nbar_coastal_aerosol[0][j][i] = np.nan
                     field_array.nbar_blue[0][j][i] = np.nan
                     field_array.nbar_green[0][j][i] = np.nan
