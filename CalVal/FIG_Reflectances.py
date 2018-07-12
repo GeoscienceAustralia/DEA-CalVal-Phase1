@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
@@ -33,5 +34,15 @@ def FIG_reflectances(good_panels, all_refls, colpac, output, field_data, fignum)
         line = all_refls.filter(like=rad_name).mean(axis=1)
         line.plot(ax=axy[0], color=colpac[i], legend=True, label='Line'+str(i))
         line.plot(ax=axy[1], color=colpac[i], legend=False, label='Line'+str(i))
+    #
+    #  Commented lines are used to produce a dataframe with line-averaged reflectances for Fuqin.
+    #
+    #    if i == good_panels.Line.min():
+    #        alllines = line.to_frame()
+    #    else:
+    #        alllines = pd.concat([alllines, line.to_frame()], axis=1)
+    #alllines.columns = good_panels.Line.unique()
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Reflectances.png')
+    
+    #return alllines

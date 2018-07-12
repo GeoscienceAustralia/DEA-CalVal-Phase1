@@ -79,7 +79,10 @@ def load_spectrum_to_df(infile, li):
     df['Latitude'] = lat
     df['Longitude'] = lon
     df['Line'] = li
-    df['Spec_number'] = int(filename[-10:-8])
+    try:
+        df['Spec_number'] = int(filename[-10:-8])
+    except ValueError:
+        df['Spec_number'] = int(filename[-6:-4])
     df['Inst_number'] = inst
     df['SWIR1_gain'] = swir1_gain
     df['SWIR1_offset'] = swir1_offset
