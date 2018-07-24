@@ -19,6 +19,7 @@ from . import FIG_NormalisedPanelsTimeline
 from . import FIG_PanelRadiances
 from . import FIG_RatioArrays
 from . import FIG_Reflectances
+from . import FIG_SatBands
 from . import FIG_SatBigRGB
 from . import FIG_SatFieldLocations
 from . import FIG_SatFieldScatterCompare

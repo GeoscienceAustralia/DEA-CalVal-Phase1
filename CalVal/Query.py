@@ -23,6 +23,7 @@ def make_query(timerange, ground_brdf, field_data):
              'lat': (ground_brdf['Latitude'].min() - met_latdeg, ground_brdf['Latitude'].max() + met_latdeg),
              'lon': (ground_brdf['Longitude'].min() - met_londeg, ground_brdf['Longitude'].max() + met_londeg),
              'output_crs': 'EPSG:3577',
+             'resampling': 'bilinear',
             }
     
     query2 = {
@@ -30,6 +31,7 @@ def make_query(timerange, ground_brdf, field_data):
              'lat': (ground_brdf['Latitude'].min() - 0.01, ground_brdf['Latitude'].max() + 0.01),
              'lon': (ground_brdf['Longitude'].min() - 0.01, ground_brdf['Longitude'].max() + 0.01),
               'output_crs': 'EPSG:3577',
+             'resampling': 'bilinear',
              }
 
     query['resolution'] = (-pixsize, pixsize)

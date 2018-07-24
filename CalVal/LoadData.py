@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 import pandas as pd
-import glob, os
+import glob, os, subprocess
 
 
 ###############################################################################
@@ -62,6 +62,12 @@ def extract_metadata(filename):
 #
 def load_spectrum_to_df(infile, li):
     
+    p1 = subprocess.Popen(["grep", "-an", "Wavelength", infile], stdout=subprocess.PIPE)
+    p2 = subprocess.Popen(["cut", "-d:", "-f", "1"], stdin=p1.stdout, stdout=subprocess.PIPE)
+    p1.stdout.close()  # Allow p1 to receive a SIGPIPE if p2 exits.
+    fdl,err = p2.communicate()
+    firstDataLine = int(fdl)-1
+
     inst, date_str, swir1_go, swir2_go, lat, lon = extract_metadata(infile)
 
     swir1_gain = swir1_go[:3]
@@ -71,7 +77,7 @@ def load_spectrum_to_df(infile, li):
 
     date_saved = datetime.strptime(date_str, '%m/%d/%Y at %H:%M:%S')
     
-    df = pd.read_csv(infile, skiprows=38, delim_whitespace=True)
+    df = pd.read_csv(infile, skiprows=firstDataLine, delim_whitespace=True)
     filename = df.columns[1]
     df.rename({filename: 'radiance'}, axis=1, inplace=True)
     df['filename'] = filename
