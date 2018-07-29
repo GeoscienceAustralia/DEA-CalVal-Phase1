@@ -7,7 +7,8 @@ def make_query(timerange, ground_brdf, field_data):
         dc = datacube.Datacube()
         pixsize = 25.0
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
-        dc = datacube.Datacube(config='/home/547/aw3463/.sent2.conf', env='sentinel2beta')
+        dc = datacube.Datacube(env='sentinel2betatmp', config='/home/547/aw3463/.sent2.conf')
+        #dc = datacube.Datacube(config='/home/547/aw3463/.sent2.conf', env='sentinel2beta')
         pixsize = 10.0
     else:
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])

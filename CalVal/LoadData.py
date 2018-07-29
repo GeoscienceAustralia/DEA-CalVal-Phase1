@@ -28,11 +28,17 @@ def action4(l):
 
 # GPS Latitude in decimal degrees
 def action5(l):
-    return float(l[17:20])-float(l[20:27])/60
+    if 'GPS-Latitude is S0' in l:
+        return float(-33.85666666)
+    else:
+        return float(l[17:20])-float(l[20:27])/60
 
 # GPS Longitude in decimal degrees
 def action6(l):
-    return float(l[19:22])+float(l[22:30])/60
+    if 'GPS-Longitude is E0' in l:
+        return float(151.21527778)
+    else:
+        return float(l[19:22])+float(l[22:30])/60
 
 #
 # Based on action functions defined above, extract header metadata from
@@ -62,7 +68,7 @@ def extract_metadata(filename):
 #
 def load_spectrum_to_df(infile, li):
     
-    p1 = subprocess.Popen(["grep", "-an", "Wavelength", infile], stdout=subprocess.PIPE)
+    p1 = subprocess.Popen(["grep", "-an", "^Wavelength", infile], stdout=subprocess.PIPE)
     p2 = subprocess.Popen(["cut", "-d:", "-f", "1"], stdin=p1.stdout, stdout=subprocess.PIPE)
     p1.stdout.close()  # Allow p1 to receive a SIGPIPE if p2 exits.
     fdl,err = p2.communicate()
@@ -96,7 +102,6 @@ def load_spectrum_to_df(infile, li):
     df['SWIR2_offset'] = swir2_offset
     return df
 
-
 #
 ### Loop through all spectrum files in "indir" and combine the resulting dataframes.
 #
@@ -107,6 +112,7 @@ def load_spectrum_to_df(infile, li):
 #
 def load_from_dir(indir, suffix, firstGoodLine):
     all_dfs = []
+    numLines = len(range(firstGoodLine, len(glob.glob(indir+'line*'))+1))
     for li in range(firstGoodLine, len(glob.glob(indir+'line*'))+1):
         home2 = indir+'line'+str(li)+'/'
 
@@ -121,6 +127,7 @@ def load_from_dir(indir, suffix, firstGoodLine):
         spectra = sorted(spectra)
 
         for name in spectra:
+
             infile = home2 + name
 
             df = load_spectrum_to_df(infile, li)
