@@ -14,7 +14,7 @@ from datetime import datetime
 # Any bad ground data (bad_grounds) is defined in the 2nd cell.
 #
 def extract_panels_grounds(alldata, bad_pans, bad_grounds):
-    panel_names = alldata[(alldata['Wavelength']==350) & (alldata['radiance']>=0.07)]['filename']
+    panel_names = alldata[(alldata['Wavelength']==350) & (alldata['radiance']>=0.06)]['filename']
 
     all_panels = alldata.loc[alldata['filename'].isin(panel_names)]
     good_panels = all_panels.loc[~all_panels['filename'].isin(bad_pans)]

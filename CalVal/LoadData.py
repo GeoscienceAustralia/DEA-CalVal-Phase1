@@ -11,32 +11,32 @@ import glob, os, subprocess
 ###############################################################################
 
 # Instrument Number
-def action1(l):
+def action1(l, Corners):
     return l[27:34]
 
 # Datetime of spectrum
-def action2(l):
+def action2(l, Corners):
     return l[16:38]
 
 # SWIR1 gain
-def action3(l):
+def action3(l, Corners):
     return l[15:33]
 
 # SWIR2 gain
-def action4(l):
+def action4(l, Corners):
     return l[15:33]
 
 # GPS Latitude in decimal degrees
-def action5(l):
+def action5(l, Corners):
     if 'GPS-Latitude is S0' in l:
-        return float(-33.85666666)
+        return Corners[0]
     else:
         return float(l[17:20])-float(l[20:27])/60
 
 # GPS Longitude in decimal degrees
-def action6(l):
+def action6(l, Corners):
     if 'GPS-Longitude is E0' in l:
-        return float(151.21527778)
+        return Corners[1]
     else:
         return float(l[19:22])+float(l[22:30])/60
 
@@ -44,7 +44,7 @@ def action6(l):
 # Based on action functions defined above, extract header metadata from
 # a file.
 #
-def extract_metadata(filename):
+def extract_metadata(filename, Corners):
     strings = {
         'instrument number': action1,
         'Spectrum saved': action2,
@@ -59,14 +59,14 @@ def extract_metadata(filename):
         for line in file:
             for search, action in strings.items():
                 if search in line:
-                    list_of_actions.append(action(line))
+                    list_of_actions.append(action(line, Corners))
         return list_of_actions
 
 #
 ### Extract spectrum and header information from a spectrum file. 
 ### Create a Pandas dataframe with the result.
 #
-def load_spectrum_to_df(infile, li):
+def load_spectrum_to_df(infile, li, Corners):
     
     p1 = subprocess.Popen(["grep", "-an", "^Wavelength", infile], stdout=subprocess.PIPE)
     p2 = subprocess.Popen(["cut", "-d:", "-f", "1"], stdin=p1.stdout, stdout=subprocess.PIPE)
@@ -74,7 +74,7 @@ def load_spectrum_to_df(infile, li):
     fdl,err = p2.communicate()
     firstDataLine = int(fdl)-1
 
-    inst, date_str, swir1_go, swir2_go, lat, lon = extract_metadata(infile)
+    inst, date_str, swir1_go, swir2_go, lat, lon = extract_metadata(infile, Corners)
 
     swir1_gain = swir1_go[:3]
     swir1_offset = swir1_go[-4:]
@@ -110,7 +110,7 @@ def load_spectrum_to_df(infile, li):
 # return a concatenated dataframe made up of all the individual
 # dataframes.
 #
-def load_from_dir(indir, suffix, firstGoodLine):
+def load_from_dir(indir, suffix, firstGoodLine, Corners):
     all_dfs = []
     numLines = len(range(firstGoodLine, len(glob.glob(indir+'line*'))+1))
     for li in range(firstGoodLine, len(glob.glob(indir+'line*'))+1):
@@ -130,6 +130,6 @@ def load_from_dir(indir, suffix, firstGoodLine):
 
             infile = home2 + name
 
-            df = load_spectrum_to_df(infile, li)
+            df = load_spectrum_to_df(infile, li, Corners)
             all_dfs.append(df)
     return pd.concat(all_dfs)
