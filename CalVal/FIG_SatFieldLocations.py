@@ -29,7 +29,7 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
-    fig.suptitle(fig_title+': GeoLocations for data taken with Satellite (black) and field data (colours).\nReference position = '+str(xloc[0][0])+', '+str(xloc[0][1]), fontweight='bold')
+    fig.suptitle(fig_title+': Satellite pixel locations (black)\nand field spectrum locations (colours). Reference position = '+str(int(xloc[0][0]))+', '+str(int(xloc[0][1]))+str('.'), fontweight='bold')
     plt.tight_layout(pad=4.0, w_pad=1.0, h_pad=1.0)
 
     def gridlines(satloc_df, field_data):

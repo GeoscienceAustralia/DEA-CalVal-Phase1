@@ -1,0 +1,40 @@
+DATA SHEET FOR LGR taken on 29MAY18,  Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:15:45 to 00:36:27 on the 29 May, 2018 (UTC)
+Satellite overpass was at 2018-05-29T00:23:00.500000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is 0 days 00:07:15.500000
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (144.31038333, -23.52441667)
+SW: (144.30941667, -23.52433333)
+NE: (144.3105, -23.5235)
+NW: (144.3095, -23.52343333)
+
+Solar Zenith angle is from 54.3 to 51.7 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Longreach/29MAY18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/LGR-29MAY18/
+
+Panel is assumed to be UQ_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=51bdc745-bdf4-4358-bd0d-93e205a4fd0a type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/05/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_096_076_20180529/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0792	0.00122	0.0751	0.0085	1.54	11.3	1.06	1.39
+blue	0.0874	0.00177	0.0939	0.0111	2.02	11.9	0.931	1.76
+green	0.136	0.00299	0.147	0.017	2.2	11.6	0.93	1.88
+red	0.183	0.00413	0.193	0.0222	2.26	11.5	0.948	2
+nir	0.253	0.00685	0.265	0.0297	2.71	11.2	0.957	2.38
+swir1	0.322	0.00579	0.342	0.0357	1.8	10.4	0.943	1.49
+swir2	0.259	0.00407	0.282	0.032	1.57	11.3	0.916	1.38

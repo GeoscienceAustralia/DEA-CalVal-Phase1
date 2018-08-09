@@ -16,6 +16,7 @@ def FIG_sat_bands(sat_array, field_array, output, field_data, fignum):
 
     subsat_array = sat_array.where(field_array*0 == 0)
     dummy = subsat_array.std()/subsat_array.mean()*100
+    variance = dummy.copy()
     dummin = min(dummy.values())
     dummax = max(dummy.values())
     dummean = np.mean(dummy.to_array())
@@ -65,3 +66,4 @@ def FIG_sat_bands(sat_array, field_array, output, field_data, fignum):
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_SatBands.png')
 
+    return variance

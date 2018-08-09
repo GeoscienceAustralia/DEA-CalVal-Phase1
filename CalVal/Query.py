@@ -1,7 +1,8 @@
 import datacube
 import math
+import pandas as pd
 
-def make_query(timerange, ground_brdf, field_data):
+def make_query(ground_brdf, field_data):
     
     if field_data[3] == 'Landsat8':
         dc = datacube.Datacube()
@@ -20,7 +21,7 @@ def make_query(timerange, ground_brdf, field_data):
     met_londeg = met_latdeg / math.cos(math.radians(ground_brdf['Latitude'].mean()))
 
     query = {
-             'time': timerange,
+             'time': (ground_brdf['date_saved'].min()-pd.DateOffset(4), ground_brdf['date_saved'].max()+pd.DateOffset(4)),
              'lat': (ground_brdf['Latitude'].min() - met_latdeg, ground_brdf['Latitude'].max() + met_latdeg),
              'lon': (ground_brdf['Longitude'].min() - met_londeg, ground_brdf['Longitude'].max() + met_londeg),
              'output_crs': 'EPSG:3577',
@@ -28,7 +29,7 @@ def make_query(timerange, ground_brdf, field_data):
             }
     
     query2 = {
-              'time': timerange,
+              'time': (ground_brdf['date_saved'].min()-pd.DateOffset(4), ground_brdf['date_saved'].max()+pd.DateOffset(4)),
              'lat': (ground_brdf['Latitude'].min() - 0.01, ground_brdf['Latitude'].max() + 0.01),
              'lon': (ground_brdf['Longitude'].min() - 0.01, ground_brdf['Longitude'].max() + 0.01),
               'output_crs': 'EPSG:3577',

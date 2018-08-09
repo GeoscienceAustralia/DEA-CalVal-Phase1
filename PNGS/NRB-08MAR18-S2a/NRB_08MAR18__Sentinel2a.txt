@@ -1,0 +1,44 @@
+DATA SHEET FOR NRB taken on 08MAR18,  Sentinel2a overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 23:07:29 to 23:28:50 on the 07 March, 2018 (UTC)
+Satellite overpass was at 2018-03-11T00:02:41.026000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is 3 days 00:55:12.026000
+
+Good GPS Coordinates were found in the headers
+Approximate bounding box coordinates:
+SE: (149.145235, -35.333758)
+SW: (149.14636, -35.333758)
+NE: (149.145235, -35.33301)
+NW: (149.14636, -35.33301)
+
+Solar Zenith angle is from 52.6 to 48.7 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Narrabundah/08MAR18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/NRB-08MAR18-S2a/
+
+Panel is assumed to be GA_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=c06b6f36-58f7-42a9-b327-7e7c90a5eb2e type=s2a_ard_granule location=/g/data1a/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-03-11/S2A_OPER_MSI_ARD_TL_EPAE_20180311T025733_A014184_T55HFA_N02.06/ARD-METADATA.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0573	0.00358	0.0331	0.00566	6.25	17.1	1.73	3.84
+blue	0.0521	0.00656	0.0429	0.00712	12.6	16.6	1.21	3.72
+green	0.0797	0.007	0.0776	0.00846	8.78	10.9	1.03	2.78
+red	0.0656	0.0112	0.057	0.0129	17	22.7	1.15	5.24
+RE1	0.122	0.00615	0.113	0.0125	5.05	11	1.07	2.7
+RE2	0.304	0.0151	0.321	0.0194	4.96	6.05	0.945	1.53
+RE3	0.368	0.0209	0.38	0.0266	5.68	6.99	0.967	1.88
+nir_1	0.394	0.0251	0.402	0.0276	6.38	6.86	0.98	2.33
+nir_2	0.413	0.0243	0.415	0.0281	5.89	6.78	0.994	1.91
+swir_2	0.301	0.0106	0.284	0.0248	3.52	8.73	1.06	1.57
+swir_3	0.157	0.00919	0.143	0.022	5.87	15.3	1.09	2.87

@@ -31,7 +31,8 @@ from . import FudgeGPS
 from . import KFactor
 from . import LoadData
 from . import MakeSpecDF
-from . import PrintBRDF
 from . import Query
+from . import PrintBRDF
+from . import PrintSheet
 from . import ReformatDF
 from . import SpecRename

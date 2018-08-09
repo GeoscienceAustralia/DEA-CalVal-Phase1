@@ -1,0 +1,40 @@
+DATA SHEET FOR PIN taken on 20MAY18, CSIRO Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 02:14:28 to 02:49:04 on the 20 May, 2018 (UTC)
+Satellite overpass was at 2018-05-20T02:10:11.500000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:55:43.500000
+
+Good GPS Coordinates were found in the headers
+Approximate bounding box coordinates:
+SE: (115.155191, -30.585138)
+SW: (115.156322, -30.585138)
+NE: (115.155191, -30.584)
+NW: (115.156322, -30.584)
+
+Solar Zenith angle is from 58.3 to 54.7 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Pinnacles/20MAY18-CSIRO/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/PIN-20MAY18-CSIRO/
+
+Panel is assumed to be CSIRO_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=7e4451c6-aad8-48b0-8fc6-e01f4b8a6f79 type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/05/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_113_081_20180520/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.176	0.0125	0.185	0.0131	7.11	7.09	0.953	6.09
+blue	0.213	0.0158	0.232	0.0162	7.4	6.97	0.916	6.15
+green	0.426	0.0247	0.457	0.0288	5.81	6.3	0.931	4.62
+red	0.555	0.0323	0.574	0.036	5.82	6.27	0.965	4.6
+nir	0.648	0.0413	0.649	0.04	6.39	6.16	0.998	4.9
+swir1	0.73	0.0421	0.741	0.0448	5.76	6.04	0.985	4.49
+swir2	0.59	0.0292	0.607	0.0405	4.96	6.68	0.972	3.99

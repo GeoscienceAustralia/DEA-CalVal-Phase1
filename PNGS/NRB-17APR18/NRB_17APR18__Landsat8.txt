@@ -1,0 +1,40 @@
+DATA SHEET FOR NRB taken on 17APR18,  Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:05:00 to 00:40:14 on the 17 April, 2018 (UTC)
+Satellite overpass was at 2018-04-16T23:49:35.000000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:44:35
+
+Good GPS Coordinates were found in the headers
+Approximate bounding box coordinates:
+SE: (149.14524, -35.333968)
+SW: (149.146258, -35.333968)
+NE: (149.14524, -35.33301)
+NW: (149.146258, -35.33301)
+
+Solar Zenith angle is from 53.6 to 49.7 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Narrabundah/17APR18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/NRB-17APR18/
+
+Panel is assumed to be GA_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=77837fee-fbdf-443c-8da3-e72448ee9cdc type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/04/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_090_084_20180416/ga-metadata.yaml>, Dataset <id=3256f672-45e1-41f2-be73-9386a8c4a3aa type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/04/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_090_085_20180416/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0385	0.00714	0.0281	0.00691	18.5	24.6	1.37	15.6
+blue	0.0383	0.00796	0.0332	0.00886	20.8	26.7	1.15	17.5
+green	0.0745	0.00704	0.0683	0.0118	9.46	17.3	1.09	7.35
+red	0.0657	0.0151	0.0509	0.0178	23	35	1.29	19.7
+nir	0.416	0.0418	0.445	0.0448	10.1	10.1	0.933	6.89
+swir1	0.252	0.0122	0.257	0.0273	4.87	10.6	0.981	2.82
+swir2	0.134	0.0174	0.123	0.0217	13	17.7	1.09	10.9

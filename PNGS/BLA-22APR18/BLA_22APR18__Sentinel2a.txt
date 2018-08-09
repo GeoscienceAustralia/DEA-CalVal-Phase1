@@ -1,0 +1,44 @@
+DATA SHEET FOR BLA taken on 22APR18,  Sentinel2a overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:55:34 to 02:08:04 on the 22 April, 2018 (UTC)
+Satellite overpass was at 2018-04-22T00:37:11.026000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:41:37.026000
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (139.600725, -34.385141)
+SW: (139.59979, -34.385142)
+NE: (139.60092, -34.38435)
+NW: (139.599893, -34.384327)
+
+Solar Zenith angle is from 52.7 to 47.1 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Blanchetown/22APR18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/BLA-22APR18/
+
+Panel is assumed to be UA_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=f211878b-c4f3-4d92-aa0b-4e11e543739e type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-04-22/S2A_OPER_MSI_ARD_TL_EPAE_20180422T021208_A014785_T54HUG_N02.06/ARD-METADATA.yaml>, Dataset <id=3eb316b7-c4dc-43f3-ae5f-42b4a0d9ba5d type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-04-22/S2A_OPER_MSI_ARD_TL_EPAE_20180422T021208_A014785_T54HUH_N02.06/ARD-METADATA.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0762	0.00101	0.0595	0.0087	1.33	14.6	1.28	1.11
+blue	0.088	0.00274	0.075	0.0113	3.12	15.1	1.17	2.93
+green	0.119	0.00395	0.11	0.0182	3.31	16.5	1.08	3.06
+red	0.173	0.00675	0.164	0.0297	3.89	18.1	1.06	3.69
+RE1	0.201	0.0061	0.184	0.0319	3.03	17.3	1.09	2.66
+RE2	0.218	0.00631	0.204	0.0338	2.9	16.6	1.07	2.6
+RE3	0.228	0.00596	0.217	0.035	2.61	16.1	1.05	2.31
+nir_1	0.25	0.00763	0.234	0.0367	3.05	15.7	1.07	2.78
+nir_2	0.264	0.00591	0.244	0.0378	2.24	15.5	1.08	1.94
+swir_2	0.398	0.0059	0.379	0.0611	1.48	16.1	1.05	1.15
+swir_3	0.317	0.00835	0.309	0.0611	2.64	19.8	1.02	2.11

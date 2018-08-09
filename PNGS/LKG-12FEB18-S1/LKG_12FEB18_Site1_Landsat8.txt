@@ -1,0 +1,40 @@
+DATA SHEET FOR LKG taken on 12FEB18, Site1 Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:27:06 to 00:49:34 on the 12 February, 2018 (UTC)
+Satellite overpass was at 2018-02-11T23:50:07.000000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:23:01
+
+Good GPS Coordinates were found in the headers
+Approximate bounding box coordinates:
+SE: (149.462732, -35.093728)
+SW: (149.463328, -35.093728)
+NE: (149.462732, -35.093168)
+NW: (149.463328, -35.093168)
+
+Solar Zenith angle is from 32.5 to 28.9 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Lake_George/12FEB18/site_1/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/LKG-12FEB18-S1/
+
+Panel is assumed to be GA_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=77f8f7b6-d932-4e3e-8f33-2b6741eb77cb type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/02/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_090_084_20180211/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0698	0.00205	0.0584	0.00586	2.94	10	1.19	2.06
+blue	0.0692	0.00209	0.0636	0.00635	3.02	9.97	1.09	2.18
+green	0.0776	0.00226	0.0719	0.0071	2.91	9.88	1.08	2.11
+red	0.0858	0.00236	0.0778	0.00755	2.75	9.71	1.1	2.02
+nir	0.115	0.00212	0.103	0.00898	1.84	8.7	1.12	1.38
+swir1	0.168	0.00132	0.161	0.011	0.786	6.84	1.04	0.864
+swir2	0.132	0.00177	0.127	0.00961	1.34	7.55	1.03	1.21
