@@ -1,0 +1,40 @@
+DATA SHEET FOR DOO taken on 14MAR18,  Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:28:56 to 00:42:04 on the 14 March, 2018 (UTC)
+Satellite overpass was at 2018-03-14T00:02:38.000000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:33:42
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (145.718636, -36.387832)
+SW: (145.717523, -36.387697)
+NE: (145.718838, -36.386932)
+NW: (145.717714, -36.386786)
+
+Solar Zenith angle is from 43.3 to 41.5 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Dookie/14MAR18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/DOO-14MAR18-L8/
+
+Panel is assumed to be CSIRO_VIC_Panel
+Data is assumed to be recorded in Reflectance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=315e0326-1b24-4c98-9f2e-23925d15892c type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/03/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_092_085_20180314/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0818	0.00098	0.0664	0.0101	1.2	15.2	1.23	1.19
+blue	0.0889	0.00111	0.082	0.0118	1.25	14.4	1.08	1.23
+green	0.136	0.00145	0.127	0.0155	1.07	12.2	1.07	0.982
+red	0.2	0.00173	0.183	0.0233	0.866	12.7	1.09	0.502
+nir	0.291	0.0021	0.268	0.03	0.723	11.2	1.09	0.467
+swir1	0.394	0.00131	0.386	0.0343	0.332	8.9	1.02	0.291
+swir2	0.319	0.00143	0.318	0.0476	0.449	15	1	0.528

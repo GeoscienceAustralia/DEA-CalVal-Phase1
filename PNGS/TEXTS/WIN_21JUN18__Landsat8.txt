@@ -1,0 +1,40 @@
+DATA SHEET FOR WIN taken on 21JUN18,  Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:13:27 to 00:44:48 on the 21 June, 2018 (UTC)
+Satellite overpass was at 2018-06-21T00:28:55.000000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is 0 days 00:15:28
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (142.93854167, -22.527813889)
+SW: (142.937663889, -22.52767778)
+NE: (142.9386778, -22.5269111)
+NW: (142.937691667, -22.526825)
+
+Solar Zenith angle is from 56.7 to 52.6 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Winton/21JUN18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/WIN-21JUN18-L8/
+
+Panel is assumed to be UQ_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=71056445-19d1-4494-a6ca-bf094140743c type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/06/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_097_075_20180621/ga-metadata.yaml>, Dataset <id=1495273c-9586-4cc5-b5b4-a6f8af459c6d type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/06/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_097_076_20180621/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.176	0.00899	0.188	0.0128	5.11	6.83	0.937	4.68
+blue	0.198	0.00892	0.222	0.0144	4.49	6.47	0.893	4.26
+green	0.317	0.00909	0.342	0.0177	2.87	5.17	0.928	2.67
+red	0.453	0.0143	0.48	0.0208	3.15	4.34	0.944	2.41
+nir	0.514	0.0175	0.533	0.0241	3.41	4.51	0.964	2.64
+swir1	0.656	0.0169	0.686	0.0225	2.58	3.28	0.957	2.31
+swir2	0.574	0.0176	0.602	0.0181	3.06	3.01	0.953	1.93

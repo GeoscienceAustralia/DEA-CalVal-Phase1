@@ -20,8 +20,16 @@ def make_query(ground_brdf, field_data):
     # convert half a pixel in metres to decimal degrees longitude
     met_londeg = met_latdeg / math.cos(math.radians(ground_brdf['Latitude'].mean()))
 
+    # Test for unusual timestamp from Litchfield site
+    if 'Z' in str(ground_brdf['date_saved'].min()):
+        mintime = pd.Timestamp(ground_brdf['date_saved'].min())
+        maxtime = pd.Timestamp(ground_brdf['date_saved'].max())
+    else:
+        mintime = ground_brdf['date_saved'].min()
+        maxtime = ground_brdf['date_saved'].max()
+
     query = {
-             'time': (ground_brdf['date_saved'].min()-pd.DateOffset(4), ground_brdf['date_saved'].max()+pd.DateOffset(4)),
+             'time': (mintime-pd.DateOffset(4), maxtime+pd.DateOffset(4)),
              'lat': (ground_brdf['Latitude'].min() - met_latdeg, ground_brdf['Latitude'].max() + met_latdeg),
              'lon': (ground_brdf['Longitude'].min() - met_londeg, ground_brdf['Longitude'].max() + met_londeg),
              'output_crs': 'EPSG:3577',
@@ -29,7 +37,7 @@ def make_query(ground_brdf, field_data):
             }
     
     query2 = {
-              'time': (ground_brdf['date_saved'].min()-pd.DateOffset(4), ground_brdf['date_saved'].max()+pd.DateOffset(4)),
+              'time': (mintime-pd.DateOffset(4), maxtime+pd.DateOffset(4)),
              'lat': (ground_brdf['Latitude'].min() - 0.01, ground_brdf['Latitude'].max() + 0.01),
              'lon': (ground_brdf['Longitude'].min() - 0.01, ground_brdf['Longitude'].max() + 0.01),
               'output_crs': 'EPSG:3577',

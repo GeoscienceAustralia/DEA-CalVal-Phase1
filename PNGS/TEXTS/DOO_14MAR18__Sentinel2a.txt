@@ -1,0 +1,44 @@
+DATA SHEET FOR DOO taken on 14MAR18,  Sentinel2a overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:28:56 to 00:42:04 on the 14 March, 2018 (UTC)
+Satellite overpass was at 2018-03-14T00:11:01.026000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:42:05.026000
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (145.718636, -36.387832)
+SW: (145.717523, -36.387697)
+NE: (145.718838, -36.386932)
+NW: (145.717714, -36.386786)
+
+Solar Zenith angle is from 43.3 to 41.5 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Dookie/14MAR18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/DOO-14MAR18-S2a/
+
+Panel is assumed to be CSIRO_VIC_Panel
+Data is assumed to be recorded in Reflectance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=e6e6d108-19ce-47a6-9176-5d8c62ca4f1c type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-03-17/S2A_OPER_MSI_ARD_TL_EPAE_20180317T014510_A014270_T55HCV_N02.06/ARD-METADATA.yaml>, Dataset <id=6d96d4d2-7650-42f9-a4d5-86da4efe449c type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-03-14/S2A_OPER_MSI_ARD_TL_EPAE_20180314T013834_A014227_T55HCV_N02.06/ARD-METADATA.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0864	0.000829	0.0656	0.00998	0.96	15.2	1.32	1.03
+blue	0.0973	0.00192	0.0855	0.0121	1.97	14.2	1.14	1.4
+green	0.137	0.00263	0.125	0.0153	1.92	12.3	1.1	1.4
+red	0.208	0.00362	0.184	0.0236	1.74	12.8	1.13	1.36
+RE1	0.237	0.00366	0.202	0.0256	1.55	12.7	1.17	0.965
+RE2	0.25	0.00364	0.218	0.0272	1.46	12.5	1.15	0.99
+RE3	0.262	0.00389	0.235	0.0285	1.48	12.1	1.12	1.04
+nir_1	0.285	0.00521	0.253	0.0292	1.83	11.6	1.13	1.52
+nir_2	0.297	0.00455	0.263	0.0296	1.53	11.2	1.13	1.14
+swir_2	0.422	0.00752	0.381	0.0338	1.78	8.86	1.11	1.82
+swir_3	0.347	0.00667	0.315	0.0465	1.92	14.8	1.1	2.07

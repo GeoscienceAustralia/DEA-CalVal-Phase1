@@ -37,10 +37,10 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
     if Corners == [0, 0, 0, 0, 0, 0, 0, 0]:
         file.write('Good GPS Coordinates were found in the headers\n')
         file.write('Approximate bounding box coordinates:\n')
-        file.write('SE: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
-        file.write('SW: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
-        file.write('NE: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n')
-        file.write('NW: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n\n')
+        file.write('SE: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
+        file.write('SW: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
+        file.write('NE: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n')
+        file.write('NW: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n\n')
     else:
         file.write('NO GPS Coordinates found - coordinates have been approximated!!!\n')
         file.write('Approximate bounding box coordinates:\n')

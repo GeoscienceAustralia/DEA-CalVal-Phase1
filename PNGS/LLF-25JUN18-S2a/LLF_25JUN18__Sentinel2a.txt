@@ -9,15 +9,15 @@ and satellite overpass is -4 days +23:51:29.024000
 
 Good GPS Coordinates were found in the headers
 Approximate bounding box coordinates:
-SE: (121.647114, -31.34175)
-SW: (121.648578, -31.34175)
-NE: (121.647114, -31.340725)
-NW: (121.648578, -31.340725)
+SE: (121.648578, -31.34175)
+SW: (121.647114, -31.34175)
+NE: (121.648578, -31.340725)
+NW: (121.647114, -31.340725)
 
 Solar Zenith angle is from 61.9 to 58.5 degrees.
 
 Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Lake_Lefroy/25JUN18/
-PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/LLF-25JUN18-L8/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/LLF-25JUN18-S2a/
 
 Panel is assumed to be CSIRO_Panel
 Data is assumed to be recorded in Radiance mode.

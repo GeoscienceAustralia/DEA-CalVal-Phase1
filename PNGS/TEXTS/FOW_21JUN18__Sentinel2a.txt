@@ -1,0 +1,44 @@
+DATA SHEET FOR FOW taken on 21JUN18,  Sentinel2a overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 01:11:25 to 02:02:14 on the 21 June, 2018 (UTC)
+Satellite overpass was at 2018-06-21T00:37:01.024000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:25:36.024000
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (141.751203, -31.066231)
+SW: (141.750214, -31.065954)
+NE: (141.751642, -31.065408)
+NW: (141.750667, -31.065085)
+
+Solar Zenith angle is from 58.0 to 55.1 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Fowlers/21JUN18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/FOW-21JUN18/
+
+Panel is assumed to be UQ_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=3158068b-bb63-4e36-9934-4d178f3d2a44 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-06-21/S2A_OPER_MSI_ARD_TL_EPAE_20180621T021244_A015643_T54JWL_N02.06/ARD-METADATA.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.056	0.001	0.0548	0.00549	1.79	10	1.02	1.13
+blue	0.0687	0.00208	0.0744	0.00763	3.02	10.3	0.923	2.31
+green	0.128	0.00368	0.137	0.0147	2.87	10.7	0.933	2.19
+red	0.249	0.00695	0.255	0.0281	2.79	11	0.976	2.2
+RE1	0.28	0.00716	0.277	0.03	2.56	10.8	1.01	2.17
+RE2	0.293	0.00799	0.295	0.0311	2.73	10.5	0.992	2.25
+RE3	0.298	0.00814	0.305	0.0311	2.73	10.2	0.978	2.27
+nir_1	0.303	0.00767	0.311	0.0304	2.53	9.77	0.975	2.03
+nir_2	0.316	0.0066	0.314	0.0299	2.09	9.52	1.01	1.64
+swir_2	0.46	0.00457	0.447	0.0348	0.992	7.78	1.03	0.679
+swir_3	0.377	0.00484	0.374	0.0332	1.28	8.86	1.01	0.769
