@@ -225,15 +225,17 @@ def three_band_image_subplots(ds, bands, num_cols, contrast_enhance = False, fig
             else:
                 img_toshow = rawimg / 5000
             ax.imshow(img_toshow)
-            ax.set_title(str(ds.time[numbers].values), fontweight = 'bold', fontsize = 12)
-            ax.set_xticklabels(ds.x.values, fontsize = 8, rotation = 20)
-            ax.set_yticklabels(ds.y.values, fontsize = 8)
-            if projection == 'geographic':
-                ax.set_xlabel('Longitude', fontweight = 'bold', fontsize = 10)
-                ax.set_ylabel('Latitude', fontweight = 'bold', fontsize = 10)
-            else:
-                ax.set_xlabel('Eastings', fontweight = 'bold', fontsize = 10)
-                ax.set_ylabel('Northings', fontweight = 'bold', fontsize = 10)
+            ax.set_title(str(ds.time[numbers].values)[:10], fontweight = 'bold', fontsize = 8)
+            ax.set_xticklabels('')
+            ax.set_yticklabels('')
+            #ax.set_xticklabels(ds.x.values, fontsize = 8, rotation = 20)
+            #ax.set_yticklabels(ds.y.values, fontsize = 8)
+            #if projection == 'geographic':
+            #    ax.set_xlabel('Longitude', fontweight = 'bold', fontsize = 10)
+            #    ax.set_ylabel('Latitude', fontweight = 'bold', fontsize = 10)
+            #else:
+            #    ax.set_xlabel('Eastings', fontweight = 'bold', fontsize = 10)
+            #    ax.set_ylabel('Northings', fontweight = 'bold', fontsize = 10)
             numbers = numbers + 1
     except IndexError:
         # This error will pop up if there are not enough scenes to fill the number of 

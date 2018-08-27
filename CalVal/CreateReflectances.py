@@ -10,7 +10,7 @@ import pandas as pd
 #       (line_avg_panel).
 #    2. For each ground spectrum within the Line, divide by the average panel
 #       spectrum (refl_temp).
-#    3. Multiply each normalised ground spectrum my the K-factor to create
+#    3. Multiply each normalised ground spectrum by the K-factor to create
 #       reflectances dataframe (line_refls).
 #
 # Finally, combine each dataframe for reflectances within a line into a single

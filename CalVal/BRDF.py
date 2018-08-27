@@ -6,7 +6,7 @@ import math
 # BRDF CALCULATION
 #
 
-def ReadAndCalc(brdf_data, ground_bands):
+def ReadAndCalc(brdf_data, ground_bands, field_data):
 
     hb = 2 # set to emulate spherical crowns that are separated from the
     br = 1 # ground by half their diameter
@@ -17,12 +17,17 @@ def ReadAndCalc(brdf_data, ground_bands):
 
     #
     # Create pandas dataframe "brdf_df" which contains the BRDF values
-    # for six LS8 bands
+    # for seven LS8 bands
     #   
     brdf_df = pd.DataFrame(data=brdf_data[1:,1:],
                   index=brdf_data[1:,0],
                   columns=brdf_data[0,1:])
     
+    if field_data[3] == 'Landsat8':
+        brdf_df.drop(['band5', 'band6', 'band7', 'band8a'], inplace=True)
+        brdf_df.rename({'band11': 'band6', 'band12': 'band7', 'band8': 'band5'}, axis='index', inplace=True)
+        brdf_df.reindex(['band1', 'band2', 'band3', 'band4', 'band5', 'band6', 'band7'])
+
     ground_brdf = ground_bands.copy()
     
     for i in ground_bands.index:

@@ -1,0 +1,40 @@
+DATA SHEET FOR DHA taken on 15JUL18,  Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:34:02 to 01:08:51 on the 14 July, 2018 (UTC)
+Satellite overpass was at 2018-07-14T23:43:17.000000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is 0 days 23:09:15
+
+NO GPS Coordinates found - coordinates have been approximated!!!
+Approximate bounding box coordinates:
+SE: (150.927252, -34.254651)
+SW: (150.926101, -34.254504)
+NE: (150.927328, -34.253489)
+NW: (150.926149, -34.253418)
+
+Solar Zenith angle is from 59.8 to 57.4 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Dharawal/15JUL18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/DHA-15JUl18-L8/
+
+Panel is assumed to be UOW_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=b8900d85-e35b-4481-967e-807af4f66aff type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/07/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_089_084_20180714/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0119	0.00169	0.0178	0.00462	14.2	26	0.668	9.86
+blue	0.00937	0.00187	0.0208	0.00548	19.9	26.3	0.45	15.7
+green	0.0283	0.00243	0.0416	0.0107	8.58	25.6	0.679	6.62
+red	0.0319	0.00377	0.0408	0.0111	11.8	27.3	0.783	9.56
+nir	0.219	0.0157	0.237	0.062	7.14	26.1	0.924	5.32
+swir1	0.123	0.00943	0.144	0.0347	7.65	24	0.853	6.03
+swir2	0.0606	0.00718	0.0691	0.0199	11.8	28.8	0.877	9.52
