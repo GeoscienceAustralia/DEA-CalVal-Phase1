@@ -19,8 +19,10 @@ def FIG_sat_bigRGB(sat_array, sat_bigarray, output, field_data, fignum):
     else:
         print('Satellite name must be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
-    rect = patches.Rectangle((float(sat_array.x.min()),float(sat_array.y.min())), 100, 100, angle=0.0, fill=False, color='black')
+    rect = patches.Rectangle((float(sat_array.x.min()),float(sat_array.y.min())), 100, 100, angle=0.0, fill=False, color='white', lw = 2.5)
+    rect2 = patches.Rectangle((float(sat_array.x.min()),float(sat_array.y.min())), 100, 100, angle=0.0, fill=False, color='black', lw = 1)
     axes.add_patch(rect)
+    axes.add_patch(rect2)
 
     plt.title(fig_title+': Large Area Context: RGB colours', fontweight='bold')
 

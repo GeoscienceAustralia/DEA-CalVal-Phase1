@@ -23,7 +23,7 @@ Panel is assumed to be UQ_Panel
 Data is assumed to be recorded in Radiance mode.
 
 Satellite processing and historical data can be found using the following dataset ID and location:
-[Dataset <id=9ddd1bab-00ee-48cd-b92e-1291b04bb21b type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T55KBQ_N02.06/ARD-METADATA.yaml>, Dataset <id=b16c58df-7711-4c2e-8d15-8d386420f154 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T55KBP_N02.06/ARD-METADATA.yaml>, Dataset <id=7f82211b-074c-48f6-b432-ceae4492d8a4 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T54KZU_N02.06/ARD-METADATA.yaml>, Dataset <id=75fb50e8-3996-4c83-a328-55793051248e type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T54KZV_N02.06/ARD-METADATA.yaml>, Dataset <id=5f67173a-a00a-49c7-8101-014085179091 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T54KZU_N02.06/ARD-METADATA.yaml>, Dataset <id=d2b2ef7f-157a-4ad3-b8fb-17a8365bd902 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T55KBP_N02.06/ARD-METADATA.yaml>, Dataset <id=7809f1d4-17b9-4035-81ea-ae0a4351e800 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T55KBQ_N02.06/ARD-METADATA.yaml>, Dataset <id=c506eaea-be47-4ce9-9044-9fea5bb42c48 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T54KZV_N02.06/ARD-METADATA.yaml>]
+[Dataset <id=5f67173a-a00a-49c7-8101-014085179091 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T54KZU_N02.06/ARD-METADATA.yaml>, Dataset <id=7f82211b-074c-48f6-b432-ceae4492d8a4 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T54KZU_N02.06/ARD-METADATA.yaml>, Dataset <id=75fb50e8-3996-4c83-a328-55793051248e type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T54KZV_N02.06/ARD-METADATA.yaml>, Dataset <id=c506eaea-be47-4ce9-9044-9fea5bb42c48 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T54KZV_N02.06/ARD-METADATA.yaml>, Dataset <id=d2b2ef7f-157a-4ad3-b8fb-17a8365bd902 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T55KBP_N02.06/ARD-METADATA.yaml>, Dataset <id=b16c58df-7711-4c2e-8d15-8d386420f154 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T55KBP_N02.06/ARD-METADATA.yaml>, Dataset <id=7809f1d4-17b9-4035-81ea-ae0a4351e800 type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-09/S2A_OPER_MSI_ARD_TL_SGS__20180509T033541_A015028_T55KBQ_N02.06/ARD-METADATA.yaml>, Dataset <id=9ddd1bab-00ee-48cd-b92e-1291b04bb21b type=s2a_ard_granule location=/g/data/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-12/S2A_OPER_MSI_ARD_TL_EPAE_20180512T020951_A015071_T55KBQ_N02.06/ARD-METADATA.yaml>]
 
 Summary Statistics over entire field site:
 ------------------------------------------
@@ -31,14 +31,14 @@ Summary Statistics over entire field site:
 Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
          mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
                                          (%)     (%)            rms (%)
-CA	0.0809	0.000667	0.0684	0.00884	0.824	12.9	1.18	0.727
-blue	0.0917	0.00227	0.0891	0.0121	2.48	13.5	1.03	2.01
-green	0.13	0.00332	0.129	0.0166	2.56	12.9	1.01	2.05
-red	0.177	0.00458	0.171	0.0211	2.59	12.3	1.03	2.09
-RE1	0.204	0.00513	0.189	0.0237	2.51	12.5	1.08	2.08
-RE2	0.218	0.00618	0.209	0.028	2.83	13.4	1.05	2.44
-RE3	0.226	0.00627	0.219	0.029	2.78	13.2	1.03	2.36
-nir_1	0.24	0.00803	0.231	0.0302	3.34	13.1	1.04	2.79
-nir_2	0.248	0.00672	0.238	0.031	2.71	13	1.04	2.27
-swir_2	0.335	0.00516	0.313	0.0362	1.54	11.6	1.07	1.4
-swir_3	0.283	0.0041	0.264	0.0352	1.45	13.3	1.07	1.25
+CA	0.0822	0.000669	0.0684	0.00884	0.814	12.9	1.2	0.716
+blue	0.0928	0.00229	0.0891	0.0121	2.47	13.5	1.04	2
+green	0.131	0.00335	0.129	0.0166	2.56	12.9	1.02	2.05
+red	0.178	0.00462	0.171	0.0211	2.59	12.3	1.04	2.09
+RE1	0.204	0.00514	0.189	0.0237	2.52	12.5	1.08	2.09
+RE2	0.219	0.00619	0.209	0.028	2.83	13.4	1.05	2.44
+RE3	0.226	0.00627	0.219	0.029	2.77	13.2	1.03	2.36
+nir_1	0.239	0.00798	0.231	0.0302	3.34	13.1	1.03	2.79
+nir_2	0.249	0.00675	0.238	0.031	2.71	13	1.05	2.26
+swir_2	0.337	0.00518	0.313	0.0362	1.54	11.6	1.08	1.4
+swir_3	0.282	0.00408	0.264	0.0352	1.45	13.3	1.07	1.25

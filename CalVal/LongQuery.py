@@ -6,7 +6,7 @@ def make_long_query(ground_brdf):
     
     ldc = datacube.Datacube()
     lpixsize = 25.0
-    sdc = datacube.Datacube(env='sentinel2betatmp', config='/home/547/aw3463/.sent2.conf')
+    sdc = datacube.Datacube(env='sentinel2_ard', config='/home/547/aw3463/.sent2.conf')
     spixsize = 10.0
 
     # convert half a pixel in metres to decimal degrees latitude
@@ -23,6 +23,7 @@ def make_long_query(ground_brdf):
              'lon': (ground_brdf['Longitude'].min() - lmet_londeg, ground_brdf['Longitude'].max() + lmet_londeg),
              'output_crs': 'EPSG:3577',
              'resampling': 'bilinear',
+             'group_by': 'solar_day',
             }
     
     squery = {
@@ -31,6 +32,7 @@ def make_long_query(ground_brdf):
              'lon': (ground_brdf['Longitude'].min() - smet_londeg, ground_brdf['Longitude'].max() + smet_londeg),
              'output_crs': 'EPSG:3577',
              'resampling': 'bilinear',
+             'group_by': 'solar_day',
             }
     
     lquery2 = {
@@ -39,6 +41,7 @@ def make_long_query(ground_brdf):
              'lon': (ground_brdf['Longitude'].min() - lmet_londeg - 0.01, ground_brdf['Longitude'].max() + lmet_londeg + 0.01),
              'output_crs': 'EPSG:3577',
              'resampling': 'bilinear',
+             'group_by': 'solar_day',
             }
     
     squery2 = {
@@ -47,6 +50,7 @@ def make_long_query(ground_brdf):
              'lon': (ground_brdf['Longitude'].min() - smet_londeg - 0.01, ground_brdf['Longitude'].max() + smet_londeg + 0.01),
              'output_crs': 'EPSG:3577',
              'resampling': 'bilinear',
+             'group_by': 'solar_day',
             }
     
     lquery['resolution'] = (-lpixsize, lpixsize)

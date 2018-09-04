@@ -11,8 +11,8 @@ importlib.reload(DEAPlotting)
 #
 def FIG_many_RGB(ls8_array, s2a_array, s2b_array, output, field_data, fignum):
 
-    DEAPlotting.three_band_image_subplots(ls8_array, bands = ['red', 'green', 'blue'], num_cols=4, contrast_enhance=False)
-    DEAPlotting.three_band_image_subplots(s2a_array, bands = ['nbar_red', 'nbar_green', 'nbar_blue'], num_cols=4, contrast_enhance=False)
-    DEAPlotting.three_band_image_subplots(s2b_array, bands = ['nbar_red', 'nbar_green', 'nbar_blue'], num_cols=4, contrast_enhance=False)
+    DEAPlotting.three_band_image_subplots(ls8_array, bands = ['red', 'green', 'blue'], num_cols=4, figsize = (18, 25), contrast_enhance=False)
+    DEAPlotting.three_band_image_subplots(s2a_array, bands = ['nbar_red', 'nbar_green', 'nbar_blue'], num_cols=4, figsize = (18, 25), contrast_enhance=False)
+    DEAPlotting.three_band_image_subplots(s2b_array, bands = ['nbar_red', 'nbar_green', 'nbar_blue'], num_cols=4, figsize = (18, 25), contrast_enhance=False)
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Satellite_bigRGB.png')

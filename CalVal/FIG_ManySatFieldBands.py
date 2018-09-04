@@ -47,26 +47,17 @@ def FIG_many_sat_field_bands(ls8_array, s2a_array, s2b_array, fls8_df, fs2a_df, 
     ls8_means = [col for col in fls8_df.columns if 'ls8_mean' in col]
     ls8_stds = [col for col in fls8_df.columns if 'ls8_SD' in col]
     for i in range(len(ls8_means)):
-        fls8_df.plot(y=ls8_means[i], ax=axes[0])
+        fls8_df.plot(y=ls8_means[i], ax=axes[0], legend=False)
 
     s2a_means = [col for col in fs2a_df.columns if 'S2a_mean' in col]
     s2a_stds = [col for col in fs2a_df.columns if 'S2a_SD' in col]
     for i in range(len(s2a_means)):
-        fs2a_df.plot(y=s2a_means[i], ax=axes[1])
+        fs2a_df.plot(y=s2a_means[i], ax=axes[1], legend=False)
 
     s2b_means = [col for col in fs2b_df.columns if 'S2b_mean' in col]
     s2b_stds = [col for col in fs2b_df.columns if 'S2b_SD' in col]
     for i in range(len(s2b_means)):
-        fs2b_df.plot(y=s2b_means[i], ax=axes[2])
-
-    if field_data[3] == 'Landsat8':
-        plt.errorbar(x=fls8_df.index, y=fls8_df['Field_mean'], yerr=fls8_df['Field_SD'], color='blue', capsize=3)
-    elif field_data[3] == 'Sentinel2a':
-        plt.errorbar(x=fs2a_df.index, y=fs2a_df['Field_mean'], yerr=fs2a_df['Field_SD'], color='blue', capsize=3)
-    elif field_data[3] == 'Sentinel2b':
-        plt.errorbar(x=fs2b_df.index, y=fs2b_df['Field_mean'], yerr=fs2b_df['Field_SD'], color='blue', capsize=3)
-    else:
-        print('field_data[3] should be one of Landsat8 or Sentinel2a/b. I got ', field_data[3])
+        fs2b_df.plot(y=s2b_means[i], ax=axes[2], legend=False)
 
     axes[0].set_title('Landsat 8')
     axes[1].set_title('Sentinel 2a')

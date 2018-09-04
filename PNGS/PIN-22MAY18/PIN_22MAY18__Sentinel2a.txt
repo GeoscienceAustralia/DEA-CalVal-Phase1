@@ -23,7 +23,7 @@ Panel is assumed to be GA_Panel
 Data is assumed to be recorded in Radiance mode.
 
 Satellite processing and historical data can be found using the following dataset ID and location:
-[Dataset <id=9424a715-5455-44e0-b508-072e54f15597 type=s2a_ard_granule location=/g/data1a/dz56/datacube/002/S2_MSI_ARD_BETA3/packaged/2018-05-22/S2A_OPER_MSI_ARD_TL_SGS__20180522T052842_A015215_T50JLM_N02.06/ARD-METADATA.yaml>]
+[Dataset <id=9424a715-5455-44e0-b508-072e54f15597 type=s2a_ard_granule location=/g/data1b/if87/datacube/002/S2_MSI_ARD_BETA/packaged/2018-05-22/S2A_OPER_MSI_ARD_TL_SGS__20180522T052842_A015215_T50JLM_N02.06/ARD-METADATA.yaml>]
 
 Summary Statistics over entire field site:
 ------------------------------------------
