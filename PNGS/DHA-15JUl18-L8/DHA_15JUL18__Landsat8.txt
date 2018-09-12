@@ -23,7 +23,7 @@ Panel is assumed to be UOW_Panel
 Data is assumed to be recorded in Radiance mode.
 
 Satellite processing and historical data can be found using the following dataset ID and location:
-[Dataset <id=b8900d85-e35b-4481-967e-807af4f66aff type=ls8_nbar_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/07/output/nbar/LS8_OLITIRS_NBAR_P54_GANBAR01-032_089_084_20180714/ga-metadata.yaml>]
+[Dataset <id=92e2c531-5191-42f3-a004-33e1269e53a1 type=ls8_nbart_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/07/output/nbart/LS8_OLITIRS_NBART_P54_GANBART01-032_089_084_20180714/ga-metadata.yaml>]
 
 Summary Statistics over entire field site:
 ------------------------------------------
@@ -31,10 +31,10 @@ Summary Statistics over entire field site:
 Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
          mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
                                          (%)     (%)            rms (%)
-CA	0.0119	0.00169	0.0178	0.00462	14.2	26	0.668	9.86
-blue	0.00937	0.00187	0.0208	0.00548	19.9	26.3	0.45	15.7
-green	0.0283	0.00243	0.0416	0.0107	8.58	25.6	0.679	6.62
-red	0.0319	0.00377	0.0408	0.0111	11.8	27.3	0.783	9.56
-nir	0.219	0.0157	0.237	0.062	7.14	26.1	0.924	5.32
-swir1	0.123	0.00943	0.144	0.0347	7.65	24	0.853	6.03
-swir2	0.0606	0.00718	0.0691	0.0199	11.8	28.8	0.877	9.52
+CA	0.0112	0.00165	0.0178	0.00462	14.8	26	0.63	10.2
+blue	0.00881	0.00179	0.0208	0.00548	20.4	26.3	0.423	16.2
+green	0.0264	0.00244	0.0416	0.0107	9.22	25.6	0.635	7.19
+red	0.0298	0.0036	0.0408	0.0111	12.1	27.3	0.73	9.9
+nir	0.206	0.0164	0.237	0.062	7.96	26.1	0.869	5.95
+swir1	0.115	0.00892	0.144	0.0347	7.75	24	0.796	6.28
+swir2	0.0564	0.00676	0.0691	0.0199	12	28.8	0.816	9.71

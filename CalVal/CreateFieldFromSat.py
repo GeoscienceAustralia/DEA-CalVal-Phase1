@@ -70,29 +70,29 @@ def create_field_from_sat(sat_array, ground_brdf, xloc, field_data):
                         cum12 = cum12+ground_brdf.iloc[k]['band12']
                         count=count+1
                 if count < 1:
-                    field_array.nbar_coastal_aerosol[0][j][i] = np.nan
-                    field_array.nbar_blue[0][j][i] = np.nan
-                    field_array.nbar_green[0][j][i] = np.nan
-                    field_array.nbar_red[0][j][i] = np.nan
-                    field_array.nbar_red_edge_1[0][j][i] = np.nan
-                    field_array.nbar_red_edge_2[0][j][i] = np.nan
-                    field_array.nbar_red_edge_3[0][j][i] = np.nan
-                    field_array.nbar_nir_1[0][j][i] = np.nan
-                    field_array.nbar_nir_2[0][j][i] = np.nan
-                    field_array.nbar_swir_2[0][j][i] = np.nan
-                    field_array.nbar_swir_3[0][j][i] = np.nan
+                    field_array.nbart_coastal_aerosol[0][j][i] = np.nan
+                    field_array.nbart_blue[0][j][i] = np.nan
+                    field_array.nbart_green[0][j][i] = np.nan
+                    field_array.nbart_red[0][j][i] = np.nan
+                    field_array.nbart_red_edge_1[0][j][i] = np.nan
+                    field_array.nbart_red_edge_2[0][j][i] = np.nan
+                    field_array.nbart_red_edge_3[0][j][i] = np.nan
+                    field_array.nbart_nir_1[0][j][i] = np.nan
+                    field_array.nbart_nir_2[0][j][i] = np.nan
+                    field_array.nbart_swir_2[0][j][i] = np.nan
+                    field_array.nbart_swir_3[0][j][i] = np.nan
                 else:
-                    field_array.nbar_coastal_aerosol[0][j][i] = cum1*10000/count            
-                    field_array.nbar_blue[0][j][i] = cum2*10000/count
-                    field_array.nbar_green[0][j][i] = cum3*10000/count
-                    field_array.nbar_red[0][j][i] = cum4*10000/count
-                    field_array.nbar_red_edge_1[0][j][i] = cum5*10000/count
-                    field_array.nbar_red_edge_2[0][j][i] = cum6*10000/count
-                    field_array.nbar_red_edge_3[0][j][i] = cum7*10000/count
-                    field_array.nbar_nir_1[0][j][i] = cum8*10000/count
-                    field_array.nbar_nir_2[0][j][i] = cum8a*10000/count
-                    field_array.nbar_swir_2[0][j][i] = cum11*10000/count
-                    field_array.nbar_swir_3[0][j][i] = cum12*10000/count
+                    field_array.nbart_coastal_aerosol[0][j][i] = cum1*10000/count            
+                    field_array.nbart_blue[0][j][i] = cum2*10000/count
+                    field_array.nbart_green[0][j][i] = cum3*10000/count
+                    field_array.nbart_red[0][j][i] = cum4*10000/count
+                    field_array.nbart_red_edge_1[0][j][i] = cum5*10000/count
+                    field_array.nbart_red_edge_2[0][j][i] = cum6*10000/count
+                    field_array.nbart_red_edge_3[0][j][i] = cum7*10000/count
+                    field_array.nbart_nir_1[0][j][i] = cum8*10000/count
+                    field_array.nbart_nir_2[0][j][i] = cum8a*10000/count
+                    field_array.nbart_swir_2[0][j][i] = cum11*10000/count
+                    field_array.nbart_swir_3[0][j][i] = cum12*10000/count
 
     else:
         print('Satellite name must be one of Landsat8 or Sentinel2a/b. I got', field_data[3])

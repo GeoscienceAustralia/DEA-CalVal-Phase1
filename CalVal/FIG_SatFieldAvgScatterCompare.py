@@ -42,17 +42,17 @@ def FIG_sat_field_avg_scatter_compare(sat_array, field_array, plot_scale, fstat_
         plt.errorbar(x=field_array.swir2[0].mean()/10000, y=sat_array.swir2[0].mean()/10000, xerr=fstat_df.Field_SD['Band7'], yerr=fstat_df.Sat_SD['Band7'], fmt='*', mfc='white', mec='black', color='black', capsize=3)
         
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
-        plt.errorbar(x=field_array.nbar_coastal_aerosol[0].mean()/10000, y=sat_array.nbar_coastal_aerosol[0].mean()/10000, xerr=fstat_df.Field_SD['Band1'], yerr=fstat_df.Sat_SD['Band1'], fmt='o', color='red', mfc='white', mec='red', capsize=3)
-        plt.errorbar(x=field_array.nbar_blue[0].mean()/10000, y=sat_array.nbar_blue[0].mean()/10000, xerr=fstat_df.Field_SD['Band2'], yerr=fstat_df.Sat_SD['Band2'], fmt='^', color='orange', mfc='white', mec='orange', capsize=3)
-        plt.errorbar(x=field_array.nbar_green[0].mean()/10000, y=sat_array.nbar_green[0].mean()/10000, xerr=fstat_df.Field_SD['Band3'], yerr=fstat_df.Sat_SD['Band3'], fmt='s', color='yellow', mfc='white', mec='yellow', capsize=3)
-        plt.errorbar(x=field_array.nbar_red[0].mean()/10000, y=sat_array.nbar_red[0].mean()/10000, xerr=fstat_df.Field_SD['Band4'], yerr=fstat_df.Sat_SD['Band4'], fmt='+', color='green', mfc='white', mec='green', capsize=3)
-        plt.errorbar(x=field_array.nbar_red_edge_1[0].mean()/10000, y=sat_array.nbar_red_edge_1[0].mean()/10000, xerr=fstat_df.Field_SD['Band5'], yerr=fstat_df.Sat_SD['Band5'], fmt='+', color='blue', mfc='white', mec='blue', capsize=3)
-        plt.errorbar(x=field_array.nbar_red_edge_2[0].mean()/10000, y=sat_array.nbar_red_edge_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band6'], yerr=fstat_df.Sat_SD['Band6'], fmt='+', color='orange', mfc='white', mec='orange', capsize=3)
-        plt.errorbar(x=field_array.nbar_red_edge_3[0].mean()/10000, y=sat_array.nbar_red_edge_3[0].mean()/10000, xerr=fstat_df.Field_SD['Band7'], yerr=fstat_df.Sat_SD['Band7'], fmt='+', color='red', mfc='white', mec='red', capsize=3)
-        plt.errorbar(x=field_array.nbar_nir_1[0].mean()/10000, y=sat_array.nbar_nir_1[0].mean()/10000, xerr=fstat_df.Field_SD['Band8'], yerr=fstat_df.Sat_SD['Band8'], fmt='x', color='blue', mfc='white', mec='blue', capsize=3)
-        plt.errorbar(x=field_array.nbar_nir_2[0].mean()/10000, y=sat_array.nbar_nir_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band8a'], yerr=fstat_df.Sat_SD['Band8a'], fmt='x', color='yellow', mfc='white', mec='yellow', capsize=3)
-        plt.errorbar(x=field_array.nbar_swir_2[0].mean()/10000, y=sat_array.nbar_swir_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band11'], yerr=fstat_df.Sat_SD['Band11'], fmt='D', color='darkblue', mfc='white', mec='darkblue', capsize=3)
-        plt.errorbar(x=field_array.nbar_swir_3[0].mean()/10000, y=sat_array.nbar_swir_3[0].mean()/10000, xerr=fstat_df.Field_SD['Band12'], yerr=fstat_df.Sat_SD['Band12'], fmt='*', color='black', mfc='white', mec='black', capsize=3)
+        plt.errorbar(x=field_array.nbart_coastal_aerosol[0].mean()/10000, y=sat_array.nbart_coastal_aerosol[0].mean()/10000, xerr=fstat_df.Field_SD['Band1'], yerr=fstat_df.Sat_SD['Band1'], fmt='o', color='red', mfc='white', mec='red', capsize=3)
+        plt.errorbar(x=field_array.nbart_blue[0].mean()/10000, y=sat_array.nbart_blue[0].mean()/10000, xerr=fstat_df.Field_SD['Band2'], yerr=fstat_df.Sat_SD['Band2'], fmt='^', color='orange', mfc='white', mec='orange', capsize=3)
+        plt.errorbar(x=field_array.nbart_green[0].mean()/10000, y=sat_array.nbart_green[0].mean()/10000, xerr=fstat_df.Field_SD['Band3'], yerr=fstat_df.Sat_SD['Band3'], fmt='s', color='yellow', mfc='white', mec='yellow', capsize=3)
+        plt.errorbar(x=field_array.nbart_red[0].mean()/10000, y=sat_array.nbart_red[0].mean()/10000, xerr=fstat_df.Field_SD['Band4'], yerr=fstat_df.Sat_SD['Band4'], fmt='+', color='green', mfc='white', mec='green', capsize=3)
+        plt.errorbar(x=field_array.nbart_red_edge_1[0].mean()/10000, y=sat_array.nbart_red_edge_1[0].mean()/10000, xerr=fstat_df.Field_SD['Band5'], yerr=fstat_df.Sat_SD['Band5'], fmt='+', color='blue', mfc='white', mec='blue', capsize=3)
+        plt.errorbar(x=field_array.nbart_red_edge_2[0].mean()/10000, y=sat_array.nbart_red_edge_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band6'], yerr=fstat_df.Sat_SD['Band6'], fmt='+', color='orange', mfc='white', mec='orange', capsize=3)
+        plt.errorbar(x=field_array.nbart_red_edge_3[0].mean()/10000, y=sat_array.nbart_red_edge_3[0].mean()/10000, xerr=fstat_df.Field_SD['Band7'], yerr=fstat_df.Sat_SD['Band7'], fmt='+', color='red', mfc='white', mec='red', capsize=3)
+        plt.errorbar(x=field_array.nbart_nir_1[0].mean()/10000, y=sat_array.nbart_nir_1[0].mean()/10000, xerr=fstat_df.Field_SD['Band8'], yerr=fstat_df.Sat_SD['Band8'], fmt='x', color='blue', mfc='white', mec='blue', capsize=3)
+        plt.errorbar(x=field_array.nbart_nir_2[0].mean()/10000, y=sat_array.nbart_nir_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band8a'], yerr=fstat_df.Sat_SD['Band8a'], fmt='x', color='yellow', mfc='white', mec='yellow', capsize=3)
+        plt.errorbar(x=field_array.nbart_swir_2[0].mean()/10000, y=sat_array.nbart_swir_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band11'], yerr=fstat_df.Sat_SD['Band11'], fmt='D', color='darkblue', mfc='white', mec='darkblue', capsize=3)
+        plt.errorbar(x=field_array.nbart_swir_3[0].mean()/10000, y=sat_array.nbart_swir_3[0].mean()/10000, xerr=fstat_df.Field_SD['Band12'], yerr=fstat_df.Sat_SD['Band12'], fmt='*', color='black', mfc='white', mec='black', capsize=3)
     
     else:
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])

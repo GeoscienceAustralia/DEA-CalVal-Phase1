@@ -23,10 +23,10 @@ def create_manystats(ls8_array, s2a_array, s2b_array, ls8_bad_days, s2a_bad_days
     #
     # Set up band names for Sentinel
     #
-    s2_names = ['nbar_coastal_aerosol', 'nbar_blue', 'nbar_green',
-                'nbar_red', 'nbar_red_edge_1', 'nbar_red_edge_2',
-                'nbar_red_edge_3', 'nbar_nir_1', 'nbar_nir_2',
-                'nbar_swir_2', 'nbar_swir_3']
+    s2_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green',
+                'nbart_red', 'nbart_red_edge_1', 'nbart_red_edge_2',
+                'nbart_red_edge_3', 'nbart_nir_1', 'nbart_nir_2',
+                'nbart_swir_2', 'nbart_swir_3']
     s2_nums = ['band1', 'band2', 'band3', 'band4', 'band5', 'band6',
                'band7', 'band8', 'band8a', 'band11', 'band12']
 

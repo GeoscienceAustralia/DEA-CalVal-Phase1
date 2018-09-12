@@ -1,5 +1,6 @@
 from . import ApplyWeights
 from . import BRDF
+from . import CalcStats
 from . import CreateFieldFromSat
 from . import CreateLongArrays
 from . import CreateManyFieldFromSat
@@ -39,6 +40,7 @@ from . import KFactor
 from . import LoadData
 from . import LongQuery
 from . import MakeSpecDF
+from . import MultiTimeLineDry
 from . import Query
 from . import PrintBRDF
 from . import PrintSheet

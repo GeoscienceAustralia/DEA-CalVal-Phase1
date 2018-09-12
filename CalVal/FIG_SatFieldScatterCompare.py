@@ -42,17 +42,17 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
         plt.scatter(field_array.swir2[0]/10000, sat_array.swir2[0]/10000, marker='*', facecolors='none', edgecolors='black')
 
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
-        plt.scatter(field_array.nbar_coastal_aerosol[0]/10000, sat_array.nbar_coastal_aerosol[0]/10000, marker='o', facecolors='none', edgecolors='red')
-        plt.scatter(field_array.nbar_blue[0]/10000, sat_array.nbar_blue[0]/10000, marker='^', facecolors='none', edgecolors='orange')
-        plt.scatter(field_array.nbar_green[0]/10000, sat_array.nbar_green[0]/10000, marker='s', facecolors='none', edgecolors='yellow')
-        plt.scatter(field_array.nbar_red[0]/10000, sat_array.nbar_red[0]/10000, marker='+', color='green')
-        plt.scatter(field_array.nbar_red_edge_1[0]/10000, sat_array.nbar_red_edge_1[0]/10000, marker='+', color='blue')
-        plt.scatter(field_array.nbar_red_edge_2[0]/10000, sat_array.nbar_red_edge_2[0]/10000, marker='+', color='orange')
-        plt.scatter(field_array.nbar_red_edge_3[0]/10000, sat_array.nbar_red_edge_3[0]/10000, marker='+', color='red')
-        plt.scatter(field_array.nbar_nir_1[0]/10000, sat_array.nbar_nir_1[0]/10000, marker='x', color='blue')
-        plt.scatter(field_array.nbar_nir_2[0]/10000, sat_array.nbar_nir_2[0]/10000, marker='x', color='yellow')
-        plt.scatter(field_array.nbar_swir_2[0]/10000, sat_array.nbar_swir_2[0]/10000, marker='D', facecolors='none', edgecolors='darkblue')
-        plt.scatter(field_array.nbar_swir_3[0]/10000, sat_array.nbar_swir_3[0]/10000, marker='*', facecolors='none', edgecolors='black')
+        plt.scatter(field_array.nbart_coastal_aerosol[0]/10000, sat_array.nbart_coastal_aerosol[0]/10000, marker='o', facecolors='none', edgecolors='red')
+        plt.scatter(field_array.nbart_blue[0]/10000, sat_array.nbart_blue[0]/10000, marker='^', facecolors='none', edgecolors='orange')
+        plt.scatter(field_array.nbart_green[0]/10000, sat_array.nbart_green[0]/10000, marker='s', facecolors='none', edgecolors='yellow')
+        plt.scatter(field_array.nbart_red[0]/10000, sat_array.nbart_red[0]/10000, marker='+', color='green')
+        plt.scatter(field_array.nbart_red_edge_1[0]/10000, sat_array.nbart_red_edge_1[0]/10000, marker='+', color='blue')
+        plt.scatter(field_array.nbart_red_edge_2[0]/10000, sat_array.nbart_red_edge_2[0]/10000, marker='+', color='orange')
+        plt.scatter(field_array.nbart_red_edge_3[0]/10000, sat_array.nbart_red_edge_3[0]/10000, marker='+', color='red')
+        plt.scatter(field_array.nbart_nir_1[0]/10000, sat_array.nbart_nir_1[0]/10000, marker='x', color='blue')
+        plt.scatter(field_array.nbart_nir_2[0]/10000, sat_array.nbart_nir_2[0]/10000, marker='x', color='yellow')
+        plt.scatter(field_array.nbart_swir_2[0]/10000, sat_array.nbart_swir_2[0]/10000, marker='D', facecolors='none', edgecolors='darkblue')
+        plt.scatter(field_array.nbart_swir_3[0]/10000, sat_array.nbart_swir_3[0]/10000, marker='*', facecolors='none', edgecolors='black')
     
     else:
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])

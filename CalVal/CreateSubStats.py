@@ -22,17 +22,17 @@ def create_SUB_stats(sat_array, field_array, ground_brdf, fstat_df, field_data):
 
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         inner_array = np.array([['', 'Sat_inner_mean', 'Sat_SD', 'Field_inner_mean'],
-                            ['Band1', float(subsat_array.nbar_coastal_aerosol[0].mean()/10000), float(subsat_array.nbar_coastal_aerosol[0].std()/10000), float(ground_brdf['band1'].mean())],
-                            ['Band2', float(subsat_array.nbar_blue[0].mean()/10000), float(subsat_array.nbar_blue[0].std()/10000), float(ground_brdf['band2'].mean())],
-                            ['Band3', float(subsat_array.nbar_green[0].mean()/10000), float(subsat_array.nbar_green[0].std()/10000), float(ground_brdf['band3'].mean())],
-                            ['Band4', float(subsat_array.nbar_red[0].mean()/10000), float(subsat_array.nbar_red[0].std()/10000), float(ground_brdf['band4'].mean())],
-                            ['Band5', float(subsat_array.nbar_red_edge_1[0].mean()/10000), float(subsat_array.nbar_red_edge_1[0].std()/10000), float(ground_brdf['band5'].mean())],
-                            ['Band6', float(subsat_array.nbar_red_edge_2[0].mean()/10000), float(subsat_array.nbar_red_edge_2[0].std()/10000), float(ground_brdf['band6'].mean())],
-                            ['Band7', float(subsat_array.nbar_red_edge_3[0].mean()/10000), float(subsat_array.nbar_red_edge_3[0].std()/10000), float(ground_brdf['band7'].mean())],
-                            ['Band8', float(subsat_array.nbar_nir_1[0].mean()/10000), float(subsat_array.nbar_nir_1[0].std()/10000), float(ground_brdf['band8'].mean())],
-                            ['Band8a', float(subsat_array.nbar_nir_2[0].mean()/10000), float(subsat_array.nbar_nir_2[0].std()/10000), float(ground_brdf['band8a'].mean())],
-                            ['Band11', float(subsat_array.nbar_swir_2[0].mean()/10000), float(subsat_array.nbar_swir_2[0].std()/10000), float(ground_brdf['band11'].mean())],
-                            ['Band12', float(subsat_array.nbar_swir_3[0].mean()/10000), float(subsat_array.nbar_swir_3[0].std()/10000), float(ground_brdf['band12'].mean())],
+                            ['Band1', float(subsat_array.nbart_coastal_aerosol[0].mean()/10000), float(subsat_array.nbart_coastal_aerosol[0].std()/10000), float(ground_brdf['band1'].mean())],
+                            ['Band2', float(subsat_array.nbart_blue[0].mean()/10000), float(subsat_array.nbart_blue[0].std()/10000), float(ground_brdf['band2'].mean())],
+                            ['Band3', float(subsat_array.nbart_green[0].mean()/10000), float(subsat_array.nbart_green[0].std()/10000), float(ground_brdf['band3'].mean())],
+                            ['Band4', float(subsat_array.nbart_red[0].mean()/10000), float(subsat_array.nbart_red[0].std()/10000), float(ground_brdf['band4'].mean())],
+                            ['Band5', float(subsat_array.nbart_red_edge_1[0].mean()/10000), float(subsat_array.nbart_red_edge_1[0].std()/10000), float(ground_brdf['band5'].mean())],
+                            ['Band6', float(subsat_array.nbart_red_edge_2[0].mean()/10000), float(subsat_array.nbart_red_edge_2[0].std()/10000), float(ground_brdf['band6'].mean())],
+                            ['Band7', float(subsat_array.nbart_red_edge_3[0].mean()/10000), float(subsat_array.nbart_red_edge_3[0].std()/10000), float(ground_brdf['band7'].mean())],
+                            ['Band8', float(subsat_array.nbart_nir_1[0].mean()/10000), float(subsat_array.nbart_nir_1[0].std()/10000), float(ground_brdf['band8'].mean())],
+                            ['Band8a', float(subsat_array.nbart_nir_2[0].mean()/10000), float(subsat_array.nbart_nir_2[0].std()/10000), float(ground_brdf['band8a'].mean())],
+                            ['Band11', float(subsat_array.nbart_swir_2[0].mean()/10000), float(subsat_array.nbart_swir_2[0].std()/10000), float(ground_brdf['band11'].mean())],
+                            ['Band12', float(subsat_array.nbart_swir_3[0].mean()/10000), float(subsat_array.nbart_swir_3[0].std()/10000), float(ground_brdf['band12'].mean())],
                            ])
 
     else:

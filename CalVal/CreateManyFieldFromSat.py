@@ -73,29 +73,29 @@ def create_many_field_from_sat(ls8_array, s2a_array, ground_brdf_ls8, ground_brd
                     cum12 = cum12+ground_brdf_s2a.iloc[k]['band12']
                     count=count+1
             if count < 1:
-                field_array_s2a.nbar_coastal_aerosol[0][j][i] = np.nan
-                field_array_s2a.nbar_blue[0][j][i] = np.nan
-                field_array_s2a.nbar_green[0][j][i] = np.nan
-                field_array_s2a.nbar_red[0][j][i] = np.nan
-                field_array_s2a.nbar_red_edge_1[0][j][i] = np.nan
-                field_array_s2a.nbar_red_edge_2[0][j][i] = np.nan
-                field_array_s2a.nbar_red_edge_3[0][j][i] = np.nan
-                field_array_s2a.nbar_nir_1[0][j][i] = np.nan
-                field_array_s2a.nbar_nir_2[0][j][i] = np.nan
-                field_array_s2a.nbar_swir_2[0][j][i] = np.nan
-                field_array_s2a.nbar_swir_3[0][j][i] = np.nan
+                field_array_s2a.nbart_coastal_aerosol[0][j][i] = np.nan
+                field_array_s2a.nbart_blue[0][j][i] = np.nan
+                field_array_s2a.nbart_green[0][j][i] = np.nan
+                field_array_s2a.nbart_red[0][j][i] = np.nan
+                field_array_s2a.nbart_red_edge_1[0][j][i] = np.nan
+                field_array_s2a.nbart_red_edge_2[0][j][i] = np.nan
+                field_array_s2a.nbart_red_edge_3[0][j][i] = np.nan
+                field_array_s2a.nbart_nir_1[0][j][i] = np.nan
+                field_array_s2a.nbart_nir_2[0][j][i] = np.nan
+                field_array_s2a.nbart_swir_2[0][j][i] = np.nan
+                field_array_s2a.nbart_swir_3[0][j][i] = np.nan
             else:
-                field_array_s2a.nbar_coastal_aerosol[0][j][i] = cum1*10000/count            
-                field_array_s2a.nbar_blue[0][j][i] = cum2*10000/count
-                field_array_s2a.nbar_green[0][j][i] = cum3*10000/count
-                field_array_s2a.nbar_red[0][j][i] = cum4*10000/count
-                field_array_s2a.nbar_red_edge_1[0][j][i] = cum5*10000/count
-                field_array_s2a.nbar_red_edge_2[0][j][i] = cum6*10000/count
-                field_array_s2a.nbar_red_edge_3[0][j][i] = cum7*10000/count
-                field_array_s2a.nbar_nir_1[0][j][i] = cum8*10000/count
-                field_array_s2a.nbar_nir_2[0][j][i] = cum8a*10000/count
-                field_array_s2a.nbar_swir_2[0][j][i] = cum11*10000/count
-                field_array_s2a.nbar_swir_3[0][j][i] = cum12*10000/count
+                field_array_s2a.nbart_coastal_aerosol[0][j][i] = cum1*10000/count            
+                field_array_s2a.nbart_blue[0][j][i] = cum2*10000/count
+                field_array_s2a.nbart_green[0][j][i] = cum3*10000/count
+                field_array_s2a.nbart_red[0][j][i] = cum4*10000/count
+                field_array_s2a.nbart_red_edge_1[0][j][i] = cum5*10000/count
+                field_array_s2a.nbart_red_edge_2[0][j][i] = cum6*10000/count
+                field_array_s2a.nbart_red_edge_3[0][j][i] = cum7*10000/count
+                field_array_s2a.nbart_nir_1[0][j][i] = cum8*10000/count
+                field_array_s2a.nbart_nir_2[0][j][i] = cum8a*10000/count
+                field_array_s2a.nbart_swir_2[0][j][i] = cum11*10000/count
+                field_array_s2a.nbart_swir_3[0][j][i] = cum12*10000/count
 
 
     return field_array_ls8, field_array_s2a                

@@ -1,0 +1,44 @@
+DATA SHEET FOR LKG taken on 26MAR18,  Sentinel2b overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 00:13:22 to 00:54:21 on the 26 March, 2018 (UTC)
+Satellite overpass was at 2018-03-26T00:02:39.027000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:49:17.027000
+
+Good GPS Coordinates were found in the headers
+Approximate bounding box coordinates:
+SE: (149.462723, -35.09303)
+SW: (149.461383, -35.09303)
+NE: (149.462723, -35.092257)
+NW: (149.461383, -35.092257)
+
+Solar Zenith angle is from 45.9 to 41.0 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Lake_George/26MAR18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/TMP/
+
+Panel is assumed to be GA_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=69bb5582-daf4-4dac-a91a-1a9154dd98db type=s2b_ard_granule location=/g/data1b/if87/datacube/002/S2_MSI_ARD_BETA/packaged/2018-03-26/S2B_OPER_MSI_ARD_TL_EPAE_20180326T012609_A005490_T55HGB_N02.06/ARD-METADATA.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.0496	0.00311	0.0505	0.00484	6.26	9.59	0.983	4.4
+blue	0.0544	0.00407	0.0566	0.00559	7.49	9.87	0.96	5.57
+green	0.0614	0.00457	0.0637	0.00646	7.44	10.1	0.965	5.23
+red	0.0737	0.00551	0.0718	0.00745	7.48	10.4	1.03	5.34
+RE1	0.0869	0.00614	0.0764	0.00794	7.06	10.4	1.14	4.67
+RE2	0.0926	0.00628	0.0812	0.00885	6.78	10.9	1.14	4.62
+RE3	0.0924	0.00618	0.087	0.00934	6.69	10.7	1.06	4.69
+nir_1	0.106	0.00754	0.0935	0.00986	7.1	10.5	1.13	5.32
+nir_2	0.104	0.00664	0.097	0.0102	6.38	10.5	1.07	4.52
+swir_2	0.174	0.00822	0.161	0.0139	4.73	8.59	1.08	2.87
+swir_3	0.145	0.00855	0.13	0.0133	5.88	10.2	1.12	3.68

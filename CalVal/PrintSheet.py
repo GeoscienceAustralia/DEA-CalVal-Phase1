@@ -9,10 +9,10 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
         fstat_name = fstat_df.rename({'Band1': 'CA', 'Band2': 'blue', 'Band3': 'green', 'Band4': 'red', 
                                       'Band5': 'RE1', 'Band6': 'RE2', 'Band7': 'RE3', 
                                       'Band8': 'nir_1', 'Band8a': 'nir_2', 'Band11': 'swir_2', 'Band12': 'swir_3'})
-        varr_name = varr.rename({'nbar_coastal_aerosol': 'CA', 'nbar_blue': 'blue', 'nbar_green': 'green',
-                                 'nbar_red': 'red', 'nbar_red_edge_1': 'RE1', 'nbar_red_edge_2': 'RE2',
-                                 'nbar_red_edge_3': 'RE3', 'nbar_nir_1': 'nir_1', 'nbar_nir_2': 'nir_2',
-                                 'nbar_swir_2': 'swir_2', 'nbar_swir_3': 'swir_3'})
+        varr_name = varr.rename({'nbart_coastal_aerosol': 'CA', 'nbart_blue': 'blue', 'nbart_green': 'green',
+                                 'nbart_red': 'red', 'nbart_red_edge_1': 'RE1', 'nbart_red_edge_2': 'RE2',
+                                 'nbart_red_edge_3': 'RE3', 'nbart_nir_1': 'nir_1', 'nbart_nir_2': 'nir_2',
+                                 'nbart_swir_2': 'swir_2', 'nbart_swir_3': 'swir_3'})
     elif field_data[3] == 'Landsat8':
         fstat_name = fstat_df.rename({'Band1': 'CA', 'Band2': 'blue', 'Band3': 'green', 'Band4': 'red',
                          'Band5': 'nir', 'Band6': 'swir1', 'Band7': 'swir2'})
@@ -68,7 +68,7 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
     elif field_data[3] == 'Sentinel2b':
         prod = 's2b_ard_granule'
     elif field_data[3] == 'Landsat8':
-        prod = 'ls8_nbar_scene'
+        prod = 'ls8_nbart_scene'
     else:
         print('The satellite should be one of Sentinel2a/b or Landsat8. I got ', field_data[3])
 

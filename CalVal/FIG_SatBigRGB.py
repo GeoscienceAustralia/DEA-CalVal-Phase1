@@ -15,7 +15,7 @@ def FIG_sat_bigRGB(sat_array, sat_bigarray, output, field_data, fignum):
     if field_data[3] == 'Landsat8':
         fig, axes = DEAPlotting.three_band_image(sat_bigarray, bands = ['red', 'green', 'blue'], time = 0, contrast_enhance=False)
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
-        fig, axes = DEAPlotting.three_band_image(sat_bigarray, bands = ['nbar_red', 'nbar_green', 'nbar_blue'], time = 0, contrast_enhance=False)
+        fig, axes = DEAPlotting.three_band_image(sat_bigarray, bands = ['nbart_red', 'nbart_green', 'nbart_blue'], time = 0, contrast_enhance=False)
     else:
         print('Satellite name must be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
