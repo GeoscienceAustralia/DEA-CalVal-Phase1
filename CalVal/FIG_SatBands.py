@@ -21,9 +21,9 @@ def FIG_sat_bands(sat_array, field_array, output, field_data, fignum):
     dummax = max(dummy.values())
     dummean = np.mean(dummy.to_array())
 
-    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
+    #fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=4, ncols=3, figsize=(11.5, 9.5))
-    fig.suptitle(fig_title+': Satellite reflectances\nVariances: max='+str(format(dummax.values, '.1f'))+'%, min='+str(format(dummin.values, '.1f'))+'%, mean='+str(format(dummean.values, '.1f'))+'%', fontweight='bold')
+    #fig.suptitle(fig_title+': Satellite reflectances\nVariances: max='+str(format(dummax.values, '.1f'))+'%, min='+str(format(dummin.values, '.1f'))+'%, mean='+str(format(dummean.values, '.1f'))+'%', fontweight='bold')
     plt.tight_layout(pad=5.5, w_pad=4.5, h_pad=2.5)
 
     #

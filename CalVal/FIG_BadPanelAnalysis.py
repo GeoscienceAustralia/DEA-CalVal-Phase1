@@ -28,7 +28,7 @@ def FIG_bad_panel_analysis(good_panel_mean, good_panel_spec, bad_panel_spec, out
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(9.5, 9.5))
-    fig.suptitle(fig_title, fontweight='bold')
+    #fig.suptitle(fig_title, fontweight='bold')
 
     good_bad_div.plot(title='(average bad panels / average good panels)', legend=False, ax=axes[0,0])
 

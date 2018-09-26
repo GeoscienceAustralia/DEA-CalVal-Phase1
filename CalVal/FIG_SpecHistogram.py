@@ -16,6 +16,6 @@ def FIG_spec_histogram(ground_bands, output, field_data, fignum):
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
     bands_only = ground_bands.filter(like='band')
     bands_only.hist(bins=50, ax=axes)
-    fig.suptitle(fig_title+': Histograms by band for individual spectra', fontweight='bold')
+    #fig.suptitle(fig_title+': Histograms by band for individual spectra', fontweight='bold')
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_BandHistograms.png')

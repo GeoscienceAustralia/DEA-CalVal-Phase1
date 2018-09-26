@@ -12,9 +12,9 @@ def FIG_ratio_arrays(sat_array, field_array, output, field_data, fignum):
     newarr = sat_array/field_array
     newarr.reset_index('time', drop=True, inplace=True)
 
-    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
+    #fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=4, ncols=3, figsize=(11.5, 9.5))
-    fig.suptitle(fig_title+': Ratio of satellite/field reflectance', fontweight='bold')
+    #fig.suptitle(fig_title+': Ratio of satellite/field reflectance', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=4.5, h_pad=1.5)
 
     levels = [0.90, 0.92, 0.94, 0.96, 0.98, 1.00, 1.02, 1.04, 1.06, 1.08, 1.10]

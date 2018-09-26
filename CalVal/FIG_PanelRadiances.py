@@ -11,7 +11,7 @@ def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output,
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(11.0, 5.0))
-    fig.suptitle(fig_title, fontweight='bold')
+    #fig.suptitle(fig_title, fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     #

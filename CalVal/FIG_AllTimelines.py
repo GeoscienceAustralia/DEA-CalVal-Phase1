@@ -24,8 +24,8 @@ def panel_plot_layout(nlines):
         m=3
     if nlines < 5:
         m=2
-    if nlines < 3:
-        m=1
+#    if nlines < 3:
+#        m=1
     if nlines < 2:
         n=1
     return n, m
@@ -41,11 +41,11 @@ def multi_timeline_plot(n, m, gpta, adta, axes):
                 axes[i,j].axis('off')
 
             else:
-                temp_loop = gpta[(gpta['Line']==k)].astype(float)
-                all_loop = adta[(adta['Line']==k)].astype(float)
-                all_loop.plot(x='date_saved', y='ones', kind='scatter', legend=False, ax=axes[i,j], color='orange', marker='|', s=50, linewidth=0.8)
-                temp_loop.plot(x='date_saved', y='ones', kind='scatter', legend=False, ax=axes[i,j], marker='x', sharey=True, s=50, linewidth=0.8)#, title='line'+str(k))
-                axes[i,j].text(0.3, 0.75, 'Line '+str(k), transform=axes[i,j].transAxes)
+                temp_loop = gpta[(gpta['Line']==k)]#.astype(float)
+                all_loop = adta[(adta['Line']==k)]#.astype(float)
+                all_loop.plot(x='Time', y='ones', kind='scatter', legend=False, ax=axes[i,j], color='orange', marker='|', s=50, linewidth=0.8)
+                temp_loop.plot(x='Time', y='ones', kind='scatter', legend=False, ax=axes[i,j], marker='x', sharey=True, s=50, linewidth=0.8)#, title='line'+str(k))
+                axes[i,j].text(0.4, 0.75, 'Line '+str(k), transform=axes[i,j].transAxes)
                 axes[i,j].tick_params(axis='both', which='major', labelsize=9)
                 axes[i,j].tick_params(axis='both', which='minor', labelsize=9)
                 if i==m-1 and j==1:
@@ -71,7 +71,7 @@ def FIG_all_timelines(gpta, adta, output, field_data, fignum):
     n, m = panel_plot_layout(len(gpta.Line.unique()))
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
-    fig, axes = plt.subplots(nrows=m, ncols=n, figsize=(4.0, 3.0))
+    fig, axes = plt.subplots(nrows=m, ncols=n, figsize=(6.0, 4.0))
     #fig.suptitle(fig_title+': Time Stamps for each line, including ALL data', fontweight='bold')
     plt.tight_layout(pad=1.5, w_pad=-2.0, h_pad=0.0)
 

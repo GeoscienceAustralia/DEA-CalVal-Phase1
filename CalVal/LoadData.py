@@ -48,8 +48,8 @@ def extract_metadata(filename, Corners):
     strings = {
         'instrument number': action1,
         'Spectrum saved': action2,
-        'SWIR1 gain': action3,
-        'SWIR2 gain': action4,
+#        'SWIR1 gain': action3,
+#        'SWIR2 gain': action4,
         'GPS-Latitude': action5,
         'GPS-Longitude': action6
     }
@@ -74,12 +74,13 @@ def load_spectrum_to_df(infile, li, Corners):
     fdl,err = p2.communicate()
     firstDataLine = int(fdl)-1
 
-    inst, date_str, swir1_go, swir2_go, lat, lon = extract_metadata(infile, Corners)
+#    inst, date_str, swir1_go, swir2_go, lat, lon = extract_metadata(infile, Corners)
+    inst, date_str, lat, lon = extract_metadata(infile, Corners)
 
-    swir1_gain = swir1_go[:3]
-    swir1_offset = swir1_go[-4:]
-    swir2_gain = swir2_go[:3]
-    swir2_offset = swir2_go[-4:]
+    #swir1_gain = swir1_go[:3]
+    #swir1_offset = swir1_go[-4:]
+    #swir2_gain = swir2_go[:3]
+    #swir2_offset = swir2_go[-4:]
 
     date_saved = datetime.strptime(date_str, '%m/%d/%Y at %H:%M:%S')
     
@@ -96,10 +97,10 @@ def load_spectrum_to_df(infile, li, Corners):
     except ValueError:
         df['Spec_number'] = int(filename[-6:-4])
     df['Inst_number'] = inst
-    df['SWIR1_gain'] = swir1_gain
-    df['SWIR1_offset'] = swir1_offset
-    df['SWIR2_gain'] = swir2_gain
-    df['SWIR2_offset'] = swir2_offset
+    #df['SWIR1_gain'] = swir1_gain
+    #df['SWIR1_offset'] = swir1_offset
+    #df['SWIR2_gain'] = swir2_gain
+    #df['SWIR2_offset'] = swir2_offset
     return df
 
 #

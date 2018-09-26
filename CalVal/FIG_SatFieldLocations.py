@@ -27,9 +27,9 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
 
     satloc_df = pd.DataFrame(satloc)
 
-    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
-    fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 9.5))
-    fig.suptitle(fig_title+': Satellite pixel locations (black)\nand field spectrum locations (colours). Reference position = '+str(int(xloc[0][0]))+', '+str(int(xloc[0][1]))+str('.'), fontweight='bold')
+    #fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
+    fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(6.0, 6.0))
+    #fig.suptitle(fig_title+': Satellite pixel locations (black)\nand field spectrum locations (colours). Reference position = '+str(int(xloc[0][0]))+', '+str(int(xloc[0][1]))+str('.'), fontweight='bold')
     plt.tight_layout(pad=4.0, w_pad=1.0, h_pad=1.0)
 
     def gridlines(satloc_df, field_data):
@@ -51,19 +51,20 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
 
     rr = pd.DataFrame(relxloc)
 
+    satloc_df.plot.scatter(0,1, ax=axes, color='black', s=5)
+
+    gridlines(satloc_df, field_data)
+
     ground_brdf_XY = pd.concat([ground_brdf, rr], axis=1)
     ground_brdf_XY.rename(columns={0: 'RelX', 1: 'RelY'}, inplace=True)
 
     for i in ground_brdf_XY.Line.unique():
-        ground_brdf_XY[(ground_brdf_XY['Line']==i)].plot.scatter('RelX', 'RelY', ax=axes, color=colpac[i])
-
-    satloc_df.plot.scatter(0,1, ax=axes, color='black', )
+        ground_brdf_XY[(ground_brdf_XY['Line']==i)].plot.scatter('RelX', 'RelY', ax=axes, color=colpac[i], s=10)
 
     axes.set_xlabel("Relative Aus Albers Longitude (m)")
     axes.set_ylabel("Relative Aus Albers Latitude (m)")
 
-    gridlines(satloc_df, field_data)
 
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_SatFieldLocations.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_SatFieldLocations.png', dpi=300)
 
     return xloc

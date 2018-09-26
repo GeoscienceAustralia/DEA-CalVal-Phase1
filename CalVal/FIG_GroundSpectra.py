@@ -15,7 +15,7 @@ def FIG_ground_spectra(good_grounds_spec, all_grounds_spec, output, field_data, 
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(9.6, 6.0))
-    fig.suptitle(fig_title, fontweight='bold')
+    #fig.suptitle(fig_title, fontweight='bold')
     plt.tight_layout(pad=5.5, w_pad=1.0, h_pad=1.0)
 
     all_norm.plot(title="All ground radiances normalised to \nthe median ground radiance", legend=False, ax=axes[0])

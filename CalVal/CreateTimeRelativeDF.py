@@ -11,14 +11,15 @@ from datetime import timedelta
 #
 def make_timeline(in_df, good_panels):
     
-    temp_df = in_df[['date_saved', 'Line']].loc[in_df['Wavelength']==350]
+    temp_df = in_df[['filename', 'Line', 'date_saved', 'Latitude', 'Longitude']].loc[in_df['Wavelength']==350]
     gpt = good_panels[['date_saved', 'Line']].loc[good_panels['Wavelength']==350]
     
     out_df = temp_df.copy()
 
     for i in range(len(out_df)):
-        out_df.iloc[[i], [0]]=int((temp_df.iloc[i][0]-gpt.iloc[0][0]).total_seconds())
+        out_df.iloc[[i], [0]]=int((temp_df.iloc[i][2]-gpt.iloc[0][0]).total_seconds())
 
+    out_df.rename({'filename': 'Time'}, axis=1, inplace=True)
     out_df['ones'] = np.ones(len(out_df))
     return out_df
 

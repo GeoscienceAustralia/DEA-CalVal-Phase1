@@ -19,6 +19,7 @@ from . import FIG_BandReflectances
 from . import FIG_FieldRGB
 from . import FIG_GoodTimelines
 from . import FIG_GroundSpectra
+from . import FIG_InsolationFit
 from . import FIG_ManyBigRGB
 from . import FIG_ManyRGB
 from . import FIG_ManySatFieldBands
@@ -27,8 +28,10 @@ from . import FIG_NormalisedPanelsTimeline
 from . import FIG_PanelRadiances
 from . import FIG_RatioArrays
 from . import FIG_Reflectances
+from . import FIG_ReflectancesBand
 from . import FIG_SatBands
 from . import FIG_SatBigRGB
+from . import FIG_SatFieldBands
 from . import FIG_SatFieldLocations
 from . import FIG_SatFieldScatterCompare
 from . import FIG_SatFieldAvgScatterCompare
@@ -45,4 +48,7 @@ from . import Query
 from . import PrintBRDF
 from . import PrintSheet
 from . import ReformatDF
+from . import ScaleGrounds
+from . import ScalePanels
+from . import SolarAngle
 from . import SpecRename

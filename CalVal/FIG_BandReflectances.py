@@ -36,4 +36,3 @@ def FIG_band_reflectances(ground_bands, result_df, band, colpac, output, field_d
     result_df.T.plot(legend=False, ax=axes[1])
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_BandReflectances.png')
-    return result_df

@@ -13,7 +13,7 @@ def FIG_band_extents(all_refls, band_min, band_max, output, field_data, fignum):
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 6.5))
-    fig.suptitle(fig_title+': \nMedian ground reflectance with '+field_data[3]+' Bands shown as black bars', fontweight='bold')
+    #fig.suptitle(fig_title+': \nMedian ground reflectance with '+field_data[3]+' Bands shown as black bars', fontweight='bold')
     axes.set_ylabel("Reflectance")
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
