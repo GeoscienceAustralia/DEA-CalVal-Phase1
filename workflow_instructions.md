@@ -1,5 +1,4 @@
 <H1>Instructions for processing Site-Pipelines workflow</H1>
-<HR>
 
 These instructions are designed to be a step-by-step walk-through of the
 workflow to process field data and compare them to satellite data, or a new
@@ -24,8 +23,8 @@ from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or 
     > module load dea<BR><BR>
 <LI>Copy the template in the Site-Pipelines directory to a new file and then
 start the notebook. eg:<BR><BR>
-    > cp template.ipynb Pipeline-LG-26-03-18.ipynb<BR>
-    > jupyter notebook Pipeline-LG-26-03-18.ipynb<BR><BR>
+    > cp template.ipynb Pipeline-PIN-20-05-18.ipynb<BR>
+    > jupyter notebook Pipeline-PIN-20-05-18.ipynb<BR><BR>
 <LI>Input and output directories should be defined in the first cell, as
 'indir' and 'output', respectively. For the input directory, it is assumed
 that there are multiple sub-directories, with format 'line1, line2, line3' etc.
@@ -48,7 +47,7 @@ currently located either in this repo under <B>Misc</B> or:<BR><BR>
         including landsat8_vsir.flt, Sent2a.flt and Sent2b.flt.<BR><BR>
 <LI>The 'field_data' list should be edited to contain the relevant information
 on: <BR>
-1. Three-letter field name (eg. LKG for Lake George)<BR>
+1. Three-letter field name (eg. PIN for The Pinnacles)<BR>
 2. Date of field site measurement (format: DDMMMYY)<BR>
 3. Extra field site information (eg. Site1/2 or CSIRO)<BR>
 4. Satellite name (must be one of Landsat8, Sentinel2a, Sentinel2b)<BR>
