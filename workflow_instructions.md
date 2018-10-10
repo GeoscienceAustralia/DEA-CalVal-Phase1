@@ -1,4 +1,4 @@
-<H2>Instructions for processing Site-Pipelines workflow</H2> 
+<H1>Instructions for processing Site-Pipelines workflow</H1> 
 
 These instructions are designed to be a step-by-step walk-through of the
 workflow to process field data and compare them to satellite data, or a new
@@ -6,7 +6,7 @@ field dataset. It is assumed that this workflow will be run on the NCI's VDI
 platform, as the Digital Earth Australia (DEA) module is required to run the
 workflows.<P>
 
-### Pre-requisites
+# Pre-requisites
 
 In order for the workflow to run, there are a number of other assumed
 requirements that should be met. Go through this check-list before running
@@ -75,7 +75,7 @@ copy over the required files:<BR><BR>
         > cp /g/data/u46/users/aw3463/GuyByrne/calval/brdf/* .<BR><BR>
 </OL>
 
-### Calculating BRDF correction
+# Calculating BRDF correction
 
 One of the first things you need to do in this notebook is calculate the BRDF
 correction, but this requires that you read in the field data so that the
