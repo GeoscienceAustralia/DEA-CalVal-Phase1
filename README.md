@@ -45,10 +45,10 @@ In order for the workflow to run, there are a number of assumed requirements tha
 5. The name of the panel K-factor to use
 6. Whether the data were recorded in Radiance or Reflectance mode.
 
-    <LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first time running the workflow (eg. 'bad_pans = []'). These are used to specify any bad panel or ground readings identified later on.<BR><BR>
+   <LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first time running the workflow (eg. 'bad_pans = []'). These are used to specify any bad panel or ground readings identified later on.<BR><BR>
     <LI>Variables firstGoodLine, firstGroundSpec and firstGoodPanelSpec need to be specified. These are determined from knowledge of the field data and can be used to eliminate bad data at the start of the field collection. If all goes well, normally the first good line is number 1, the first good panel is number 0 and the first good ground spectrum is number 2. ie. there are two panel spectra at the start of line 1 (spec=0 and 1), followed by the first ground (spec=2).<BR><BR>
     <LI>The BRDF correction requires a separate directory and a new window on VDI. Do NOT use a window where you have already typed 'module load dea' because it needs slightly different modules. In this example, the directory '/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used. Once you have created your own directory and you have changed into that directory, type the following to copy of the required files:<BR><BR>
-        ```> cp /g/data/u46/users/aw3463/GuyByrne/calval/brdf/* .```<BR><BR>
+        > cp /g/data/u46/users/aw3463/GuyByrne/calval/brdf/* .<BR><BR>
 </OL>
 
 ### Calculating BRDF correction
