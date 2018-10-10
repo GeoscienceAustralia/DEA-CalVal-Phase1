@@ -22,7 +22,7 @@ In order for the workflow to run, there are a number of assumed requirements tha
 <OL>
     <LI>The Python library for this workflow can be found on VDI and should be downloaded from this repo (CalVal directory) or copied into the working directory directly on VDI:<BR><BR>
     cp -r /g/data/u46/users/aw3463/GuyByrne/calval/CalVal .<BR><BR>
-    <LI>The DEAPlotting library is also needed for RGB plots and can be obtained from https://github.com/GeoscienceAustralia/dea-notebook under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
+    <LI>The DEAPlotting library is also needed for RGB plots and can be obtained from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
     cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .<BR><BR>
     <LI>Start up the DEA module by typing:<BR><BR>
     > module load dea<BR><BR>
