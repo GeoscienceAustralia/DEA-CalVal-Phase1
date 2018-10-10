@@ -64,13 +64,14 @@ well, normally the first good line is number 1, the first good panel is number
 0 and the first good ground spectrum is number 2. ie. there are two panel
 spectra at the start of line 1 (spec=0 and 1), followed by the first ground
 (spec=2).<BR><BR>
-<LI>The BRDF correction requires a separate directory and a new window on VDI.
-Do NOT use a window where you have already typed 'module load dea' because it
-needs slightly different modules. In this example, the directory
-'/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used (a copy is also in this
-repo under the <B>brdf</B> directory). Once you have created your own directory
-and you have changed into that directory, type the following to copy over the
-required files:<BR><BR>
+<LI>The BRDF correction should be calculated in a separate directory and a new
+window on VDI.
+Do NOT use a window where you have already typed 'module load dea' because the
+BRDF calculation needs slightly different modules. In this example, the
+directory '/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used (a copy is
+also in this repo under the <B>brdf</B> directory). Once you have created your
+own directory and you have changed into that directory, type the following to
+copy over the required files:<BR><BR>
         > cp /g/data/u46/users/aw3463/GuyByrne/calval/brdf/* .<BR><BR>
 </OL>
 
@@ -98,7 +99,7 @@ where 'SATELLITE' is either 'Landsat 8' or 'Sentinel 2'.<BR><BR>
 window.<BR><BR>
 <LI>The result in the terminal window (takes about 30 seconds) will be a
 formatted version of the 'brdf_data' numpy array. This can be directly copied
-and pasted over the top of the existing brdf_data array at the bottom of the
+and pasted over the top of the existing brdf_data array near the bottom of the
 first cell in the notebook.<BR><BR>
 </OL>
 
@@ -226,7 +227,7 @@ which represent the standard deviation of the satellite and field data.<BR><BR>
 <B>Data Sheet</B> text file is written out to the PNG directory, which has some
 summary information on the field site and corresponding satellite data.<BR><BR>
     
-### Troubleshooting
+# Troubleshooting
 If the notebook does not complete, there are a few likely causes that can be
 checked.<BR>
     
