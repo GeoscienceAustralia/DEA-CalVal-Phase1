@@ -15,6 +15,6 @@ satellite data.<BR>
 <B>Misc</B> - Miscellaneous files, including Panel calibration spectra,
 Satellite band response files etc.<BR>
 <B>README.md</B> - This Readme file.<BR>
-<B>workflow_instructions.html</B> - Instructions for processing Site-Pipelines
+<B>workflow_instructions.md</B> - Instructions for processing Site-Pipelines
 workflow<P>
 
