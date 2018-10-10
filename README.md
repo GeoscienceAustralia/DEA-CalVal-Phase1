@@ -8,6 +8,7 @@ for calibration/validation. This includes python code, as well as jupyter notebo
 <B>Site-Pipelines</B> - Jupyter notebook workflows for comparing field and satellite data.<BR>
 <B>Weather</B> - CSV files for nearest rain gauges, with day zero set to 31/12/2017.<BR>
 <B>brdf</B> - files for creating BRDF corrections required by workflows.<BR>
+<B>Misc</B> - Miscellaneous files, including Panel calibration spectra, Satellite band response files etc.<BR>
 <B>README.md</B> - This Readme file.<P>
 
 <HR>
@@ -31,19 +32,19 @@ In order for the workflow to run, there are a number of assumed requirements tha
     > jupyter notebook Pipeline-LG-26-03-18.ipynb<BR><BR>
     <LI>Input and output directories should be defined in the first cell below, as 'indir' and 'output', respectively. For the input directory, it is assumed that there are multiple sub-directories, with format 'line1, line2, line3' etc. Note that lower case is required and no extra characters in the directory names. So 'Line1' or 'line_1' will not work. The output directory will be created by the workflow and is where PNG files will be stored, as well as the data sheet text file. <BR><B>NOTE:</B> Each time the workflow is run, the output directory will be erased and re-written, so that the directory can be cleaned up. If you want to save older PNGs, you need to manually move them before re-running the notebook.<BR><BR>
     <LI>Within each 'line' sub-directory, there should be radiance spectrum files in text format, with extension '.asd.rad.txt'.<BR><BR>
-    <LI>There are standard files that are used for determining the panel K-factor, currently located:<BR><BR>
+    <LI>There are standard files that are used for determining the panel K-factor, currently located either in this repo under <B>Misc</B> or:<BR><BR>
         /g/data/u46/users/aw3463/GuyByrne/30APR18/Panels/<BR><BR>
-    <LI>Satellite band response files are located in the directory:<BR><BR>
+      <LI>Satellite band response files are located either in this repo under <B>Misc</B> or in the directory:<BR><BR>
         /g/data1a/u46/users/aw3463/GuyByrne/misc_others/<BR><BR>
         including landsat8_vsir.flt, Sent2a.flt and Sent2b.flt.<BR><BR>
     <LI>The 'field_data' list should be edited to contain the relevant information on: <BR>
-```1. Three-letter field name (eg. LKG for Lake George)
+1. Three-letter field name (eg. LKG for Lake George)
 2. Date of field site measurement (format: DDMMMYY)
 3. Extra field site information (eg. Site1/2 or CSIRO)
 4. Satellite name (must be one of Landsat8, Sentinel2a, Sentinel2b)
 5. The name of the panel K-factor to use
 6. Whether the data were recorded in Radiance or Reflectance mode.
-```
+
     <LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first time running the workflow (eg. 'bad_pans = []'). These are used to specify any bad panel or ground readings identified later on.<BR><BR>
     <LI>Variables firstGoodLine, firstGroundSpec and firstGoodPanelSpec need to be specified. These are determined from knowledge of the field data and can be used to eliminate bad data at the start of the field collection. If all goes well, normally the first good line is number 1, the first good panel is number 0 and the first good ground spectrum is number 2. ie. there are two panel spectra at the start of line 1 (spec=0 and 1), followed by the first ground (spec=2).<BR><BR>
     <LI>The BRDF correction requires a separate directory and a new window on VDI. Do NOT use a window where you have already typed 'module load dea' because it needs slightly different modules. In this example, the directory '/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used. Once you have created your own directory and you have changed into that directory, type the following to copy of the required files:<BR><BR>
@@ -124,25 +125,4 @@ GPS-Longitude is E0
 
 The notebook will automatically identify such cases and try to deal with them, but it needs to know the coordinates for the box over which the field data was measured. These coordinates are fed into the variable "Corners" at the bottom of Cell [3], along with a True/False declaration for "RockWalk". If no coordinates are given and datacube manages to find satellite data, datacube will try and find a map at (0,0) and fail.<BR><BR>
 
-The coordinate fix necessarily makes assumptions about how the field data were collected. In particular, the direction the data collector was walking. "RockWalk", if set to True, will assume that the collector walked in a South -> North line, then North -> South, then South -> North etc. If "RockWalk" is set to False, then it is assumed the direction of walk is always South -> North.<BR>
-    <B>Note</B>: Cell [30] will always say whether or not good GPS coordinates were found.<BR><BR>
-
-#### Cell [4] (Define 'alldata'...) errors:
-One of the most common is that the code will fail on Cell [4] (Define 'alldata'...), which is most likely because the input data files or directories are incorrectly formatted. Here are a list of errors and likely solutions:<BR>
-<B>ValueError: No objects to concatenate</B>: The code cannot find any relevant files. Check 'indir' is correct, check the line directories are formatted as line1, line2 etc. Also check .asd.rad.txt files in the line directories.<BR><BR>
-    
-<B>ValueError: not enough values to unpack (expected 6, got 0)</B>: Most likely there is one (or more) .asd.rad.txt file with incorrectly formatted header information. For example, a file that is not a spectrum at all.<BR><BR>
-    
-<B>ValueError: invalid literal for int() with base 10</B>: This is casued by an incorrectly formatted spectral file name, which is found on line 39 of the header. The code requires this line to be in the format \*00.asd.rad or \*00.asd, where the two numbers '00' will be read as the spectrum number. This error complains that it is finding a string at this position, rather than a number.<BR><BR>
-    
-#### Datacube query errors:
-The notebook uses Datacube to extract satellite data for comparison. However, it is only expect that exactly one satellite dataset will be found. So errors can occur when no relevant dataset is found.<BR><BR>
-
-<B>Cell [31]: KeyError: 'the label [band11] is not in the [index]'</B>: This error occurs when you have previously generated a brdf_data array for Sentinel data but then process the workflow, assuming Landsat 8 data, with fewer bands. In this case, you need to re-calculate your BRDF array in Cell [4] for the correct satellite.<BR><BR>
-
-<B>Cell [31]: AttributeError: 'Dataset' object has no attribute 'x'</B>: This error is casued by Datacube not finding any relevant satellite data for the timerange given. Check the dates given in timerange. Also check that Datacube contains the data that you are looking for. It is possible that the data have yet to be indexed, if the observations were recent.<BR><BR>
-    
-<B>Cell [31]: ValueError: cannot rename '1' because it is not a variable or dimension in this dataset</B>: This error also happens because datacube has not found any relevant satellite data for the time range.<BR><BR>
-    
-
-Andrew Walsh.
+The 
