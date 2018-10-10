@@ -103,7 +103,7 @@ and pasted over the top of the existing brdf_data array near the bottom of the
 first cell in the notebook.<BR><BR>
 </OL>
 
-### Running the notebook
+# Running the notebook
 Once the BRDF correction has been added to the notebook, it should be possible
 to run the notebook in its entirety. To do this, go to the top of the Jupyter
 Notebook and click on 'Kernel', then 'Restart & Run All', then click on the
