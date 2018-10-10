@@ -128,7 +128,8 @@ radiances. You should try to identify the corresponding spectra and then add
 them to the 'bad_pans' list in Cell [1]. Once you have flagged the bad panel
 spectra, you should be able to re-run the notebook and this Figure will now
 show you the good and bad panels separated into the left and middle panes,
-respectively, with all panels together shown in the right pane.<BR><BR>
+respectively, with all panels together shown in the right pane.
+![alt text](Misc/Example/PIN_20MAY18__Landsat8_Fig1_PanelRadiances.png?raw=true "Figure 1")<BR><BR>
     
 <B>Figure 2</B> (Diagnosis plots...) Will show various plots of any identified
 bad panel spectra. This is only used if you are curious about why some panel
