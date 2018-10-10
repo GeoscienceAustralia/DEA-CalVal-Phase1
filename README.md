@@ -123,58 +123,198 @@ first cell in the notebook.<BR><BR>
 </OL>
 
 ### Running the notebook
-Once the BRDF correction has been added to the notebook, it should be possible to run the notebook in its entirety. To do this, go to the top of the Jupyter Notebook and click on 'Kernel', then 'Restart & Run All', then click on the red button to confirm and run the workflow. It should take about 2-5 minutes to complete.
+Once the BRDF correction has been added to the notebook, it should be possible
+to run the notebook in its entirety. To do this, go to the top of the Jupyter
+Notebook and click on 'Kernel', then 'Restart & Run All', then click on the
+red button to confirm and run the workflow. It should take about 2-5 minutes
+to complete.
 
 ### Interpreting results of the first notebook run
-Here, it is assumed that the notebook ran to completion, such that all the cells were processed. If the notebook stopped midway, then please see the <B>Troubleshooting</B> section below for some hints on what might have gone wrong.<BR><BR>
+Here, it is assumed that the notebook ran to completion, such that all the
+cells were processed. If the notebook stopped midway, then please see the
+<B>Troubleshooting</B> section below for some hints on what might have gone
+wrong.<BR><BR>
     
-<B>Cell [4]</B> (Define 'alldata'...) lists a small section of the field data as a pandas dataframe. Only data for a wavelength of 350nm is shown. Check that the values in each column appear reasonable.<BR><BR>
+<B>Cell [4]</B> (Define 'alldata'...) lists a small section of the field data
+as a pandas dataframe. Only data for a wavelength of 350nm is shown. Check
+that the values in each column appear reasonable.<BR><BR>
     
-<B>Figure 1</B> (Plot panel radiances...) will show overlay plots of panel radiances on both the left- and right-hand-sides, with the middle pane empty. All panel radiances should appear close together. If you notice a small number of panels that look significantly different, then these are probably bad panel radiances. You should try to identify the corresponding spectra and then add them to the 'bad_pans' list in Cell [2]. Once you have flagged the bad panel spectra, you should be able to re-run the notebook and this Figure will now show you the good and bad panels separated into the left and middle panes, respectively, with all panels together shown in the right pane.<BR><BR>
+<B>Figure 1</B> (Plot panel radiances...) will show overlay plots of panel
+radiances on both the left- and right-hand-sides, with the middle pane empty.
+All panel radiances should appear close together. If you notice a small number
+of panels that look significantly different, then these are probably bad panel
+radiances. You should try to identify the corresponding spectra and then add
+them to the 'bad_pans' list in Cell [1]. Once you have flagged the bad panel
+spectra, you should be able to re-run the notebook and this Figure will now
+show you the good and bad panels separated into the left and middle panes,
+respectively, with all panels together shown in the right pane.<BR><BR>
     
-<B>Figure 2</B> (Diagnosis plots...) Will show various plots of any identified bad panel spectra. This is only used if you are curious about why some panel spectra may be misbehaving.<BR><BR>
+<B>Figure 2</B> (Diagnosis plots...) Will show various plots of any identified
+bad panel spectra. This is only used if you are curious about why some panel
+spectra may be misbehaving.<BR><BR>
     
-<B>Figure 3</B> (Plot ground spectra...) shows two panes, which initially will be the same, showing an overlay of all the ground radiances (without panels). This plot can be used to identify any outlying ground radiances, which can be subsequently identified using 'bad_grounds' in Cell [2]. Once such bad radiances have been flagged, then the two panes will show a with/without comparison.<BR><BR>
+<B>Figure 3</B> (Plot ground spectra...) shows two panes, which initially will
+be the same, showing an overlay of all the ground radiances (without panels).
+This plot can be used to identify any outlying ground radiances, which can be
+subsequently identified using 'bad_grounds' in Cell [1]. Once such bad
+radiances have been flagged, then the two panes will show a with/without
+comparison.<BR><BR>
     
-<B>Figures 4 and 5</B> (Plot timelines...) will initially be the same. They show a line-by-line plot of the timelines of spectra taken, with the horizontal axis being seconds since the first spectrum was taken. Panel radiances are shown as blue crosses and ground radiances are shown as orange vertical lines. If there are any errant panel or graound radiances, based on the time they were taken, they can be identified here. Also, these plots can be used to assess when the panel readings for each line occur. If there are any bad panels or ground radiances, then they will be removed from the second figure.<BR><BR>
+<B>Figures 4 and 5</B> (Plot timelines...) will initially be the same. They
+show a line-by-line plot of the timelines of spectra taken, with the horizontal
+axis being seconds since the first spectrum was taken. Panel radiances are
+shown as blue crosses and ground radiances are shown as orange vertical lines.
+If there are any errant panel or ground radiances, based on the time they were
+taken, they can be identified here. Also, these plots can be used to assess
+when the panel readings for each line occur. If there are any bad panels or
+ground radiances, then they will be removed from the second figure.<BR><BR>
     
-<B>Figure 6</B> (Create timeline...) Shows two panes with averaged radiances for panel spectra, as a function of time (in seconds, since the first spectrum). Initially they will show the same. The average panel readings should show a slowly changing curve that follows insolation. For example, field data taken in the morning will show a slowly rising curve, as the Sun rises. Deviatinos from this slowly changing curve may identify bad panel readings that should be flagged out in 'bad_pans' in Cell [2]. Once the notebook is re-run, any bad panels will be removed from the second pane.<BR><BR>
+<B>Figure 6</B> (Create timeline...) Shows two panes with averaged radiances
+for panel spectra, as a function of time (in seconds, since the first
+spectrum). Initially they will show the same. The average panel readings
+should show a slowly changing curve that follows insolation. For example,
+field data taken in the morning will show a slowly rising curve, as the Sun
+rises. Deviations from this slowly changing curve may identify bad panel
+readings that should be flagged out in 'bad_pans' in Cell [1]. Once the
+notebook is re-run, any bad panels will be removed from the second pane.<BR><BR>
     
-<B>Figure 7</B> (Plot all ground...) shows reflectance spectra for all good ground observations as black curves. Coloured curves show the average for all spectra in a Line. the right pane just shows a zoomed y-axis, compared to the left pane. Any unusually different spectra can be identified here and may be flagged in 'bad_grounds' in Cell [2].<BR><BR>
-    
-<B>Figure 8</B> (Plot band reflectances) shows the reflectance spectra convolved to the satellite bands.<BR><BR>
-    
-<B>Figure 9</B> (Histogram of all...) shows band-by-band histograms for all reflectances. The histograms typically conform to a Normal distribution, but unusually bright or dark spectra may be identified here.<BR><BR>
-    
-<B>Figure 10</B> (Plot satellite band...) show the median ground reflectance, together with the wavelength ranges for the satellite corresponding to the data. This is just to check that the satellite bands fall within well-behaved parts of the spectrum.<BR><BR>
-    
-<B>Figure 11</B> (Plot relative locations...) shows a relative longitude/latitude positions for both field and satellite data. A grid is also shown to represent the extent of the satellite pixels.<BR><BR>
-    
-<B>Figures 12, 13 and 14</B> show RGB images of the Satellite and field data, where the field data have been averaged into pixels that match the satellite data. Blank field pixels means that there is no field data corresponding to that pixel.<BR><BR>
 
-<B>Figure 15</B> shows the band-by-band satellite data, together with representative variability values in the title. Variability is defined as the ratio of the standard deviation (or rms), divided by the mean for each band. This gives an indication of how much change there is across the field site. There should typically be less than 5% variability.<BR><BR>
+<B>Figure 7</B> (Fit Insolation Curve) Plot the averaged panel radiance as a
+function of the cosine of the Solar zenith angle. On these axes, the data
+should follow a straight line, which can then be fit.<BR><BR>
+
+<B>Figure 8</B> (Plot all ground...) shows reflectance spectra for all good
+ground observations as black curves. Coloured curves show the average for all
+spectra in a Line. the right pane just shows a zoomed y-axis, compared to the
+left pane. Any unusually different spectra can be identified here and may be
+flagged in 'bad_grounds' in Cell [1].<BR><BR>
     
-<B>Figure 16</B> (Plot ratio arrays) shows band-by-band images of the ratio between satellite and field arrays. All images have been scaled to ratios between 0.9 and 1.1, such that green colours indicate a close match between field and satellite pixels.<BR><BR>
+<B>Figure 9</B> (Plot band reflectances) shows the reflectance spectra convolved to the satellite bands.<BR><BR>
     
-<B>Figure 17</B> (Plot comparison spectra...) shows a band-by-band comparison of satellite and field data. Three spectra are shown. Black is the average spectrum for <I>all</I> satellite pixels, orange is the average for only those satellite pixels that overlap with at least one field spectrum. The blue spectrum shows the average for all field data. Any difference between the orange and black spectra is indicative of the variation in the ground spectrum, as measured by the satellite at slightly varying positions, so it gives a guide for how reliable the satellite data is.<BR><BR>
+<B>Figure 10</B> Alternate plot of Figs 9 and 10, friendly for inclusion in a
+paper or technical report.<BR><BR>
+
+<B>Figure 11</B> (Histogram of all...) shows band-by-band histograms for all
+reflectances. The histograms typically conform to a Normal distribution, but
+unusually bright or dark spectra may be identified as extreme outliers
+here.<BR><BR>
     
-<B>Figure 18</B> (Comparison plot of...) shows a scatter plot, comparing the satellite and field data where there is at least one field spectrum overlapping with each satellite pixel. Different bands are shown with different symbols and colours.<BR><BR>
+<B>Figure 12</B> (Plot satellite band...) show the median ground reflectance,
+together with the wavelength ranges for the satellite bands, corresponding to
+the field data. This is just to check that the satellite bands fall within
+well-behaved parts of the spectrum.<BR><BR>
     
-<B>Figure 19</B> shows the same as Figure 17, but for each band all the pixel data is averaged, so there is one data point per band. Error-bars are shown, which represent the standard deviation of the satellite and field data.<BR><BR>
+<B>Figure 13</B> (Plot relative locations...) shows a relative
+longitude/latitude positions for both field and satellite data. A grid is also
+shown to represent the extent of the satellite pixels.<BR><BR>
     
-<B>Data Sheet</B> text file is written out to the PNG directory, which has some summary information on the
-field site and corresponding satellite data.<BR><BR>
+<B>Figures 14, 15 and 16</B> show RGB images of the Satellite and field data,
+where the field data have been averaged into pixels that match the satellite
+data. A blank field pixel means that there is no field data corresponding to
+that pixel.<BR><BR>
+
+<B>Figure 17</B> shows the band-by-band satellite data. This gives an
+indication of how much change there is across the field site. There should
+typically be less than 5% variability.<BR><BR>
+    
+<B>Figure 18</B> (Plot ratio arrays) shows band-by-band images of the ratio
+between satellite and field arrays. All images have been scaled to ratios
+between 0.9 and 1.1, such that green colours indicate a close match between
+field and satellite pixels.<BR><BR>
+    
+<B>Figure 19</B> (Plot comparison spectra...) shows a band-by-band comparison
+of satellite and field data. Three spectra are shown. Black is the average
+spectrum for <I>all</I> satellite pixels, orange is the average for only those
+satellite pixels that overlap with at least one field spectrum. The blue
+spectrum shows the average for all field data. Any difference between the
+orange and black spectra is indicative of the variation in the ground spectrum,
+as measured by the satellite at slightly varying positions, so it gives a
+guide for how reliable the satellite data is.<BR><BR>
+    
+<B>Figure 20</B> A similar plot to Figure 19 that is more suitable for papers
+and technical reports.<BR><BR>
+
+<<B>Figure 21</B> (Comparison plot of...) shows a scatter plot, comparing the
+satellite and field data where there is at least one field spectrum overlapping
+with each satellite pixel. Different bands are shown with different symbols and
+colours.<BR><BR>
+    
+<B>Figure 22</B> shows the same as Figure 21, but for each band all the pixel
+data is averaged, so there is one data point per band. Error-bars are shown,
+which represent the standard deviation of the satellite and field data.<BR><BR>
+    
+<B>Data Sheet</B> text file is written out to the PNG directory, which has some
+summary information on the field site and corresponding satellite data.<BR><BR>
     
 ### Troubleshooting
-If the notebook does not complete, there are a few likely causes that can be checked.<BR>
+If the notebook does not complete, there are a few likely causes that can be
+checked.<BR>
     
-It is possible that field data were recorded without GPS location information in the header. In such cases, the header will appear like:
+It is possible that field data were recorded without GPS location information
+in the header. In such cases, the header will appear like:<BR><BR>
 
-```
-GPS-Latitude is S0
-GPS-Longitude is E0
-```
 
-The notebook will automatically identify such cases and try to deal with them, but it needs to know the coordinates for the box over which the field data was measured. These coordinates are fed into the variable "Corners" at the bottom of Cell [3], along with a True/False declaration for "RockWalk". If no coordinates are given and datacube manages to find satellite data, datacube will try and find a map at (0,0) and fail.<BR><BR>
+    GPS-Latitude is S0
+    GPS-Longitude is E0
 
-The 
+
+The notebook will automatically identify such cases and try to deal with them,
+but it needs to know the coordinates for the box over which the field data was
+measured. These coordinates are fed into the variable "Corners" at the bottom
+of Cell [1], along with a True/False declaration for "RockWalk". If no
+coordinates are given and datacube manages to find satellite data, datacube
+will try and find a map at (0,0) and fail.<BR><BR>
+
+The coordinate fix necessarily makes assumptions about how the field data were
+collected. In particular, the direction the data collector was walking.
+"RockWalk", if set to True, will assume that the collector walked in a
+South -> North line, then North -> South, then South -> North etc. If
+"RockWalk" is set to False, then it is assumed the direction of walk is always
+South -> North.<BR>
+Note: Cell [36] will always say whether or not good GPS coordinates were
+found.<BR><BR>
+
+### Cell [4] (Define 'alldata'...) errors:
+
+One of the most common errors is that the code will fail on Cell [4]
+(Define 'alldata'...), which is most likely because the input data files or
+directories are incorrectly formatted. Here are a list of errors and likely
+solutions:<BR><BR>
+
+<B>ValueError: No objects to concatenate</B>: The code cannot find any relevant
+files. Check 'indir' is correct, check the line directories are formatted as
+line1, line2 etc. Also check .asd.rad.txt files in the line directories.<BR><BR>
+
+
+<B>ValueError: not enough values to unpack (expected 6, got 0)</B>: Most likely
+there is one (or more) .asd.rad.txt file with incorrectly formatted header
+information. For example, a file that is not a spectrum at all.<BR><BR>
+
+<B>ValueError: invalid literal for int() with base 10</B>: This is casued by
+an incorrectly formatted spectral file name, which is found on line 39 of the
+header. The code requires this line to be in the format *00.asd.rad or 
+*00.asd, where the two numbers '00' will be read as the spectrum number. This
+error complains that it is finding a string at this position, rather than a
+number.<BR><BR>
+
+### Datacube query errors:
+
+The notebook uses Datacube to extract satellite data for comparison. However,
+it is only expected that exactly one satellite dataset will be found. So
+errors can occur when no relevant dataset is found.<BR><BR>
+
+<B>Cell [31]: KeyError: 'the label [band11] is not in the [index]'</B>: This
+error occurs when you have previously generated a brdf_data array for Sentinel
+data but then process the workflow, assuming Landsat 8 data, with fewer bands.
+In this case, you need to re-calculate your BRDF array in Cell [4] for the
+correct satellite.<BR><BR>
+
+<B>Cell [31]: AttributeError: 'Dataset' object has no attribute 'x'</B>: This
+error is casued by Datacube not finding any relevant satellite data for the
+timerange given. Check the dates given in timerange. Also check that Datacube
+contains the data that you are looking for. It is possible that the data have
+yet to be indexed, if the observations were recent.<BR><BR>
+
+<B>Cell [31]: ValueError: cannot rename '1' because it is not a variable or
+dimension in this dataset</B>: This error also happens because datacube has
+not found any relevant satellite data for the time range.<BR><BR>
