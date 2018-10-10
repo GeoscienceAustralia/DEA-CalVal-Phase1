@@ -8,6 +8,10 @@ for calibration/validation. This includes python code, as well as jupyter notebo
 <B>Site-Pipelines</B> - Jupyter notebook workflows for comparing field and satellite data.<BR>
 <B>Weather</B> - CSV files for nearest rain gauges, with day zero set to 31/12/2017.<BR>
 <B>brdf</B> - files for creating BRDF corrections required by workflows.<BR>
-  <B>README.md</B> - This Readme file.<BR>
+<B>README.md</B> - This Readme file.<P>
+
+<HR>
+  
+<H2>Instructions for processing Site-Pipelines workflow</H2> 
 
 Andrew Walsh.
