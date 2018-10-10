@@ -107,9 +107,10 @@ correction. Do the following steps:
 You will see the script output below something like:<BR><BR>
         
         
-        ###################################################################<BR>
-        # Copy and paste the following into a terminal window on VDI for SATELLITE data  #<BR>
-        ###################################################################<BR><BR>
+        #################################################################################
+        # Copy and paste the following into a terminal window on VDI for SATELLITE data #
+        #################################################################################
+<BR><BR>
         
         
 where 'SATELLITE' is either 'Landsat 8' or 'Sentinel 2'.<BR><BR>
