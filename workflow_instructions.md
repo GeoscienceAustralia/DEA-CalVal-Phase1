@@ -248,7 +248,50 @@ which represent the standard deviation of the satellite and field data.
     
 <B>Data Sheet</B> text file is written out to the PNG directory, which has some
 summary information on the field site and corresponding satellite data. Example
-datasheet: !(Misc/Examples/PIN_20MAY18__Landsat8.txt)<BR><BR>
+datasheet: 
+
+```
+DATA SHEET FOR PIN taken on 20MAY18,  Landsat8 overpass
+------------------------------------------------------------------
+
+Time of field site measurements is from 02:17:06 to 02:42:36 on the 20 May, 2018 (UTC)
+Satellite overpass was at 2018-05-20T02:10:11.500000000 (UTC)
+
+Difference in time between start of field site measurement
+and satellite overpass is -1 days +23:53:05.500000
+
+Good GPS Coordinates were found in the headers
+Approximate bounding box coordinates:
+SE: (115.15636, -30.585108)
+SW: (115.155105, -30.585108)
+NE: (115.15636, -30.583947)
+NW: (115.155105, -30.583947)
+
+Solar Zenith angle is from 58.0 to 55.3 degrees.
+
+Data were read in from /g/data1a/u46/users/aw3463/GuyByrne/30APR18/Pinnacles/20MAY18/
+PNGs were written to /g/data/u46/users/aw3463/GuyByrne/calval/PNGS/TMP/
+
+Panel is assumed to be GA_Panel
+Data is assumed to be recorded in Radiance mode.
+
+Satellite processing and historical data can be found using the following dataset ID and location:
+[Dataset <id=92f3d234-f1d1-48ac-9737-64b84b9ad3e7 type=ls8_nbart_scene location=/g/data/rs0/scenes/nbar-scenes-tmp/ls8/2018/05/output/nbart/LS8_OLITIRS_NBART_P54_GANBART01-032_113_081_20180520/ga-metadata.yaml>]
+
+Summary Statistics over entire field site:
+------------------------------------------
+
+Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat
+         mean     rms    mean     rms  rms/mean rms/mean Ratio  Pixel-by-pixel
+                                         (%)     (%)            rms (%)
+CA	0.18	0.0152	0.19	0.0136	8.46	7.2	0.947	6
+blue	0.217	0.0192	0.239	0.0169	8.86	7.07	0.908	6.13
+green	0.428	0.0297	0.473	0.03	6.92	6.35	0.906	4.9
+red	0.557	0.0383	0.595	0.0369	6.88	6.2	0.938	4.93
+nir	0.653	0.0498	0.672	0.0407	7.62	6.06	0.972	5.2
+swir1	0.733	0.0506	0.769	0.045	6.9	5.85	0.953	4.86
+swir2	0.589	0.0348	0.629	0.04	5.91	6.36	0.935	4.55
+```
     
 # Troubleshooting
 If the notebook does not complete, there are a few likely causes that can be
