@@ -67,12 +67,12 @@ currently located either in this repo under <B>Misc</B> or:<BR><BR>
         including landsat8_vsir.flt, Sent2a.flt and Sent2b.flt.<BR><BR>
 <LI>The 'field_data' list should be edited to contain the relevant information
 on: <BR>
-1. Three-letter field name (eg. LKG for Lake George)
-2. Date of field site measurement (format: DDMMMYY)
-3. Extra field site information (eg. Site1/2 or CSIRO)
-4. Satellite name (must be one of Landsat8, Sentinel2a, Sentinel2b)
-5. The name of the panel K-factor to use
-6. Whether the data were recorded in Radiance or Reflectance mode.
+1. Three-letter field name (eg. LKG for Lake George)<BR>
+2. Date of field site measurement (format: DDMMMYY)<BR>
+3. Extra field site information (eg. Site1/2 or CSIRO)<BR>
+4. Satellite name (must be one of Landsat8, Sentinel2a, Sentinel2b)<BR>
+5. The name of the panel K-factor to use<BR>
+6. Whether the data were recorded in Radiance or Reflectance mode.<BR><BR>
 
 <LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first
 time running the workflow (eg. 'bad_pans = []'). These are used to specify
@@ -108,8 +108,7 @@ You will see the script output below something like:<BR><BR>
         
         
         ###################################################################<BR>
-        # Copy and paste the following into a terminal window on VDI for
-SATELLITE data  #<BR>
+        # Copy and paste the following into a terminal window on VDI for SATELLITE data  #<BR>
         ###################################################################<BR><BR>
         
         
