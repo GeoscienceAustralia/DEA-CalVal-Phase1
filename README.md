@@ -14,7 +14,7 @@ for calibration/validation. This includes python code, as well as jupyter notebo
   
 <H2>Instructions for processing Site-Pipelines workflow</H2> 
 
-These instructions are designed to be a step-by-step walk-through of the workflow to process field data and compare them to satellite data. or a new field dataset, only details in the first cell should be changed, unless there is something seriously atypical with the data collection.
+These instructions are designed to be a step-by-step walk-through of the workflow to process field data and compare them to satellite data, or a new field dataset. It is assumed that this workflow will be run on the NCI's VDI platform, as the Digital Earth Australia (DEA) module is integral to running the workflows.<P>
 
 ### Pre-requisites
 
