@@ -1,43 +1,72 @@
 # README #
 
-This repository contains workflow files for the comparison of field and satellite data
-for calibration/validation. This includes python code, as well as jupyter notebooks. The structure looks like:
+This repository contains workflow files for the comparison of field and
+satellite data for calibration/validation. This includes python code, as well
+as jupyter notebooks. The structure looks like:
 
 <B>CalVal</B> - Python code for the workflows.<BR>
-<B>MultiTimeLine</B> - Jupyter notebook workflows for creating site timelines since 2013.<BR>
-<B>Site-Pipelines</B> - Jupyter notebook workflows for comparing field and satellite data.<BR>
-<B>Weather</B> - CSV files for nearest rain gauges, with day zero set to 31/12/2017.<BR>
+<B>MultiTimeLine</B> - Jupyter notebook workflows for creating site timelines
+since 2013.<BR>
+<B>Site-Pipelines</B> - Jupyter notebook workflows for comparing field and
+satellite data.<BR>
+<B>Weather</B> - CSV files for nearest rain gauges, with day zero set to
+31/12/2017.<BR>
 <B>brdf</B> - files for creating BRDF corrections required by workflows.<BR>
-<B>Misc</B> - Miscellaneous files, including Panel calibration spectra, Satellite band response files etc.<BR>
+<B>Misc</B> - Miscellaneous files, including Panel calibration spectra,
+Satellite band response files etc.<BR>
 <B>README.md</B> - This Readme file.<P>
 
 <HR>
   
 <H2>Instructions for processing Site-Pipelines workflow</H2> 
 
-These instructions are designed to be a step-by-step walk-through of the workflow to process field data and compare them to satellite data, or a new field dataset. It is assumed that this workflow will be run on the NCI's VDI platform, as the Digital Earth Australia (DEA) module is integral to running the workflows.<P>
+These instructions are designed to be a step-by-step walk-through of the
+workflow to process field data and compare them to satellite data, or a new
+field dataset. It is assumed that this workflow will be run on the NCI's VDI
+platform, as the Digital Earth Australia (DEA) module is required to run the
+workflows.<P>
 
 ### Pre-requisites
 
-In order for the workflow to run, there are a number of assumed requirements that should be met. Go through this check-list before running the workflow for the first time:
+In order for the workflow to run, there are a number of other assumed
+requirements that should be met. Go through this check-list before running
+the workflow for the first time:
 <OL>
-    <LI>The Python library for this workflow can be found on VDI and should be downloaded from this repo (CalVal directory) or copied into the working directory directly on VDI:<BR><BR>
+<LI>The Python library for this workflow can be found on VDI and should be
+downloaded from this repo (<B>CalVal</B> directory) or copied into the working
+directory directly on VDI:<BR><BR>
     cp -r /g/data/u46/users/aw3463/GuyByrne/calval/CalVal .<BR><BR>
-    <LI>The DEAPlotting library is also needed for RGB plots and can be obtained from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
+<LI>The DEAPlotting library is also needed for RGB plots and can be obtained
+from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
     cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .<BR><BR>
-    <LI>Start up the DEA module by typing:<BR><BR>
+<LI>Start up the DEA module by typing:<BR><BR>
     > module load dea<BR><BR>
-    <LI>Copy the template in the Site-Pipelines directory to a new file and then start the notebook. eg:<BR><BR>
+<LI>Copy the template in the Site-Pipelines directory to a new file and then
+start the notebook. eg:<BR><BR>
     > cp template.ipynb Pipeline-LG-26-03-18.ipynb<BR>
     > jupyter notebook Pipeline-LG-26-03-18.ipynb<BR><BR>
-    <LI>Input and output directories should be defined in the first cell below, as 'indir' and 'output', respectively. For the input directory, it is assumed that there are multiple sub-directories, with format 'line1, line2, line3' etc. Note that lower case is required and no extra characters in the directory names. So 'Line1' or 'line_1' will not work. The output directory will be created by the workflow and is where PNG files will be stored, as well as the data sheet text file. <BR><B>NOTE:</B> Each time the workflow is run, the output directory will be erased and re-written, so that the directory can be cleaned up. If you want to save older PNGs, you need to manually move them before re-running the notebook.<BR><BR>
-    <LI>Within each 'line' sub-directory, there should be radiance spectrum files in text format, with extension '.asd.rad.txt'.<BR><BR>
-    <LI>There are standard files that are used for determining the panel K-factor, currently located either in this repo under <B>Misc</B> or:<BR><BR>
+<LI>Input and output directories should be defined in the first cell, as
+'indir' and 'output', respectively. For the input directory, it is assumed
+that there are multiple sub-directories, with format 'line1, line2, line3' etc.
+Note that lower case is required and no extra characters are allowed in the
+directory names. So 'Line1' or 'line_1' will not work. The output directory
+will be created by the workflow and is where PNG files will be stored, as well
+as the data sheet text file.<BR>
+<B>NOTE:</B> Each time the workflow is run, the output directory will be erased
+and re-written, so that the directory can be cleaned up. If you want to save
+older PNGs, you need to manually move them before re-running the
+notebook.<BR><BR>
+<LI>Within each 'line' sub-directory, there should be radiance spectrum files
+in text format, with extension '.asd.rad.txt'.<BR><BR>
+<LI>There are standard files that are used for determining the panel K-factor,
+currently located either in this repo under <B>Misc</B> or:<BR><BR>
         /g/data/u46/users/aw3463/GuyByrne/30APR18/Panels/<BR><BR>
-      <LI>Satellite band response files are located either in this repo under <B>Misc</B> or in the directory:<BR><BR>
+<LI>Satellite band response files are located either in this repo under
+<B>Misc</B> or in the directory:<BR><BR>
         /g/data1a/u46/users/aw3463/GuyByrne/misc_others/<BR><BR>
         including landsat8_vsir.flt, Sent2a.flt and Sent2b.flt.<BR><BR>
-    <LI>The 'field_data' list should be edited to contain the relevant information on: <BR>
+<LI>The 'field_data' list should be edited to contain the relevant information
+on: <BR>
 1. Three-letter field name (eg. LKG for Lake George)
 2. Date of field site measurement (format: DDMMMYY)
 3. Extra field site information (eg. Site1/2 or CSIRO)
@@ -45,30 +74,53 @@ In order for the workflow to run, there are a number of assumed requirements tha
 5. The name of the panel K-factor to use
 6. Whether the data were recorded in Radiance or Reflectance mode.
 
-   <LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first time running the workflow (eg. 'bad_pans = []'). These are used to specify any bad panel or ground readings identified later on.<BR><BR>
-    <LI>Variables firstGoodLine, firstGroundSpec and firstGoodPanelSpec need to be specified. These are determined from knowledge of the field data and can be used to eliminate bad data at the start of the field collection. If all goes well, normally the first good line is number 1, the first good panel is number 0 and the first good ground spectrum is number 2. ie. there are two panel spectra at the start of line 1 (spec=0 and 1), followed by the first ground (spec=2).<BR><BR>
-    <LI>The BRDF correction requires a separate directory and a new window on VDI. Do NOT use a window where you have already typed 'module load dea' because it needs slightly different modules. In this example, the directory '/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used. Once you have created your own directory and you have changed into that directory, type the following to copy of the required files:<BR><BR>
+<LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first
+time running the workflow (eg. 'bad_pans = []'). These are used to specify
+any bad panel or ground readings identified later on.<BR><BR>
+<LI>Variables firstGoodLine, firstGroundSpec and firstGoodPanelSpec need to be
+specified. These are determined from knowledge of the field data and can be
+used to eliminate bad data at the start of the field collection. If all goes
+well, normally the first good line is number 1, the first good panel is number
+0 and the first good ground spectrum is number 2. ie. there are two panel
+spectra at the start of line 1 (spec=0 and 1), followed by the first ground
+(spec=2).<BR><BR>
+<LI>The BRDF correction requires a separate directory and a new window on VDI.
+Do NOT use a window where you have already typed 'module load dea' because it
+needs slightly different modules. In this example, the directory
+'/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used (a copy is also in this
+repo under the <B>brdf</B> directory). Once you have created your own directory
+and you have changed into that directory, type the following to copy over the
+required files:<BR><BR>
         > cp /g/data/u46/users/aw3463/GuyByrne/calval/brdf/* .<BR><BR>
 </OL>
 
 ### Calculating BRDF correction
 
-One of the first things you need to do in this notebook is calculate the BRDF correction, but this requires that you read in the field data so that the latitude, longitude and time of the field data can be used to create the correction. Do the following steps:
+One of the first things you need to do in this notebook is calculate the BRDF
+correction, but this requires that you read in the field data so that the
+latitude, longitude and time of the field data can be used to create the
+correction. Do the following steps:
 
 <OL>
-    <LI>Run the first five cells of the workflow.
-    <LI>The fifth cell will print out scripts for determining the BRDF correction. You will see the script output below something like:<BR><BR>
+<LI>Run the first five cells of the workflow.
+<LI>The fifth cell will print out scripts for determining the BRDF correction.
+You will see the script output below something like:<BR><BR>
         
         
         ###################################################################<BR>
-        # Copy and paste the following into a terminal window on VDI for SATELLITE data  #<BR>
+        # Copy and paste the following into a terminal window on VDI for
+SATELLITE data  #<BR>
         ###################################################################<BR><BR>
         
         
-   where 'SATELLITE' is either 'Landsat 8' or 'Sentinel 2'.<BR><BR>
-    <LI>Copy and paste the output text directly into the brdf terminal window.<BR><BR>
-    <LI>The result in the terminal window (takes about 30 seconds) will be a formatted version of the 'brdf_data' numpy array. This can be directly copied and pasted over the top of the existing brdf_data array at the bottom of the first cell in the notebook.<BR><BR>
-        </OL>
+where 'SATELLITE' is either 'Landsat 8' or 'Sentinel 2'.<BR><BR>
+<LI>Copy and paste the output text directly into the brdf terminal
+window.<BR><BR>
+<LI>The result in the terminal window (takes about 30 seconds) will be a
+formatted version of the 'brdf_data' numpy array. This can be directly copied
+and pasted over the top of the existing brdf_data array at the bottom of the
+first cell in the notebook.<BR><BR>
+</OL>
 
 ### Running the notebook
 Once the BRDF correction has been added to the notebook, it should be possible to run the notebook in its entirety. To do this, go to the top of the Jupyter Notebook and click on 'Kernel', then 'Restart & Run All', then click on the red button to confirm and run the workflow. It should take about 2-5 minutes to complete.
