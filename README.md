@@ -234,7 +234,7 @@ guide for how reliable the satellite data is.<BR><BR>
 <B>Figure 20</B> A similar plot to Figure 19 that is more suitable for papers
 and technical reports.<BR><BR>
 
-<<B>Figure 21</B> (Comparison plot of...) shows a scatter plot, comparing the
+<B>Figure 21</B> (Comparison plot of...) shows a scatter plot, comparing the
 satellite and field data where there is at least one field spectrum overlapping
 with each satellite pixel. Different bands are shown with different symbols and
 colours.<BR><BR>
