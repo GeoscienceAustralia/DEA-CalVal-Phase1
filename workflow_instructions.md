@@ -1,4 +1,5 @@
-<CENTER><H1>Instructions for processing Site-Pipelines workflow</H1></CENTER>
+<H1>Instructions for processing Site-Pipelines workflow</H1>
+<HR>
 
 These instructions are designed to be a step-by-step walk-through of the
 workflow to process field data and compare them to satellite data, or a new
