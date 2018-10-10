@@ -247,7 +247,8 @@ which represent the standard deviation of the satellite and field data.
 ![Figure 22](Misc/Example/PIN_20MAY18__Landsat8_Fig22_AvgComparison.png?raw=true "Figure 22")<BR><BR>
     
 <B>Data Sheet</B> text file is written out to the PNG directory, which has some
-summary information on the field site and corresponding satellite data.<BR><BR>
+summary information on the field site and corresponding satellite data. Example
+datasheet: !(Misc/Examples/PIN_20MAY18__Landsat8.txt)<BR><BR>
     
 # Troubleshooting
 If the notebook does not complete, there are a few likely causes that can be
