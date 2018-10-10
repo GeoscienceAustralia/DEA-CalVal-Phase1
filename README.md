@@ -20,17 +20,15 @@ These instructions are designed to be a step-by-step walk-through of the workflo
 
 In order for the workflow to run, there are a number of assumed requirements that should be met. Go through this check-list before running the workflow for the first time:
 <OL>
-    <LI>The Python library for this workflow can be found on VDI and should be copied into the working directory:<BR><BR>
-    ```cp -r /g/data/u46/users/aw3463/GuyByrne/calval/CalVal .```<BR><BR>
-    <LI>The DEAPlotting library is also needed for RGB plots and should be copied to the working directory:<BR><BR>
-    ```cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .```<BR><BR>
-    <LI>Transfer the Template Jupyter Notebook: 
-        ```cp /g/data/u46/users/aw3463/GuyByrne/calval/template.ipynb .```<BR><BR>
+    <LI>The Python library for this workflow can be found on VDI and should be downloaded from this repo (CalVal directory) or copied into the working directory directly on VDI:<BR><BR>
+    cp -r /g/data/u46/users/aw3463/GuyByrne/calval/CalVal .<BR><BR>
+    <LI>The DEAPlotting library is also needed for RGB plots and can be obtained from https://github.com/GeoscienceAustralia/dea-notebook under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
+    cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .<BR><BR>
     <LI>Start up the DEA module by typing:<BR><BR>
-    ```> module load dea```<BR><BR>
-    <LI>Copy the template to a new file and then start the notebook. eg:<BR><BR>
-    ```> cp template.ipynb Pipeline-LG-26-03-18.ipynb```<BR>
-    ```> jupyter notebook Pipeline-LG-26-03-18.ipynb```<BR><BR>
+    > module load dea<BR><BR>
+    <LI>Copy the template in the Site-Pipelines directory to a new file and then start the notebook. eg:<BR><BR>
+    > cp template.ipynb Pipeline-LG-26-03-18.ipynb<BR>
+    > jupyter notebook Pipeline-LG-26-03-18.ipynb<BR><BR>
     <LI>Input and output directories should be defined in the first cell below, as 'indir' and 'output', respectively. For the input directory, it is assumed that there are multiple sub-directories, with format 'line1, line2, line3' etc. Note that lower case is required and no extra characters in the directory names. So 'Line1' or 'line_1' will not work. The output directory will be created by the workflow and is where PNG files will be stored, as well as the data sheet text file. <BR><B>NOTE:</B> Each time the workflow is run, the output directory will be erased and re-written, so that the directory can be cleaned up. If you want to save older PNGs, you need to manually move them before re-running the notebook.<BR><BR>
     <LI>Within each 'line' sub-directory, there should be radiance spectrum files in text format, with extension '.asd.rad.txt'.<BR><BR>
     <LI>There are standard files that are used for determining the panel K-factor, currently located:<BR><BR>
