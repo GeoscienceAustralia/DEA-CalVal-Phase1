@@ -129,7 +129,7 @@ them to the 'bad_pans' list in Cell [1]. Once you have flagged the bad panel
 spectra, you should be able to re-run the notebook and this Figure will now
 show you the good and bad panels separated into the left and middle panes,
 respectively, with all panels together shown in the right pane.
-![alt text](Misc/Example/PIN_20MAY18__Landsat8_Fig1_PanelRadiances.png?raw=true "Figure 1")<BR><BR>
+![Figure 1](Misc/Example/PIN_20MAY18__Landsat8_Fig1_PanelRadiances.png?raw=true "Figure 1")<BR><BR>
     
 <B>Figure 2</B> (Diagnosis plots...) Will show various plots of any identified
 bad panel spectra. This is only used if you are curious about why some panel
@@ -140,7 +140,8 @@ be the same, showing an overlay of all the ground radiances (without panels).
 This plot can be used to identify any outlying ground radiances, which can be
 subsequently identified using 'bad_grounds' in Cell [1]. Once such bad
 radiances have been flagged, then the two panes will show a with/without
-comparison.<BR><BR>
+comparison.
+![Figure 3](Misc/Example/PIN_20MAY18__Landsat8_Fig3_GroundRadiances.png?raw=true "Figure 3")<BR><BR>
     
 <B>Figures 4 and 5</B> (Plot timelines...) will initially be the same. They
 show a line-by-line plot of the timelines of spectra taken, with the horizontal
@@ -149,7 +150,9 @@ shown as blue crosses and ground radiances are shown as orange vertical lines.
 If there are any errant panel or ground radiances, based on the time they were
 taken, they can be identified here. Also, these plots can be used to assess
 when the panel readings for each line occur. If there are any bad panels or
-ground radiances, then they will be removed from the second figure.<BR><BR>
+ground radiances, then they will be removed from the second figure.
+![Figure 4](Misc/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png?raw=true "Figure 4")<BR>
+![Figure 5](Misc/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png?raw=true "Figure 5")<BR><BR>
     
 <B>Figure 6</B> (Create timeline...) Shows two panes with averaged radiances
 for panel spectra, as a function of time (in seconds, since the first
