@@ -133,7 +133,7 @@ respectively, with all panels together shown in the right pane.
     
 <B>Figure 2</B> (Diagnosis plots...) Will show various plots of any identified
 bad panel spectra. This is only used if you are curious about why some panel
-spectra may be misbehaving.<BR><BR>
+spectra may be misbehaving.<HR>
     
 <B>Figure 3</B> (Plot ground spectra...) shows two panes, which initially will
 be the same, showing an overlay of all the ground radiances (without panels).
@@ -168,7 +168,7 @@ notebook is re-run, any bad panels will be removed from the second pane.
 <B>Figure 7</B> (Fit Insolation Curve) Plot the averaged panel radiance as a
 function of the cosine of the Solar zenith angle. On these axes, the data
 should follow a straight line, which can then be fit.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig7Insolation.png"><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig7Insolation.png" width=50%><HR>
 
 <B>Figure 8</B> (Plot all ground...) shows reflectance spectra for all good
 ground observations as black curves. Coloured curves show the average for all
