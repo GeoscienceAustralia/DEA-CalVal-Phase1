@@ -208,18 +208,21 @@ data. A blank field pixel means that there is no field data corresponding to
 that pixel.
 ![Figure 14](Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png?raw=true "Figure 14")<BR>
 ![Figure 15](Misc/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png?raw=true "Figure 15")<BR>
-![Figure 16](Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png?raw=true "Figure 16")<BR><BR>
+![Figure 16](Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png?raw=true "Figure 16")<HR>
 
 <B>Figure 17</B> shows the band-by-band satellite data. This gives an
 indication of how much change there is across the field site. There should
 typically be less than 5% variability.
-![Figure 17](Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png?raw=true "Figure 17")<BR><BR>
+
+![Figure 17](Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png?raw=true "Figure 17")<HR>
     
 <B>Figure 18</B> (Plot ratio arrays) shows band-by-band images of the ratio
 between satellite and field arrays. All images have been scaled to ratios
 between 0.9 and 1.1, such that green colours indicate a close match between
 field and satellite pixels.
+
 ![Figure 18](Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png?raw=true "Figure 18")
+
 <HR>
     
 <B>Figure 19</B> (Plot comparison spectra...) shows a band-by-band comparison
