@@ -219,7 +219,8 @@ typically be less than 5% variability.
 between satellite and field arrays. All images have been scaled to ratios
 between 0.9 and 1.1, such that green colours indicate a close match between
 field and satellite pixels.
-![Figure 18](Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png?raw=true "Figure 18")<BR><BR>
+![Figure 18](Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png?raw=true "Figure 18")
+<HR>
     
 <B>Figure 19</B> (Plot comparison spectra...) shows a band-by-band comparison
 of satellite and field data. Three spectra are shown. Black is the average
@@ -231,7 +232,7 @@ as measured by the satellite at slightly varying positions, so it gives a
 guide for how reliable the satellite data is.
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig19_InnerFieldBandCompare.png"
 width=50% align=right>
-<BR><BR>
+<HR>
     
 <B>Figure 20</B> A similar plot to Figure 19 that is more suitable for papers
 and technical reports.
