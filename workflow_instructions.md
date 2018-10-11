@@ -183,7 +183,7 @@ convolved to the satellite bands.
     
 <B>Figure 10</B> Alternate plot of Figs 9 and 10, friendly for inclusion in a
 paper or technical report.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig10_Reflectances_Band.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig10_Reflectances_Band.png"><HR>
 
 <B>Figure 11</B> (Histogram of all...) shows band-by-band histograms for all
 reflectances. The histograms typically conform to a Normal distribution, but
