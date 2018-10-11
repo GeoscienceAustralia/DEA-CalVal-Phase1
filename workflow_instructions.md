@@ -201,7 +201,7 @@ well-behaved parts of the spectrum.
 <B>Figure 13</B> (Plot relative locations...) shows a relative
 longitude/latitude positions for both field and satellite data. A grid is also
 shown to represent the extent of the satellite pixels.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig13_SatFieldLocations.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig13_SatFieldLocations.png"><HR>
     
 <B>Figures 14, 15 and 16</B> show RGB images of the Satellite and field data,
 where the field data have been averaged into pixels that match the satellite
