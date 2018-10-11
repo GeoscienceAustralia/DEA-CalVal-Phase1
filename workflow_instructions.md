@@ -129,7 +129,7 @@ them to the 'bad_pans' list in Cell [1]. Once you have flagged the bad panel
 spectra, you should be able to re-run the notebook and this Figure will now
 show you the good and bad panels separated into the left and middle panes,
 respectively, with all panels together shown in the right pane.
-![Figure 1](Misc/Example/PIN_20MAY18__Landsat8_Fig1_PanelRadiances.png?raw=true "Figure 1")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig1_PanelRadiances.png"><HR>
     
 <B>Figure 2</B> (Diagnosis plots...) Will show various plots of any identified
 bad panel spectra. This is only used if you are curious about why some panel
@@ -141,7 +141,7 @@ This plot can be used to identify any outlying ground radiances, which can be
 subsequently identified using 'bad_grounds' in Cell [1]. Once such bad
 radiances have been flagged, then the two panes will show a with/without
 comparison.
-![Figure 3](Misc/Example/PIN_20MAY18__Landsat8_Fig3_GroundRadiances.png?raw=true "Figure 3")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig3_GroundRadiances.png"><HR>
     
 <B>Figures 4 and 5</B> (Plot timelines...) will initially be the same. They
 show a line-by-line plot of the timelines of spectra taken, with the horizontal
@@ -151,8 +151,8 @@ If there are any errant panel or ground radiances, based on the time they were
 taken, they can be identified here. Also, these plots can be used to assess
 when the panel readings for each line occur. If there are any bad panels or
 ground radiances, then they will be removed from the second figure.
-![Figure 4](Misc/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png?raw=true "Figure 4")<BR>
-![Figure 5](Misc/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png?raw=true "Figure 5")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png" width=50%>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png" width=50%><HR>
     
 <B>Figure 6</B> (Create timeline...) Shows two panes with averaged radiances
 for panel spectra, as a function of time (in seconds, since the first
@@ -162,45 +162,45 @@ field data taken in the morning will show a slowly rising curve, as the Sun
 rises. Deviations from this slowly changing curve may identify bad panel
 readings that should be flagged out in 'bad_pans' in Cell [1]. Once the
 notebook is re-run, any bad panels will be removed from the second pane.
-![Figure 6](Misc/Example/PIN_20MAY18__Landsat8_Fig6_TimevsAvgPanels.png?raw=true "Figure 6")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig6_TimevsAvgPanels.png"><HR>
     
 
 <B>Figure 7</B> (Fit Insolation Curve) Plot the averaged panel radiance as a
 function of the cosine of the Solar zenith angle. On these axes, the data
 should follow a straight line, which can then be fit.
-![Figure 7](Misc/Example/PIN_20MAY18__Landsat8_Fig7Insolation.png?raw=true "Figure 7")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig7Insolation.png"><HR>
 
 <B>Figure 8</B> (Plot all ground...) shows reflectance spectra for all good
 ground observations as black curves. Coloured curves show the average for all
 spectra in a Line. the right pane just shows a zoomed y-axis, compared to the
 left pane. Any unusually different spectra can be identified here and may be
 flagged in 'bad_grounds' in Cell [1].
-![Figure 8](Misc/Example/PIN_20MAY18__Landsat8_Fig8_Reflectances.png?raw=true "Figure 8")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig8_Reflectances.png"><HR>
     
 <B>Figure 9</B> (Plot band reflectances) shows the reflectance spectra
 convolved to the satellite bands.
-![Figure 9](Misc/Example/PIN_20MAY18__Landsat8_Fig9_BandReflectances.png?raw=true "Figure 9")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig9_BandReflectances.png"><HR>
     
 <B>Figure 10</B> Alternate plot of Figs 9 and 10, friendly for inclusion in a
 paper or technical report.
-![Figure 10](Misc/Example/PIN_20MAY18__Landsat8_Fig10_Reflectances_Band.png?raw=true "Figure 10")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig10_Reflectances_Band.png" width=50%><HR>
 
 <B>Figure 11</B> (Histogram of all...) shows band-by-band histograms for all
 reflectances. The histograms typically conform to a Normal distribution, but
 unusually bright or dark spectra may be identified as extreme outliers
 here.
-![Figure 11](Misc/Example/PIN_20MAY18__Landsat8_Fig11_BandHistograms.png?raw=true "Figure 11")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig11_BandHistograms.png" width=50%><HR>
     
 <B>Figure 12</B> (Plot satellite band...) show the median ground reflectance,
 together with the wavelength ranges for the satellite bands, corresponding to
 the field data. This is just to check that the satellite bands fall within
 well-behaved parts of the spectrum.
-![Figure 12](Misc/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png?raw=true "Figure 12")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png" width=50%><HR>
     
 <B>Figure 13</B> (Plot relative locations...) shows a relative
 longitude/latitude positions for both field and satellite data. A grid is also
 shown to represent the extent of the satellite pixels.
-![Figure 13](Misc/Example/PIN_20MAY18__Landsat8_Fig13_SatFieldLocations.png?raw=true "Figure 13")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig13_SatFieldLocations.png" width=50%><HR>
     
 <B>Figures 14, 15 and 16</B> show RGB images of the Satellite and field data,
 where the field data have been averaged into pixels that match the satellite
