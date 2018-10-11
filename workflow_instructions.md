@@ -189,12 +189,13 @@ paper or technical report.
 reflectances. The histograms typically conform to a Normal distribution, but
 unusually bright or dark spectra may be identified as extreme outliers
 here.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig11_BandHistograms.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig11_BandHistograms.png"><HR>
     
 <B>Figure 12</B> (Plot satellite band...) show the median ground reflectance,
 together with the wavelength ranges for the satellite bands, corresponding to
 the field data. This is just to check that the satellite bands fall within
 well-behaved parts of the spectrum.
+
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png" width=50%><HR>
     
 <B>Figure 13</B> (Plot relative locations...) shows a relative
