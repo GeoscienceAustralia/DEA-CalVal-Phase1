@@ -206,9 +206,9 @@ shown to represent the extent of the satellite pixels.
 where the field data have been averaged into pixels that match the satellite
 data. A blank field pixel means that there is no field data corresponding to
 that pixel.
-![Figure 14](Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png?raw=true "Figure 14")<BR>
-![Figure 15](Misc/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png?raw=true "Figure 15")<BR>
-![Figure 16](Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png?raw=true "Figure 16")<HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png" width=50%>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png" width=50%>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png" width=50%><HR>
 
 <B>Figure 17</B> shows the band-by-band satellite data. This gives an
 indication of how much change there is across the field site. There should
