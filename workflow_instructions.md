@@ -229,6 +229,7 @@ spectrum shows the average for all field data. Any difference between the
 orange and black spectra is indicative of the variation in the ground spectrum,
 as measured by the satellite at slightly varying positions, so it gives a
 guide for how reliable the satellite data is.
+
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig19_InnerFieldBandCompare.png"
 width=50%>
 <BR><BR>
