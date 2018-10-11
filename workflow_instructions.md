@@ -206,6 +206,7 @@ shown to represent the extent of the satellite pixels.
 where the field data have been averaged into pixels that match the satellite
 data. A blank field pixel means that there is no field data corresponding to
 that pixel.
+
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png" width=50%>
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png" width=50%>
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png" width=50%><HR>
@@ -214,15 +215,14 @@ that pixel.
 indication of how much change there is across the field site. There should
 typically be less than 5% variability.
 
-![Figure 17](Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png?raw=true "Figure 17")<HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png" width=50%><HR>
     
 <B>Figure 18</B> (Plot ratio arrays) shows band-by-band images of the ratio
 between satellite and field arrays. All images have been scaled to ratios
 between 0.9 and 1.1, such that green colours indicate a close match between
 field and satellite pixels.
 
-![Figure 18](Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png?raw=true "Figure 18")
-
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png" width=50%>
 <HR>
     
 <B>Figure 19</B> (Plot comparison spectra...) shows a band-by-band comparison
@@ -236,23 +236,22 @@ guide for how reliable the satellite data is.
 
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig19_InnerFieldBandCompare.png"
 width=50%>
-
 <HR>
     
 <B>Figure 20</B> A similar plot to Figure 19 that is more suitable for papers
 and technical reports.
-![Figure 20](Misc/Example/PIN_20MAY18__Landsat8_Fig20_InnerFieldBandCompare.png?raw=true "Figure 20")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig20_InnerFieldBandCompare.png" width=50%><HR>
 
 <B>Figure 21</B> (Comparison plot of...) shows a scatter plot, comparing the
 satellite and field data where there is at least one field spectrum overlapping
 with each satellite pixel. Different bands are shown with different symbols and
 colours.
-![Figure 21](Misc/Example/PIN_20MAY18__Landsat8_Fig21_PixelByPixelComparison.png?raw=true "Figure 21")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig21_PixelByPixelComparison.png" width=50%><HR>
     
 <B>Figure 22</B> shows the same as Figure 21, but for each band all the pixel
 data is averaged, so there is one data point per band. Error-bars are shown,
 which represent the standard deviation of the satellite and field data.
-![Figure 22](Misc/Example/PIN_20MAY18__Landsat8_Fig22_AvgComparison.png?raw=true "Figure 22")<BR><BR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig22_AvgComparison.png" width=50%><HR>
     
 <B>Data Sheet</B> text file is written out to the PNG directory, which has some
 summary information on the field site and corresponding satellite data. Example
@@ -300,6 +299,7 @@ nir	0.653	0.0498	0.672	0.0407	7.62	6.06	0.972	5.2
 swir1	0.733	0.0506	0.769	0.045	6.9	5.85	0.953	4.86
 swir2	0.589	0.0348	0.629	0.04	5.91	6.36	0.935	4.55
 ```
+<HR>
     
 # Troubleshooting
 If the notebook does not complete, there are a few likely causes that can be
