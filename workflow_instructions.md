@@ -216,14 +216,14 @@ that pixel.
 indication of how much change there is across the field site. There should
 typically be less than 5% variability.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png"><HR>
     
 <B>Figure 18</B> (Plot ratio arrays) shows band-by-band images of the ratio
 between satellite and field arrays. All images have been scaled to ratios
 between 0.9 and 1.1, such that green colours indicate a close match between
 field and satellite pixels.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png" width=50%>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png">
 <HR>
     
 <B>Figure 19</B> (Plot comparison spectra...) shows a band-by-band comparison
