@@ -2,7 +2,7 @@
 
 These instructions are designed to be a step-by-step walk-through of the
 workflow to process field data and compare them to satellite data, or a new
-field dataset. It is assumed that this workflow will be run on the NCI's VDI
+field dataset. It is assumed that this workflow will be run on the NCI VDI
 platform, as the Digital Earth Australia (DEA) module is required to run the
 workflows.<P>
 
@@ -151,8 +151,10 @@ If there are any errant panel or ground radiances, based on the time they were
 taken, they can be identified here. Also, these plots can be used to assess
 when the panel readings for each line occur. If there are any bad panels or
 ground radiances, then they will be removed from the second figure.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png" width=50%>
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png"
+width=50%>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png"
+width=50%><HR>
     
 <B>Figure 6</B> (Create timeline...) Shows two panes with averaged radiances
 for panel spectra, as a function of time (in seconds, since the first
@@ -196,7 +198,8 @@ together with the wavelength ranges for the satellite bands, corresponding to
 the field data. This is just to check that the satellite bands fall within
 well-behaved parts of the spectrum.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png"
+width=50%><HR>
     
 <B>Figure 13</B> (Plot relative locations...) shows a relative
 longitude/latitude positions for both field and satellite data. A grid is also
@@ -208,7 +211,8 @@ where the field data have been averaged into pixels that match the satellite
 data. A blank field pixel means that there is no field data corresponding to
 that pixel.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png" width=50%>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png"
+width=50%>
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png" width=50%>
 <img src="Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png" width=50%><HR>
 
@@ -241,13 +245,15 @@ width=50%>
     
 <B>Figure 20</B> A similar plot to Figure 19 that is more suitable for papers
 and technical reports.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig20_InnerFieldBandCompare.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig20_InnerFieldBandCompare.png"
+width=50%><HR>
 
 <B>Figure 21</B> (Comparison plot of...) shows a scatter plot, comparing the
 satellite and field data where there is at least one field spectrum overlapping
 with each satellite pixel. Different bands are shown with different symbols and
 colours.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig21_PixelByPixelComparison.png" width=50%><HR>
+<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig21_PixelByPixelComparison.png"
+width=50%><HR>
     
 <B>Figure 22</B> shows the same as Figure 21, but for each band all the pixel
 data is averaged, so there is one data point per band. Error-bars are shown,
