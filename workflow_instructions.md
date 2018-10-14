@@ -23,7 +23,7 @@ from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or 
     > module load dea<BR><BR>
 <LI>Copy the template in the Site-Pipelines directory to a new file and then
 start the notebook. eg:<BR><BR>
-    > cp template.ipynb Pipeline-PIN-20-05-18.ipynb<BR>
+    > cp Site-Pipelines/template.ipynb Pipeline-PIN-20-05-18.ipynb<BR>
     > jupyter notebook Pipeline-PIN-20-05-18.ipynb<BR><BR>
 <LI>Input and output directories should be defined in the first cell, as
 'indir' and 'output', respectively. For the input directory, it is assumed
