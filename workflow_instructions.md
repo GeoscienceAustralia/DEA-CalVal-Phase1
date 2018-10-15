@@ -12,10 +12,10 @@ In order for the workflow to run, there are a number of other assumed
 requirements that should be met. Go through this check-list before running
 the workflow for the first time:
 <OL>
-<LI>The Python library for this workflow can be found on VDI and should be
-downloaded from this repo (<B>CalVal</B> directory) or copied into the working
-directory directly on VDI:<BR><BR>
-    cp -r /g/data/u46/users/aw3463/GuyByrne/calval/CalVal .<BR><BR>
+<LI>The Python library for this workflow, as well as notebooks and support
+scripts can be found on VDI and should be downloaded from (this repo) or
+copied into the working directory directly on VDI:<BR><BR>
+    cp -r /g/data/u46/users/aw3463/GuyByrne/calval .<BR><BR>
 <LI>The DEAPlotting library is also needed for RGB plots and can be obtained
 from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
     cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .<BR><BR>
