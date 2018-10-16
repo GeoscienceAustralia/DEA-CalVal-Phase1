@@ -13,7 +13,7 @@ requirements that should be met. Go through this check-list before running
 the workflow for the first time:
 <OL>
 <LI>The Python library for this workflow, as well as notebooks and support
-scripts can be found on VDI and should be downloaded from (this repo) or
+scripts can be found on VDI and should be downloaded from this repo or
 copied into the working directory directly on VDI:<BR><BR>
     cp -r /g/data/u46/users/aw3463/GuyByrne/calval .<BR><BR>
 <LI>The DEAPlotting library is also needed for RGB plots and can be obtained
