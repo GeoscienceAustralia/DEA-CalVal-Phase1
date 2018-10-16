@@ -14,4 +14,4 @@ be filled in here:
     <LI>Number 1</LI>
     <LI>Number 2</LI>
 
-* Easy, but laborious.
+\* Easy, but laborious.
