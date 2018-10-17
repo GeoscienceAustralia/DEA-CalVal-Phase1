@@ -57,4 +57,4 @@ download the closest rain gauge data over the time period 2013-present:
 </OL>
 Once you have the CSV of the rainfall data, it needs to be converted to a
 simple format.
-<BR><BR><BR>\* Easy, but laborious.
+<BR><BR><BR>* Easy, but laborious.
