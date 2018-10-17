@@ -117,7 +117,7 @@ it is wise to fall back on the full dataset, including satellite overpasses
 just after rain events. This necessarily increases the variability of a field
 site.<P>
 
-<IMG SRC='Misc/BLA_22APR18_LS8_Fig18_MultiTimeLine.png'>Figure 18 shows an
+<IMG SRC='Misc/Example/BLA_22APR18_LS8_Fig18_MultiTimeLine.png'>Figure 18 shows an
 example output for Blanchetown, using all data. The left-hand axis is rainfall
 in millimetres and the right-hand axis is Surface Reflectance (SR). The faint,
 grey histogram shows the amount of rainfall on a daily basis. The black dots
@@ -151,7 +151,7 @@ The above data are based on using ALL satellite data. However, below, we
 consider only dry data. ie. the satellite overpass occurred more than 10 days
 since the previous rainfall event.
 
-<IMG SRC='../Misc/Example/BLA_22APR18_LS8_Fig19_MultiTimeLine.png'>Figure 19
+<IMG SRC='Misc/Example/BLA_22APR18_LS8_Fig19_MultiTimeLine.png'>Figure 19
 shows the same data as previously, but with all wet data flagged out. For the
 case of Blanchetown, most of the data is flagged out, since Blanchetown
 regularly experiences rain. Corresponding statistics are shown below:<BR>
