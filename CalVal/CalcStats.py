@@ -1,10 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def make_adjacent_time_stats(fls8_df, fs2a_df, fs2b_df, rain_dat):
-
-    krain = pd.read_csv(rain_dat)
-    krain.set_index('day', inplace=True)
+def make_adjacent_time_stats(fls8_df, fs2a_df, fs2b_df):
 
     ls8_means = [col for col in fls8_df.columns if 'ls8_mean' in col]
     ls8_times = [(pd.Timestamp(x[8:])-pd.Timestamp(2018,1,1)).days for x in ls8_means]
@@ -58,8 +55,8 @@ def make_adjacent_time_stats(fls8_df, fs2a_df, fs2b_df, rain_dat):
     return df_s2a, df_s2b, df_ls8, ls8_times, s2a_times, s2b_times
 
 
-def calc_stats(fls8_df, fs2a_df, fs2b_df, rain_dat):
-    df_s2a, df_s2b, df_ls8, ls8_times, s2a_times, s2b_times  = make_adjacent_time_stats(fls8_df, fs2a_df, fs2b_df, rain_dat)
+def calc_stats(fls8_df, fs2a_df, fs2b_df):
+    df_s2a, df_s2b, df_ls8, ls8_times, s2a_times, s2b_times  = make_adjacent_time_stats(fls8_df, fs2a_df, fs2b_df)
     
     sband = {0: 1, 1: 2, 2:3, 3:4, 4:5, 5:6, 6:7, 7:8, 8:'8a', 9:11, 10:12}
     lband = {0: 1, 1: 2, 2:3, 3:4, 4:5, 5:6, 6:7}

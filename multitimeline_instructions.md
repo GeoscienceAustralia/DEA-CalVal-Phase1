@@ -62,4 +62,34 @@ MultiTimeLine directory, and you are in that directory:
     > mv IDCJAC0009_024564_1800_Data.csv ../CSV/
 
 Note, you may need to first create the CSV directory ("mkdir ../CSV").
+
+Now the workflow should be ready to run through the first time. So at the top
+of the Jupyter notebook page, click on "Kernel" and then click on
+"Restart & Run All", then "Restart and Run All Cells".<P>
+
+### After the first run.
+
+Once the notebook has run all the way through, you will now be able to see
+satellite maps for each individual overpass and assess them for cloud
+contamination. There are automatic cloud mistigation strategies available for
+both Landsat and Sentinel products, but at the time of writing they are not
+fool-proof and it is much more reliable to manually edit out contamination by
+clouds/shadow/fog etc.<P>
+
+To edit out contaminated data, look through the satellite images shown in Cells
+[34], [35] and [36] (for Landsat 8, Sentinel 2a and 2b, respectively) and note
+down the dates of contaminated images. Then transfer these dates to the three
+lists in Cell [1] (ls8_bad_days, s2a_bad_days and s2b_bad_days). The format of
+these lists should look something like:
+
+ls8_bad_days = ['2013-04-13', '2013-04-29', '2013-05-06']
+
+When you have updated all three lists, you can then re-run the entire notebook
+and hopefully you will find only be using clear data. Note that all the data
+(including contaminated days) will still be shown in Cells [34-36]. However,
+Cell [39] will show the summary spectra for only good satellite data. If you
+see suspiciously different spectra here, it might mean you have not flagged out
+all the bad data. Also Cell [40] (MultiTimeLine plots) will help any
+contaminated data to stand out.
+
 <BR><BR><BR>* Easy, but laborious.

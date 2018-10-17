@@ -20,8 +20,9 @@ from . import FIG_FieldRGB
 from . import FIG_GoodTimelines
 from . import FIG_GroundSpectra
 from . import FIG_InsolationFit
-from . import FIG_ManyBigRGB
-from . import FIG_ManyRGB
+from . import FIG_ManyLS8RGB
+from . import FIG_ManyS2ARGB
+from . import FIG_ManyS2BRGB
 from . import FIG_ManySatFieldBands
 from . import FIG_MultiTimeLine
 from . import FIG_NormalisedPanelsTimeline
