@@ -53,7 +53,7 @@ download the closest rain gauge data over the time period 2013-present:
     <LI>You can download all the rainfall data (all years) for the station by
         clicking on the link "All years of data", found in the top-right corner
         of the page. This will initiate downloading of a zip file, which, when
-        expanded, contains a CSV file with all the relevant rainfall data.<LI>
+        expanded, contains a CSV file with all the relevant rainfall data.</LI>
 </OL>
 Once you have the CSV of the rainfall data, it needs to be converted to a
 simple format.
