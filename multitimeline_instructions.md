@@ -85,11 +85,34 @@ these lists should look something like:
 ls8_bad_days = ['2013-04-13', '2013-04-29', '2013-05-06']
 
 When you have updated all three lists, you can then re-run the entire notebook
-and hopefully you will find only be using clear data. Note that all the data
+and hopefully you will only be using good data. Note that all the data
 (including contaminated days) will still be shown in Cells [34-36]. However,
 Cell [39] will show the summary spectra for only good satellite data. If you
 see suspiciously different spectra here, it might mean you have not flagged out
 all the bad data. Also Cell [40] (MultiTimeLine plots) will help any
 contaminated data to stand out.
+
+### Understanding the outputs of the workflow
+
+The original aim of the workflow was to assess how much a field site might
+change between successive satellite overpasses. It quickly became evident that
+there could be large, quick changes shortly following rainfall. But that most
+field sites tend to return to their original state in a matter of days. With
+this in mind, the characterisation of the field sites is done in two ways:
+<OL>
+    <LI>Look at the change in surface reflectance between successive overpasses
+        for all available data.</LI>
+    <LI>Look at the change in surface reflectance between successive overpasses
+        for only data where the ground could be considered as unaffected by any
+        recent rain.</LI>
+</OL>
+In order to address the second point, the workflow uses the rainfall data to
+flag out any satellite data that occurs no more than 10 days after a rainfall
+event at the field site. This is a rather conservative time-scale, but ensures
+that any remaining data should not be affected by any remaining moisture.
+Unfortunately, this results in some field sites without very much dry data at
+all, because the field site commonly experiences rain. In such cases, it is
+wise to fall back on the full dataset, including satellite overpasses just after
+rain events. This increases the variability of a field site.
 
 <BR><BR><BR>* Easy, but laborious.
