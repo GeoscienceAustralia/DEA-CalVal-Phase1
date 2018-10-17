@@ -55,6 +55,11 @@ download the closest rain gauge data over the time period 2013-present:
         of the page. This will initiate downloading of a zip file, which, when
         expanded, contains a CSV file with all the relevant rainfall data.</LI>
 </OL>
-Once you have the CSV of the rainfall data, it needs to be converted to a
-simple format.
+Once you have the CSV of the rainfall data, you should move it to a CSV
+directory in the top level. For example, if you have the CSV file in the
+MultiTimeLine directory, and you are in that directory:
+
+    > mv IDCJAC0009_024564_1800_Data.csv ../CSV/
+
+Note, you may need to first create the CSV directory ("mkdir ../CSV").
 <BR><BR><BR>* Easy, but laborious.
