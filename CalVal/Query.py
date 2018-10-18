@@ -28,7 +28,7 @@ def make_query(ground_brdf, field_data):
         maxtime = ground_brdf['date_saved'].max()
 
     query = {
-             'time': (mintime-pd.DateOffset(4), maxtime+pd.DateOffset(4)),
+             'time': (mintime-pd.DateOffset(15), maxtime+pd.DateOffset(15)),
              'lat': (ground_brdf['Latitude'].min() - met_latdeg, ground_brdf['Latitude'].max() + met_latdeg),
              'lon': (ground_brdf['Longitude'].min() - met_londeg, ground_brdf['Longitude'].max() + met_londeg),
              'output_crs': 'EPSG:3577',
@@ -36,7 +36,7 @@ def make_query(ground_brdf, field_data):
             }
     
     query2 = {
-              'time': (mintime-pd.DateOffset(4), maxtime+pd.DateOffset(4)),
+              'time': (mintime-pd.DateOffset(15), maxtime+pd.DateOffset(15)),
              'lat': (ground_brdf['Latitude'].min() - 0.01, ground_brdf['Latitude'].max() + 0.01),
              'lon': (ground_brdf['Longitude'].min() - 0.01, ground_brdf['Longitude'].max() + 0.01),
               'output_crs': 'EPSG:3577',

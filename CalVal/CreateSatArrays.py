@@ -1,4 +1,5 @@
 import datacube
+import pandas as pd
 
 
 #
@@ -18,14 +19,15 @@ def create_sat_arrays(dc, query, query2, field_data):
     elif field_data[3] == 'Landsat8':
         sat_array = dc.load(product='ls8_nbart_scene', **query)
         sat_bigarray = dc.load(product='ls8_nbart_scene', **query2)
-        sat_array
         sat_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
         sat_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
 
     else:
         print('Satellite must be one of Landsat8 or Sentinel2a/b. Got', field_data[3])
 
-    sat_array = sat_array.isel(time=[0])
-    sat_bigarray = sat_bigarray.isel(time=[0])
+    #sat_array = sat_array.isel(time=[0])
+    #sat_bigarray = sat_bigarray.isel(time=[0])
+    sat_array = sat_array.sel(time=[pd.Timestamp(field_data[1])], method='nearest')
+    sat_bigarray = sat_bigarray.sel(time=[pd.Timestamp(field_data[1])], method='nearest')
 
     return sat_array, sat_bigarray
