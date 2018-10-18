@@ -13,11 +13,12 @@ requirements that should be met. Go through this check-list before running
 the workflow for the first time:
 <OL>
 <LI>The Python library for this workflow, as well as notebooks and support
-scripts can be found on VDI and should be downloaded from this repo or
+scripts can be found on VDI and should be cloned/downloaded from this repo or
 copied into the working directory directly on VDI:<BR><BR>
     cp -r /g/data/u46/users/aw3463/GuyByrne/calval .<BR><BR>
 <LI>The DEAPlotting library is also needed for RGB plots and can be obtained
-from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or can be copied on VDI to the working directory:<BR><BR>
+from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or
+can be copied on VDI to the working directory:<BR><BR>
     cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .<BR><BR>
 <LI>Start up the DEA module by typing:<BR><BR>
     > module load dea<BR><BR>
@@ -32,6 +33,10 @@ Note that lower case is required and no extra characters are allowed in the
 directory names. So 'Line1' or 'line_1' will not work. The output directory
 will be created by the workflow and is where PNG files will be stored, as well
 as the data sheet text file.<BR>
+Raw data for testing purposes can be found under the directory 'Misc/Testdata'.
+So 'indir' can be changed to point to this directory, if you need to check out
+how the workflow operates. The raw data correspond to the 20MAY18 Pinnacles
+field site measurements that are the default in the template workflow.<BR>
 <B>NOTE:</B> Each time the workflow is run, the output directory will be erased
 and re-written, so that the directory can be cleaned up. If you want to save
 older PNGs, you need to manually move them before re-running the
