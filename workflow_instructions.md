@@ -32,11 +32,11 @@ that there are multiple sub-directories, with format 'line1, line2, line3' etc.
 Note that lower case is required and no extra characters are allowed in the
 directory names. So 'Line1' or 'line_1' will not work. The output directory
 will be created by the workflow and is where PNG files will be stored, as well
-as the data sheet text file.<BR>
+as the data sheet text file.<P>
 Raw data for testing purposes can be found under the directory 'Misc/Testdata'.
 So 'indir' can be changed to point to this directory, if you need to check out
 how the workflow operates. The raw data correspond to the 20MAY18 Pinnacles
-field site measurements that are the default in the template workflow.<BR>
+field site measurements that are the default in the template workflow.<P>
 <B>NOTE:</B> Each time the workflow is run, the output directory will be erased
 and re-written, so that the directory can be cleaned up. If you want to save
 older PNGs, you need to manually move them before re-running the
