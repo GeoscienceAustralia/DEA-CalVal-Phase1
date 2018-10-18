@@ -3,6 +3,7 @@ from . import BRDF
 from . import CalcStats
 from . import CreateFieldFromSat
 from . import CreateLongArrays
+from . import CreateLongUSGSArrays
 from . import CreateManyFieldFromSat
 from . import CreateManyStats
 from . import CreateReflectances
@@ -43,6 +44,7 @@ from . import FudgeGPS
 from . import KFactor
 from . import LoadData
 from . import LongQuery
+from . import LongUSGSQuery
 from . import MakeSpecDF
 from . import MultiTimeLineDry
 from . import Query
