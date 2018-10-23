@@ -6,25 +6,15 @@ from datacube.helpers import ga_pq_fuser
 # Query Satellite data, based on manual input location and time
 # INCLUDE CLOUD MASKS
 #
-def create_long_arrays(ldc, sdc, udc, lquery, squery, lquery2, squery2):
+def create_long_arrays(ldc, udc, lquery, lquery2):
 
-    sb_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green', 'nbart_red', 'nbart_red_edge_1', 'nbart_red_edge_2', 'nbart_red_edge_3', 'nbart_nir_1', 'nbart_nir_2', 'nbart_swir_2', 'nbart_swir_3', 'fmask']
-
-    temp = sdc.load(product='s2a_ard_granule', measurements=sb_names, **squery)
-    s2a_array = temp.where(temp.fmask==1)
-    temp = sdc.load(product='s2b_ard_granule', measurements=sb_names, **squery)
-    s2b_array = temp.where(temp.fmask==1)
-
-    temp = sdc.load(product='s2a_ard_granule', measurements=sb_names, **squery2)
-    s2a_bigarray = temp.where(temp.fmask==1)
-    temp = sdc.load(product='s2b_ard_granule', measurements=sb_names, **squery2)
-    s2b_bigarray = temp.where(temp.fmask==1)
+    usgs_names = ['coastal_aerosol', 'blue', 'green', 'red', 'nir', 'swir1', 'swir2']
 
     ls8_temp = ldc.load(product='ls8_nbart_scene', **lquery)
     ls8_bigtemp = ldc.load(product='ls8_nbart_scene', **lquery2)
 
-    ls8_usgs_temp = udc.load(product='ls8_usgs_l2c1', **lquery)
-    ls8_usgs_bigtemp = udc.load(product='ls8_usgs_l2c1', **lquery2)
+    ls8_usgs_temp = udc.load(product='ls8_usgs_l2c1', measurements=usgs_names, **lquery)
+    ls8_usgs_bigtemp = udc.load(product='ls8_usgs_l2c1', measurements=usgs_names, **lquery2)
 
     ls8_pq = ldc.load(product='ls8_pq_scene', fuse_func=ga_pq_fuser, **lquery2)
 
@@ -49,28 +39,22 @@ def create_long_arrays(ldc, sdc, udc, lquery, squery, lquery2, squery2):
     ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
     ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
 
-    return ls8_array, ls8_usgs_array, s2a_array, s2b_array, ls8_bigarray, ls8_usgs_bigarray, s2a_bigarray, s2b_bigarray
+    return ls8_array, ls8_usgs_array, ls8_bigarray, ls8_usgs_bigarray
 #
 # Query Satellite data, based on manual input location and time
 # NO CLOUD MASKS
 #
-def create_long_arrays_nomask(ldc, sdc, lquery, squery, lquery2, squery2):
+def create_long_arrays_nomask(ldc, udc, lquery, lquery2):
 
-    sb_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green', 'nbart_red', 'nbart_red_edge_1', 'nbart_red_edge_2', 'nbart_red_edge_3', 'nbart_nir_1', 'nbart_nir_2', 'nbart_swir_2', 'nbart_swir_3', 'fmask']
-
-    s2a_array = sdc.load(product='s2a_ard_granule', measurements=sb_names, **squery)
-    s2b_array = sdc.load(product='s2b_ard_granule', measurements=sb_names, **squery)
-
-    s2a_bigarray = sdc.load(product='s2a_ard_granule', measurements=sb_names, **squery2)
-    s2b_bigarray = sdc.load(product='s2b_ard_granule', measurements=sb_names, **squery2)
+    usgs_names = ['coastal_aerosol', 'blue', 'green', 'red', 'nir', 'swir1', 'swir2']
 
     ls8_array = ldc.load(product='ls8_nbart_scene', **lquery)
     ls8_bigarray = ldc.load(product='ls8_nbart_scene', **lquery2)
 
-    ls8_usgs_array = udc.load(product='ls8_usgs_l2c1', **lquery)
-    ls8_usgs_bigarray = udc.load(product='ls8_usgs_l2c1', **lquery2)
+    ls8_usgs_array = udc.load(product='ls8_usgs_l2c1', measurements=usgs_names, **lquery)
+    ls8_usgs_bigarray = udc.load(product='ls8_usgs_l2c1', measurements=usgs_names, **lquery2)
 
     ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
     ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
 
-    return ls8_array, ls8_usgs_array, s2a_array, s2b_array, ls8_bigarray, ls8_usgs_bigarray, s2a_bigarray, s2b_bigarray
+    return ls8_array, ls8_usgs_array, ls8_bigarray, ls8_usgs_bigarray
