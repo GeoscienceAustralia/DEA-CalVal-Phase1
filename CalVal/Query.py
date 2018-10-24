@@ -6,6 +6,7 @@ def make_query(ground_brdf, field_data):
     
     if field_data[3] == 'Landsat8':
         dc = datacube.Datacube()
+        udc = datacube.Datacube(env='ardinteroperability', config='/home/547/aw3463/.sent2.conf')
         pixsize = 25.0
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         dc = datacube.Datacube(env='sentinel2_ard', config='/home/547/aw3463/.sent2.conf')
@@ -46,4 +47,4 @@ def make_query(ground_brdf, field_data):
     query['resolution'] = (-pixsize, pixsize)
     query2['resolution'] = (-pixsize, pixsize)
         
-    return dc, query, query2
+    return dc, udc, query, query2
