@@ -40,7 +40,7 @@ def FIG_sat_field_bands(sat_array, fstat_df, finner_df, output, field_data, fign
     #fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(3.5, 3.5))
     #fig.suptitle(fig_title+': Satellite and Field data comparison by band for inner pixels', fontweight='bold')
-    plt.tight_layout(pad=1.5, w_pad=1.0, h_pad=1.0)
+    plt.tight_layout(pad=2.7, w_pad=1.0, h_pad=1.0)
 
     SDeviation = SDev(sat_array, field_data)
 

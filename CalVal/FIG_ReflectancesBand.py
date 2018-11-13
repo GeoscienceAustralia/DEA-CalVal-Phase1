@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 def FIG_reflectances_band(ground_bands, result_df, band, good_panels, all_refls, colpac, output, field_data, fignum):
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
-    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(7.5, 3.0))
-    plt.tight_layout(pad=2.5, w_pad=-2.0, h_pad=1.0)
+    fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(4.5, 7.5))
+    plt.tight_layout(pad=6.8, w_pad=3.0, h_pad=3.0)
 #    fig.suptitle(fig_title+': \nGround Reflectances averaged into '+field_data[3]+' Bands\n        Line Averaged                                                         Individual spectra', fontweight='bold')
     axes[1].set_xlabel("Band Number")
     axes[1].set_xticks([0,1,2,3,4,5,6,7,8,9,10,11])
@@ -24,6 +24,7 @@ def FIG_reflectances_band(ground_bands, result_df, band, good_panels, all_refls,
 
     axes[0].set_ylabel("Reflectance")
     axes[0].set_ylim(all_refls_masked.min().min()*0.95, all_refls_masked.max().max()*1.05)
+    axes[1].set_ylabel("Reflectance")
     axes[1].set_ylim(all_refls_masked.min().min()*0.95, all_refls_masked.max().max()*1.05)
 
     all_refls.plot(legend=False, ax=axes[0], color='#AAAAAA', linewidth=0.7)
@@ -41,6 +42,7 @@ def FIG_reflectances_band(ground_bands, result_df, band, good_panels, all_refls,
         d.rename(index={i: 'Line'+str(i+1)}, inplace=True)
     d.rename({'9': '8a', '10':'11', '11':'12'}, axis=1, inplace=True)
 
-    d.T.plot(legend=False, ax=axes[1], color=colpac, sharey=True, linewidth=0.7)
+    d.T.plot(legend=True, ax=axes[1], color=colpac, sharey=True, linewidth=0.7)
+    axes[1].legend(loc='center left', bbox_to_anchor=(1.0, 0.5))
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Reflectances_Band.png', dpi=300)

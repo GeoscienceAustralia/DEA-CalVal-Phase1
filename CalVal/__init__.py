@@ -20,6 +20,7 @@ from . import FIG_AllTimelines
 from . import FIG_BadPanelAnalysis
 from . import FIG_BandExtents
 from . import FIG_BandReflectances
+from . import FIG_BRDFComp
 from . import FIG_FieldRGB
 from . import FIG_GoodTimelines
 from . import FIG_GroundSpectra
@@ -31,6 +32,7 @@ from . import FIG_ManySatFieldBands
 from . import FIG_ManySatFieldBands_USGS
 from . import FIG_MultiTimeLine
 from . import FIG_MultiTimeLine_USGS
+from . import FIG_MultiTimeLine_USGS_Short
 from . import FIG_NormalisedPanelsTimeline
 from . import FIG_PanelRadiances
 from . import FIG_RatioArrays
@@ -57,6 +59,7 @@ from . import Query
 from . import PrintBRDF
 from . import PrintSheet
 from . import ReformatDF
+from . import SatBRDF
 from . import ScaleGrounds
 from . import ScalePanels
 from . import SolarAngle
