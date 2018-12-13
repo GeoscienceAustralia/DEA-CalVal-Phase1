@@ -6,7 +6,7 @@ import math
 # BRDF CALCULATION
 #
 
-def ReadAndCalc(brdf_data, ground_bands, field_data):
+def ReadAndCalc(brdf_data, ls_ground_bands, s2_ground_bands, field_data):
 
     hb = 2 # set to emulate spherical crowns that are separated from the
     br = 1 # ground by half their diameter
@@ -23,19 +23,25 @@ def ReadAndCalc(brdf_data, ground_bands, field_data):
                   index=brdf_data[1:,0],
                   columns=brdf_data[0,1:])
 
-    if field_data[3] == 'Landsat8':
-        brdf_df.drop(['band5', 'band6', 'band7', 'band8a'], inplace=True)
-        brdf_df.rename({'band11': 'band6', 'band12': 'band7', 'band8': 'band5'}, axis='index', inplace=True)
-        brdf_df.reindex(['band1', 'band2', 'band3', 'band4', 'band5', 'band6', 'band7'])
+    s2_brdf_df = brdf_df.copy()
+    ls_brdf_df = brdf_df.copy()
 
-    ground_brdf = ground_bands.copy()
+    ls_brdf_df.drop(['band5', 'band6', 'band7', 'band8a'], inplace=True)
+    ls_brdf_df.rename({'band11': 'band6', 'band12': 'band7', 'band8': 'band5'}, axis='index', inplace=True)
+    ls_brdf_df.reindex(['band1', 'band2', 'band3', 'band4', 'band5', 'band6', 'band7'])
 
-    for i in ground_bands.index:
-        for j in brdf_df.index:
-            norm_1 = float(brdf_df.loc[j,'brdf1'])/float(brdf_df.loc[j,'brdf0'])
-            norm_2 = float(brdf_df.loc[j,'brdf2'])/float(brdf_df.loc[j,'brdf0'])
-            solar_angle = ground_bands.loc[i,'Solar_angle']
-            rland = ground_bands.loc[i,j]
+    ls_ground_brdf = ls_ground_bands.copy()
+    s2_ground_brdf = s2_ground_bands.copy()
+
+    #
+    # Landsat 8
+    #
+    for i in ls_ground_bands.index:
+        for j in ls_brdf_df.index:
+            norm_1 = float(ls_brdf_df.loc[j,'brdf1'])/float(ls_brdf_df.loc[j,'brdf0'])
+            norm_2 = float(ls_brdf_df.loc[j,'brdf2'])/float(ls_brdf_df.loc[j,'brdf0'])
+            solar_angle = ls_ground_bands.loc[i,'Solar_angle']
+            rland = ls_ground_bands.loc[i,j]
     
             if n_factor == 0:
                 fnn = 1
@@ -46,9 +52,30 @@ def ReadAndCalc(brdf_data, ground_bands, field_data):
 
             ann = RL_brdf(solar, 0, 0, hb, br, 1, norm_1, norm_2)
             ref = rland * fnn / ann
-            ground_brdf.loc[i,j] = ref
-            #print(i,j,rland, ref)
-    return ground_brdf, hb, br
+            ls_ground_brdf.loc[i,j] = ref
+
+    #
+    # Sentinel 2
+    #
+    for i in s2_ground_bands.index:
+        for j in s2_brdf_df.index:
+            norm_1 = float(s2_brdf_df.loc[j,'brdf1'])/float(s2_brdf_df.loc[j,'brdf0'])
+            norm_2 = float(s2_brdf_df.loc[j,'brdf2'])/float(s2_brdf_df.loc[j,'brdf0'])
+            solar_angle = s2_ground_bands.loc[i,'Solar_angle']
+            rland = s2_ground_bands.loc[i,j]
+    
+            if n_factor == 0:
+                fnn = 1
+            else:
+                fnn = RL_brdf(45*pib, 0, 0, hb, br, 1, norm_1, norm_2)
+
+            solar = solar_angle*pib
+
+            ann = RL_brdf(solar, 0, 0, hb, br, 1, norm_1, norm_2)
+            ref = rland * fnn / ann
+            s2_ground_brdf.loc[i,j] = ref
+
+    return ls_ground_brdf, s2_ground_brdf, hb, br
 
 #
 #

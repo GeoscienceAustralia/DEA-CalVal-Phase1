@@ -21,8 +21,7 @@ def Sat_BRDF(dc, query, sat_array):
         yamdoc = yaml.load(fl)
         
     #
-    # Solar zenith at time of satellite overpass is extracted here, but not
-    # used. So this is just a placeholder, should it be needed in the future.
+    # Solar zenith at time of satellite overpass is extracted here.
     #
     solar_zenith = 90-yamdoc['lineage']['source_datasets']['level1']['image']['sun_elevation']
     
@@ -46,4 +45,4 @@ def Sat_BRDF(dc, query, sat_array):
                               ['band12', params['band_7_brdf_iso'], params['band_7_brdf_vol'],params['band_7_brdf_geo']],
                              ])
     
-    return brdf_sat_data
+    return brdf_sat_data, solar_zenith

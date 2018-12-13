@@ -19,4 +19,4 @@ def FIG_field_RGB(field_array, output, field_data, fignum):
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
     #plt.title(fig_title+': Field RGB colours', fontweight='bold')
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Field_rgb.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Field_rgb.png', dpi=300)

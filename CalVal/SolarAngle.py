@@ -40,9 +40,10 @@ def add_solar(good_spectra, solang):
 
     return good_spectra
 
-def solar_angle(good_panels, good_grounds):
+def solar_angle(good_panels, good_grounds, field_data):
 
-    good_panels = add_solar(good_panels, solang)
-    good_grounds = add_solar(good_grounds, solang)
+    if field_data[5] == 'Radiance':
+        good_panels = add_solar(good_panels, solang)
+        good_grounds = add_solar(good_grounds, solang)
 
     return good_panels, good_grounds

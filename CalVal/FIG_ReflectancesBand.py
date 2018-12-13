@@ -8,12 +8,11 @@ import matplotlib.pyplot as plt
 #
 # Plot band reflectances
 #
-def FIG_reflectances_band(ground_bands, result_df, band, good_panels, all_refls, colpac, output, field_data, fignum):
+def FIG_reflectances_band(ls_ground_bands, ls_result_df, ls_band, s2_ground_bands, s2_result_df, s2_band, good_panels, all_refls, colpac, output, field_data, fignum):
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(4.5, 7.5))
     plt.tight_layout(pad=6.8, w_pad=3.0, h_pad=3.0)
-#    fig.suptitle(fig_title+': \nGround Reflectances averaged into '+field_data[3]+' Bands\n        Line Averaged                                                         Individual spectra', fontweight='bold')
     axes[1].set_xlabel("Band Number")
     axes[1].set_xticks([0,1,2,3,4,5,6,7,8,9,10,11])
 
@@ -34,7 +33,11 @@ def FIG_reflectances_band(ground_bands, result_df, band, good_panels, all_refls,
         line = all_refls.filter(like=rad_name).mean(axis=1)
         line.plot(ax=axes[0], color=colpac[i], legend=False, label='Line'+str(i), linewidth=0.7)
 
-    d=pd.DataFrame([[[ground_bands[j][(ground_bands['Line']==i)].mean()] for j in list(band.keys())] for i in ground_bands.Line.unique()])
+    if field_data[3] == 'Landsat8':
+        d=pd.DataFrame([[[ls_ground_bands[j][(ls_ground_bands['Line']==i)].mean()] for j in list(ls_band.keys())] for i in ls_ground_bands.Line.unique()])
+    else:
+        d=pd.DataFrame([[[s2_ground_bands[j][(s2_ground_bands['Line']==i)].mean()] for j in list(s2_band.keys())] for i in s2_ground_bands.Line.unique()])
+
     for i in d.columns:
         d[i] = d[i].str.get(0)
         d.rename(columns={i: str(i+1)}, inplace=True)

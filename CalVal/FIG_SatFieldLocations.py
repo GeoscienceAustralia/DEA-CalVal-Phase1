@@ -8,12 +8,22 @@ import matplotlib.pyplot as plt
 #
 ### Plot relative locations of field and satellite data
 #
-def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, fignum):
+def FIG_sat_field_locations(ls_ground_brdf, s2_ground_brdf, ls_sat_array, s2_sat_array, colpac, output, field_data, fignum):
 
     wgs_84 = pyproj.Proj(init='epsg:4326')
     aus_albers = pyproj.Proj(init='epsg:3577')
 
-    xloc = [pyproj.transform(wgs_84, aus_albers, ground_brdf['Longitude'][i], ground_brdf['Latitude'][i]) for i in range(len(ground_brdf))]
+    ls_xloc = [pyproj.transform(wgs_84, aus_albers, ls_ground_brdf['Longitude'][i], ls_ground_brdf['Latitude'][i]) for i in range(len(ls_ground_brdf))]
+    s2_xloc = [pyproj.transform(wgs_84, aus_albers, s2_ground_brdf['Longitude'][i], s2_ground_brdf['Latitude'][i]) for i in range(len(s2_ground_brdf))]
+
+    if field_data[3] == 'Landsat8':
+        xloc = ls_xloc
+        ground_brdf = ls_ground_brdf
+        sat_array = ls_sat_array
+    else:
+        xloc = s2_xloc
+        ground_brdf = s2_ground_brdf
+        sat_array = s2_sat_array
 
     relxloc = [(xloc[i][0]-xloc[0][0], xloc[i][1]-xloc[0][1]) for i in range(len(ground_brdf))]
 
@@ -27,9 +37,7 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
 
     satloc_df = pd.DataFrame(satloc)
 
-    #fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(6.0, 6.0))
-    #fig.suptitle(fig_title+': Satellite pixel locations (black)\nand field spectrum locations (colours). Reference position = '+str(int(xloc[0][0]))+', '+str(int(xloc[0][1]))+str('.'), fontweight='bold')
     plt.tight_layout(pad=4.0, w_pad=1.0, h_pad=1.0)
 
     def gridlines(satloc_df, field_data):
@@ -67,4 +75,4 @@ def FIG_sat_field_locations(ground_brdf, sat_array, colpac, output, field_data, 
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_SatFieldLocations.png', dpi=300)
 
-    return xloc
+    return ls_xloc, s2_xloc

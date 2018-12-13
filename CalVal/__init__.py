@@ -55,7 +55,10 @@ from . import LongQuery
 from . import LongUSGSQuery
 from . import MakeSpecDF
 from . import MultiTimeLineDry
+from . import OutlyingSpec
 from . import Query
+from . import QueryAndCreate
+from . import OutputCSVs
 from . import PrintBRDF
 from . import PrintSheet
 from . import ReformatDF

@@ -105,4 +105,4 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
     else:
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])
 
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_PixelByPixelComparison.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_PixelByPixelComparison.png', dpi=300)

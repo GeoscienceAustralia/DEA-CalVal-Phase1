@@ -88,4 +88,4 @@ def FIG_sat_field_bands(sat_array, fstat_df, finner_df, output, field_data, fign
     axes.set_xlabel('Band Number')
     axes.set_ylabel('Reflectance')
 
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_InnerFieldBandCompare.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_InnerFieldBandCompare.png', dpi=300)

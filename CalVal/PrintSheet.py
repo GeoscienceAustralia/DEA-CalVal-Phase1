@@ -27,12 +27,19 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
 
     file.write('DATA SHEET FOR '+field_data[0]+' taken on '+field_data[1]+', '+field_data[2]+' '+field_data[3]+' overpass\n')
     file.write('------------------------------------------------------------------\n\n')
-
-    file.write(ground_brdf['date_saved'].min().strftime('Time of field site measurements is from %H:%M:%S'))
-    file.write(ground_brdf['date_saved'].max().strftime(' to %H:%M:%S on the %d %B, %Y (UTC)')+'\n')
-    file.write('Satellite overpass was at ' + str(sat_array.time.values[0]) + ' (UTC)\n\n')
-    file.write('Difference in time between start of field site measurement\nand satellite overpass is ' + 
-               str(pd.to_datetime(str(sat_array.time.values[0])) - ground_brdf['date_saved'].min()) + '\n\n')
+  
+    if isinstance(ground_brdf['date_saved'].min(), pd.datetime):
+        file.write(ground_brdf['date_saved'].min().strftime('Time of field site measurements is from %H:%M:%S'))
+        file.write(ground_brdf['date_saved'].max().strftime(' to %H:%M:%S on the %d %B, %Y (UTC)')+'\n')
+        file.write('Satellite overpass was at ' + str(sat_array.time.values[0]) + ' (UTC)\n\n')
+        file.write('Difference in time between start of field site measurement\nand satellite overpass is ' + 
+                   str(pd.to_datetime(str(sat_array.time.values[0])) - ground_brdf['date_saved'].min()) + '\n\n')
+    else:
+        file.write('Time of field site measurements is from'+ground_brdf['date_saved'].min())
+        file.write('to '+ground_brdf['date_saved'].max()+'\n')
+        file.write('Satellite overpass was at ' + str(sat_array.time.values[0]) + ' (UTC)\n\n')
+        file.write('Difference in time between start of field site measurement\nand satellite overpass is ' + 
+                   str(pd.to_datetime(str(sat_array.time.values[0])) - pd.to_datetime(ground_brdf['date_saved'].min())) + '\n\n')
 
     if Corners == [0, 0, 0, 0, 0, 0, 0, 0]:
         file.write('Good GPS Coordinates were found in the headers\n')

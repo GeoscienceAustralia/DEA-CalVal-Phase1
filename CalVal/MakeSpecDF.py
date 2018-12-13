@@ -10,7 +10,8 @@
 # column (also set as the index), plus all the radiances in subsequent
 # columns.
 #
-def make_spec_df(in_df):
+def make_spec_df(in_df, field_data):
+
     for i in in_df.Line.unique():
         temp_loop = in_df[(in_df['Wavelength']==350) & (in_df['Line']==i)]
         for j in temp_loop['Spec_number']:

@@ -24,30 +24,32 @@ import matplotlib.pyplot as plt
 #    5. The mean values are plotted, as a function of time, relative to the
 #       first panel time stamp.
 #
-def normalise_spectra(good_panel_mean, good_panel_spec, all_panel_spec, gpt, gpta):
-    #
-    # Create a mask to avoid wavelengths where atmospheric transmission is
-    # close to zero: 1350-1480nm, 1801-1966nm and >2350nm
-    #
-    mask1 = good_panel_mean.where(np.logical_or(good_panel_mean.index<1350, good_panel_mean.index>1480))
-    mask2 = mask1.where(np.logical_or(mask1.index<1801, mask1.index>1966))
+def normalise_spectra(good_panel_mean, good_panel_spec, all_panel_spec, gpt, gpta, field_data):
 
-    # 1.
-    mean_panel_masked = mask2.where(np.logical_or(mask2.index<2350, mask2.index>2500))
+    if field_data[5] == 'Radiance':
+        #
+        # Create a mask to avoid wavelengths where atmospheric transmission is
+        # close to zero: 1350-1480nm, 1801-1966nm and >2350nm
+        #
+        mask1 = good_panel_mean.where(np.logical_or(good_panel_mean.index<1350, good_panel_mean.index>1480))
+        mask2 = mask1.where(np.logical_or(mask1.index<1801, mask1.index>1966))
 
-    # 2. (NO NORMALISATION)
-    good_norm_panels_masked = good_panel_spec.div(mean_panel_masked, axis=0)
-    all_norm_panels_masked = all_panel_spec.div(mean_panel_masked, axis=0)
-    good_panels_masked = good_norm_panels_masked.multiply(mean_panel_masked, axis=0)
-    all_panels_masked = all_norm_panels_masked.multiply(mean_panel_masked, axis=0)
+        # 1.
+        mean_panel_masked = mask2.where(np.logical_or(mask2.index<2350, mask2.index>2500))
 
-    # 3.
-    good_averages_masked = good_panels_masked.mean(axis=0)
-    all_averages_masked = all_panels_masked.mean(axis=0)
+        # 2. (NO NORMALISATION)
+        good_norm_panels_masked = good_panel_spec.div(mean_panel_masked, axis=0)
+        all_norm_panels_masked = all_panel_spec.div(mean_panel_masked, axis=0)
+        good_panels_masked = good_norm_panels_masked.multiply(mean_panel_masked, axis=0)
+        all_panels_masked = all_norm_panels_masked.multiply(mean_panel_masked, axis=0)
 
-    # 4.
-    gpt['Averaged_Panels']=good_averages_masked.values
-    gpta['Averaged_Panels']=all_averages_masked.values
+        # 3.
+        good_averages_masked = good_panels_masked.mean(axis=0)
+        all_averages_masked = all_panels_masked.mean(axis=0)
+
+        # 4.
+        gpt['Averaged_Panels']=good_averages_masked.values
+        gpta['Averaged_Panels']=all_averages_masked.values
     
     return gpt, gpta
 
@@ -56,19 +58,20 @@ def normalise_spectra(good_panel_mean, good_panel_spec, all_panel_spec, gpt, gpt
 #
 def FIG_normalised_panels_timeline(gpt, gpta, output, field_data, fignum):
     # 5.
-    fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
-    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(9.5, 4.5))
-    #fig.suptitle(fig_title+': Time vs Wavelength-averaged Panels', fontweight='bold')
-    plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
+    if field_data[5] == 'Radiance':
+        fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
+        fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(9.5, 4.5))
+        #fig.suptitle(fig_title+': Time vs Wavelength-averaged Panels', fontweight='bold')
+        plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
-    gpta.plot.scatter(x='Time', y='Averaged_Panels', title='All Panels', color='black', ax=axes[0])
-    gpta.plot.line(x='Time', y='Averaged_Panels', ax=axes[0], style='b', legend=False)
-    axes[0].set_ylabel("Average Panel Radiance")
-    axes[0].set_xlabel("Time (seconds)")
+        gpta.plot.scatter(x='Time', y='Averaged_Panels', title='All Panels', color='black', ax=axes[0])
+        gpta.plot.line(x='Time', y='Averaged_Panels', ax=axes[0], style='b', legend=False)
+        axes[0].set_ylabel("Average Panel Radiance")
+        axes[0].set_xlabel("Time (seconds)")
 
-    gpt.plot.scatter(x='Time', y='Averaged_Panels', title='Good Panels', color='black', ax=axes[1])
-    gpt.plot.line(x='Time', y='Averaged_Panels', ax=axes[1], style='b', legend=False)
-    axes[1].set_ylabel("")
-    axes[1].set_xlabel("Time (seconds)")
+        gpt.plot.scatter(x='Time', y='Averaged_Panels', title='Good Panels', color='black', ax=axes[1])
+        gpt.plot.line(x='Time', y='Averaged_Panels', ax=axes[1], style='b', legend=False)
+        axes[1].set_ylabel("")
+        axes[1].set_xlabel("Time (seconds)")
 
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_TimevsAvgPanels.png')
+        plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_TimevsAvgPanels.png')
