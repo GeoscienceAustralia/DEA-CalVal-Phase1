@@ -4,6 +4,7 @@ from . import CalcStats
 from . import CalcStats_USGS
 from . import CreateFieldFromSat
 from . import CreateLongArrays
+from . import CreateLongSHPArrays
 from . import CreateLongUSGSArrays
 from . import CreateManyFieldFromSat
 from . import CreateManyFieldFromSat_USGS
@@ -52,6 +53,7 @@ from . import FudgeGPS
 from . import KFactor
 from . import LoadData
 from . import LongQuery
+from . import LongSHPQuery
 from . import LongUSGSQuery
 from . import MakeSpecDF
 from . import MultiTimeLineDry
@@ -59,6 +61,7 @@ from . import OutlyingSpec
 from . import Query
 from . import QueryAndCreate
 from . import OutputCSVs
+from . import PanelBRF
 from . import PrintBRDF
 from . import PrintSheet
 from . import ReformatDF

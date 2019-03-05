@@ -42,7 +42,7 @@ def FIG_many_sat_field_bands(ls8_array, s2a_array, s2b_array, fls8_df, fs2a_df, 
     fig.suptitle(fig_title+': Satellite and Field data comparison by band', fontweight='bold')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
-    SDeviation = SDev(s2b_array, 'Sentinel')
+    #SDeviation = SDev(s2b_array, 'Sentinel')
 
     ls8_means = [col for col in fls8_df.columns if 'ls8_mean' in col]
     ls8_stds = [col for col in fls8_df.columns if 'ls8_SD' in col]

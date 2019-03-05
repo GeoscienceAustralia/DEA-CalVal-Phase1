@@ -27,7 +27,8 @@ def ReadInCSVs(ls8_csvs, sent_csvs):
 
 def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat, field_data, output, fignum):
 
-    ls8_ftimes, sent_ftimes, ls8_fdata, sent_fdata = ReadInCSVs(ls8_csvs, sent_csvs)
+    if ls8_csvs:
+        ls8_ftimes, sent_ftimes, ls8_fdata, sent_fdata = ReadInCSVs(ls8_csvs, sent_csvs)
 
     ls8_means = [col for col in fls8_df.columns if 'ls8_mean' in col]
     ls8_times = [(pd.Timestamp(x[8:])-pd.Timestamp(2018,1,1)).days for x in ls8_means]
@@ -71,37 +72,44 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
     
     axes2 = axes[0].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band1'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band1'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band1'], color='blue', s=20, zorder=10)
     axes[0].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[1].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band2'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band2'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band2'], color='blue', s=20, zorder=10)
     axes[1].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[2].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band3'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band3'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band3'], color='blue', s=20, zorder=10)
     axes[2].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[3].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band4'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band4'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band4'], color='blue', s=20, zorder=10)
     axes[3].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[4].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band5'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band5'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band5'], color='blue', s=20, zorder=10)
     axes[4].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[5].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band6'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band6'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band6'], color='blue', s=20, zorder=10)
     axes[5].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[6].twinx()
     axes2.scatter(x=ls8_times, y=fls8_df.loc['band7'][ls8_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band7'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band7'], color='blue', s=20, zorder=10)
     axes[6].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+'Landsat 8'+'_'+'Fig'+str(fignum)+'_MultiTimeLine.png')
@@ -139,67 +147,78 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
     axes2 = axes[0].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band1'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band1'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band1'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band1'], color='blue', s=20, zorder=10)
     axes[0].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[1].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band2'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band2'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band2'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band2'], color='blue', s=20, zorder=10)
     axes[1].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[2].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band3'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band3'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band3'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band3'], color='blue', s=20, zorder=10)
     axes[2].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[3].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band4'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band4'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band4'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band4'], color='blue', s=20, zorder=10)
     axes[3].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[4].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band5'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band5'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band5'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band5'], color='blue', s=20, zorder=10)
     axes[4].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[5].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band6'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band6'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band6'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band6'], color='blue', s=20, zorder=10)
     axes[5].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[6].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band7'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band7'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band7'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band7'], color='blue', s=20, zorder=10)
     axes[6].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[7].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band8'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band8'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band8'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band8'], color='blue', s=20, zorder=10)
     axes[7].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[8].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band8a'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band8a'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band8a'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band8a'], color='blue', s=20, zorder=10)
     axes[8].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[9].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band11'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band11'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band11'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band11'], color='blue', s=20, zorder=10)
     axes[9].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     axes2 = axes[10].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band12'][s2a_means], color='green', s=20, zorder=10)
     axes2.scatter(x=s2b_times, y=fs2b_df.loc['band12'][s2b_means], color='black', s=20, zorder=10)
-    axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band12'], color='blue', s=20, zorder=10)
+    if ls8_csvs:
+        axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band12'], color='blue', s=20, zorder=10)
     axes[10].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_Sentinel 2a_b_'+'Fig'+str(fignum)+'_MultiTimeLine.png')

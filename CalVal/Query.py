@@ -5,11 +5,11 @@ import pandas as pd
 def make_query(ground_brdf, field_data):
     
     udc = datacube.Datacube(env='ardinteroperability', config='/home/547/aw3463/.sent2.conf')
+    dc = datacube.Datacube()
+
     if field_data[3] == 'Landsat8':
-        dc = datacube.Datacube()
         pixsize = 25.0
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
-        dc = datacube.Datacube(env='sentinel2_ard', config='/home/547/aw3463/.sent2.conf')
         pixsize = 10.0
     else:
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])

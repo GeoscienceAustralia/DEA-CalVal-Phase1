@@ -35,6 +35,13 @@ def fudge_gps(ground_brdf, Corners, RockWalk, StartCorner):
         numLines = len(ground_brdf['Line'].unique())
         LineHeightSep = LineHeight/(numLines-1)
         LineWidthSep = LineWidth/(numLines-1)
+        #print("SpecHeight = ", 111319.9*SpecHeight,
+        #      "m\nSpecWidth = ", 111319.9*SpecWidth,
+        #      "m\nLineHeight = ", 111319.9*LineHeight,
+        #      "m\n LineWidth = ", 111319.9*LineWidth,
+        #      "m\nLineHeightSep = ", 111319.9*LineHeightSep,
+        #      "m\nLineWidthSep = ", 111319.9*LineWidthSep,
+        #      "m\nnumLines = ", numLines)
 
         seqLine = 0
         for lineCount in ground_brdf['Line'].unique():
@@ -47,7 +54,7 @@ def fudge_gps(ground_brdf, Corners, RockWalk, StartCorner):
             SpecHeightSep = SpecHeight/(numSpectra-1)
     
             if RockWalk == True:
-                if lineCount % 2 == 0:
+                if lineCount % 2 == 1:
                     seqSpec = 0
                 else:
                     seqSpec = numSpectra
@@ -56,7 +63,7 @@ def fudge_gps(ground_brdf, Corners, RockWalk, StartCorner):
 
             for specCount in temp['Spec_number'].unique():
                 if RockWalk == True:
-                    if lineCount % 2 == 0:
+                    if lineCount % 2 == 1:
                         seqSpec += 1
                     else:
                         seqSpec -= 1
