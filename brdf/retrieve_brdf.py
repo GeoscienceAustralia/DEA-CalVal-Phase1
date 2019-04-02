@@ -31,10 +31,10 @@ class MimicAcquisition(object):
         self._group = h5_group
         self._pathname = dataset_name
 
-        setattr(self, 'acquisition_datetime', dateutil.parser.parse('2018-07-22 00:51:17'))
+        setattr(self, 'acquisition_datetime', dateutil.parser.parse('2018-12-10 23:48:40'))
         setattr(self, 'brdf_wavelength', dset.attrs['brdf_wavelength'])
 
-        bbox = geopandas.GeoDataFrame({'geometry': [box(149.46105, -35.092866666666666, 149.462705, -35.091831666666664)]})
+        bbox = geopandas.GeoDataFrame({'geometry': [box(147.026011, -36.116907, 147.026011, -36.116907)]})
         bbox.crs = {'init': 'EPSG:4326'}
         albers = bbox.to_crs(epsg=3577)
         buff = albers.buffer(1000)
