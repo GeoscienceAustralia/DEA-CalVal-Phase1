@@ -6,7 +6,6 @@ def scale_grounds(good_panels, good_grounds, slope, intercept, field_data):
         count=0
         for i in good_panels.Line.unique():
             count+=1
-            print(count)
             #
             # mean_panel_fit is a single number. The line-averaged panel Solar angle is determined (LAPSA). LAPSA is
             # then fed through the line of best fit with form slope*LAPSA + intercept = mean_panel_fit.
