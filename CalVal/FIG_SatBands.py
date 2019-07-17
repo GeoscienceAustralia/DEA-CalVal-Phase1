@@ -12,7 +12,7 @@ import numpy as np
 def FIG_sat_bands(sat_array, field_array, output, field_data, fignum):
 
     newarr = sat_array/sat_array.mean()
-    newarr.reset_index('time', drop=True, inplace=True)
+    newarr = newarr.reset_index('time', drop=True)
 
     subsat_array = sat_array.where(field_array*0 == 0)
     dummy = subsat_array.std()/subsat_array.mean()*100

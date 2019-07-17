@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #
 def FIG_ratio_arrays(sat_array, field_array, output, field_data, fignum):
     newarr = sat_array/field_array
-    newarr.reset_index('time', drop=True, inplace=True)
+    newarr = newarr.reset_index('time', drop=True)
 
     #fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=4, ncols=3, figsize=(11.5, 9.5))

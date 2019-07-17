@@ -19,8 +19,8 @@ def create_sat_arrays(dc, udc, query, query2, field_data):
     elif field_data[3] == 'Landsat8':
         sat_array = dc.load(product='ls8_nbart_scene', **query)
         sat_bigarray = dc.load(product='ls8_nbart_scene', **query2)
-        sat_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
-        sat_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
+        sat_array = sat_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
+        sat_bigarray = sat_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
 
         if field_data[6] == 'USGS':
             usgs_names = ['coastal_aerosol', 'blue', 'green', 'red', 'nir', 'swir1', 'swir2']
