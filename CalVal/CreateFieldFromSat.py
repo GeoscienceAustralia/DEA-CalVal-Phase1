@@ -13,13 +13,24 @@ def create_field_from_sat(ls_sat_array, s2_sat_array, ls_ground_brdf, s2_ground_
     ls_field_array = ls_sat_array.astype(float)
     s2_field_array = s2_sat_array.astype(float)
 
+    #
+    # Test for Collection 6 upgrade. If so, set the half pixel size to 15m, otherwise 12.5m
+    #
+    try:
+        if field_data[7] == 'C6':
+            halfpix = 15.0
+        else:
+            halfpix = 12.5
+
+    except IndexError:
+        halfpix = 12.5
 
     for i in range(len(ls_sat_array.x)):
         for j in range(len(ls_sat_array.y)):
             count = 0
             cum1, cum2, cum3, cum4, cum5, cum6, cum7 = 0,0,0,0,0,0,0
             for k in range(len(ls_xloc)):
-                if (ls_sat_array.x[i]-12.5 < ls_xloc[k][0] < ls_sat_array.x[i]+12.5) and (ls_sat_array.y[j]-12.5 < ls_xloc[k][1] < ls_sat_array.y[j]+12.5):
+                if (ls_sat_array.x[i]-halfpix < ls_xloc[k][0] < ls_sat_array.x[i]+halfpix) and (ls_sat_array.y[j]-halfpix < ls_xloc[k][1] < ls_sat_array.y[j]+halfpix):
                     cum1 = cum1+ls_ground_brdf.iloc[k]['band1']
                     cum2 = cum2+ls_ground_brdf.iloc[k]['band2']
                     cum3 = cum3+ls_ground_brdf.iloc[k]['band3']

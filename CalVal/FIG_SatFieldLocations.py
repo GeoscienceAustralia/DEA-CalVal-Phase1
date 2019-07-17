@@ -46,7 +46,13 @@ def FIG_sat_field_locations(ls_ground_brdf, s2_ground_brdf, ls_sat_array, s2_sat
 
     def gridlines(satloc_df, field_data):
         if field_data[3] == 'Landsat8':
-            halfpix = 12.5
+            try: 
+                if field_data[7] == 'C6':
+                    halfpix = 15.0
+                else:
+                    halfpix = 12.5
+            except IndexError:
+                halfpix = 12.5
         elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
             halfpix = 5.0
         else:

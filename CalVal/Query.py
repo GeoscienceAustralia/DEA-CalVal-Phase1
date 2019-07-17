@@ -7,8 +7,23 @@ def make_query(ground_brdf, field_data):
     udc = datacube.Datacube(env='ardinteroperability', config='/home/547/aw3463/.sent2.conf')
     dc = datacube.Datacube()
 
+    #
+    # Test for Landsat 8 data
+    #
     if field_data[3] == 'Landsat8':
-        pixsize = 25.0
+        #
+        # Set pixel size to 30m if Collection 6 data, otherwise set to 25m.
+        #
+        try:
+            if field_data[7] == 'C6':
+                pixsize = 30.0
+            else:
+                pixsize = 25.0
+        except IndexError:
+            pixsize = 25.0
+    #
+    # Test for Sentinel data and set pixsize to 10m
+    #
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         pixsize = 10.0
     else:

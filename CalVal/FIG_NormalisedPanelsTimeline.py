@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 #    2. ALL/GOOD spectra are divided by the masked mean good panel spectrum to
 #       make normalised spectra. CURRENTLY NO NORMALISATION IS APPLIED
 #    3. The mean values for both ALL and GOOD normalised spectra are created.
-#    4. The mean values for spectra are appended to the spt and gpta dataframes.
+#    4. The mean values for spectra are appended to the gpt and gpta dataframes.
 #    5. The mean values are plotted, as a function of time, relative to the
 #       first panel time stamp.
 #
