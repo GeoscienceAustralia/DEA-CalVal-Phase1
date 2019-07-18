@@ -5,7 +5,13 @@ import pandas as pd
 def make_query(ground_brdf, field_data):
     
     udc = datacube.Datacube(env='ardinteroperability', config='/home/547/aw3463/.sent2.conf')
-    dc = datacube.Datacube()
+    try:
+        if field_data[7] == 'C6':
+            dc = datacube.Datacube(env='c3-samples')
+        else:
+            dc = datacube.Datacube()
+    except IndexError:
+        dc = datacube.Datacube()
 
     #
     # Test for Landsat 8 data

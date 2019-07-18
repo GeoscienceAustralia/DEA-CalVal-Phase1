@@ -29,7 +29,7 @@ def query_and_create(ls_ground_brdf, s2_ground_brdf, ls_ground_bands, s2_ground_
         ls_sat_array, ls_sat_bigarray, ls8_usgs_array, ls8_usgs_bigarray = \
         CreateSatArrays.create_sat_arrays(ls_dc, ls_udc, ls_query, ls_query2, ['','','','Landsat8','','',''])
 
-    brdf_data, solar_zenith = SatBRDF.Sat_BRDF(ls_dc, ls_query, ls_sat_array)
+    brdf_data, solar_zenith = SatBRDF.Sat_BRDF(ls_dc, ls_query, ls_sat_array, field_data)
     ls_ground_WSbrdf, dummy, hb, br = BRDF.ReadAndCalc(brdf_data, ls_ground_bands, s2_ground_bands, field_data)
     ls_ground_WSbrdf = FudgeGPS.fudge_gps(ls_ground_WSbrdf, Corners, RockWalk, StartCorner)
     return ls_sat_array, ls_sat_bigarray, s2_sat_array, s2_sat_bigarray, ls8_usgs_array, ls8_usgs_bigarray, \
