@@ -75,7 +75,13 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
     elif field_data[3] == 'Sentinel2b':
         prod = 's2b_ard_granule'
     elif field_data[3] == 'Landsat8':
-        prod = 'ls8_nbart_scene'
+        try:
+            if field_data[7] == 'C6':
+                prod = 'ga_ls8c_ard_3'
+            else:
+                prod = 'ls8_nbart_scene'
+        except IndexError:
+            prod = 'ls8_nbart_scene'
     else:
         print('The satellite should be one of Sentinel2a/b or Landsat8. I got ', field_data[3])
 
