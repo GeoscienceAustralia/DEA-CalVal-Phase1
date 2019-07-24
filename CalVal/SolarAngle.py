@@ -36,10 +36,9 @@ def add_solar(good_spectra, solang):
     good_spectra['Solar_angle'] = 1.0
     
     SolCount = []
-    for i in range(len(solzen)):
-        for j in range(len(good_spectra[good_spectra.date_saved == times.iloc[i]])):
-            SolCount.append(solzen.iloc[i])
-
+    for i in range(len(solzen.values)):
+        for j in range(len(good_spectra[good_spectra.date_saved == times.values[i]])):
+            SolCount.append(solzen.values[i])
     good_spectra.Solar_angle = SolCount
 
     return good_spectra
