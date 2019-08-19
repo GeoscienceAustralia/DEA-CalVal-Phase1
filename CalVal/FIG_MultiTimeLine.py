@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import matplotlib.dates as mdates
 
 
 def ReadInCSVs(ls8_csvs, sent_csvs):
@@ -13,8 +14,8 @@ def ReadInCSVs(ls8_csvs, sent_csvs):
     sent_fdata = pd.DataFrame()
 
     for i in range(len(ls8_csvs)):
-        ls8_ftimes[i] = pd.Timestamp(ls8_csvs[i][4:11]).dayofyear
-        sent_ftimes[i] = pd.Timestamp(sent_csvs[i][4:11]).dayofyear
+        ls8_ftimes[i] = pd.Timestamp(ls8_csvs[i][4:11])#.dayofyear
+        sent_ftimes[i] = pd.Timestamp(sent_csvs[i][4:11])#.dayofyear
         lstemp = pd.read_csv('../CSV/'+ls8_csvs[i])
         senttemp = pd.read_csv('../CSV/'+sent_csvs[i])
         lstemp.set_index('Unnamed: 0', inplace=True)
@@ -31,17 +32,19 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
         ls8_ftimes, sent_ftimes, ls8_fdata, sent_fdata = ReadInCSVs(ls8_csvs, sent_csvs)
 
     ls8_means = [col for col in fls8_df.columns if 'ls8_mean' in col]
-    ls8_times = [(pd.Timestamp(x[8:])-pd.Timestamp(2018,1,1)).days for x in ls8_means]
+    ls8_times = [pd.Timestamp(x[8:]) for x in ls8_means]
     
     s2a_means = [col for col in fs2a_df.columns if 'S2a_mean' in col]
-    s2a_times = [(pd.Timestamp(x[8:])-pd.Timestamp(2018,1,1)).days for x in s2a_means]
+    s2a_times = [pd.Timestamp(x[8:]) for x in s2a_means]
     
     s2b_means = [col for col in fs2b_df.columns if 'S2b_mean' in col]
-    s2b_times = [(pd.Timestamp(x[8:])-pd.Timestamp(2018,1,1)).days for x in s2b_means]
+    s2b_times = [pd.Timestamp(x[8:]) for x in s2b_means]
 
     krain = pd.read_csv(rain_dat)
     krain.rename({'Rainfall amount (millimetres)': 'rain'}, axis=1, inplace=True)
-    rainday = [(pd.Timestamp(krain.Year[i], krain.Month[i], krain.Day[i])-pd.Timestamp(2018,1,1)).days for i in range(len(krain.Year))]
+    rainday = [pd.Timestamp(krain.Year[i], krain.Month[i], krain.Day[i]) for i in range(len(krain.Year))]
+
+    months = mdates.MonthLocator()
 
     #############
     # Landsat 8 #
@@ -63,11 +66,11 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
     axes[5].set_title('SWIR 1')
     axes[6].set_title('SWIR 2')
 
-    tick_spacing = 10
     for i in range(7):
-        axes[i].xaxis.set_minor_locator(ticker.MultipleLocator(tick_spacing))
-        axes[i].grid(which='minor', color='#BBBBFF', linestyle='-', linewidth=1, axis='x', zorder=1)
-        axes[i].set_xlim(-1826, ls8_times[-1])
+        axes[i].xaxis.set_minor_locator(months)
+        axes[i].grid(which='minor', color='#BBBBFF', linestyle='-', linewidth=1, axis='x', zorder=0)
+        axes[i].grid(which='major', color='#BBBBFF', linestyle='-', linewidth=1, axis='x', zorder=0)
+        axes[i].set_xlim(pd.Timestamp(2013,1,1), s2a_times[-1])
 
     
     axes2 = axes[0].twinx()
@@ -138,11 +141,11 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
     axes[9].set_title('SWIR 2')
     axes[10].set_title('SWIR 3')
 
-    tick_spacing = 10
     for i in range(11):
-        axes[i].xaxis.set_minor_locator(ticker.MultipleLocator(tick_spacing))
+        axes[i].xaxis.set_minor_locator(months)
         axes[i].grid(which='minor', color='#BBBBFF', linestyle='-', linewidth=1, axis='x', zorder=0)
-        axes[i].set_xlim(-1826, s2a_times[-1])
+        axes[i].grid(which='major', color='#BBBBFF', linestyle='-', linewidth=1, axis='x', zorder=0)
+        axes[i].set_xlim(pd.Timestamp(2013,1,1), s2a_times[-1])
 
     axes2 = axes[0].twinx()
     axes2.scatter(x=s2a_times, y=fs2a_df.loc['band1'][s2a_means], color='green', s=20, zorder=10)
