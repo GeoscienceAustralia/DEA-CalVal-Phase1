@@ -49,6 +49,7 @@ from . import FIG_SatRGB
 from . import FIG_SpecHistogram
 from . import FIG_SubSatFieldBands
 from . import FIG_USGSCompareDifference
+from . import GetRainData
 from . import FudgeGPS
 from . import KFactor
 from . import LoadData

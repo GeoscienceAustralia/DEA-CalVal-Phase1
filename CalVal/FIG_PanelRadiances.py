@@ -35,10 +35,10 @@ def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output,
     #
     # Remove old files in directory and create a new one
     #
-    directory = os.path.dirname(output)
-    if os.path.exists(directory):
-        shutil.rmtree(directory)
-    os.makedirs(directory)
+    #directory = os.path.dirname(output)
+    #if os.path.exists(directory):
+    #    shutil.rmtree(directory)
+    #os.makedirs(directory)
 
     #
     # Save plot to output directory.

@@ -115,7 +115,7 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
         axes2.scatter(x=ls8_ftimes, y=ls8_fdata.loc['Band7'], color='blue', s=20, zorder=10)
     axes[6].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+'Landsat 8'+'_'+'Fig'+str(fignum)+'_MultiTimeLine.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+'Landsat8'+'_'+'Fig'+str(fignum)+'_MultiTimeLine.png')
 
     ############
     # Sentinel #
@@ -224,4 +224,4 @@ def FIG_multi_time_line(fls8_df, fs2a_df, fs2b_df, ls8_csvs, sent_csvs, rain_dat
         axes2.scatter(x=sent_ftimes, y=sent_fdata.loc['Band12'], color='blue', s=20, zorder=10)
     axes[10].plot(rainday, krain.rain, c='#FFBBBB', zorder = 5)
     
-    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_Sentinel 2a_b_'+'Fig'+str(fignum)+'_MultiTimeLine.png')
+    plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_Sentinel2a_b_'+'Fig'+str(fignum)+'_MultiTimeLine.png')
