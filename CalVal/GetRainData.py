@@ -13,7 +13,7 @@ from datetime import date
 def retrieve_rain_gauge_data(ID):
     # Create shell script
     file = open('tempfile.txt', 'w')
-    file.write('aaa=$(wget "http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=136&p_display_type=dailyDataFile&p_startYear=&p_c=&p_stn_num='+format(ID, '06d')+'" -O log ; grep "All years" log | awk \'{print $25}\' - | cut -c7-151 - | sed "s/amp;//g" -)\nrm -f log\nbbb=$(echo -n "http://www.bom.gov.au"$aaa)\nwget $bbb -O temp.zip\nunzip temp.zip -x *Note*\nrm -f temp.zip\n')
+    file.write('aaa=$(wget "http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=136&p_display_type=dailyDataFile&p_startYear=&p_c=&p_stn_num='+format(ID, '06d')+'" -O log ; grep "All years" log | awk \'{print $25}\' - | awk \'BEGIN{FS="\\\""} {print $2}\' - | sed "s/amp;//g" -)\nrm -f log\nbbb=$(echo -n "http://www.bom.gov.au"$aaa)\nwget $bbb -O temp.zip\nunzip temp.zip -x *Note*\nrm -f temp.zip\n')
     file.close()
     
     os.system('chmod u+x tempfile.txt')
