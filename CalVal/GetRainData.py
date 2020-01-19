@@ -80,6 +80,8 @@ def get_rain_data(lat, lon):
             # found the nearest rain gauge with good data.
             os.system('mv -f IDCJAC0009_'+format(ID, '06d')+'_1800_Data.csv /g/data/u46/users/aw3463/GuyByrne/calval/Weather')
             break
+        else:
+            os.system('rm -f IDCJAC0009_'+format(ID, '06d')+'_1800_Data.csv')
 
     # Print out the details of the rain gauge, including distance from field
     # site in km.
