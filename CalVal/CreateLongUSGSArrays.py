@@ -36,8 +36,8 @@ def create_long_arrays(ldc, udc, lquery, lquery2):
     ls8_usgs_array = ls8_usgs_temp.where(good_quality)
     ls8_usgs_bigarray = ls8_usgs_bigtemp.where(good_quality)
 
-    ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
-    ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
+    ls8_array = ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
+    ls8_bigarray = ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
 
     return ls8_array, ls8_usgs_array, ls8_bigarray, ls8_usgs_bigarray
 #

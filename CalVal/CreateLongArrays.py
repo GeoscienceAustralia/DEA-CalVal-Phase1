@@ -40,8 +40,8 @@ def create_long_arrays(ldc, sdc, lquery, squery, lquery2, squery2):
     ls8_array = ls8_temp.where(good_quality)
     ls8_bigarray = ls8_bigtemp.where(good_quality)
 
-    ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
-    ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
+    ls8_array = ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
+    ls8_bigarray = ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
 
     return ls8_array, s2a_array, s2b_array, ls8_bigarray, s2a_bigarray, s2b_bigarray
 #
@@ -61,7 +61,7 @@ def create_long_arrays_nomask(ldc, sdc, lquery, squery, lquery2, squery2):
     ls8_array = ldc.load(product='ls8_nbart_scene', **lquery)
     ls8_bigarray = ldc.load(product='ls8_nbart_scene', **lquery2)
 
-    ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
-    ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'}, inplace=True)
+    ls8_array = ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
+    ls8_bigarray = ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
 
     return ls8_array, s2a_array, s2b_array, ls8_bigarray, s2a_bigarray, s2b_bigarray
