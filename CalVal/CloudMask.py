@@ -41,8 +41,8 @@ def make_processed_array(ls8_bigarray, satname):
     # Smooth data in x and y by 500/pixscale pixels (ie. 20 pix for LS8 and 50
     # pix for Sentinel 2) and drop any NaNs which will be at the edges of the 
     # images.
-    smooth_array_x = unflagged_array.rolling(x=int(500/pixscale)).mean().dropna('x')
-    smooth_array_xy = smooth_array_x.rolling(y=int(500/pixscale)).mean().dropna('y')
+    smooth_array_x = unflagged_array.rolling(x=int(500/pixscale)).mean().dropna('x', how='all')
+    smooth_array_xy = smooth_array_x.rolling(y=int(500/pixscale)).mean().dropna('y', how='all')
 
     # Drop long wavelength data to focus on Coastal Aerosol, plus RGB for
     # cloud masking.
@@ -52,7 +52,7 @@ def make_processed_array(ls8_bigarray, satname):
         ls8_cbgr_array = smooth_array_xy.drop(['nbart_red_edge_1',
                                         'nbart_red_edge_2', 'nbart_red_edge_3',
                                         'nbart_nir_1', 'nbart_nir_2', 
-                                        'nbart_swir_2', 'nbart_swir_3'])
+                                        'nbart_swir_2', 'nbart_swir_3', 'fmask'])
 
     # Create median of all data, crunching along the time axis.
     ls8_median = ls8_cbgr_array.median(dim='time')
@@ -80,7 +80,7 @@ def threshold_mask(ls8_avg):
     # Identify dates where mean < 1000 and standard deviation < 200. These are
     # the data with good dates (threshold1).
     threshold1 = ls8_avg.where(abs(ls8_avg.mean(dim=('y','x'))) < 1000)
-    threshold1 = threshold1.where(threshold1.std(dim=('x','y')) < 200)
+    threshold1 = threshold1.where(threshold1.std(dim=('x','y')) < 250)
     threshold1 = threshold1.dropna('time')
     
     # Based on the good dates so far, create an xarray with just the bad dates
@@ -133,6 +133,20 @@ def threshold_mask(ls8_avg):
     
     return daylist
 
+
+###############################################################################
+# For cases where the sat_array is completely masked out, but the             #    
+# sat_bigarray still has good data in it, remove these days from the final    #
+# list of bad days so that it doesn't throw an error later                    #
+###############################################################################
+def remove_bad_subset_cases(ls8_array, daylist):
+    for i in daylist:
+        if pd.to_datetime(i).date() not in [pd.to_datetime(x).date() for x in ls8_array.time.values]:
+            daylist.remove(i)
+            print("Removed ", i,
+                  "as there are no good data over the field site for this day")
+    return daylist
+
 ###############################################################################
 # Print out differences between the auto and manual masking methods.          #    
 #                                                                             #    
@@ -157,9 +171,10 @@ def report_differences(ls8_bad_days, daylist):
 # Combine previous functions to run entire cloud mask and return "daylist",   #
 # which contains all the cloud-affected days.                                 #
 ###############################################################################
-def cloud_mask(ls8_bigarray, ls8_bad_days, satname):
+def cloud_mask(ls8_array, ls8_bigarray, ls8_bad_days, satname):
     ls8_avg = make_processed_array(ls8_bigarray, satname)
     daylist = threshold_mask(ls8_avg)
+    daylist = remove_bad_subset_cases(ls8_array, daylist)
     report_differences(ls8_bad_days, daylist)
 
     return daylist
