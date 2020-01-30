@@ -44,17 +44,17 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
     if Corners == [0, 0, 0, 0, 0, 0, 0, 0]:
         file.write('Good GPS Coordinates were found in the headers\n')
         file.write('Approximate bounding box coordinates:\n')
-        file.write('SE: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
-        file.write('SW: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
-        file.write('NE: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n')
         file.write('NW: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n\n')
+        file.write('NE: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].max(), 6))+')\n')
+        file.write('SW: ('+str(round(ground_brdf['Longitude'].min(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
+        file.write('SE: ('+str(round(ground_brdf['Longitude'].max(), 6))+', '+str(round(ground_brdf['Latitude'].min(), 6))+')\n')
     else:
         file.write('NO GPS Coordinates found - coordinates have been approximated!!!\n')
         file.write('Approximate bounding box coordinates:\n')
-        file.write('SE: ('+str(Corners[1])+', '+str(Corners[0])+')\n')
-        file.write('SW: ('+str(Corners[3])+', '+str(Corners[2])+')\n')
-        file.write('NE: ('+str(Corners[5])+', '+str(Corners[4])+')\n')
         file.write('NW: ('+str(Corners[7])+', '+str(Corners[6])+')\n\n')
+        file.write('NE: ('+str(Corners[5])+', '+str(Corners[4])+')\n')
+        file.write('SW: ('+str(Corners[3])+', '+str(Corners[2])+')\n')
+        file.write('SE: ('+str(Corners[1])+', '+str(Corners[0])+')\n')
 
     file.write('Solar Zenith angle is from ' + str(round(ground_brdf['Solar_angle'].max(), 1))
                + ' to ' + str(round(ground_brdf['Solar_angle'].min(), 1)) + ' degrees.\n\n')
