@@ -74,7 +74,7 @@ def get_rain_data(lat, lon):
         # Test to see if there are at least 95% of days between 2013 and today
         # that have real rain measurements (not NaNs when the rain gauge was
         # not operational
-        if float(rain_gauge[rain_gauge.Year >= 2013]['Rainfall amount (millimetres)'].count())/float(DaysSince2013) > 0.95:
+        if float(rain_gauge[rain_gauge.Year >= 2013]['Rainfall amount (millimetres)'].count())/float(DaysSince2013) > 0.9:
             # If the rain gauge has good data (>95%), then move the CSV file
             # into a permanent location and break out of the loop, as we have
             # found the nearest rain gauge with good data.

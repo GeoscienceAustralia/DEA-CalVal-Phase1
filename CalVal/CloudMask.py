@@ -171,10 +171,10 @@ def report_differences(ls8_bad_days, daylist):
 # Combine previous functions to run entire cloud mask and return "daylist",   #
 # which contains all the cloud-affected days.                                 #
 ###############################################################################
-def cloud_mask(ls8_array, ls8_bigarray, ls8_bad_days, satname):
+def cloud_mask(ls8_array, ls8_bigarray, satname):
     ls8_avg = make_processed_array(ls8_bigarray, satname)
     daylist = threshold_mask(ls8_avg)
     daylist = remove_bad_subset_cases(ls8_array, daylist)
-    report_differences(ls8_bad_days, daylist)
+    #report_differences(ls8_bad_days, daylist)
 
     return daylist
