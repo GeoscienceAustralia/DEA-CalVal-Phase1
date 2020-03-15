@@ -50,8 +50,9 @@ def create_sat_arrays(dc, udc, query, query2, field_data):
     else:
         print('Satellite must be one of Landsat8 or Sentinel2a/b. Got', field_data[3])
 
-    sat_array = sat_array.sel(time=[pd.Timestamp(field_data[1])], method='nearest')
-    sat_bigarray = sat_bigarray.sel(time=[pd.Timestamp(field_data[1])], method='nearest')
+    if sat_array.notnull():
+        sat_array = sat_array.sel(time=[pd.Timestamp(field_data[1])], method='nearest')
+        sat_bigarray = sat_bigarray.sel(time=[pd.Timestamp(field_data[1])], method='nearest')
 
     if field_data[3] == 'Landsat8':
         if field_data[6] == 'USGS':
