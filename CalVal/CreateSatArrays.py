@@ -8,8 +8,39 @@ import pandas as pd
 def create_sat_arrays(dc, udc, query, query2, field_data):
     if field_data[3] == 'Sentinel2a':
         b_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green', 'nbart_red', 'nbart_red_edge_1', 'nbart_red_edge_2', 'nbart_red_edge_3', 'nbart_nir_1', 'nbart_nir_2', 'nbart_swir_2', 'nbart_swir_3']
-        sat_array = dc.load(product='s2a_ard_granule', measurements=b_names, **query)
-        sat_bigarray = dc.load(product='s2a_ard_granule', measurements=b_names, **query2)
+        if field_data[6] == 'Sen2Cor':
+            b_names = ['B01_60m', 'B02_10m', 'B03_10m', 'B04_10m', 'B05_20m', 'B06_20m', 'B07_20m', 'B08_10m', 'B8A_20m', 'B11_20m', 'B12_20m']
+            sat_array = dc.load(product='s2a_sen2cor_v6', measurements=b_names, **query)
+            sat_array = sat_array.rename({
+                              'B01_60m': 'nbart_coastal_aerosol',
+                              'B02_10m': 'nbart_blue',
+                              'B03_10m': 'nbart_green',
+                              'B04_10m': 'nbart_red',
+                              'B05_20m': 'nbart_red_edge_1', 
+                              'B06_20m': 'nbart_red_edge_2',
+                              'B07_20m': 'nbart_red_edge_3',
+                              'B08_10m': 'nbart_nir_1', 
+                              'B8A_20m': 'nbart_nir_2', 
+                              'B11_20m': 'nbart_swir_2',
+                              'B12_20m': 'nbart_swir_3'
+                             })
+            sat_bigarray = dc.load(product='s2a_sen2cor_v6', measurements=b_names, **query2)
+            sat_bigarray = sat_bigarray.rename({
+                              'B01_60m': 'nbart_coastal_aerosol',
+                              'B02_10m': 'nbart_blue',
+                              'B03_10m': 'nbart_green',
+                              'B04_10m': 'nbart_red',
+                              'B05_20m': 'nbart_red_edge_1', 
+                              'B06_20m': 'nbart_red_edge_2',
+                              'B07_20m': 'nbart_red_edge_3',
+                              'B08_10m': 'nbart_nir_1', 
+                              'B8A_20m': 'nbart_nir_2', 
+                              'B11_20m': 'nbart_swir_2',
+                              'B12_20m': 'nbart_swir_3'
+                             })
+        else:
+            sat_array = dc.load(product='s2a_ard_granule', measurements=b_names, **query)
+            sat_bigarray = dc.load(product='s2a_ard_granule', measurements=b_names, **query2)
     
     elif field_data[3] == 'Sentinel2b':
         b_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green', 'nbart_red', 'nbart_red_edge_1', 'nbart_red_edge_2', 'nbart_red_edge_3', 'nbart_nir_1', 'nbart_nir_2', 'nbart_swir_2', 'nbart_swir_3']

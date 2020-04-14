@@ -71,7 +71,10 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
     exquery['time'] = query['time']
 
     if field_data[3] == 'Sentinel2a':
-        prod = 's2a_ard_granule'
+        if field_data[6] == 'Sen2Cor':
+            prod = 's2a_sen2cor_v6'
+        else:
+            prod = 's2a_ard_granule'
     elif field_data[3] == 'Sentinel2b':
         prod = 's2b_ard_granule'
     elif field_data[3] == 'Landsat8':
