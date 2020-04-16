@@ -76,7 +76,10 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
         else:
             prod = 's2a_ard_granule'
     elif field_data[3] == 'Sentinel2b':
-        prod = 's2b_ard_granule'
+        if field_data[6] == 'Sen2Cor':
+            prod = 's2b_sen2cor_v1'
+        else:
+            prod = 's2b_ard_granule'
     elif field_data[3] == 'Landsat8':
         try:
             if field_data[7] == 'C6':

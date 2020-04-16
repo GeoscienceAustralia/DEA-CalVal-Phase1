@@ -35,16 +35,16 @@ def Sat_BRDF(dc, query, sat_array, field_data):
     try:
         if field_data[7] == 'C6':
             with open(filelink.uris[0][len('file://'):]) as fl:
-                yamdoc = yaml.load(fl)
+                yamdoc = yaml.load(fl, Loader=yaml.FullLoader)
             with open(filelink.uris[0][len('file://'):].replace('odc-metadata', 'proc-info')) as fl2:
-                yamdoc2 = yaml.load(fl2)
+                yamdoc2 = yaml.load(fl2, Loader=yaml.FullLoader)
         else:
             with open(filelink.uris[0][len('file://'):]) as fl:
-                yamdoc = yaml.load(fl)
+                yamdoc = yaml.load(fl, Loader=yaml.FullLoader)
         
     except IndexError:
         with open(filelink.uris[0][len('file://'):]) as fl:
-            yamdoc = yaml.load(fl)
+            yamdoc = yaml.load(fl, Loader=yaml.FullLoader)
         
     #
     # Solar zenith at time of satellite overpass is extracted here.

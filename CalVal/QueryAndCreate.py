@@ -7,6 +7,9 @@ from . import FudgeGPS
 
 def query_and_create(ls_ground_brdf, s2_ground_brdf, ls_ground_bands, s2_ground_bands, field_data, Corners, RockWalk, StartCorner):
 
+    if len(field_data) < 8:
+        print('Warning: field_data is less than 8 fields. This may mess up sen2cor processing')
+
     if field_data[3] == 'Landsat8':
         ls_dc, ls_udc, ls_query, ls_query2 = Query.make_query(ls_ground_brdf, field_data)
         s2_dc, s2_udc, s2_query, s2_query2 = Query.make_query(s2_ground_brdf, ['','','','Sentinel2a','','','',''])
