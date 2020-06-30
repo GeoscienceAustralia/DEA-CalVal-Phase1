@@ -5,7 +5,7 @@ satellite data for calibration/validation. This includes python code, as well
 as jupyter notebooks. The structure looks like:
 
 <B>GitRepoFiles</B> - Files that go along with the instructions for 
-workflows.</B>
+workflows.</BR>
 <B>MultiTimeLine</B> - Jupyter notebook workflows for creating site timelines
 since 2013.<BR>
 <B>SENSOR_BANDS</B> - Satellite band response files.<BR>
