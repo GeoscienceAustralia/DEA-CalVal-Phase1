@@ -24,7 +24,7 @@ can be copied on VDI to the working directory:<BR><BR>
     > module load dea<BR><BR>
 <LI>Copy the template in the Site-Pipelines directory to a new file and then
 start the notebook. eg:<BR><BR>
-    > cd Site_Pipelines
+    > cd Site_Pipelines<BR>
     > cp template.ipynb Pipeline-PIN-20MAY18-L8.ipynb<BR>
     > jupyter notebook Pipeline-PIN-20MAY18-L8.ipynb<BR><BR>
 <LI>Input and output directories should be defined in the first cell, as
