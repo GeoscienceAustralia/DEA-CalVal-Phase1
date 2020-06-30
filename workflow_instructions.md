@@ -15,17 +15,18 @@ the workflow for the first time:
 <LI>The Python library for this workflow, as well as notebooks and support
 scripts can be found on VDI and should be cloned/downloaded from this repo or
 copied into the working directory directly on VDI:<BR><BR>
-    cp -r /g/data/u46/users/aw3463/GuyByrne/calval .<BR><BR>
+    cp -r /g/data/up71/projects/CalVal_Phase1 .<BR><BR>
 <LI>The DEAPlotting library is also needed for RGB plots and can be obtained
 from https://github.com/GeoscienceAustralia/dea-notebooks under "10_Scripts" or
 can be copied on VDI to the working directory:<BR><BR>
-    cp /g/data/u46/users/aw3463/GuyByrne/calval/DEAPlotting.py .<BR><BR>
+    cp /g/data/up71/projects/CalVal_Phase1/SRC/DEAPlotting.py .<BR><BR>
 <LI>Start up the DEA module by typing:<BR><BR>
     > module load dea<BR><BR>
 <LI>Copy the template in the Site-Pipelines directory to a new file and then
 start the notebook. eg:<BR><BR>
-    > cp Site-Pipelines/template.ipynb Pipeline-PIN-20-05-18.ipynb<BR>
-    > jupyter notebook Pipeline-PIN-20-05-18.ipynb<BR><BR>
+    > cd Site_Pipelines
+    > cp template.ipynb Pipeline-PIN-20MAY18-L8.ipynb<BR>
+    > jupyter notebook Pipeline-PIN-20MAY18-L8.ipynb<BR><BR>
 <LI>Input and output directories should be defined in the first cell, as
 'indir' and 'output', respectively. For the input directory, it is assumed
 that there are multiple sub-directories, with format 'line1, line2, line3' etc.
@@ -33,7 +34,7 @@ Note that lower case is required and no extra characters are allowed in the
 directory names. So 'Line1' or 'line_1' will not work. The output directory
 will be created by the workflow and is where PNG files will be stored, as well
 as the data sheet text file.<P>
-Raw data for testing purposes can be found under the directory 'Misc/Testdata'.
+Raw data for testing purposes can be found under the directory 'GitRepoFiles/Testdata'.
 So 'indir' can be changed to point to this directory, if you need to check out
 how the workflow operates. The raw data correspond to the 20MAY18 Pinnacles
 field site measurements that are the default in the template workflow.<P>
@@ -44,11 +45,11 @@ notebook.<BR><BR>
 <LI>Within each 'line' sub-directory, there should be radiance spectrum files
 in text format, with extension '.asd.rad.txt'.<BR><BR>
 <LI>There are standard files that are used for determining the panel K-factor,
-currently located either in this repo under <B>Misc</B> or:<BR><BR>
-        /g/data/u46/users/aw3463/GuyByrne/30APR18/Panels/<BR><BR>
+currently located either in this repo under <B>GitRepoFiles/Panels</B> or:<BR><BR>
+        /g/data/up71/projects/CalVal_Phase1/GitRepoFiles/Panels<BR><BR>
 <LI>Satellite band response files are located either in this repo under
-<B>Misc</B> or in the directory:<BR><BR>
-        /g/data1a/u46/users/aw3463/GuyByrne/misc_others/<BR><BR>
+<B>SENSOR_BANDS</B> or in the directory:<BR><BR>
+        /g/data/up71/projects/CalVal_Phase1/SENSOR_BANDS/<BR><BR>
         including landsat8_vsir.flt, Sent2a.flt and Sent2b.flt.<BR><BR>
 <LI>The 'field_data' list should be edited to contain the relevant information
 on: <BR>
@@ -58,7 +59,8 @@ on: <BR>
 4. Satellite name (must be one of Landsat8, Sentinel2a, Sentinel2b)<BR>
 5. The name of the panel K-factor to use<BR>
 6. Whether the data were recorded in Radiance or Reflectance mode<BR>
-7. Whether USGS data should be processed.<BR><BR>
+7. Whether USGS or Sen2Cor data should be processed.<BR>
+8. Whether the data are Collection 5 (C5) or 6 (C6).<BR><BR>
 
 <LI>The lists 'bad_pans' and 'bad_grounds' can be left as empty for the first
 time running the workflow (eg. 'bad_pans = []'). These are used to specify
