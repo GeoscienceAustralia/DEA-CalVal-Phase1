@@ -106,6 +106,7 @@ just after rain events. This necessarily increases the variability of a field
 site.<P>
 
 <IMG SRC='GitRepoFiles/Example/BLA_22APR18_LS8_Fig18_MultiTimeLine.png'>
+
 Figure 18 shows an
 example output for Blanchetown, using all data. The left-hand axis is rainfall
 in millimetres and the right-hand axis is Surface Reflectance (SR). The faint,
@@ -141,6 +142,7 @@ consider only dry data. ie. the satellite overpass occurred more than 10 days
 since the previous rainfall event.
 
 <IMG SRC='GitRepoFiles/Example/BLA_22APR18_LS8_Fig19_MultiTimeLine.png'>
+
 Figure 19
 shows the same data as previously, but with all wet data flagged out. For the
 case of Blanchetown, most of the data is flagged out, since Blanchetown
