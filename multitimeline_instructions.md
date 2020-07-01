@@ -76,6 +76,6 @@ satellite maps for each individual overpass.
 Note that all the data
 (including contaminated days) will still be shown in Cells [7-9]. However,
 Cell [12] will show the summary spectra for only good satellite data. If you
-see suspiciously different spectra here, it might mean you have not flagged out
-all the bad data. Also Cell [13] (MultiTimeLine plots) will help any
-contaminated data to stand out.
+see suspiciously different spectra here, these are days where the automatic
+cloud masking algorithm has not flagged out all the bad data. Also Cell [13]
+(MultiTimeLine plots) will help any contaminated data to stand out.
