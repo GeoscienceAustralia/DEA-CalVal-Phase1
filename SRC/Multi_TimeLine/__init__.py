@@ -1,3 +1,4 @@
+from . import CloudMask
 from . import CreateManyFieldFromSat
 from . import CreateManyFieldFromSat_USGS
 from . import CreateManyStats

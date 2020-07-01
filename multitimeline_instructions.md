@@ -2,90 +2,78 @@
 
 This workflow follows on from the Site-Pipelines workflow. It produces a
 time-series for the field site of both Landsat and Sentinel data, since the
-beginning of 2013. The first part of the workflow is the same as the
-Site-Pipelines workflow, so if Site-Pipelines has successfully completed, then
-this workflow should require some minor* tweaking.<P>
+beginning of 2013.
+
+Multi Timelines requires code that sits in the SRC/Multi_TimeLine
+subdirectory, as well as some code from the main SRC/Site_Pipelines
+subdirectory.
 
 Within the MultiTimeLine directory, there will be a template.ipynb file,
 which can be used as a starting point. Copy this file and edit the first cell
 as for the Site-Pipelines workflow. There are a few extra fields that need to
 be filled in here:
 <OL>
-    <LI><B>ls8_bad_days, s2a_bad_days, s2b_bad_days</B>. These lists contain
-        the dates for which the satellite data shows cloud and are therefore
-        flagged out. Initially these lists should be left blank.</LI>
+    <LI>The <B>Corners</B> list needs to be filled out with at least two
+        coordinates (lat and long) for the site in question.</LI>
     <LI><B>ls8_csvs, sent_csvs</B>. These lists contain the name of a CSV file
         that was created in the penultimate cell of the Site-Pipelines workflow.
         The CSV file contains an output of the summary fstat_df DataFrame and
         the summary field data contained within is used to plot against the
         satellite data. In order to generate data points for both Landsat and
-        Sentinel, The corresponding Site-Pipelines workflow needs to be run
+        Sentinel. The corresponding Site-Pipelines workflow needs to be run
         twice: once with field_data[3] set to "Landsat8" and once with
-        field_data[3] set to "Sentinel2a" or "Sentinel2b".</LI>
-    <LI><B>rain_dat</B>. The string points to a CSV file in the Weather
-        subdirectory, which contains historical rainfall data close to the field
-        site. The data must be manually generated from the BOM website, as
-        described below.</LI>
+        field_data[3] set to "Sentinel2a" or "Sentinel2b". It is not necessary
+        for csv files to be elements of these lists - they can be empty - but
+        they must exist, even if empty.</LI>
 </OL>
 
 ### Generating rainfall CSV data
 
-In this example, Blanchetown rainfall data is generated. The first step is to
-download the closest rain gauge data over the time period 2013-present:
+Rainfall data is now automatically generated in Cell [3]. This Cell goes to the
+BoM website and searches for a list of rain gauges that are closest to the
+coordinates provided in the <B>Corners</B> list. The rainfall data are then
+checked to make sure there are good data for at least 95% of the time, since the
+beginning of 2013. If not, the next-closest rain gauge is checked, and so on.
+When a suitable rain gauge is found, the rainfall data are downloaded into the
+Weather directory. <B>rain_dat</B> points to the file in this directory.
+
+### Cloud masking
+There are automatic cloud mitigation strategies available for both Landsat and
+Sentinel products, but in practice those built into DEA products do not result
+in a satisfactory dataset, as too many good dates are flagged out and too many
+bad dates remain in the final product. Instead, a cloud masking method was
+developed just for this workflow.<P>
+
+The steps to flag out cloud and cloud shadow can be summarised as:
 <OL>
-    <LI>Go to the <A HREF=http://www.bom.gov.au/climate/data/index.shtml>BOM
-        Climate Data Online</A> website.</LI>
-    <LI>Above the map, click the tab "Select using text".</LI>
-    <LI>Under point 2 "Select a weather station in the area of interest", enter
-        the name of the place you are looking for and click "Find". If you
-        do not know the name, it is also possible to search by position, using
-        the button on the far right-hand-side.</LI>
-    <LI>You will be presented with a list of matching towns. Click on the most
-        appropriate one.</LI>
-    <LI>You will be presented with a list of the nearest rainfall gauges. Click
-        on the closest one. Below this, a small graph will show you the date
-        range over which this station has been collecting rainfall data. If the
-        station has not been collecting enough data in the period since 2013,
-        you may need to pick another station.</LI>
-    <LI>Once you have chosen the appropriate station, click on the "Get Data"
-        button under step 3 (at the bottom of the page). This will take you to
-        a daily rainfall spreadsheet for the current year.</LI>
-    <LI>You can download all the rainfall data (all years) for the station by
-        clicking on the link "All years of data", found in the top-right corner
-        of the page. This will initiate downloading of a zip file, which, when
-        expanded, contains a CSV file with all the relevant rainfall data.</LI>
+    <LI>Smooth data to an effective resolution fo 500m. This smooths out sharp
+        lines from roads/buildings etc, as well as enhancing cloud effects,
+        which are typically large-scale.</LI>
+    <LI>Focus on just coastal aerosol, blue, green and red bands.</LI>
+    <LI>Create a median of all data, over all time.</LI>
+    <LI>Create dataset that is difference of CA/BGR data from median and search
+        for large differences.</LI>
+    <LI>Coarse thresholding: remove any data where difference is > 0.1 surface
+        reflectance (SR) units, or where the standard deviation is larger than
+        0.025 SR units.</LI>
+    <LI>Based on remaining data, create new median and difference
+        datasets.</LI>
+    <LI>Fine thresholding: remove any data where the average SR of the field
+        site is between -0.06 and 0.07. Also remove any data where any
+        individual pixel within a field site shows a difference of more than
+        0.07 SR units.</LI>
 </OL>
-Once you have the CSV of the rainfall data, you should move it to a CSV
-directory in the top level. For example, if you have the CSV file in the
-MultiTimeLine directory, and you are in that directory:
 
-    > mv IDCJAC0009_024564_1800_Data.csv ../CSV/
-
-Note, you may need to first create the CSV directory ("mkdir ../CSV").
-
-Now the workflow should be ready to run through the first time. So at the top
-of the Jupyter notebook page, click on "Kernel" and then click on
-"Restart & Run All", then "Restart and Run All Cells".<P>
+Whilst this method improves upon the DEA standard method, there are still times
+where good data may be flagged out, or bad data are kept in. Typically this may
+happen once or twice per Multi-Timeline workflow.
 
 ### After the first run.
 
 Once the notebook has run all the way through, you will now be able to see
-satellite maps for each individual overpass and assess them for cloud
-contamination. There are automatic cloud mistigation strategies available for
-both Landsat and Sentinel products, but at the time of writing they are not
-fool-proof and it is much more reliable to manually edit out contamination by
-clouds/shadow/fog etc.<P>
+satellite maps for each individual overpass.
 
-To edit out contaminated data, look through the satellite images shown in Cells
-[34], [35] and [36] (for Landsat 8, Sentinel 2a and 2b, respectively) and note
-down the dates of contaminated images. Then transfer these dates to the three
-lists in Cell [1] (ls8_bad_days, s2a_bad_days and s2b_bad_days). The format of
-these lists should look something like:
-
-ls8_bad_days = ['2013-04-13', '2013-04-29', '2013-05-06']
-
-When you have updated all three lists, you can then re-run the entire notebook
-and hopefully you will only be using good data. Note that all the data
+Note that all the data
 (including contaminated days) will still be shown in Cells [34-36]. However,
 Cell [39] will show the summary spectra for only good satellite data. If you
 see suspiciously different spectra here, it might mean you have not flagged out
@@ -174,4 +162,3 @@ overpasses). If there are not enough overpasses to produce reliable statistics,
 then 'NaN' will be returned, as is the case for Sentinel 2b standard deviation
 for Blanchetown (not shown), as there were only 4 overpasses.
 
-<BR><BR><BR>* Easy, but laborious.
