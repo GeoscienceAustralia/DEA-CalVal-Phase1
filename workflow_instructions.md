@@ -149,7 +149,7 @@ This plot can be used to identify any outlying ground radiances, which can be
 subsequently identified using 'bad_grounds' in Cell [1]. Once such bad
 radiances have been flagged, then the two panes will show a with/without
 comparison.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig3_GroundRadiances.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig3_GroundRadiances.png"><HR>
     
 <B>Figures 4 and 5</B> (Plot timelines...) will initially be the same. They
 show a line-by-line plot of the timelines of spectra taken, with the horizontal
@@ -159,9 +159,9 @@ If there are any errant panel or ground radiances, based on the time they were
 taken, they can be identified here. Also, these plots can be used to assess
 when the panel readings for each line occur. If there are any bad panels or
 ground radiances, then they will be removed from the second figure.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig4_AllTimeLineData.png"
 width=50%>
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig5_GoodTimeLineData.png"
 width=50%><HR>
     
 <B>Figure 6</B> (Create timeline...) Shows two panes with averaged radiances
@@ -172,13 +172,13 @@ field data taken in the morning will show a slowly rising curve, as the Sun
 rises. Deviations from this slowly changing curve may identify bad panel
 readings that should be flagged out in 'bad_pans' in Cell [1]. Once the
 notebook is re-run, any bad panels will be removed from the second pane.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig6_TimevsAvgPanels.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig6_TimevsAvgPanels.png"><HR>
     
 
 <B>Figure 7</B> (Fit Insolation Curve) Plot the averaged panel radiance as a
 function of the cosine of the Solar zenith angle. On these axes, the data
 should follow a straight line, which can then be fit.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig7Insolation.png" width=50%><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig7Insolation.png" width=50%><HR>
 
 <B>Figure 8</B> (Plot all ground...) shows reflectance spectra for all good
 ground observations as black curves. Coloured curves show the average for all
