@@ -74,10 +74,10 @@ Once the notebook has run all the way through, you will now be able to see
 satellite maps for each individual overpass.
 
 Note that all the data
-(including contaminated days) will still be shown in Cells [34-36]. However,
-Cell [39] will show the summary spectra for only good satellite data. If you
+(including contaminated days) will still be shown in Cells [7-9]. However,
+Cell [12] will show the summary spectra for only good satellite data. If you
 see suspiciously different spectra here, it might mean you have not flagged out
-all the bad data. Also Cell [40] (MultiTimeLine plots) will help any
+all the bad data. Also Cell [13] (MultiTimeLine plots) will help any
 contaminated data to stand out.
 
 ### Understanding the outputs of the workflow
@@ -96,8 +96,8 @@ this in mind, the characterisation of the field sites is done in two ways:
 </OL>
 In order to address the second point, the workflow uses the rainfall data to
 flag out any satellite data that occurs no more than 10 days after a rainfall
-event at the field site. This is a rather conservative time-scale (3-5 days
-appears to be the typical timescale to return to normal), but ensures that any
+event at the field site. This is a rather conservative time-scale as 3-5 days
+appears to be the typical timescale to return to normal, but ensures that any
 remaining data should not be affected by moisture except under the most extreme
 circumstances. Unfortunately, this results in some field sites without very
 much dry data at all, because it rains often at the field site. In such cases,
@@ -105,7 +105,8 @@ it is wise to fall back on the full dataset, including satellite overpasses
 just after rain events. This necessarily increases the variability of a field
 site.<P>
 
-<IMG SRC='GitRepoFiles/Example/BLA_22APR18_LS8_Fig18_MultiTimeLine.png'>Figure 18 shows an
+<IMG SRC='GitRepoFiles/Example/BLA_22APR18_LS8_Fig18_MultiTimeLine.png'>
+Figure 18 shows an
 example output for Blanchetown, using all data. The left-hand axis is rainfall
 in millimetres and the right-hand axis is Surface Reflectance (SR). The faint,
 grey histogram shows the amount of rainfall on a daily basis. The black dots
@@ -139,7 +140,8 @@ The above data are based on using ALL satellite data. However, below, we
 consider only dry data. ie. the satellite overpass occurred more than 10 days
 since the previous rainfall event.
 
-<IMG SRC='GitRepoFiles/Example/BLA_22APR18_LS8_Fig19_MultiTimeLine.png'>Figure 19
+<IMG SRC='GitRepoFiles/Example/BLA_22APR18_LS8_Fig19_MultiTimeLine.png'>
+Figure 19
 shows the same data as previously, but with all wet data flagged out. For the
 case of Blanchetown, most of the data is flagged out, since Blanchetown
 regularly experiences rain. Corresponding statistics are shown below:<BR>
