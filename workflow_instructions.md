@@ -185,57 +185,57 @@ ground observations as black curves. Coloured curves show the average for all
 spectra in a Line. the right pane just shows a zoomed y-axis, compared to the
 left pane. Any unusually different spectra can be identified here and may be
 flagged in 'bad_grounds' in Cell [1].
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig8_Reflectances.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig8_Reflectances.png"><HR>
     
 <B>Figure 9</B> (Plot band reflectances) shows the reflectance spectra
 convolved to the satellite bands.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig9_BandReflectances.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig9_BandReflectances.png"><HR>
     
 <B>Figure 10</B> Alternate plot of Figs 9 and 10, friendly for inclusion in a
 paper or technical report.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig10_Reflectances_Band.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig10_Reflectances_Band.png"><HR>
 
 <B>Figure 11</B> (Histogram of all...) shows band-by-band histograms for all
 reflectances. The histograms typically conform to a Normal distribution, but
 unusually bright or dark spectra may be identified as extreme outliers
 here.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig11_BandHistograms.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig11_BandHistograms.png"><HR>
     
 <B>Figure 12</B> (Plot satellite band...) show the median ground reflectance,
 together with the wavelength ranges for the satellite bands, corresponding to
 the field data. This is just to check that the satellite bands fall within
 well-behaved parts of the spectrum.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig12_BandWavelengths.png"
 width=50%><HR>
     
 <B>Figure 13</B> (Plot relative locations...) shows a relative
 longitude/latitude positions for both field and satellite data. A grid is also
 shown to represent the extent of the satellite pixels.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig13_SatFieldLocations.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig13_SatFieldLocations.png"><HR>
     
 <B>Figures 14, 15 and 16</B> show RGB images of the Satellite and field data,
 where the field data have been averaged into pixels that match the satellite
 data. A blank field pixel means that there is no field data corresponding to
 that pixel.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig14_Satellite_bigRGB.png"
 width=50%>
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png" width=50%>
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png" width=50%><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig15_Satellite_RGB.png" width=50%>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig16_Field_rgb.png" width=50%><HR>
 
 <B>Figure 17</B> shows the band-by-band satellite data. This gives an
 indication of how much change there is across the field site. There should
 typically be less than 5% variability.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png"><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig17_SatBands.png"><HR>
     
 <B>Figure 18</B> (Plot ratio arrays) shows band-by-band images of the ratio
 between satellite and field arrays. All images have been scaled to ratios
 between 0.9 and 1.1, such that green colours indicate a close match between
 field and satellite pixels.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png">
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig18_RatioSatOverFieldData.png">
 <HR>
     
 <B>Figure 19</B> (Plot comparison spectra...) shows a band-by-band comparison
@@ -247,26 +247,26 @@ orange and black spectra is indicative of the variation in the ground spectrum,
 as measured by the satellite at slightly varying positions, so it gives a
 guide for how reliable the satellite data is.
 
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig19_InnerFieldBandCompare.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig19_InnerFieldBandCompare.png"
 width=50%>
 <HR>
     
 <B>Figure 20</B> A similar plot to Figure 19 that is more suitable for papers
 and technical reports.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig20_InnerFieldBandCompare.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig20_InnerFieldBandCompare.png"
 width=50%><HR>
 
 <B>Figure 21</B> (Comparison plot of...) shows a scatter plot, comparing the
 satellite and field data where there is at least one field spectrum overlapping
 with each satellite pixel. Different bands are shown with different symbols and
 colours.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig21_PixelByPixelComparison.png"
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig21_PixelByPixelComparison.png"
 width=50%><HR>
     
 <B>Figure 22</B> shows the same as Figure 21, but for each band all the pixel
 data is averaged, so there is one data point per band. Error-bars are shown,
 which represent the standard deviation of the satellite and field data.
-<img src="Misc/Example/PIN_20MAY18__Landsat8_Fig22_AvgComparison.png" width=50%><HR>
+<img src="GitRepoFiles/Example/PIN_20MAY18__Landsat8_Fig22_AvgComparison.png" width=50%><HR>
     
 <B>Data Sheet</B> text file is written out to the PNG directory, which has some
 summary information on the field site and corresponding satellite data. Example
