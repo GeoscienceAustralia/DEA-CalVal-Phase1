@@ -76,11 +76,11 @@ spectra at the start of line 1 (spec=0 and 1), followed by the first ground
 window on VDI.
 Do NOT use a window where you have already typed 'module load dea' because the
 BRDF calculation needs slightly different modules. In this example, the
-directory '/g/data/u46/users/aw3463/GuyByrne/calval/brdf' is used (a copy is
+directory '/g/data/up71/projects/CalVal_Phase1/brdf' is used (a copy is
 also in this repo under the <B>brdf</B> directory). Once you have created your
 own directory and you have changed into that directory, type the following to
 copy over the required files:<BR><BR>
-        > cp /g/data/u46/users/aw3463/GuyByrne/calval/brdf/* .<BR><BR>
+        > cp /g/data/up71/projects/CalVal_Phase1/brdf/* .<BR><BR>
 </OL>
 
 # Calculating BRDF correction
@@ -115,7 +115,7 @@ first cell in the notebook.<BR><BR>
 Once the BRDF correction has been added to the notebook, it should be possible
 to run the notebook in its entirety. To do this, go to the top of the Jupyter
 Notebook and click on 'Kernel', then 'Restart & Run All', then click on the
-red button to confirm and run the workflow. It should take about 2-5 minutes
+red button to confirm and run the workflow. It should take about 5-10 minutes
 to complete.
 
 ### Interpreting results of the first notebook run
