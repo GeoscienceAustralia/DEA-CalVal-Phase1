@@ -72,7 +72,7 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
 
     if field_data[3] == 'Sentinel2a':
         if field_data[6] == 'Sen2Cor':
-            prod = 's2a_sen2cor_v6'
+            prod = 's2a_sen2cor_v1'
         else:
             prod = 's2a_ard_granule'
     elif field_data[3] == 'Sentinel2b':
@@ -92,6 +92,7 @@ def print_sheet(ground_brdf, sat_array, fstat_df, indir, output, field_data, Cor
         print('The satellite should be one of Sentinel2a/b or Landsat8. I got ', field_data[3])
 
     file.write('Satellite processing and historical data can be found using the following dataset ID and location:\n'+str(dc.find_datasets(product=prod, **exquery))+'\n\n')
+
 
     file.write('Summary Statistics over entire field site:\n------------------------------------------\n\n')
     file.write('Band      Sat     Sat   Field    Field    Sat    Field  Sat/Fld Sat\n')

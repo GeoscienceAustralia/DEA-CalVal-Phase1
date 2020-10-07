@@ -23,7 +23,7 @@ def FIG_reflectances(good_panels, all_refls, colpac, output, field_data, fignum)
     maskb = maska[np.logical_xor(maska.index > 1801, maska.index < 1966)]
     all_refls_masked = maskb[(maskb.index < 2350)]
 
-    axy[0].set_ylabel("Reflectance")
+    axy[0].set_ylabel("Surface Reflectance")
     axy[1].set_ylim(all_refls_masked.min().min()*0.95, all_refls_masked.max().max()*1.05)
 
     all_refls.plot(legend=False, ax=axy[0], color='k')
@@ -42,6 +42,9 @@ def FIG_reflectances(good_panels, all_refls, colpac, output, field_data, fignum)
     #    else:
     #        alllines = pd.concat([alllines, line.to_frame()], axis=1)
     #alllines.columns = good_panels.Line.unique()
+
+    axy[0].set_xlabel("Wavelength (nm)")
+    axy[1].set_xlabel("Wavelength (nm)")
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Reflectances.png')
     

@@ -24,7 +24,7 @@ def FIG_insolation_fit(gpt, output, field_data, fignum):
 
         plt.plot(coszenith, slope*(coszenith)+intercept, color='red')
         plt.xlabel('Cos(Solar zenith angle)')
-        plt.ylabel('Averaged panel radiance')
+        plt.ylabel('Averaged panel radiance (W m$^{-2}$ nm$^{-1}$ sr$^{-1}$)')
 
         plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'Insolation.png')
 

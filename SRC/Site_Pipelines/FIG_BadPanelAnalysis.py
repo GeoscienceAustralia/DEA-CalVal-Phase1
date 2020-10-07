@@ -31,13 +31,18 @@ def FIG_bad_panel_analysis(good_panel_mean, good_panel_spec, bad_panel_spec, out
     #fig.suptitle(fig_title, fontweight='bold')
 
     good_bad_div.plot(title='(average bad panels / average good panels)', legend=False, ax=axes[0,0])
+    axes[0,0].set_xlabel('Wavelength (nm)')
 
     good_bad_diff.plot(title='(average bad panels) - (average good panels)', legend=False, ax=axes[0,1])
+    axes[0,1].set_xlabel('Wavelength (nm)')
 
     good_panel_mean.plot(title='Average good panels', legend=False, ax=axes[1,0])
-    axes[1,0].set_ylabel("Radiance")
+    axes[1,0].set_ylabel("Radiance (W m$^{-2}$ nm$^{-1}$ sr$^{-1}$)")
+    axes[1,0].set_xlabel('Wavelength (nm)')
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     bad_panel_mean.plot(title='Average bad panels', legend=False, ax=axes[1,1])
+    axes[1,1].set_ylabel("Radiance (W m$^{-2}$ nm$^{-1}$ sr$^{-1}$)")
+    axes[1,1].set_xlabel('Wavelength (nm)')
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_GoodBadPanelCompare.png')
 

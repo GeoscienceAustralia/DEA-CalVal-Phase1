@@ -14,7 +14,7 @@ def FIG_band_extents(all_refls, band_min, band_max, output, field_data, fignum):
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9.5, 6.5))
     #fig.suptitle(fig_title+': \nMedian ground reflectance with '+field_data[3]+' Bands shown as black bars', fontweight='bold')
-    axes.set_ylabel("Reflectance")
+    axes.set_ylabel("Surface Reflectance")
     plt.tight_layout(pad=3.5, w_pad=1.0, h_pad=1.0)
 
     med = all_refls.median(axis=1)
@@ -33,5 +33,7 @@ def FIG_band_extents(all_refls, band_min, band_max, output, field_data, fignum):
             xytext = (band_max[i], y_cord[i]), textcoords = 'data',\
             arrowprops=dict(edgecolor='black', arrowstyle = '|-|, widthA=0.3, widthB=0.3'))
         plt.text((band_max[i]+band_min[i]-35)/2, y_cord[i]+0.002, i+1, fontsize=8)
+
+    axes.set_xlabel("Wavelength (nm)")
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_BandWavelengths.png')

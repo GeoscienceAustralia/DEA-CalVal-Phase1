@@ -12,7 +12,7 @@ def FIG_band_reflectances(ls_ground_bands, ls_result_df, ls_band, s2_ground_band
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(11.5, 6.5))
     fig.suptitle(fig_title+': \nGround Reflectances averaged into '+field_data[3]+' Bands\n        Line Averaged                                                         Individual spectra', fontweight='bold')
-    axes[0].set_ylabel("Reflectance")
+    axes[0].set_ylabel("Surface Reflectance")
     axes[0].set_xlabel("Band Number")
     axes[1].set_xlabel("Band Number")
     axes[0].set_xticks([0,1,2,3,4,5,6,7,8,9,10,11])

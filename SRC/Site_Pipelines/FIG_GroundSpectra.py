@@ -24,5 +24,8 @@ def FIG_ground_spectra(good_grounds_spec, all_grounds_spec, output, field_data, 
         all_norm.plot(title="All ground radiances normalised to \nthe median ground radiance", legend=False, ax=axes[0])
 
         good_norm.plot(title="Good ground radiances normalised to \nthe median ground radiance", legend=False, ax=axes[1])
+        axes[0].set_xlabel("Wavelength (nm)")
+        axes[1].set_xlabel("Wavelength (nm)")
+
 
         plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_GroundRadiances.png')

@@ -21,9 +21,9 @@ def FIG_reflectances_band(ls_ground_bands, ls_result_df, ls_band, s2_ground_band
     maskb = maska[np.logical_xor(maska.index > 1801, maska.index < 1966)]
     all_refls_masked = maskb[(maskb.index < 2350)]
 
-    axes[0].set_ylabel("Reflectance")
+    axes[0].set_ylabel("Surface Reflectance")
     axes[0].set_ylim(all_refls_masked.min().min()*0.95, all_refls_masked.max().max()*1.05)
-    axes[1].set_ylabel("Reflectance")
+    axes[1].set_ylabel("Surface Reflectance")
     axes[1].set_ylim(all_refls_masked.min().min()*0.95, all_refls_masked.max().max()*1.05)
 
     all_refls.plot(legend=False, ax=axes[0], color='#AAAAAA', linewidth=0.7)
@@ -47,5 +47,6 @@ def FIG_reflectances_band(ls_ground_bands, ls_result_df, ls_band, s2_ground_band
 
     d.T.plot(legend=True, ax=axes[1], color=colpac, sharey=True, linewidth=0.7)
     axes[1].legend(loc='center left', bbox_to_anchor=(1.0, 0.5))
+    axes[0].set_xlabel('Wavelength (nm)')
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_Reflectances_Band.png', dpi=300)

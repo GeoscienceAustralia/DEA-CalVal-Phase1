@@ -25,9 +25,9 @@ def create_sat_arrays(dc, udc, query, query2, field_data):
     if field_data[3] == 'Sentinel2a':
 
         if field_data[6] == 'Sen2Cor':
-            sat_array = dc.load(product='s2a_sen2cor_v6', measurements=sen2cor_b_names, **query)
+            sat_array = dc.load(product='s2a_sen2cor_v1', measurements=sen2cor_b_names, **query)
             sat_array = sen2cor_band_rename(sat_array)
-            sat_bigarray = dc.load(product='s2a_sen2cor_v6', measurements=sen2cor_b_names, **query2)
+            sat_bigarray = dc.load(product='s2a_sen2cor_v1', measurements=sen2cor_b_names, **query2)
             sat_bigarray = sen2cor_band_rename(sat_bigarray)
 
         else:

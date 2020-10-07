@@ -18,19 +18,22 @@ def FIG_panel_radiances(good_panel_spec, bad_panel_spec, all_panel_spec, output,
     # Plot the radiances for the good panels.
     #
     good_panel_spec.plot(title = 'Good panel radiances', legend=False, ax=axes[0])
-    axes[0].set_ylabel("Radiance")
+    axes[0].set_ylabel("Radiance (W m$^{-2}$ nm$^{-1}$ sr$^{-1}$)")
+    axes[0].set_xlabel("Wavelength (nm)")
 
     #
     # Plot the bad panel radiances, if they exist
     #
     try:
         bad_panel_spec.plot(title = "Bad panel radiances", legend=False, ax=axes[1])
+        axes[1].set_xlabel("Wavelength (nm)")
     except AttributeError:
         pass
     #
     # Plot the ALL panel radiances
     #
     all_panel_spec.plot(title = " All panel radiances", legend=False, ax=axes[2])
+    axes[2].set_xlabel("Wavelength (nm)")
 
     #
     # Remove old files in directory and create a new one

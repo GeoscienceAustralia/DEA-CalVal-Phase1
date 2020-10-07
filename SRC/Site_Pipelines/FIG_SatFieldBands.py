@@ -45,7 +45,7 @@ def FIG_sat_field_bands(sat_array, fstat_df, finner_df, output, field_data, fign
     SDeviation = SDev(sat_array, field_data)
 
     if field_data[3] == 'Landsat8':
-        axes.set_xticklabels(['1','2','3','4','5','6', '7'])
+        #axes.set_xticklabels(['1','2','3','4','5','6', '7'])
         fid = finner_df.rename(index={'Band1': '1', 'Band2': '2', 'Band3': '3', 'Band4': '4', 'Band5': '5', 'Band6': '6', 'Band7': '7'},
                          columns={'Field_inner_mean': 'Field'})
         fsd = fstat_df.rename(index={'Band1': '1', 'Band2': '2', 'Band3': '3', 'Band4': '4', 'Band5': '5', 'Band6': '6', 'Band7': '7'},
@@ -55,7 +55,7 @@ def FIG_sat_field_bands(sat_array, fstat_df, finner_df, output, field_data, fign
 
 
     elif field_data[3] == 'Sentinel2a':
-        axes.set_xticklabels(['1','2','3','4','5','6', '7', '8', '8a', '11', '12'])
+        #axes.set_xticklabels(['1','2','3','4','5','6', '7', '8', '8a', '11', '12'])
         fid = fstat_df.rename(index={'Band1': '1', 'Band2': '2', 'Band3': '3', 'Band4': '4', 'Band5': '5', 'Band6': '6', 'Band7': '7',
                                'Band8': '8', 'Band8a': '8a', 'Band11': '11', 'Band12': '12'},
                         columns={'Field_mean': 'Field', 'Sat_mean': 'Sentinel 2a'})
@@ -67,7 +67,7 @@ def FIG_sat_field_bands(sat_array, fstat_df, finner_df, output, field_data, fign
 
 
     elif field_data[3] == 'Sentinel2b':
-        axes.set_xticklabels(['1','2','3','4','5','6', '7', '8', '8a', '11', '12'])
+        #axes.set_xticklabels(['1','2','3','4','5','6', '7', '8', '8a', '11', '12'])
         fid = fstat_df.rename(index={'Band1': '1', 'Band2': '2', 'Band3': '3', 'Band4': '4', 'Band5': '5', 'Band6': '6', 'Band7': '7',
                                'Band8': '8', 'Band8a': '8a', 'Band11': '11', 'Band12': '12'},
                         columns={'Field_mean': 'Field', 'Sat_mean': 'Sentinel 2b'})
@@ -86,7 +86,8 @@ def FIG_sat_field_bands(sat_array, fstat_df, finner_df, output, field_data, fign
     plt.errorbar(x=fid.index, y=fid['Field'], yerr=fid['Field_SD'], color='red', capsize=3, linewidth=0.7)
 
     axes.set_xlabel('Band Number')
-    axes.set_ylabel('Reflectance')
-    axes.set_xlim(-0.5,len(fstat_df.index)-0.5)
+    axes.set_ylabel('Surface Reflectance')
+    #axes.set_xlim(-0.5,len(fstat_df.index)-0.5)
+    axes.legend(prop={'size': 9})
 
     plt.savefig(output+field_data[0]+'_'+field_data[1]+'_'+field_data[2]+'_'+field_data[3]+'_'+'Fig'+str(fignum)+'_InnerFieldBandCompare.png', dpi=300)
