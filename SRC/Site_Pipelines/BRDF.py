@@ -19,12 +19,12 @@ def ReadAndCalc(brdf_data, ls_ground_bands, s2_ground_bands, field_data):
     # Create pandas dataframe "brdf_df" which contains the BRDF values
     # for seven LS8 bands
     #   
-    brdf_df = pd.DataFrame(data=brdf_data[1:,1:],
-                  index=brdf_data[1:,0],
-                  columns=brdf_data[0,1:])
+    #brdf_df = pd.DataFrame(data=brdf_data[1:,1:],
+    #              index=brdf_data[1:,0],
+    #              columns=brdf_data[0,1:])
 
-    s2_brdf_df = brdf_df.copy()
-    ls_brdf_df = brdf_df.copy()
+    s2_brdf_df = brdf_data.copy()
+    ls_brdf_df = brdf_data.copy()
 
     ls_brdf_df.drop(['band5', 'band6', 'band7', 'band8a'], inplace=True)
     ls_brdf_df.rename({'band11': 'band6', 'band12': 'band7', 'band8': 'band5'}, axis='index', inplace=True)

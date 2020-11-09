@@ -1,5 +1,6 @@
 import yaml
 import numpy as np
+import pandas as pd
 
 
 def Sat_BRDF(dc, query, sat_array, field_data):
@@ -105,4 +106,6 @@ def Sat_BRDF(dc, query, sat_array, field_data):
     # when later on deciding whether to apply BRDF to Landsat or Sentinel bands
     #
     
-    return brdf_sat_data, solar_zenith
+    return pd.DataFrame(data=brdf_sat_data[1:,1:], index=brdf_sat_data[1:,0], columns=brdf_sat_data[0,1:]), solar_zenith
+
+    #return brdf_sat_data, solar_zenith
