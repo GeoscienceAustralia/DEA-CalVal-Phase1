@@ -9,7 +9,8 @@ def make_query(ground_brdf, field_data):
         if field_data[7] == 'C6':
             dc = datacube.Datacube(env='c3-samples')
         elif field_data[6] == 'Sen2Cor':
-            dc = datacube.Datacube(config='/g/data/up71/projects/ESA_L2A_index/test-DataCube/lanwei_ard.conf')
+            #dc = datacube.Datacube(config='/g/data/up71/projects/ESA_L2A_index/test-DataCube/lanwei_ard.conf')
+            dc = datacube.Datacube(env='ardinteroperability', config='/home/547/aw3463/.sent2.conf')
         else:
             dc = datacube.Datacube()
     except IndexError:
