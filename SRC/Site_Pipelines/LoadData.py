@@ -40,6 +40,10 @@ def action6(l, Corners):
     else:
         return float(l[19:22])+float(l[22:30])/60
 
+# GPS UTC for accurate timestamp (04MAR21 onwards)
+def action7(l, Corners):
+    return l[11:19]
+
 #
 # Based on action functions defined above, extract header metadata from
 # a file.
@@ -51,7 +55,8 @@ def extract_metadata(filename, Corners):
 #        'SWIR1 gain': action3,
 #        'SWIR2 gain': action4,
         'GPS-Latitude': action5,
-        'GPS-Longitude': action6
+        'GPS-Longitude': action6,
+        'GPS-UTC': action7
     }
     
     with open(filename) as file:
@@ -75,7 +80,7 @@ def load_spectrum_to_df(infile, li, Corners):
     firstDataLine = int(fdl)-1
 
 #    inst, date_str, swir1_go, swir2_go, lat, lon = extract_metadata(infile, Corners)
-    inst, date_str, lat, lon = extract_metadata(infile, Corners)
+    inst, date_str, lat, lon, utc_time = extract_metadata(infile, Corners)
 
     #swir1_gain = swir1_go[:3]
     #swir1_offset = swir1_go[-4:]
@@ -83,6 +88,15 @@ def load_spectrum_to_df(infile, li, Corners):
     #swir2_offset = swir2_go[-4:]
 
     date_saved = datetime.strptime(date_str, '%m/%d/%Y at %H:%M:%S')
+
+    # Test to see if GPS-UTC line is in hh:mm:ss format. If so, update the
+    # time stamp to the GPS-based time
+    try:
+        dummy = datetime.strptime(utc_time, '%H:%M:%S')
+        date_saved = date_saved.replace(hour=int(utc_time[:2]), 
+                minute=int(utc_time[3:5]), second=int(utc_time[6:]))
+    except ValueError:
+        pass
     
     df = pd.read_csv(infile, skiprows=firstDataLine, delim_whitespace=True)
     filename = df.columns[1]

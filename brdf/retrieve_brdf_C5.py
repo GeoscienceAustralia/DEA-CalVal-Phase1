@@ -37,10 +37,10 @@ class MimicAcquisition(object):
 
 
 
-        self.acquisition_datetime = dateutil.parser.parse('2020-12-09 00:12:51')
+        self.acquisition_datetime = dateutil.parser.parse('2021-03-04 00:11:13')
         setattr(self, 'brdf_wavelength', dset.attrs['brdf_wavelength'])
 
-        bbox = geopandas.GeoDataFrame({'geometry': [box(148.8625285, -35.123151666666665, 148.86387533333334, -35.122155)]})
+        bbox = geopandas.GeoDataFrame({'geometry': [box(148.86250683333333, -35.123215, 148.863838, -35.12198166666667)]})
         bbox.crs = {'init': 'EPSG:4326'}
         albers = bbox.to_crs(epsg=3577)
         buff = albers.buffer(1000)
