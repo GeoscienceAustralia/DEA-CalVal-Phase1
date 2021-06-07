@@ -54,17 +54,17 @@ def create_sat_arrays(dc, udc, query, query2, field_data):
                 sat_bigarray = lsC6_band_rename(sat_bigarray)
 
             else:
-                sat_array = dc.load(product='ls8_nbart_scene', **query)
-                sat_bigarray = dc.load(product='ls8_nbart_scene', **query2)
-                sat_array = ls_band_rename(sat_array)
-                sat_bigarray = ls_band_rename(sat_bigarray)
+                sat_array = dc.load(product='ga_ls8c_ard_3', **query)
+                sat_bigarray = dc.load(product='ga_ls8c_ard_3', **query2)
+                #sat_array = ls_band_rename(sat_array)
+                #sat_bigarray = ls_band_rename(sat_bigarray)
 
 
         except IndexError:
-            sat_array = dc.load(product='ls8_nbart_scene', **query)
-            sat_bigarray = dc.load(product='ls8_nbart_scene', **query2)
-            sat_array = ls_band_rename(sat_array)
-            sat_bigarray = ls_band_rename(sat_bigarray)
+            sat_array = dc.load(product='ga_ls8c_ard_3', **query)
+            sat_bigarray = dc.load(product='ga_ls8c_ard_3', **query2)
+            #sat_array = ls_band_rename(sat_array)
+            #sat_bigarray = ls_band_rename(sat_bigarray)
 
 
         if field_data[6] == 'USGS':

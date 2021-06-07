@@ -5,7 +5,7 @@ import pandas as pd
 def make_long_query(ground_brdf):
     
     ldc = datacube.Datacube()
-    lpixsize = 25.0
+    lpixsize = 30.0
     sdc = datacube.Datacube()
     spixsize = 10.0
 

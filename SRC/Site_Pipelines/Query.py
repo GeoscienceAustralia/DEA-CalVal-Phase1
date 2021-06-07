@@ -21,15 +21,9 @@ def make_query(ground_brdf, field_data):
     #
     if field_data[3] == 'Landsat8':
         #
-        # Set pixel size to 30m if Collection 6 data, otherwise set to 25m.
+        # Set pixel size to 30m
         #
-        try:
-            if field_data[7] == 'C6':
-                pixsize = 30.0
-            else:
-                pixsize = 25.0
-        except IndexError:
-            pixsize = 25.0
+        pixsize = 30.0
     #
     # Test for Sentinel data and set pixsize to 10m
     #

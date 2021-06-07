@@ -5,7 +5,7 @@ import pandas as pd
 def make_long_query(ground_brdf):
     
     ldc = datacube.Datacube()
-    lpixsize = 25.0
+    lpixsize = 30.0
     udc = datacube.Datacube(env='ardinteroperability_tmp', config='/home/547/aw3463/.sent2.conf')
 
     # convert half a pixel in metres to decimal degrees latitude

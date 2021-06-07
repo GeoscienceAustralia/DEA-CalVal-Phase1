@@ -8,13 +8,13 @@ import pandas as pd
 def create_stats(ls_sat_array, s2_sat_array, ls_ground_brdf, s2_ground_brdf, field_data):
 
     ls_data_array = np.array([['','Sat_mean','Sat_SD', 'Field_mean', 'Field_SD'],
-                    ['Band1', float(ls_sat_array.coastal_aerosol.mean()/10000), float(ls_sat_array.coastal_aerosol.std()/10000), float(ls_ground_brdf['band1'].mean()), float(ls_ground_brdf['band1'].std())],
-                    ['Band2', float(ls_sat_array.blue.mean()/10000), float(ls_sat_array.blue.std()/10000), float(ls_ground_brdf['band2'].mean()), float(ls_ground_brdf['band2'].std())],
-                    ['Band3', float(ls_sat_array.green.mean()/10000), float(ls_sat_array.green.std()/10000), float(ls_ground_brdf['band3'].mean()), float(ls_ground_brdf['band3'].std())],
-                    ['Band4', float(ls_sat_array.red.mean()/10000), float(ls_sat_array.red.std()/10000), float(ls_ground_brdf['band4'].mean()), float(ls_ground_brdf['band4'].std())],
-                    ['Band5', float(ls_sat_array.nir.mean()/10000), float(ls_sat_array.nir.std()/10000), float(ls_ground_brdf['band5'].mean()), float(ls_ground_brdf['band5'].std())],
-                    ['Band6', float(ls_sat_array.swir1.mean()/10000), float(ls_sat_array.swir1.std()/10000), float(ls_ground_brdf['band6'].mean()), float(ls_ground_brdf['band6'].std())],
-                    ['Band7', float(ls_sat_array.swir2.mean()/10000), float(ls_sat_array.swir2.std()/10000), float(ls_ground_brdf['band7'].mean()), float(ls_ground_brdf['band7'].std())],
+                    ['Band1', float(ls_sat_array.nbart_coastal_aerosol.mean()/10000), float(ls_sat_array.nbart_coastal_aerosol.std()/10000), float(ls_ground_brdf['band1'].mean()), float(ls_ground_brdf['band1'].std())],
+                    ['Band2', float(ls_sat_array.nbart_blue.mean()/10000), float(ls_sat_array.nbart_blue.std()/10000), float(ls_ground_brdf['band2'].mean()), float(ls_ground_brdf['band2'].std())],
+                    ['Band3', float(ls_sat_array.nbart_green.mean()/10000), float(ls_sat_array.nbart_green.std()/10000), float(ls_ground_brdf['band3'].mean()), float(ls_ground_brdf['band3'].std())],
+                    ['Band4', float(ls_sat_array.nbart_red.mean()/10000), float(ls_sat_array.nbart_red.std()/10000), float(ls_ground_brdf['band4'].mean()), float(ls_ground_brdf['band4'].std())],
+                    ['Band5', float(ls_sat_array.nbart_nir.mean()/10000), float(ls_sat_array.nbart_nir.std()/10000), float(ls_ground_brdf['band5'].mean()), float(ls_ground_brdf['band5'].std())],
+                    ['Band6', float(ls_sat_array.nbart_swir_1.mean()/10000), float(ls_sat_array.nbart_swir_1.std()/10000), float(ls_ground_brdf['band6'].mean()), float(ls_ground_brdf['band6'].std())],
+                    ['Band7', float(ls_sat_array.nbart_swir_2.mean()/10000), float(ls_sat_array.nbart_swir_2.std()/10000), float(ls_ground_brdf['band7'].mean()), float(ls_ground_brdf['band7'].std())],
                     ])
 
     if s2_sat_array.notnull():

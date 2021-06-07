@@ -31,7 +31,7 @@ def make_processed_array(ls8_bigarray, satname):
     # Test to see which satellite we are using and then set the appropriate
     # pixel scale.
     if satname == "LS8":
-        pixscale = 25
+        pixscale = 30
     else:
         pixscale = 10
 
@@ -47,7 +47,7 @@ def make_processed_array(ls8_bigarray, satname):
     # Drop long wavelength data to focus on Coastal Aerosol, plus RGB for
     # cloud masking.
     if satname == "LS8":
-        ls8_cbgr_array = smooth_array_xy.drop(['nir', 'swir1', 'swir2'])
+        ls8_cbgr_array = smooth_array_xy.drop(['nbart_nir', 'nbart_swir_1', 'nbart_swir_2'])
     else:
         ls8_cbgr_array = smooth_array_xy.drop(['nbart_red_edge_1',
                                         'nbart_red_edge_2', 'nbart_red_edge_3',
@@ -62,10 +62,7 @@ def make_processed_array(ls8_bigarray, satname):
     ls8_diff = ls8_cbgr_array - ls8_median
 
     # Average over the four bands
-    if satname == "LS8":
-        ls8_avg = (ls8_diff.coastal_aerosol+ls8_diff.blue+ls8_diff.green+ls8_diff.red)/4
-    else:
-        ls8_avg = (ls8_diff.nbart_coastal_aerosol+ls8_diff.nbart_blue+ls8_diff.nbart_green+ls8_diff.nbart_red)/4
+    ls8_avg = (ls8_diff.nbart_coastal_aerosol+ls8_diff.nbart_blue+ls8_diff.nbart_green+ls8_diff.nbart_red)/4
 
     return ls8_avg
 

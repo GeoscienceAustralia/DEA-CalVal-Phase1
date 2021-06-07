@@ -33,13 +33,13 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
     plt.ylabel('Satellite Reflectance per pixel', fontweight='bold')
 
     if field_data[3] == 'Landsat8':
-        plt.scatter(field_array.coastal_aerosol[0]/10000, sat_array.coastal_aerosol[0]/10000, marker='o', facecolors='none', edgecolors='red')
-        plt.scatter(field_array.blue[0]/10000, sat_array.blue[0]/10000, marker='^', facecolors='none', edgecolors='orange')
-        plt.scatter(field_array.green[0]/10000, sat_array.green[0]/10000, marker='s', facecolors='none', edgecolors='yellow')
-        plt.scatter(field_array.red[0]/10000, sat_array.red[0]/10000, marker='+', color='green')
-        plt.scatter(field_array.nir[0]/10000, sat_array.nir[0]/10000, marker='x', color='blue')
-        plt.scatter(field_array.swir1[0]/10000, sat_array.swir1[0]/10000, marker='D', facecolors='none', edgecolors='darkblue')
-        plt.scatter(field_array.swir2[0]/10000, sat_array.swir2[0]/10000, marker='*', facecolors='none', edgecolors='black')
+        plt.scatter(field_array.nbart_coastal_aerosol[0]/10000, sat_array.nbart_coastal_aerosol[0]/10000, marker='o', facecolors='none', edgecolors='red')
+        plt.scatter(field_array.nbart_blue[0]/10000, sat_array.nbart_blue[0]/10000, marker='^', facecolors='none', edgecolors='orange')
+        plt.scatter(field_array.nbart_green[0]/10000, sat_array.nbart_green[0]/10000, marker='s', facecolors='none', edgecolors='yellow')
+        plt.scatter(field_array.nbart_red[0]/10000, sat_array.nbart_red[0]/10000, marker='+', color='green')
+        plt.scatter(field_array.nbart_nir[0]/10000, sat_array.nbart_nir[0]/10000, marker='x', color='blue')
+        plt.scatter(field_array.nbart_swir_1[0]/10000, sat_array.nbart_swir_1[0]/10000, marker='D', facecolors='none', edgecolors='darkblue')
+        plt.scatter(field_array.nbart_swir_2[0]/10000, sat_array.nbart_swir_2[0]/10000, marker='*', facecolors='none', edgecolors='black')
 
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         plt.scatter(field_array.nbart_coastal_aerosol[0]/10000, sat_array.nbart_coastal_aerosol[0]/10000, marker='o', facecolors='none', edgecolors='red')
@@ -99,8 +99,8 @@ def FIG_sat_field_scatter_compare(sat_array, field_array, plot_scale, output, fi
         plt.figtext(0.190, 0.822, "Band 3 - Green")
         plt.figtext(0.190, 0.800, "Band 4 - Red")
         plt.figtext(0.190, 0.777, "Band 5 - NIR")
-        plt.figtext(0.190, 0.753, "Band 6 - SWIR1")
-        plt.figtext(0.190, 0.730, "Band 7 - SWIR2")
+        plt.figtext(0.190, 0.753, "Band 6 - SWIR 1")
+        plt.figtext(0.190, 0.730, "Band 7 - SWIR 2")
 
     else:
         print('Satellite name should be one of Landsat8 or Sentinel2a/b. I got', field_data[3])

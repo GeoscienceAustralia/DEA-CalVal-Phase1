@@ -40,21 +40,21 @@ def create_field_from_sat(ls_sat_array, s2_sat_array, ls_ground_brdf, s2_ground_
                     cum7 = cum7+ls_ground_brdf.iloc[k]['band7']
                     count=count+1
             if count < 1:
-                ls_field_array.coastal_aerosol[0][j][i] = np.nan
-                ls_field_array.blue[0][j][i] = np.nan
-                ls_field_array.green[0][j][i] = np.nan
-                ls_field_array.red[0][j][i] = np.nan
-                ls_field_array.nir[0][j][i] = np.nan
-                ls_field_array.swir1[0][j][i] = np.nan
-                ls_field_array.swir2[0][j][i] = np.nan
+                ls_field_array.nbart_coastal_aerosol[0][j][i] = np.nan
+                ls_field_array.nbart_blue[0][j][i] = np.nan
+                ls_field_array.nbart_green[0][j][i] = np.nan
+                ls_field_array.nbart_red[0][j][i] = np.nan
+                ls_field_array.nbart_nir[0][j][i] = np.nan
+                ls_field_array.nbart_swir_1[0][j][i] = np.nan
+                ls_field_array.nbart_swir_2[0][j][i] = np.nan
             else:
-                ls_field_array.coastal_aerosol[0][j][i] = cum1*10000/count            
-                ls_field_array.blue[0][j][i] = cum2*10000/count
-                ls_field_array.green[0][j][i] = cum3*10000/count
-                ls_field_array.red[0][j][i] = cum4*10000/count
-                ls_field_array.nir[0][j][i] = cum5*10000/count
-                ls_field_array.swir1[0][j][i] = cum6*10000/count
-                ls_field_array.swir2[0][j][i] = cum7*10000/count
+                ls_field_array.nbart_coastal_aerosol[0][j][i] = cum1*10000/count            
+                ls_field_array.nbart_blue[0][j][i] = cum2*10000/count
+                ls_field_array.nbart_green[0][j][i] = cum3*10000/count
+                ls_field_array.nbart_red[0][j][i] = cum4*10000/count
+                ls_field_array.nbart_nir[0][j][i] = cum5*10000/count
+                ls_field_array.nbart_swir_1[0][j][i] = cum6*10000/count
+                ls_field_array.nbart_swir_2[0][j][i] = cum7*10000/count
 
     if s2_sat_array.notnull():
         for i in range(len(s2_sat_array.x)):

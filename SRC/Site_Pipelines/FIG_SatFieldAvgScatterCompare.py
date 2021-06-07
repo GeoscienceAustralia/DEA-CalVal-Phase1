@@ -33,13 +33,13 @@ def FIG_sat_field_avg_scatter_compare(sat_array, field_array, plot_scale, fstat_
     plt.ylabel('Satellite Reflectance per pixel', fontweight='bold')
 
     if field_data[3] == 'Landsat8':
-        plt.errorbar(x=field_array.coastal_aerosol[0].mean()/10000, y=sat_array.coastal_aerosol[0].mean()/10000, xerr=fstat_df.Field_SD['Band1'], yerr=fstat_df.Sat_SD['Band1'], fmt='o', mfc='white', mec='red', color='red', capsize=3)
-        plt.errorbar(x=field_array.blue[0].mean()/10000, y=sat_array.blue[0].mean()/10000, xerr=fstat_df.Field_SD['Band2'], yerr=fstat_df.Sat_SD['Band2'], fmt='^', mfc='white', mec='orange', color='orange', capsize=3)
-        plt.errorbar(x=field_array.green[0].mean()/10000, y=sat_array.green[0].mean()/10000, xerr=fstat_df.Field_SD['Band3'], yerr=fstat_df.Sat_SD['Band3'], fmt='s', mfc='white', mec='yellow', color='yellow', capsize=3)
-        plt.errorbar(x=field_array.red[0].mean()/10000, y=sat_array.red[0].mean()/10000, xerr=fstat_df.Field_SD['Band4'], yerr=fstat_df.Sat_SD['Band4'], fmt='+', mfc='white', mec='green', color='green', capsize=3)
-        plt.errorbar(x=field_array.nir[0].mean()/10000, y=sat_array.nir[0].mean()/10000, xerr=fstat_df.Field_SD['Band5'], yerr=fstat_df.Sat_SD['Band5'], fmt='x', mfc='white', mec='blue', color='blue', capsize=3)
-        plt.errorbar(x=field_array.swir1[0].mean()/10000, y=sat_array.swir1[0].mean()/10000, xerr=fstat_df.Field_SD['Band6'], yerr=fstat_df.Sat_SD['Band6'], fmt='D', mfc='white', mec='darkblue', color='darkblue', capsize=3)
-        plt.errorbar(x=field_array.swir2[0].mean()/10000, y=sat_array.swir2[0].mean()/10000, xerr=fstat_df.Field_SD['Band7'], yerr=fstat_df.Sat_SD['Band7'], fmt='*', mfc='white', mec='black', color='black', capsize=3)
+        plt.errorbar(x=field_array.nbart_coastal_aerosol[0].mean()/10000, y=sat_array.nbart_coastal_aerosol[0].mean()/10000, xerr=fstat_df.Field_SD['Band1'], yerr=fstat_df.Sat_SD['Band1'], fmt='o', mfc='white', mec='red', color='red', capsize=3)
+        plt.errorbar(x=field_array.nbart_blue[0].mean()/10000, y=sat_array.nbart_blue[0].mean()/10000, xerr=fstat_df.Field_SD['Band2'], yerr=fstat_df.Sat_SD['Band2'], fmt='^', mfc='white', mec='orange', color='orange', capsize=3)
+        plt.errorbar(x=field_array.nbart_green[0].mean()/10000, y=sat_array.nbart_green[0].mean()/10000, xerr=fstat_df.Field_SD['Band3'], yerr=fstat_df.Sat_SD['Band3'], fmt='s', mfc='white', mec='yellow', color='yellow', capsize=3)
+        plt.errorbar(x=field_array.nbart_red[0].mean()/10000, y=sat_array.nbart_red[0].mean()/10000, xerr=fstat_df.Field_SD['Band4'], yerr=fstat_df.Sat_SD['Band4'], fmt='+', mfc='white', mec='green', color='green', capsize=3)
+        plt.errorbar(x=field_array.nbart_nir[0].mean()/10000, y=sat_array.nbart_nir[0].mean()/10000, xerr=fstat_df.Field_SD['Band5'], yerr=fstat_df.Sat_SD['Band5'], fmt='x', mfc='white', mec='blue', color='blue', capsize=3)
+        plt.errorbar(x=field_array.nbart_swir_1[0].mean()/10000, y=sat_array.nbart_swir_1[0].mean()/10000, xerr=fstat_df.Field_SD['Band6'], yerr=fstat_df.Sat_SD['Band6'], fmt='D', mfc='white', mec='darkblue', color='darkblue', capsize=3)
+        plt.errorbar(x=field_array.nbart_swir_2[0].mean()/10000, y=sat_array.nbart_swir_2[0].mean()/10000, xerr=fstat_df.Field_SD['Band7'], yerr=fstat_df.Sat_SD['Band7'], fmt='*', mfc='white', mec='black', color='black', capsize=3)
         
     elif field_data[3] == 'Sentinel2a' or field_data[3] == 'Sentinel2b':
         plt.errorbar(x=field_array.nbart_coastal_aerosol[0].mean()/10000, y=sat_array.nbart_coastal_aerosol[0].mean()/10000, xerr=fstat_df.Field_SD['Band1'], yerr=fstat_df.Sat_SD['Band1'], fmt='o', color='red', mfc='white', mec='red', capsize=3)
@@ -99,8 +99,8 @@ def FIG_sat_field_avg_scatter_compare(sat_array, field_array, plot_scale, fstat_
         plt.figtext(0.190, 0.822, "Band 3 - Green")
         plt.figtext(0.190, 0.800, "Band 4 - Red")
         plt.figtext(0.190, 0.777, "Band 5 - NIR")
-        plt.figtext(0.190, 0.753, "Band 6 - SWIR1")
-        plt.figtext(0.190, 0.730, "Band 7 - SWIR2")
+        plt.figtext(0.190, 0.753, "Band 6 - SWIR 1")
+        plt.figtext(0.190, 0.730, "Band 7 - SWIR 2")
 
 
     else:

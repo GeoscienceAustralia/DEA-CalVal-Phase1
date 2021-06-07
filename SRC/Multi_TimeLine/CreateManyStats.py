@@ -17,7 +17,8 @@ def create_manystats(ls8_array, s2a_array, s2b_array, ls8_bad_days, s2a_bad_days
     #
     # Set up band names for Landsat
     #
-    l8_names = ['coastal_aerosol', 'blue', 'green', 'red', 'nir', 'swir1', 'swir2']
+    l8_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green',
+                'nbart_red', 'nbart_nir', 'nbart_swir_1', 'nbart_swir_2']
     l8_nums = ['band1', 'band2', 'band3', 'band4', 'band5', 'band6', 'band7']
 
     #

@@ -66,7 +66,7 @@ def create_long_SHP_arrays(shape_file, feature_id):
     s2a_array = dc.load(product='s2a_ard_granule', measurements=sb_names, resolution=(-10, 10), **query)
     s2b_array = dc.load(product='s2b_ard_granule', measurements=sb_names, resolution=(-10, 10), **query)
 
-    ls8_array = dc.load(product='ls8_nbart_scene', resolution=(-25, 25), **query)
+    ls8_array = dc.load(product='ls8_nbart_scene', resolution=(-30, 30), **query)
 
     ls8_array = ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
 
