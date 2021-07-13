@@ -53,14 +53,14 @@ def create_long_arrays_nomask(ldc, sdc, lquery, squery, lquery2, squery2):
 
     sb_names = ['nbart_coastal_aerosol', 'nbart_blue', 'nbart_green', 'nbart_red', 'nbart_red_edge_1', 'nbart_red_edge_2', 'nbart_red_edge_3', 'nbart_nir_1', 'nbart_nir_2', 'nbart_swir_2', 'nbart_swir_3', 'fmask']
 
-    s2a_array = sdc.load(product='s2a_ard_granule', measurements=sb_names, **squery)
-    s2b_array = sdc.load(product='s2b_ard_granule', measurements=sb_names, **squery)
+    s2a_array = sdc.load(product='s2a_ard_granule', measurements=sb_names, dask_chunks={}, **squery)
+    s2b_array = sdc.load(product='s2b_ard_granule', measurements=sb_names, dask_chunks={}, **squery)
 
-    s2a_bigarray = sdc.load(product='s2a_ard_granule', measurements=sb_names, **squery2)
-    s2b_bigarray = sdc.load(product='s2b_ard_granule', measurements=sb_names, **squery2)
+    s2a_bigarray = sdc.load(product='s2a_ard_granule', measurements=sb_names, dask_chunks={}, **squery2)
+    s2b_bigarray = sdc.load(product='s2b_ard_granule', measurements=sb_names, dask_chunks={}, **squery2)
 
-    ls8_array = ldc.load(product='ga_ls8c_ard_3', **lquery)
-    ls8_bigarray = ldc.load(product='ga_ls8c_ard_3', **lquery2)
+    ls8_array = ldc.load(product='ga_ls8c_ard_3', dask_chunks={}, **lquery)
+    ls8_bigarray = ldc.load(product='ga_ls8c_ard_3', dask_chunks={}, **lquery2)
 
     #ls8_array = ls8_array.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
     #ls8_bigarray = ls8_bigarray.rename({'1': 'coastal_aerosol', '2': 'blue', '3': 'green', '4': 'red', '5': 'nir', '6': 'swir1', '7': 'swir2'})
