@@ -1,0 +1,1624 @@
+11/14/2021 10:19:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00000.asd,GPGGA,221823.5,3126.974035,S,14349.321284,E,1,14,0.6,76.5,M,16.5,M,,*76
+
+11/14/2021 10:19:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00001.asd,GPGGA,221827.1,3126.974035,S,14349.321284,E,1,14,0.6,76.5,M,16.5,M,,*76
+
+11/14/2021 10:19:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00002.asd,GPGGA,221841.4,3126.974035,S,14349.321284,E,1,15,0.6,76.5,M,16.5,M,,*72
+
+11/14/2021 10:19:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00003.asd,GPGGA,221844.9,3126.974035,S,14349.321284,E,1,15,0.6,76.5,M,16.5,M,,*7A
+
+11/14/2021 10:19:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00004.asd,GPGGA,221858.9,3126.974035,S,14349.321284,E,1,16,0.6,76.5,M,16.5,M,,*74
+
+11/14/2021 10:19:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00005.asd,GPGGA,221902.3,3126.974032,S,14349.321272,E,1,16,0.6,76.5,M,16.5,M,,*7E
+
+11/14/2021 10:20:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00006.asd,GPGGA,221916.6,3126.974032,S,14349.321272,E,1,16,0.6,76.5,M,16.5,M,,*7E
+
+11/14/2021 10:20:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\mul_dd_start00007.asd,GPGGA,221920.1,3126.974032,S,14349.321272,E,1,16,0.6,76.5,M,16.5,M,,*7C
+
+11/14/2021 10:28:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln100000.asd,GPGGA,222747.5,3126.972807,S,14349.318921,E,2,18,0.6,77.5,M,16.5,M,,*77
+
+11/14/2021 10:28:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln100001.asd,GPGGA,222751.0,3126.972807,S,14349.318921,E,2,18,0.6,77.5,M,16.5,M,,*75
+
+11/14/2021 10:29:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln100002.asd,GPGGA,222822.9,3126.972718,S,14349.318946,E,2,18,0.6,77.5,M,16.5,M,,*77
+
+11/14/2021 10:29:10 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln100003.asd,GPGGA,222826.4,3126.972718,S,14349.318946,E,2,18,0.6,77.5,M,16.5,M,,*7E
+
+11/14/2021 10:30:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00000.asd,GPGGA,222934.8,3126.972658,S,14349.318962,E,1,17,0.6,77.5,M,16.5,M,,*7F
+
+11/14/2021 10:30:22 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00001.asd,GPGGA,222938.1,3126.972658,S,14349.318962,E,1,17,0.6,77.5,M,16.5,M,,*7A
+
+11/14/2021 10:30:36 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00002.asd,GPGGA,222952.1,3126.976417,S,14349.311662,E,1,19,0.5,77.6,M,16.5,M,,*73
+
+11/14/2021 10:30:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00003.asd,GPGGA,222955.5,3126.976465,S,14349.309666,E,1,17,0.6,77.5,M,16.5,M,,*76
+
+11/14/2021 10:30:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00004.asd,GPGGA,222959.0,3126.976162,S,14349.307557,E,1,17,0.6,77.5,M,16.5,M,,*72
+
+11/14/2021 10:30:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00005.asd,GPGGA,223002.5,3126.976174,S,14349.305465,E,1,16,0.6,77.6,M,16.5,M,,*76
+
+11/14/2021 10:30:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00006.asd,GPGGA,223006.2,3126.975988,S,14349.303207,E,1,16,0.6,77.7,M,16.5,M,,*78
+
+11/14/2021 10:30:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00007.asd,GPGGA,223009.8,3126.975919,S,14349.300975,E,1,16,0.6,77.7,M,16.5,M,,*78
+
+11/14/2021 10:30:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00008.asd,GPGGA,223013.4,3126.975605,S,14349.298776,E,1,16,0.6,78.0,M,16.5,M,,*78
+
+11/14/2021 10:31:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00009.asd,GPGGA,223016.9,3126.975435,S,14349.296605,E,1,16,0.6,78.1,M,16.5,M,,*7B
+
+11/14/2021 10:31:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00010.asd,GPGGA,223020.5,3126.975257,S,14349.294236,E,1,16,0.6,78.3,M,16.5,M,,*74
+
+11/14/2021 10:31:08 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00011.asd,GPGGA,223024.0,3126.974951,S,14349.291881,E,1,14,0.7,78.4,M,16.5,M,,*7E
+
+11/14/2021 10:31:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00012.asd,GPGGA,223027.6,3126.974694,S,14349.289380,E,1,14,0.7,78.5,M,16.5,M,,*7F
+
+11/14/2021 10:31:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00013.asd,GPGGA,223031.2,3126.974682,S,14349.287029,E,1,16,0.6,78.6,M,16.5,M,,*75
+
+11/14/2021 10:31:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00014.asd,GPGGA,223034.8,3126.974551,S,14349.284543,E,1,16,0.6,78.6,M,16.5,M,,*7D
+
+11/14/2021 10:31:22 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00015.asd,GPGGA,223038.3,3126.974418,S,14349.282172,E,1,16,0.6,78.8,M,16.5,M,,*78
+
+11/14/2021 10:31:26 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00016.asd,GPGGA,223042.0,3126.974170,S,14349.279744,E,1,16,0.6,78.8,M,16.5,M,,*7A
+
+11/14/2021 10:31:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00017.asd,GPGGA,223045.5,3126.973968,S,14349.277334,E,1,16,0.6,78.7,M,16.5,M,,*7C
+
+11/14/2021 10:31:33 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00018.asd,GPGGA,223049.1,3126.973668,S,14349.274985,E,1,16,0.6,78.7,M,16.5,M,,*78
+
+11/14/2021 10:31:36 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00019.asd,GPGGA,223052.6,3126.973348,S,14349.272640,E,1,17,0.6,78.6,M,16.5,M,,*72
+
+11/14/2021 10:31:40 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00020.asd,GPGGA,223056.1,3126.973111,S,14349.270217,E,1,17,0.6,78.7,M,16.5,M,,*7A
+
+11/14/2021 10:31:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00021.asd,GPGGA,223059.6,3126.973098,S,14349.267889,E,1,17,0.6,78.7,M,16.5,M,,*79
+
+11/14/2021 10:31:47 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00022.asd,GPGGA,223103.2,3126.972803,S,14349.265500,E,1,17,0.6,78.7,M,16.5,M,,*76
+
+11/14/2021 10:31:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00023.asd,GPGGA,223106.7,3126.972593,S,14349.263110,E,1,17,0.6,78.6,M,16.5,M,,*70
+
+11/14/2021 10:31:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00024.asd,GPGGA,223110.1,3126.972200,S,14349.260923,E,1,17,0.6,78.7,M,16.5,M,,*76
+
+11/14/2021 10:31:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00025.asd,GPGGA,223113.7,3126.972148,S,14349.258548,E,1,17,0.6,78.8,M,16.5,M,,*79
+
+11/14/2021 10:32:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00026.asd,GPGGA,223117.4,3126.971935,S,14349.256172,E,1,17,0.6,78.9,M,16.5,M,,*7D
+
+11/14/2021 10:32:05 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00027.asd,GPGGA,223120.9,3126.971531,S,14349.253877,E,1,17,0.6,78.9,M,16.5,M,,*75
+
+11/14/2021 10:32:08 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00028.asd,GPGGA,223124.5,3126.971116,S,14349.251568,E,1,17,0.6,78.9,M,16.5,M,,*7D
+
+11/14/2021 10:32:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1A00029.asd,GPGGA,223127.8,3126.970776,S,14349.249445,E,1,16,0.6,78.9,M,16.5,M,,*74
+
+11/14/2021 10:33:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200000.asd,GPGGA,223244.7,3126.964282,S,14349.248912,E,1,16,0.6,79.0,M,16.5,M,,*70
+
+11/14/2021 10:33:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200001.asd,GPGGA,223248.0,3126.964342,S,14349.250875,E,1,17,0.6,78.8,M,16.5,M,,*77
+
+11/14/2021 10:33:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200002.asd,GPGGA,223251.7,3126.964413,S,14349.253486,E,1,18,0.6,78.7,M,16.5,M,,*78
+
+11/14/2021 10:33:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200003.asd,GPGGA,223255.2,3126.964541,S,14349.255871,E,1,18,0.6,78.7,M,16.5,M,,*7D
+
+11/14/2021 10:33:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200004.asd,GPGGA,223258.7,3126.964580,S,14349.258241,E,1,18,0.6,79.0,M,16.5,M,,*7A
+
+11/14/2021 10:33:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200005.asd,GPGGA,223302.4,3126.964764,S,14349.260682,E,1,18,0.6,78.8,M,16.5,M,,*76
+
+11/14/2021 10:33:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200006.asd,GPGGA,223305.9,3126.964872,S,14349.262651,E,1,18,0.6,78.8,M,16.5,M,,*78
+
+11/14/2021 10:33:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200007.asd,GPGGA,223309.5,3126.965068,S,14349.264919,E,1,18,0.6,78.8,M,16.5,M,,*7F
+
+11/14/2021 10:33:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200008.asd,GPGGA,223313.1,3126.965211,S,14349.267219,E,1,18,0.6,78.8,M,16.5,M,,*74
+
+11/14/2021 10:34:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200009.asd,GPGGA,223316.6,3126.965391,S,14349.269467,E,1,18,0.6,78.7,M,16.5,M,,*71
+
+11/14/2021 10:34:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200010.asd,GPGGA,223320.3,3126.965711,S,14349.271854,E,1,18,0.6,78.5,M,16.5,M,,*7A
+
+11/14/2021 10:34:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200011.asd,GPGGA,223323.9,3126.965986,S,14349.274233,E,1,18,0.6,78.1,M,16.5,M,,*79
+
+11/14/2021 10:34:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200012.asd,GPGGA,223327.3,3126.966138,S,14349.276447,E,1,18,0.6,77.9,M,16.5,M,,*79
+
+11/14/2021 10:34:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200013.asd,GPGGA,223331.0,3126.966252,S,14349.278916,E,1,18,0.6,77.7,M,16.5,M,,*7B
+
+11/14/2021 10:34:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200014.asd,GPGGA,223334.5,3126.966439,S,14349.281252,E,1,18,0.6,77.8,M,16.5,M,,*72
+
+11/14/2021 10:34:22 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200015.asd,GPGGA,223338.1,3126.966590,S,14349.283658,E,1,18,0.6,77.9,M,16.5,M,,*75
+
+11/14/2021 10:34:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200016.asd,GPGGA,223341.7,3126.966618,S,14349.286089,E,1,18,0.6,77.9,M,16.5,M,,*71
+
+11/14/2021 10:34:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200017.asd,GPGGA,223345.3,3126.966713,S,14349.288435,E,1,18,0.6,78.0,M,16.5,M,,*70
+
+11/14/2021 10:34:33 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200018.asd,GPGGA,223348.9,3126.966651,S,14349.290806,E,1,18,0.6,78.2,M,16.5,M,,*77
+
+11/14/2021 10:34:36 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200019.asd,GPGGA,223352.5,3126.966946,S,14349.293210,E,1,18,0.6,78.2,M,16.5,M,,*77
+
+11/14/2021 10:34:40 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200020.asd,GPGGA,223355.9,3126.967279,S,14349.295298,E,1,18,0.6,78.1,M,16.5,M,,*7F
+
+11/14/2021 10:34:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200021.asd,GPGGA,223359.4,3126.967432,S,14349.297607,E,1,18,0.6,78.1,M,16.5,M,,*77
+
+11/14/2021 10:34:47 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200022.asd,GPGGA,223402.9,3126.967833,S,14349.299798,E,1,18,0.6,78.2,M,16.5,M,,*74
+
+11/14/2021 10:34:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200023.asd,GPGGA,223406.5,3126.968045,S,14349.302212,E,1,18,0.6,78.3,M,16.5,M,,*7F
+
+11/14/2021 10:34:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200024.asd,GPGGA,223410.0,3126.968353,S,14349.304391,E,1,18,0.6,78.3,M,16.5,M,,*75
+
+11/14/2021 10:34:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200025.asd,GPGGA,223413.5,3126.968672,S,14349.306592,E,1,18,0.6,78.3,M,16.5,M,,*72
+
+11/14/2021 10:35:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200026.asd,GPGGA,223417.2,3126.969162,S,14349.308957,E,1,19,0.5,78.2,M,16.5,M,,*7E
+
+11/14/2021 10:35:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200027.asd,GPGGA,223420.8,3126.969447,S,14349.311311,E,1,18,0.6,78.1,M,16.5,M,,*73
+
+11/14/2021 10:35:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200028.asd,GPGGA,223441.8,3126.971949,S,14349.319300,E,1,17,0.6,77.8,M,16.5,M,,*7F
+
+11/14/2021 10:35:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln200029.asd,GPGGA,223445.2,3126.971949,S,14349.319300,E,1,17,0.6,77.8,M,16.5,M,,*71
+
+11/14/2021 10:36:38 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300000.asd,GPGGA,223554.7,3126.972034,S,14349.319043,E,1,18,0.6,77.7,M,16.5,M,,*71
+
+11/14/2021 10:36:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300001.asd,GPGGA,223558.1,3126.972034,S,14349.319043,E,1,18,0.6,77.7,M,16.5,M,,*7B
+
+11/14/2021 10:37:03 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300002.asd,GPGGA,223619.7,3126.964718,S,14349.313727,E,1,18,0.6,78.3,M,16.5,M,,*71
+
+11/14/2021 10:37:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300003.asd,GPGGA,223623.2,3126.964444,S,14349.311377,E,1,18,0.6,78.6,M,16.5,M,,*71
+
+11/14/2021 10:37:10 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300004.asd,GPGGA,223626.8,3126.964097,S,14349.308994,E,1,18,0.6,78.6,M,16.5,M,,*7B
+
+11/14/2021 10:37:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300005.asd,GPGGA,223630.4,3126.964071,S,14349.306546,E,1,18,0.6,78.5,M,16.5,M,,*76
+
+11/14/2021 10:37:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300006.asd,GPGGA,223633.9,3126.963786,S,14349.304208,E,1,18,0.6,78.7,M,16.5,M,,*7D
+
+11/14/2021 10:37:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300007.asd,GPGGA,223637.6,3126.963552,S,14349.301721,E,1,18,0.6,78.8,M,16.5,M,,*79
+
+11/14/2021 10:37:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300008.asd,GPGGA,223641.2,3126.963256,S,14349.299225,E,1,16,0.6,78.7,M,16.5,M,,*7F
+
+11/14/2021 10:37:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300009.asd,GPGGA,223644.8,3126.963047,S,14349.296695,E,1,16,0.6,78.7,M,16.5,M,,*72
+
+11/14/2021 10:37:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300010.asd,GPGGA,223648.2,3126.962961,S,14349.294366,E,1,16,0.6,78.9,M,16.5,M,,*7D
+
+11/14/2021 10:37:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300011.asd,GPGGA,223651.8,3126.962805,S,14349.291826,E,1,16,0.6,78.9,M,16.5,M,,*76
+
+11/14/2021 10:37:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300012.asd,GPGGA,223655.5,3126.962595,S,14349.289407,E,1,16,0.6,79.0,M,16.5,M,,*75
+
+11/14/2021 10:37:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300013.asd,GPGGA,223659.0,3126.962366,S,14349.286927,E,1,16,0.6,79.0,M,16.5,M,,*76
+
+11/14/2021 10:37:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300014.asd,GPGGA,223702.5,3126.962247,S,14349.284487,E,1,16,0.6,79.1,M,16.5,M,,*7A
+
+11/14/2021 10:37:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300015.asd,GPGGA,223706.0,3126.962059,S,14349.282100,E,1,17,0.6,79.1,M,16.5,M,,*7B
+
+11/14/2021 10:37:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300016.asd,GPGGA,223709.6,3126.962004,S,14349.279724,E,1,16,0.6,79.0,M,16.5,M,,*7E
+
+11/14/2021 10:37:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300017.asd,GPGGA,223713.1,3126.961959,S,14349.277318,E,1,17,0.6,79.0,M,16.5,M,,*74
+
+11/14/2021 10:38:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300018.asd,GPGGA,223716.6,3126.961732,S,14349.274857,E,1,17,0.6,79.0,M,16.5,M,,*76
+
+11/14/2021 10:38:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300019.asd,GPGGA,223720.2,3126.961491,S,14349.272315,E,1,17,0.6,79.1,M,16.5,M,,*77
+
+11/14/2021 10:38:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300020.asd,GPGGA,223723.8,3126.961261,S,14349.269736,E,1,17,0.6,79.1,M,16.5,M,,*78
+
+11/14/2021 10:38:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300021.asd,GPGGA,223731.2,3126.960836,S,14349.264473,E,1,17,0.6,78.8,M,16.5,M,,*7F
+
+11/14/2021 10:38:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300022.asd,GPGGA,223734.7,3126.960594,S,14349.262239,E,1,17,0.6,78.6,M,16.5,M,,*7A
+
+11/14/2021 10:38:22 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300023.asd,GPGGA,223738.1,3126.960504,S,14349.259999,E,1,17,0.6,78.5,M,16.5,M,,*73
+
+11/14/2021 10:38:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300024.asd,GPGGA,223741.6,3126.960326,S,14349.257605,E,1,17,0.6,78.5,M,16.5,M,,*78
+
+11/14/2021 10:38:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300025.asd,GPGGA,223745.5,3126.959981,S,14349.254895,E,1,17,0.6,78.4,M,16.5,M,,*77
+
+11/14/2021 10:38:33 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300026.asd,GPGGA,223749.1,3126.959880,S,14349.252460,E,1,16,0.6,78.3,M,16.5,M,,*79
+
+11/14/2021 10:38:36 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln300027.asd,GPGGA,223752.6,3126.959691,S,14349.250129,E,1,17,0.6,78.4,M,16.5,M,,*76
+
+11/14/2021 10:39:51 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400000.asd,GPGGA,223906.9,3126.953999,S,14349.256191,E,1,16,0.6,78.4,M,16.5,M,,*7F
+
+11/14/2021 10:39:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400001.asd,GPGGA,223910.6,3126.954142,S,14349.258645,E,1,16,0.6,78.3,M,16.5,M,,*79
+
+11/14/2021 10:39:58 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400002.asd,GPGGA,223914.2,3126.954452,S,14349.260934,E,1,16,0.6,78.2,M,16.5,M,,*7E
+
+11/14/2021 10:40:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400003.asd,GPGGA,223917.6,3126.954368,S,14349.263207,E,1,16,0.6,78.1,M,16.5,M,,*7C
+
+11/14/2021 10:40:05 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400004.asd,GPGGA,223921.0,3126.954522,S,14349.265443,E,1,16,0.6,78.0,M,16.5,M,,*76
+
+11/14/2021 10:40:08 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400005.asd,GPGGA,223924.5,3126.954643,S,14349.267876,E,1,16,0.6,78.0,M,16.5,M,,*7A
+
+11/14/2021 10:40:12 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400006.asd,GPGGA,223928.0,3126.954844,S,14349.270286,E,1,16,0.6,78.0,M,16.5,M,,*79
+
+11/14/2021 10:40:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400007.asd,GPGGA,223931.5,3126.954912,S,14349.272844,E,1,16,0.6,78.0,M,16.5,M,,*70
+
+11/14/2021 10:40:19 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400008.asd,GPGGA,223935.2,3126.955185,S,14349.275400,E,1,16,0.6,78.1,M,16.5,M,,*7E
+
+11/14/2021 10:40:22 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400009.asd,GPGGA,223938.8,3126.955284,S,14349.277976,E,1,16,0.6,78.2,M,16.5,M,,*76
+
+11/14/2021 10:40:26 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400010.asd,GPGGA,223942.3,3126.955451,S,14349.280316,E,1,16,0.6,78.1,M,16.5,M,,*79
+
+11/14/2021 10:40:30 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400011.asd,GPGGA,223945.9,3126.955682,S,14349.282709,E,1,16,0.6,78.1,M,16.5,M,,*70
+
+11/14/2021 10:40:33 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400012.asd,GPGGA,223949.4,3126.955548,S,14349.285003,E,1,16,0.6,78.1,M,16.5,M,,*7E
+
+11/14/2021 10:40:36 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400013.asd,GPGGA,223952.8,3126.955860,S,14349.287388,E,1,16,0.6,78.2,M,16.5,M,,*7E
+
+11/14/2021 10:40:40 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400014.asd,GPGGA,223956.3,3126.956008,S,14349.289843,E,1,16,0.6,78.3,M,16.5,M,,*77
+
+11/14/2021 10:40:44 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400015.asd,GPGGA,223959.9,3126.956193,S,14349.292372,E,1,16,0.6,78.3,M,16.5,M,,*72
+
+11/14/2021 10:40:47 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400016.asd,GPGGA,224003.5,3126.956408,S,14349.294834,E,1,16,0.6,78.3,M,16.5,M,,*77
+
+11/14/2021 10:40:51 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400017.asd,GPGGA,224007.1,3126.956598,S,14349.297242,E,1,16,0.6,78.2,M,16.5,M,,*76
+
+11/14/2021 10:40:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400018.asd,GPGGA,224010.7,3126.956808,S,14349.299736,E,1,16,0.6,78.2,M,16.5,M,,*7A
+
+11/14/2021 10:40:58 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400019.asd,GPGGA,224014.2,3126.957100,S,14349.302116,E,1,16,0.6,78.2,M,16.5,M,,*7C
+
+11/14/2021 10:41:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400020.asd,GPGGA,224017.8,3126.957496,S,14349.304765,E,1,15,0.7,77.7,M,16.5,M,,*73
+
+11/14/2021 10:41:05 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400021.asd,GPGGA,224021.5,3126.957768,S,14349.307464,E,1,15,0.7,77.7,M,16.5,M,,*78
+
+11/14/2021 10:41:09 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400022.asd,GPGGA,224025.0,3126.958232,S,14349.309913,E,1,15,0.7,77.7,M,16.5,M,,*7F
+
+11/14/2021 10:41:12 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400023.asd,GPGGA,224028.4,3126.958512,S,14349.312028,E,1,15,0.7,77.9,M,16.5,M,,*76
+
+11/14/2021 10:41:44 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400024.asd,GPGGA,224100.5,3126.971915,S,14349.319063,E,1,18,0.6,77.4,M,16.5,M,,*79
+
+11/14/2021 10:41:47 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln400025.asd,GPGGA,224103.9,3126.971915,S,14349.319063,E,1,18,0.6,77.4,M,16.5,M,,*76
+
+11/14/2021 10:42:59 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500000.asd,GPGGA,224215.4,3126.971939,S,14349.318827,E,1,17,0.6,77.5,M,16.5,M,,*76
+
+11/14/2021 10:43:03 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500001.asd,GPGGA,224218.9,3126.971939,S,14349.318827,E,1,17,0.6,77.5,M,16.5,M,,*76
+
+11/14/2021 10:43:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500002.asd,GPGGA,224254.9,3126.953100,S,14349.315155,E,1,18,0.6,77.2,M,16.5,M,,*75
+
+11/14/2021 10:43:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500003.asd,GPGGA,224258.4,3126.952951,S,14349.313072,E,1,18,0.6,77.1,M,16.5,M,,*78
+
+11/14/2021 10:43:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500004.asd,GPGGA,224301.9,3126.953174,S,14349.310878,E,1,18,0.6,77.2,M,16.5,M,,*74
+
+11/14/2021 10:43:49 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500005.asd,GPGGA,224305.5,3126.953376,S,14349.308392,E,1,18,0.6,77.2,M,16.5,M,,*7A
+
+11/14/2021 10:43:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500006.asd,GPGGA,224308.9,3126.953520,S,14349.305888,E,1,18,0.6,77.3,M,16.5,M,,*72
+
+11/14/2021 10:43:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500007.asd,GPGGA,224312.4,3126.953589,S,14349.303705,E,1,17,0.6,77.5,M,16.5,M,,*72
+
+11/14/2021 10:44:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500008.asd,GPGGA,224316.0,3126.953902,S,14349.301506,E,1,17,0.6,77.7,M,16.5,M,,*7C
+
+11/14/2021 10:44:03 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500009.asd,GPGGA,224319.5,3126.953923,S,14349.299162,E,1,17,0.6,77.8,M,16.5,M,,*7C
+
+11/14/2021 10:44:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500010.asd,GPGGA,224323.0,3126.953584,S,14349.296961,E,1,17,0.6,77.8,M,16.5,M,,*75
+
+11/14/2021 10:44:10 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500011.asd,GPGGA,224326.4,3126.953134,S,14349.294852,E,1,17,0.6,77.8,M,16.5,M,,*78
+
+11/14/2021 10:44:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500012.asd,GPGGA,224330.1,3126.952582,S,14349.292336,E,1,17,0.6,77.7,M,16.5,M,,*72
+
+11/14/2021 10:44:17 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500013.asd,GPGGA,224333.6,3126.952230,S,14349.289827,E,1,16,0.6,77.7,M,16.5,M,,*78
+
+11/14/2021 10:44:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500014.asd,GPGGA,224337.1,3126.951843,S,14349.287213,E,1,16,0.6,77.2,M,16.5,M,,*70
+
+11/14/2021 10:44:24 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500015.asd,GPGGA,224340.6,3126.951572,S,14349.284980,E,1,16,0.6,77.2,M,16.5,M,,*7A
+
+11/14/2021 10:44:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500016.asd,GPGGA,224344.1,3126.951436,S,14349.282692,E,1,16,0.6,77.4,M,16.5,M,,*74
+
+11/14/2021 10:44:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500017.asd,GPGGA,224347.8,3126.951286,S,14349.280469,E,1,16,0.6,77.3,M,16.5,M,,*70
+
+11/14/2021 10:44:38 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500018.asd,GPGGA,224354.7,3126.950783,S,14349.276645,E,1,16,0.6,77.3,M,16.5,M,,*79
+
+11/14/2021 10:44:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500019.asd,GPGGA,224358.2,3126.950584,S,14349.274256,E,1,16,0.6,76.8,M,16.5,M,,*7B
+
+11/14/2021 10:44:45 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500020.asd,GPGGA,224401.7,3126.950426,S,14349.271879,E,1,16,0.6,76.6,M,16.5,M,,*70
+
+11/14/2021 10:44:49 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500021.asd,GPGGA,224405.2,3126.950086,S,14349.269565,E,1,16,0.6,76.9,M,16.5,M,,*79
+
+11/14/2021 10:44:52 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500022.asd,GPGGA,224408.8,3126.949831,S,14349.267360,E,1,16,0.6,76.9,M,16.5,M,,*7F
+
+11/14/2021 10:44:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500023.asd,GPGGA,224412.2,3126.949778,S,14349.265093,E,1,16,0.6,76.9,M,16.5,M,,*71
+
+11/14/2021 10:45:13 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500024.asd,GPGGA,224429.8,3126.949590,S,14349.261947,E,1,16,0.6,76.9,M,16.5,M,,*73
+
+11/14/2021 10:45:17 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500025.asd,GPGGA,224433.3,3126.949209,S,14349.259377,E,1,16,0.6,76.9,M,16.5,M,,*76
+
+11/14/2021 10:45:20 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500026.asd,GPGGA,224436.9,3126.949115,S,14349.257185,E,1,16,0.6,77.1,M,16.5,M,,*7F
+
+11/14/2021 10:45:24 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500027.asd,GPGGA,224440.7,3126.948898,S,14349.254850,E,1,16,0.6,77.4,M,16.5,M,,*7A
+
+11/14/2021 10:45:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500028.asd,GPGGA,224444.3,3126.948513,S,14349.252689,E,1,16,0.6,77.4,M,16.5,M,,*78
+
+11/14/2021 10:45:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln500029.asd,GPGGA,224447.8,3126.948202,S,14349.250696,E,1,16,0.6,77.5,M,16.5,M,,*7A
+
+11/14/2021 10:46:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600000.asd,GPGGA,224530.3,3126.942399,S,14349.252628,E,1,18,0.6,77.6,M,16.5,M,,*73
+
+11/14/2021 10:46:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600001.asd,GPGGA,224533.9,3126.942557,S,14349.254909,E,1,18,0.6,77.6,M,16.5,M,,*74
+
+11/14/2021 10:46:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600002.asd,GPGGA,224537.4,3126.942526,S,14349.257048,E,1,18,0.6,77.5,M,16.5,M,,*77
+
+11/14/2021 10:46:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600003.asd,GPGGA,224541.1,3126.942455,S,14349.259000,E,1,18,0.6,77.5,M,16.5,M,,*74
+
+11/14/2021 10:46:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600004.asd,GPGGA,224602.0,3126.942971,S,14349.269790,E,1,18,0.6,78.2,M,16.5,M,,*7F
+
+11/14/2021 10:46:49 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600005.asd,GPGGA,224605.7,3126.942880,S,14349.272184,E,1,18,0.6,78.3,M,16.5,M,,*78
+
+11/14/2021 10:46:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600006.asd,GPGGA,224609.2,3126.943137,S,14349.274377,E,1,18,0.6,78.4,M,16.5,M,,*7A
+
+11/14/2021 10:46:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600007.asd,GPGGA,224612.8,3126.943321,S,14349.276582,E,1,18,0.6,78.4,M,16.5,M,,*71
+
+11/14/2021 10:47:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600008.asd,GPGGA,224616.4,3126.943564,S,14349.278804,E,1,18,0.6,78.4,M,16.5,M,,*73
+
+11/14/2021 10:47:03 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600009.asd,GPGGA,224619.8,3126.943947,S,14349.280966,E,1,18,0.6,78.3,M,16.5,M,,*78
+
+11/14/2021 10:47:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600010.asd,GPGGA,224623.2,3126.943984,S,14349.283267,E,1,18,0.6,78.4,M,16.5,M,,*7A
+
+11/14/2021 10:47:10 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600011.asd,GPGGA,224626.8,3126.944202,S,14349.285732,E,1,18,0.6,78.4,M,16.5,M,,*74
+
+11/14/2021 10:47:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600012.asd,GPGGA,224630.5,3126.944487,S,14349.288129,E,1,18,0.6,78.5,M,16.5,M,,*75
+
+11/14/2021 10:47:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600013.asd,GPGGA,224634.0,3126.944676,S,14349.290356,E,1,18,0.6,78.5,M,16.5,M,,*7B
+
+11/14/2021 10:47:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600014.asd,GPGGA,224644.6,3126.945348,S,14349.297185,E,1,18,0.6,78.3,M,16.5,M,,*7E
+
+11/14/2021 10:47:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600015.asd,GPGGA,224648.1,3126.945453,S,14349.299406,E,1,18,0.6,78.3,M,16.5,M,,*78
+
+11/14/2021 10:47:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600016.asd,GPGGA,224651.5,3126.945747,S,14349.301497,E,1,18,0.6,78.3,M,16.5,M,,*7A
+
+11/14/2021 10:47:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600017.asd,GPGGA,224655.1,3126.946029,S,14349.303799,E,1,18,0.6,78.3,M,16.5,M,,*79
+
+11/14/2021 10:47:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600018.asd,GPGGA,224702.2,3126.946518,S,14349.308546,E,1,18,0.6,78.4,M,16.5,M,,*72
+
+11/14/2021 10:47:49 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600019.asd,GPGGA,224705.5,3126.946759,S,14349.310521,E,1,18,0.6,78.5,M,16.5,M,,*7C
+
+11/14/2021 10:47:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600020.asd,GPGGA,224709.1,3126.947032,S,14349.312739,E,1,18,0.6,78.5,M,16.5,M,,*76
+
+11/14/2021 10:47:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600021.asd,GPGGA,224712.7,3126.947262,S,14349.314988,E,1,18,0.6,78.5,M,16.5,M,,*7F
+
+11/14/2021 10:48:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600022.asd,GPGGA,224730.6,3126.950641,S,14349.317511,E,1,17,0.6,78.0,M,16.5,M,,*78
+
+11/14/2021 10:48:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln600023.asd,GPGGA,224734.2,3126.950641,S,14349.317511,E,1,17,0.6,78.0,M,16.5,M,,*78
+
+11/14/2021 10:49:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700000.asd,GPGGA,224827.3,3126.950618,S,14349.317562,E,1,15,0.7,78.0,M,16.5,M,,*7F
+
+11/14/2021 10:49:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700001.asd,GPGGA,224830.8,3126.950618,S,14349.317562,E,1,15,0.7,78.0,M,16.5,M,,*72
+
+11/14/2021 10:49:51 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700002.asd,GPGGA,224907.0,3126.950589,S,14349.317677,E,1,18,0.6,77.8,M,16.5,M,,*78
+
+11/14/2021 10:49:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700003.asd,GPGGA,224910.5,3126.950589,S,14349.317677,E,1,17,0.6,77.8,M,16.5,M,,*74
+
+11/14/2021 10:50:16 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700004.asd,GPGGA,224931.9,3126.941570,S,14349.316243,E,1,19,0.6,76.1,M,16.5,M,,*79
+
+11/14/2021 10:50:19 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700005.asd,GPGGA,224935.4,3126.941348,S,14349.313813,E,1,19,0.6,76.1,M,16.5,M,,*77
+
+11/14/2021 10:50:23 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700006.asd,GPGGA,224939.0,3126.941268,S,14349.311448,E,1,19,0.6,76.0,M,16.5,M,,*7D
+
+11/14/2021 10:50:26 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700007.asd,GPGGA,224942.9,3126.941073,S,14349.308893,E,1,19,0.6,76.1,M,16.5,M,,*73
+
+11/14/2021 10:50:30 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700008.asd,GPGGA,224946.4,3126.941039,S,14349.306558,E,1,19,0.6,76.2,M,16.5,M,,*73
+
+11/14/2021 10:50:34 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700009.asd,GPGGA,224950.0,3126.940904,S,14349.303937,E,1,19,0.6,76.2,M,16.5,M,,*76
+
+11/14/2021 10:50:37 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700010.asd,GPGGA,224953.6,3126.940767,S,14349.301556,E,1,17,0.6,76.4,M,16.5,M,,*79
+
+11/14/2021 10:50:41 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700011.asd,GPGGA,224957.2,3126.940722,S,14349.299226,E,1,18,0.6,76.5,M,16.5,M,,*76
+
+11/14/2021 10:50:44 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700012.asd,GPGGA,225000.8,3126.940596,S,14349.296900,E,1,18,0.6,76.7,M,16.5,M,,*79
+
+11/14/2021 10:50:48 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700013.asd,GPGGA,225004.3,3126.940565,S,14349.294377,E,1,18,0.6,76.8,M,16.5,M,,*7D
+
+11/14/2021 10:50:52 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700014.asd,GPGGA,225008.0,3126.940455,S,14349.291896,E,1,18,0.6,76.8,M,16.5,M,,*71
+
+11/14/2021 10:50:55 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700015.asd,GPGGA,225011.4,3126.940434,S,14349.289672,E,1,18,0.6,76.9,M,16.5,M,,*76
+
+11/14/2021 10:50:59 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700016.asd,GPGGA,225015.1,3126.940322,S,14349.287121,E,1,18,0.6,76.7,M,16.5,M,,*76
+
+11/14/2021 10:51:02 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700017.asd,GPGGA,225018.7,3126.940117,S,14349.284621,E,1,18,0.6,76.6,M,16.5,M,,*7C
+
+11/14/2021 10:51:06 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700018.asd,GPGGA,225022.3,3126.940163,S,14349.282072,E,1,18,0.6,76.6,M,16.5,M,,*74
+
+11/14/2021 10:51:09 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700019.asd,GPGGA,225025.8,3126.940012,S,14349.279620,E,1,18,0.6,76.8,M,16.5,M,,*74
+
+11/14/2021 10:51:13 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700020.asd,GPGGA,225029.4,3126.939889,S,14349.277064,E,1,18,0.6,76.9,M,16.5,M,,*79
+
+11/14/2021 10:51:17 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700021.asd,GPGGA,225032.9,3126.939843,S,14349.274578,E,1,18,0.6,76.8,M,16.5,M,,*72
+
+11/14/2021 10:51:20 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700022.asd,GPGGA,225036.6,3126.939515,S,14349.272030,E,1,18,0.6,76.9,M,16.5,M,,*79
+
+11/14/2021 10:51:24 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700023.asd,GPGGA,225040.1,3126.939395,S,14349.269457,E,1,18,0.6,76.9,M,16.5,M,,*7E
+
+11/14/2021 10:51:27 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700024.asd,GPGGA,225043.8,3126.939109,S,14349.266922,E,1,18,0.6,77.0,M,16.5,M,,*7B
+
+11/14/2021 10:51:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700025.asd,GPGGA,225047.3,3126.938902,S,14349.264447,E,1,18,0.6,77.0,M,16.5,M,,*7A
+
+11/14/2021 10:51:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700026.asd,GPGGA,225050.8,3126.938705,S,14349.262194,E,1,18,0.6,77.0,M,16.5,M,,*73
+
+11/14/2021 10:51:38 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700027.asd,GPGGA,225054.3,3126.938609,S,14349.259800,E,1,18,0.6,77.0,M,16.5,M,,*7D
+
+11/14/2021 10:51:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700028.asd,GPGGA,225058.1,3126.938580,S,14349.257276,E,1,18,0.6,77.0,M,16.5,M,,*74
+
+11/14/2021 10:51:45 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln700029.asd,GPGGA,225101.7,3126.938243,S,14349.254808,E,1,19,0.6,76.9,M,16.5,M,,*7E
+
+11/14/2021 10:52:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800000.asd,GPGGA,225137.1,3126.931680,S,14349.254075,E,1,18,0.6,76.4,M,16.5,M,,*71
+
+11/14/2021 10:52:24 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800001.asd,GPGGA,225140.9,3126.931738,S,14349.256648,E,1,18,0.6,76.3,M,16.5,M,,*76
+
+11/14/2021 10:52:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800002.asd,GPGGA,225144.4,3126.931937,S,14349.258889,E,1,18,0.6,76.4,M,16.5,M,,*74
+
+11/14/2021 10:52:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800003.asd,GPGGA,225147.7,3126.932017,S,14349.260717,E,1,18,0.6,76.4,M,16.5,M,,*7F
+
+11/14/2021 10:52:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800004.asd,GPGGA,225151.3,3126.932290,S,14349.262981,E,1,18,0.6,76.4,M,16.5,M,,*72
+
+11/14/2021 10:52:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800005.asd,GPGGA,225154.9,3126.932360,S,14349.265241,E,1,18,0.6,76.4,M,16.5,M,,*73
+
+11/14/2021 10:52:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800006.asd,GPGGA,225158.5,3126.932419,S,14349.267427,E,1,18,0.6,76.7,M,16.5,M,,*7D
+
+11/14/2021 10:52:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800007.asd,GPGGA,225202.0,3126.932615,S,14349.269538,E,1,18,0.6,76.7,M,16.5,M,,*7B
+
+11/14/2021 10:52:49 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800008.asd,GPGGA,225205.7,3126.932720,S,14349.271811,E,1,18,0.6,76.7,M,16.5,M,,*73
+
+11/14/2021 10:52:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800009.asd,GPGGA,225209.2,3126.932798,S,14349.274040,E,1,18,0.6,76.8,M,16.5,M,,*7F
+
+11/14/2021 10:52:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800010.asd,GPGGA,225212.8,3126.932839,S,14349.276291,E,1,18,0.6,76.6,M,16.5,M,,*79
+
+11/14/2021 10:53:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800011.asd,GPGGA,225216.3,3126.932914,S,14349.278567,E,1,17,0.6,76.8,M,16.5,M,,*79
+
+11/14/2021 10:53:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800012.asd,GPGGA,225219.9,3126.932905,S,14349.280790,E,1,17,0.6,76.9,M,16.5,M,,*70
+
+11/14/2021 10:53:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800013.asd,GPGGA,225223.6,3126.933093,S,14349.283027,E,1,17,0.6,76.9,M,16.5,M,,*79
+
+11/14/2021 10:53:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800014.asd,GPGGA,225227.2,3126.933151,S,14349.285217,E,1,17,0.6,76.9,M,16.5,M,,*71
+
+11/14/2021 10:53:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800015.asd,GPGGA,225230.7,3126.933126,S,14349.287430,E,1,17,0.6,77.0,M,16.5,M,,*7B
+
+11/14/2021 10:53:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800016.asd,GPGGA,225234.3,3126.933241,S,14349.289691,E,1,18,0.6,77.1,M,16.5,M,,*70
+
+11/14/2021 10:53:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800017.asd,GPGGA,225237.7,3126.933313,S,14349.291936,E,1,17,0.6,77.1,M,16.5,M,,*75
+
+11/14/2021 10:53:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800018.asd,GPGGA,225241.2,3126.933383,S,14349.294201,E,1,17,0.6,77.0,M,16.5,M,,*73
+
+11/14/2021 10:53:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800019.asd,GPGGA,225244.8,3126.933441,S,14349.296456,E,1,17,0.6,77.1,M,16.5,M,,*72
+
+11/14/2021 10:53:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800020.asd,GPGGA,225248.5,3126.933617,S,14349.298892,E,1,17,0.6,77.0,M,16.5,M,,*79
+
+11/14/2021 10:53:36 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800021.asd,GPGGA,225251.9,3126.933842,S,14349.301154,E,1,18,0.6,76.9,M,16.5,M,,*76
+
+11/14/2021 10:53:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800022.asd,GPGGA,225255.6,3126.934027,S,14349.303502,E,1,18,0.6,76.9,M,16.5,M,,*74
+
+11/14/2021 10:53:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800023.asd,GPGGA,225259.1,3126.934233,S,14349.305857,E,1,18,0.6,76.8,M,16.5,M,,*72
+
+11/14/2021 10:53:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800024.asd,GPGGA,225302.6,3126.934448,S,14349.308138,E,1,18,0.6,76.8,M,16.5,M,,*7D
+
+11/14/2021 10:53:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800025.asd,GPGGA,225306.3,3126.934602,S,14349.310381,E,1,18,0.6,76.9,M,16.5,M,,*78
+
+11/14/2021 10:53:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800026.asd,GPGGA,225309.9,3126.934690,S,14349.312670,E,1,18,0.6,76.8,M,16.5,M,,*7E
+
+11/14/2021 10:53:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800027.asd,GPGGA,225313.5,3126.934769,S,14349.314793,E,1,18,0.6,77.0,M,16.5,M,,*7D
+
+11/14/2021 10:54:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800028.asd,GPGGA,225331.2,3126.934849,S,14349.318998,E,1,18,0.6,76.8,M,16.5,M,,*77
+
+11/14/2021 10:54:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln800029.asd,GPGGA,225334.6,3126.934849,S,14349.318998,E,1,18,0.6,76.8,M,16.5,M,,*76
+
+11/14/2021 10:55:26 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900000.asd,GPGGA,225442.1,3126.934949,S,14349.319001,E,1,17,0.6,76.6,M,16.5,M,,*7F
+
+11/14/2021 10:55:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900001.asd,GPGGA,225445.6,3126.934949,S,14349.319001,E,1,16,0.7,76.6,M,16.5,M,,*7F
+
+11/14/2021 10:55:44 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900002.asd,GPGGA,225500.1,3126.930397,S,14349.316639,E,1,16,0.8,77.1,M,16.5,M,,*7E
+
+11/14/2021 10:55:47 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900003.asd,GPGGA,225503.5,3126.930249,S,14349.314490,E,1,17,0.6,76.8,M,16.5,M,,*7F
+
+11/14/2021 10:55:51 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900004.asd,GPGGA,225507.1,3126.930216,S,14349.312232,E,1,17,0.6,76.9,M,16.5,M,,*7C
+
+11/14/2021 10:55:54 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900005.asd,GPGGA,225510.5,3126.929976,S,14349.310226,E,1,17,0.6,76.8,M,16.5,M,,*7D
+
+11/14/2021 10:55:58 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900006.asd,GPGGA,225514.0,3126.929712,S,14349.308003,E,1,17,0.6,76.8,M,16.5,M,,*7C
+
+11/14/2021 10:56:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900007.asd,GPGGA,225517.7,3126.929597,S,14349.305695,E,1,17,0.6,76.6,M,16.5,M,,*7D
+
+11/14/2021 10:56:05 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900008.asd,GPGGA,225521.1,3126.929492,S,14349.303596,E,1,17,0.6,76.4,M,16.5,M,,*7E
+
+11/14/2021 10:56:08 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900009.asd,GPGGA,225524.6,3126.929405,S,14349.301287,E,1,17,0.6,76.5,M,16.5,M,,*76
+
+11/14/2021 10:56:12 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900010.asd,GPGGA,225528.2,3126.929301,S,14349.298874,E,1,17,0.6,76.5,M,16.5,M,,*7A
+
+11/14/2021 10:56:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900011.asd,GPGGA,225531.7,3126.929065,S,14349.296586,E,1,17,0.6,76.4,M,16.5,M,,*79
+
+11/14/2021 10:56:19 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900012.asd,GPGGA,225535.4,3126.928882,S,14349.294113,E,1,17,0.6,76.3,M,16.5,M,,*73
+
+11/14/2021 10:56:23 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900013.asd,GPGGA,225538.9,3126.928868,S,14349.291948,E,1,17,0.6,76.3,M,16.5,M,,*74
+
+11/14/2021 10:56:26 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900014.asd,GPGGA,225542.5,3126.928822,S,14349.289799,E,1,17,0.6,76.0,M,16.5,M,,*73
+
+11/14/2021 10:56:30 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900015.asd,GPGGA,225546.1,3126.929048,S,14349.287490,E,1,17,0.6,76.1,M,16.5,M,,*73
+
+11/14/2021 10:56:33 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900016.asd,GPGGA,225549.7,3126.929035,S,14349.285251,E,1,17,0.6,76.1,M,16.5,M,,*79
+
+11/14/2021 10:56:37 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900017.asd,GPGGA,225553.2,3126.929060,S,14349.282966,E,1,17,0.6,76.0,M,16.5,M,,*7E
+
+11/14/2021 10:56:40 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900018.asd,GPGGA,225556.8,3126.929371,S,14349.280791,E,1,17,0.6,75.8,M,16.5,M,,*7D
+
+11/14/2021 10:56:44 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900019.asd,GPGGA,225600.2,3126.929540,S,14349.278743,E,1,17,0.6,75.7,M,16.5,M,,*74
+
+11/14/2021 10:56:47 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900020.asd,GPGGA,225603.7,3126.929544,S,14349.276770,E,1,17,0.6,75.5,M,16.5,M,,*7A
+
+11/14/2021 10:56:51 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900021.asd,GPGGA,225607.4,3126.929383,S,14349.274582,E,1,16,0.6,75.5,M,16.5,M,,*7C
+
+11/14/2021 10:56:55 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900022.asd,GPGGA,225610.9,3126.929266,S,14349.272367,E,1,16,0.6,75.6,M,16.5,M,,*75
+
+11/14/2021 10:56:58 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900023.asd,GPGGA,225614.6,3126.929246,S,14349.269907,E,1,16,0.6,75.7,M,16.5,M,,*7B
+
+11/14/2021 10:57:02 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900024.asd,GPGGA,225618.1,3126.929105,S,14349.267551,E,1,16,0.6,75.7,M,16.5,M,,*75
+
+11/14/2021 10:57:05 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900025.asd,GPGGA,225621.4,3126.928866,S,14349.265363,E,1,16,0.6,75.7,M,16.5,M,,*72
+
+11/14/2021 10:57:09 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900026.asd,GPGGA,225624.9,3126.928308,S,14349.263025,E,1,15,0.7,75.7,M,16.5,M,,*7C
+
+11/14/2021 10:57:12 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900027.asd,GPGGA,225628.7,3126.927929,S,14349.260653,E,1,15,0.7,75.8,M,16.5,M,,*73
+
+11/14/2021 10:57:16 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900028.asd,GPGGA,225632.2,3126.927606,S,14349.258349,E,1,16,0.6,75.8,M,16.5,M,,*78
+
+11/14/2021 10:57:19 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln900029.asd,GPGGA,225635.8,3126.927139,S,14349.256019,E,1,16,0.6,75.8,M,16.5,M,,*76
+
+11/14/2021 10:57:58 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000004.asd,GPGGA,225714.7,3126.920591,S,14349.254853,E,1,16,0.6,75.4,M,16.5,M,,*72
+
+11/14/2021 10:58:02 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000005.asd,GPGGA,225718.2,3126.920804,S,14349.256634,E,1,16,0.6,75.5,M,16.5,M,,*76
+
+11/14/2021 10:58:05 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000006.asd,GPGGA,225721.8,3126.921177,S,14349.259133,E,1,16,0.6,75.6,M,16.5,M,,*76
+
+11/14/2021 10:58:09 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000007.asd,GPGGA,225725.3,3126.921420,S,14349.261414,E,1,16,0.6,75.6,M,16.5,M,,*75
+
+11/14/2021 10:58:12 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000008.asd,GPGGA,225728.8,3126.921532,S,14349.263564,E,1,18,0.6,75.6,M,16.5,M,,*7B
+
+11/14/2021 10:58:16 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000009.asd,GPGGA,225732.3,3126.921633,S,14349.265853,E,1,16,0.6,75.4,M,16.5,M,,*7A
+
+11/14/2021 10:58:20 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000010.asd,GPGGA,225735.9,3126.921682,S,14349.268224,E,1,17,0.6,75.3,M,16.5,M,,*7C
+
+11/14/2021 10:58:23 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000011.asd,GPGGA,225739.5,3126.921780,S,14349.270419,E,1,16,0.6,75.4,M,16.5,M,,*78
+
+11/14/2021 10:58:27 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000012.asd,GPGGA,225743.1,3126.921813,S,14349.272646,E,1,16,0.6,75.4,M,16.5,M,,*7E
+
+11/14/2021 10:58:30 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000013.asd,GPGGA,225746.7,3126.921914,S,14349.275167,E,1,16,0.6,75.4,M,16.5,M,,*78
+
+11/14/2021 10:58:34 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000014.asd,GPGGA,225750.4,3126.922104,S,14349.277597,E,1,16,0.6,75.5,M,16.5,M,,*7E
+
+11/14/2021 10:58:37 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000015.asd,GPGGA,225753.8,3126.922252,S,14349.279762,E,1,16,0.6,75.6,M,16.5,M,,*74
+
+11/14/2021 10:58:41 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000016.asd,GPGGA,225757.5,3126.922386,S,14349.282212,E,1,16,0.6,75.6,M,16.5,M,,*73
+
+11/14/2021 10:58:45 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000017.asd,GPGGA,225801.1,3126.922544,S,14349.284663,E,1,17,0.6,75.6,M,16.5,M,,*76
+
+11/14/2021 10:58:48 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000018.asd,GPGGA,225804.6,3126.922585,S,14349.286977,E,1,16,0.6,75.6,M,16.5,M,,*70
+
+11/14/2021 10:58:52 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000019.asd,GPGGA,225808.0,3126.922596,S,14349.289293,E,1,16,0.6,75.7,M,16.5,M,,*77
+
+11/14/2021 10:58:55 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000020.asd,GPGGA,225811.5,3126.922728,S,14349.291718,E,1,17,0.6,75.9,M,16.5,M,,*7D
+
+11/14/2021 10:58:59 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000021.asd,GPGGA,225814.9,3126.922930,S,14349.294126,E,1,17,0.6,76.1,M,16.5,M,,*76
+
+11/14/2021 10:59:02 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000022.asd,GPGGA,225818.5,3126.922877,S,14349.296546,E,1,17,0.6,75.9,M,16.5,M,,*7F
+
+11/14/2021 10:59:06 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000023.asd,GPGGA,225822.1,3126.923223,S,14349.299014,E,1,17,0.6,75.9,M,16.5,M,,*75
+
+11/14/2021 10:59:09 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000024.asd,GPGGA,225825.7,3126.923397,S,14349.301390,E,1,17,0.6,76.0,M,16.5,M,,*7F
+
+11/14/2021 10:59:13 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000025.asd,GPGGA,225829.3,3126.923839,S,14349.303744,E,1,17,0.6,76.0,M,16.5,M,,*77
+
+11/14/2021 10:59:16 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000026.asd,GPGGA,225832.9,3126.924116,S,14349.306099,E,1,17,0.6,76.2,M,16.5,M,,*74
+
+11/14/2021 10:59:20 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000027.asd,GPGGA,225836.4,3126.924438,S,14349.308236,E,1,17,0.6,76.3,M,16.5,M,,*7C
+
+11/14/2021 10:59:24 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000028.asd,GPGGA,225840.0,3126.924562,S,14349.310418,E,1,17,0.6,76.4,M,16.5,M,,*73
+
+11/14/2021 10:59:27 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000029.asd,GPGGA,225843.5,3126.924619,S,14349.312459,E,1,17,0.6,76.5,M,16.5,M,,*7C
+
+11/14/2021 10:59:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000030.asd,GPGGA,225847.2,3126.924659,S,14349.314854,E,1,17,0.6,76.6,M,16.5,M,,*7F
+
+11/14/2021 10:59:34 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000031.asd,GPGGA,225850.7,3126.924756,S,14349.317122,E,1,18,0.6,76.6,M,16.5,M,,*76
+
+11/14/2021 10:59:52 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000032.asd,GPGGA,225908.5,3126.925656,S,14349.320623,E,1,17,0.6,76.5,M,16.5,M,,*76
+
+11/14/2021 10:59:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1000033.asd,GPGGA,225912.0,3126.925656,S,14349.320623,E,1,17,0.6,76.5,M,16.5,M,,*78
+
+11/14/2021 11:01:10 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100000.asd,GPGGA,230026.5,3126.925630,S,14349.320258,E,1,18,0.6,76.4,M,16.5,M,,*71
+
+11/14/2021 11:01:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100001.asd,GPGGA,230030.2,3126.925630,S,14349.320258,E,1,18,0.6,76.4,M,16.5,M,,*71
+
+11/14/2021 11:01:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100002.asd,GPGGA,230051.6,3126.920641,S,14349.318661,E,1,17,0.6,76.6,M,16.5,M,,*79
+
+11/14/2021 11:01:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100003.asd,GPGGA,230055.1,3126.920501,S,14349.316513,E,1,17,0.6,76.5,M,16.5,M,,*76
+
+11/14/2021 11:01:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100004.asd,GPGGA,230058.8,3126.920550,S,14349.314053,E,1,17,0.6,76.6,M,16.5,M,,*76
+
+11/14/2021 11:01:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100005.asd,GPGGA,230102.1,3126.920485,S,14349.311955,E,1,17,0.6,76.6,M,16.5,M,,*72
+
+11/14/2021 11:01:49 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100006.asd,GPGGA,230105.7,3126.920435,S,14349.309640,E,1,17,0.6,76.4,M,16.5,M,,*78
+
+11/14/2021 11:01:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100007.asd,GPGGA,230109.2,3126.920446,S,14349.307525,E,1,17,0.6,76.4,M,16.5,M,,*7B
+
+11/14/2021 11:01:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100008.asd,GPGGA,230112.8,3126.920328,S,14349.305414,E,1,17,0.6,76.4,M,16.5,M,,*75
+
+11/14/2021 11:02:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100009.asd,GPGGA,230116.2,3126.920433,S,14349.303435,E,1,17,0.6,76.6,M,16.5,M,,*71
+
+11/14/2021 11:02:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100010.asd,GPGGA,230119.8,3126.920418,S,14349.301204,E,1,17,0.6,76.7,M,16.5,M,,*7A
+
+11/14/2021 11:02:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100011.asd,GPGGA,230123.5,3126.920239,S,14349.298944,E,1,17,0.6,76.9,M,16.5,M,,*7B
+
+11/14/2021 11:02:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100012.asd,GPGGA,230127.0,3126.920041,S,14349.296749,E,1,17,0.6,76.9,M,16.5,M,,*7A
+
+11/14/2021 11:02:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100013.asd,GPGGA,230130.3,3126.919834,S,14349.294550,E,1,17,0.6,77.0,M,16.5,M,,*7F
+
+11/14/2021 11:02:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100014.asd,GPGGA,230133.9,3126.919807,S,14349.292237,E,1,17,0.6,77.0,M,16.5,M,,*76
+
+11/14/2021 11:02:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100015.asd,GPGGA,230137.4,3126.919634,S,14349.290084,E,1,17,0.6,77.1,M,16.5,M,,*78
+
+11/14/2021 11:02:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100016.asd,GPGGA,230140.9,3126.919620,S,14349.287816,E,1,17,0.6,77.2,M,16.5,M,,*76
+
+11/14/2021 11:02:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100017.asd,GPGGA,230144.5,3126.919471,S,14349.285465,E,1,17,0.6,77.4,M,16.5,M,,*74
+
+11/14/2021 11:02:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100018.asd,GPGGA,230148.0,3126.919570,S,14349.283203,E,1,17,0.6,77.4,M,16.5,M,,*7D
+
+11/14/2021 11:02:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100019.asd,GPGGA,230151.5,3126.919436,S,14349.280790,E,1,17,0.6,77.3,M,16.5,M,,*78
+
+11/14/2021 11:02:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100020.asd,GPGGA,230155.3,3126.919425,S,14349.278354,E,1,17,0.6,77.3,M,16.5,M,,*73
+
+11/14/2021 11:02:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100021.asd,GPGGA,230158.8,3126.919197,S,14349.275986,E,1,17,0.6,77.6,M,16.5,M,,*74
+
+11/14/2021 11:02:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100022.asd,GPGGA,230202.4,3126.919083,S,14349.273579,E,1,17,0.6,77.8,M,16.5,M,,*74
+
+11/14/2021 11:02:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100023.asd,GPGGA,230206.0,3126.918810,S,14349.271148,E,1,17,0.6,77.8,M,16.5,M,,*73
+
+11/14/2021 11:02:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100024.asd,GPGGA,230209.4,3126.918608,S,14349.268993,E,1,17,0.6,77.8,M,16.5,M,,*79
+
+11/14/2021 11:02:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100025.asd,GPGGA,230212.9,3126.918235,S,14349.266729,E,1,17,0.6,77.7,M,16.5,M,,*7A
+
+11/14/2021 11:03:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100026.asd,GPGGA,230216.5,3126.918171,S,14349.264175,E,1,17,0.6,77.7,M,16.5,M,,*7C
+
+11/14/2021 11:03:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100027.asd,GPGGA,230219.9,3126.917896,S,14349.261868,E,1,17,0.6,77.7,M,16.5,M,,*70
+
+11/14/2021 11:03:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100028.asd,GPGGA,230223.4,3126.917630,S,14349.259494,E,1,17,0.6,77.7,M,16.5,M,,*72
+
+11/14/2021 11:03:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1100029.asd,GPGGA,230227.0,3126.917290,S,14349.257080,E,1,17,0.6,77.8,M,16.5,M,,*7C
+
+11/14/2021 11:03:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200000.asd,GPGGA,230309.1,3126.910424,S,14349.255270,E,1,19,0.6,77.2,M,16.5,M,,*75
+
+11/14/2021 11:03:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200001.asd,GPGGA,230312.7,3126.910293,S,14349.257213,E,1,19,0.6,77.3,M,16.5,M,,*75
+
+11/14/2021 11:04:00 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200002.asd,GPGGA,230316.3,3126.910189,S,14349.259505,E,1,18,0.6,77.3,M,16.5,M,,*72
+
+11/14/2021 11:04:03 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200003.asd,GPGGA,230319.7,3126.910288,S,14349.261736,E,1,18,0.6,77.1,M,16.5,M,,*70
+
+11/14/2021 11:04:07 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200004.asd,GPGGA,230323.4,3126.910291,S,14349.264122,E,1,18,0.6,76.8,M,16.5,M,,*7C
+
+11/14/2021 11:04:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200005.asd,GPGGA,230327.0,3126.910329,S,14349.266663,E,1,18,0.6,76.7,M,16.5,M,,*71
+
+11/14/2021 11:04:14 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200006.asd,GPGGA,230330.5,3126.910376,S,14349.269032,E,1,18,0.6,76.6,M,16.5,M,,*74
+
+11/14/2021 11:04:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200007.asd,GPGGA,230334.2,3126.910505,S,14349.271326,E,1,18,0.6,76.5,M,16.5,M,,*79
+
+11/14/2021 11:04:21 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200008.asd,GPGGA,230337.7,3126.910597,S,14349.273379,E,1,18,0.6,76.5,M,16.5,M,,*7C
+
+11/14/2021 11:04:25 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200009.asd,GPGGA,230341.2,3126.910635,S,14349.275710,E,1,18,0.6,76.5,M,16.5,M,,*7E
+
+11/14/2021 11:04:28 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200010.asd,GPGGA,230344.7,3126.910517,S,14349.278033,E,1,18,0.6,76.2,M,16.5,M,,*71
+
+11/14/2021 11:04:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200011.asd,GPGGA,230348.3,3126.910571,S,14349.280310,E,1,18,0.6,76.0,M,16.5,M,,*7E
+
+11/14/2021 11:04:35 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200012.asd,GPGGA,230351.8,3126.910793,S,14349.282470,E,1,18,0.6,76.0,M,16.5,M,,*70
+
+11/14/2021 11:04:39 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200013.asd,GPGGA,230355.5,3126.910836,S,14349.284768,E,1,18,0.6,75.9,M,16.5,M,,*7F
+
+11/14/2021 11:04:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200014.asd,GPGGA,230359.1,3126.910971,S,14349.287076,E,1,18,0.6,75.9,M,16.5,M,,*7E
+
+11/14/2021 11:04:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200015.asd,GPGGA,230402.6,3126.910994,S,14349.289427,E,1,18,0.6,76.0,M,16.5,M,,*7F
+
+11/14/2021 11:04:50 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200016.asd,GPGGA,230406.2,3126.911132,S,14349.291768,E,1,18,0.6,76.2,M,16.5,M,,*79
+
+11/14/2021 11:04:53 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200017.asd,GPGGA,230409.8,3126.911204,S,14349.294045,E,1,18,0.6,76.3,M,16.5,M,,*76
+
+11/14/2021 11:04:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200018.asd,GPGGA,230413.4,3126.911212,S,14349.296349,E,1,18,0.6,76.4,M,16.5,M,,*7C
+
+11/14/2021 11:05:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200019.asd,GPGGA,230417.0,3126.911364,S,14349.298563,E,1,18,0.6,76.5,M,16.5,M,,*7D
+
+11/14/2021 11:05:04 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200020.asd,GPGGA,230420.4,3126.911686,S,14349.300634,E,1,20,0.5,76.4,M,16.5,M,,*7C
+
+11/14/2021 11:05:08 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200021.asd,GPGGA,230424.0,3126.911888,S,14349.302997,E,1,20,0.5,76.4,M,16.5,M,,*78
+
+11/14/2021 11:05:11 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200022.asd,GPGGA,230427.7,3126.912122,S,14349.305508,E,1,20,0.5,76.3,M,16.5,M,,*7C
+
+11/14/2021 11:05:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200023.asd,GPGGA,230431.3,3126.912266,S,14349.307566,E,1,20,0.5,76.3,M,16.5,M,,*76
+
+11/14/2021 11:05:19 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200024.asd,GPGGA,230434.8,3126.912551,S,14349.309558,E,1,20,0.5,76.4,M,16.5,M,,*7F
+
+11/14/2021 11:05:22 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200025.asd,GPGGA,230438.5,3126.912707,S,14349.311781,E,1,20,0.5,76.2,M,16.5,M,,*76
+
+11/14/2021 11:05:26 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200026.asd,GPGGA,230442.1,3126.912946,S,14349.313998,E,1,19,0.6,76.1,M,16.5,M,,*7A
+
+11/14/2021 11:05:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200027.asd,GPGGA,230445.6,3126.913054,S,14349.316349,E,1,19,0.6,76.1,M,16.5,M,,*72
+
+11/14/2021 11:06:12 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200028.asd,GPGGA,230528.1,3126.925472,S,14349.320288,E,1,19,0.6,75.7,M,16.5,M,,*76
+
+11/14/2021 11:06:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_ln1200029.asd,GPGGA,230531.5,3126.925472,S,14349.320288,E,1,19,0.6,75.7,M,16.5,M,,*7A
+
+11/14/2021 11:17:27 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00000.asd,GPGGA,231643.7,3126.974212,S,14349.320771,E,1,17,0.6,75.4,M,16.5,M,,*75
+
+11/14/2021 11:17:31 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00001.asd,GPGGA,231647.3,3126.974212,S,14349.320771,E,1,16,0.6,75.4,M,16.5,M,,*74
+
+11/14/2021 11:17:42 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00002.asd,GPGGA,231658.0,3126.974212,S,14349.320771,E,1,16,0.6,75.4,M,16.5,M,,*79
+
+11/14/2021 11:17:45 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00003.asd,GPGGA,231701.6,3126.974188,S,14349.320792,E,1,16,0.6,75.4,M,16.5,M,,*7F
+
+11/14/2021 11:17:56 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00004.asd,GPGGA,231712.2,3126.974188,S,14349.320792,E,1,16,0.6,75.4,M,16.5,M,,*79
+
+11/14/2021 11:17:59 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00005.asd,GPGGA,231715.7,3126.974188,S,14349.320792,E,1,16,0.6,75.4,M,16.5,M,,*7B
+
+11/14/2021 11:18:10 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00006.asd,GPGGA,231726.3,3126.974188,S,14349.320792,E,1,16,0.6,75.4,M,16.5,M,,*7F
+
+11/14/2021 11:18:13 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga_dd_fin00007.asd,GPGGA,231729.7,3126.974188,S,14349.320792,E,1,16,0.6,75.4,M,16.5,M,,*74
+
+11/14/2021 11:56:43 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00000.asd,GPGGA,235559.1,3126.973885,S,14349.320403,E,1,07,0.8,73.9,M,16.5,M,,*7E
+
+11/14/2021 11:56:46 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00001.asd,GPGGA,235602.7,3126.973981,S,14349.320378,E,1,08,0.8,74.0,M,16.5,M,,*7A
+
+11/14/2021 11:56:57 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00002.asd,GPGGA,235613.4,3126.974292,S,14349.320468,E,1,09,0.8,74.2,M,16.5,M,,*72
+
+11/14/2021 11:57:01 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00003.asd,GPGGA,235617.0,3126.974362,S,14349.320463,E,1,09,0.8,74.2,M,16.5,M,,*77
+
+11/14/2021 11:57:15 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00004.asd,GPGGA,235631.2,3126.974447,S,14349.320423,E,1,09,0.8,74.3,M,16.5,M,,*74
+
+11/14/2021 11:57:18 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00005.asd,GPGGA,235634.7,3126.974430,S,14349.320467,E,1,09,0.8,74.3,M,16.5,M,,*74
+
+11/14/2021 11:57:29 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00006.asd,GPGGA,235645.4,3126.974550,S,14349.320410,E,1,09,0.8,74.3,M,16.5,M,,*76
+
+11/14/2021 11:57:32 AM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ssstart00007.asd,GPGGA,235648.8,3126.974507,S,14349.320319,E,1,09,0.8,74.0,M,16.5,M,,*78
+
+11/14/2021 12:05:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100000.asd,GPGGA,000433.7,3126.959284,S,14349.315337,E,2,17,0.6,74.4,M,16.5,M,,*72
+
+11/14/2021 12:05:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100001.asd,GPGGA,000435.7,3126.959284,S,14349.315337,E,2,17,0.6,74.4,M,16.5,M,,*74
+
+11/14/2021 12:05:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100002.asd,GPGGA,000506.0,3126.975511,S,14349.311626,E,2,17,0.6,75.6,M,16.5,M,,*75
+
+11/14/2021 12:05:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100003.asd,GPGGA,000509.4,3126.975582,S,14349.309684,E,2,17,0.6,75.6,M,16.5,M,,*75
+
+11/14/2021 12:05:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100004.asd,GPGGA,000513.0,3126.975380,S,14349.307508,E,2,17,0.6,75.5,M,16.5,M,,*74
+
+11/14/2021 12:06:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100005.asd,GPGGA,000516.6,3126.975121,S,14349.305284,E,2,17,0.6,75.6,M,16.5,M,,*7C
+
+11/14/2021 12:06:04 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100006.asd,GPGGA,000520.1,3126.974994,S,14349.303070,E,2,17,0.6,75.8,M,16.5,M,,*78
+
+11/14/2021 12:06:08 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100007.asd,GPGGA,000523.8,3126.974799,S,14349.300839,E,2,17,0.6,76.0,M,16.5,M,,*7C
+
+11/14/2021 12:06:11 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100008.asd,GPGGA,000527.3,3126.974565,S,14349.298579,E,2,17,0.6,76.1,M,16.5,M,,*7A
+
+11/14/2021 12:06:15 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100009.asd,GPGGA,000531.0,3126.974309,S,14349.296217,E,2,17,0.6,76.1,M,16.5,M,,*73
+
+11/14/2021 12:06:18 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100010.asd,GPGGA,000534.4,3126.974268,S,14349.294163,E,2,17,0.6,76.3,M,16.5,M,,*74
+
+11/14/2021 12:06:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100011.asd,GPGGA,000538.3,3126.974120,S,14349.291671,E,2,17,0.6,76.3,M,16.5,M,,*71
+
+11/14/2021 12:06:25 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100012.asd,GPGGA,000541.7,3126.973872,S,14349.289609,E,2,17,0.6,76.4,M,16.5,M,,*73
+
+11/14/2021 12:06:29 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100013.asd,GPGGA,000545.4,3126.973861,S,14349.287217,E,2,17,0.6,76.5,M,16.5,M,,*72
+
+11/14/2021 12:06:33 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100014.asd,GPGGA,000549.0,3126.973793,S,14349.285143,E,2,17,0.6,76.6,M,16.5,M,,*7B
+
+11/14/2021 12:06:36 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100015.asd,GPGGA,000552.3,3126.973507,S,14349.283139,E,2,17,0.6,76.7,M,16.5,M,,*77
+
+11/14/2021 12:06:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100016.asd,GPGGA,000555.8,3126.973391,S,14349.280967,E,2,17,0.6,76.8,M,16.5,M,,*7D
+
+11/14/2021 12:06:43 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100017.asd,GPGGA,000559.4,3126.973222,S,14349.278626,E,2,17,0.6,76.8,M,16.5,M,,*79
+
+11/14/2021 12:06:47 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100018.asd,GPGGA,000603.0,3126.973015,S,14349.276284,E,2,17,0.6,76.7,M,16.5,M,,*7A
+
+11/14/2021 12:06:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100019.asd,GPGGA,000606.7,3126.972786,S,14349.273697,E,2,17,0.6,76.8,M,16.5,M,,*78
+
+11/14/2021 12:06:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100020.asd,GPGGA,000610.1,3126.972588,S,14349.271326,E,2,17,0.6,76.9,M,16.5,M,,*79
+
+11/14/2021 12:06:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100021.asd,GPGGA,000613.7,3126.972234,S,14349.269007,E,2,17,0.6,77.0,M,16.5,M,,*7D
+
+11/14/2021 12:07:01 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100022.asd,GPGGA,000617.1,3126.971994,S,14349.266745,E,2,17,0.6,77.1,M,16.5,M,,*72
+
+11/14/2021 12:07:05 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100023.asd,GPGGA,000620.9,3126.971716,S,14349.264140,E,1,17,0.6,77.1,M,16.5,M,,*78
+
+11/14/2021 12:07:08 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100024.asd,GPGGA,000624.5,3126.971418,S,14349.261707,E,1,17,0.6,77.1,M,16.5,M,,*7D
+
+11/14/2021 12:07:12 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100025.asd,GPGGA,000628.2,3126.971217,S,14349.259354,E,1,17,0.6,77.1,M,16.5,M,,*76
+
+11/14/2021 12:07:15 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100026.asd,GPGGA,000631.7,3126.970831,S,14349.257179,E,1,17,0.6,77.2,M,16.5,M,,*74
+
+11/14/2021 12:07:19 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100027.asd,GPGGA,000635.3,3126.970494,S,14349.254981,E,1,17,0.6,77.4,M,16.5,M,,*7D
+
+11/14/2021 12:07:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100028.asd,GPGGA,000638.8,3126.970170,S,14349.252950,E,1,17,0.6,77.4,M,16.5,M,,*7E
+
+11/14/2021 12:07:26 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100029.asd,GPGGA,000642.3,3126.969927,S,14349.250840,E,1,17,0.6,77.4,M,16.5,M,,*78
+
+11/14/2021 12:07:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100030.asd,GPGGA,000645.9,3126.969623,S,14349.249001,E,1,17,0.6,77.1,M,16.5,M,,*7E
+
+11/14/2021 12:07:33 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln100031.asd,GPGGA,000649.3,3126.969542,S,14349.247290,E,1,17,0.6,77.0,M,16.5,M,,*79
+
+11/14/2021 12:08:16 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200000.asd,GPGGA,000732.3,3126.962991,S,14349.249194,E,2,17,0.6,77.8,M,16.5,M,,*7F
+
+11/14/2021 12:08:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200001.asd,GPGGA,000735.9,3126.963200,S,14349.251154,E,2,17,0.6,78.0,M,16.5,M,,*72
+
+11/14/2021 12:08:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200002.asd,GPGGA,000739.5,3126.963421,S,14349.252995,E,2,17,0.6,78.1,M,16.5,M,,*70
+
+11/14/2021 12:08:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200003.asd,GPGGA,000743.0,3126.963584,S,14349.254894,E,2,17,0.6,78.4,M,16.5,M,,*75
+
+11/14/2021 12:08:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200004.asd,GPGGA,000746.6,3126.963739,S,14349.256734,E,2,17,0.6,78.4,M,16.5,M,,*75
+
+11/14/2021 12:08:34 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200005.asd,GPGGA,000750.0,3126.963932,S,14349.258437,E,2,17,0.6,78.3,M,16.5,M,,*78
+
+11/14/2021 12:08:37 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200006.asd,GPGGA,000753.6,3126.963848,S,14349.260333,E,2,17,0.6,78.3,M,16.5,M,,*79
+
+11/14/2021 12:08:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200007.asd,GPGGA,000757.2,3126.964009,S,14349.262300,E,2,17,0.6,78.4,M,16.5,M,,*76
+
+11/14/2021 12:08:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200008.asd,GPGGA,000800.7,3126.964154,S,14349.264224,E,2,17,0.6,78.3,M,16.5,M,,*71
+
+11/14/2021 12:08:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200009.asd,GPGGA,000804.4,3126.964344,S,14349.266123,E,2,17,0.6,78.2,M,16.5,M,,*72
+
+11/14/2021 12:08:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200010.asd,GPGGA,000807.9,3126.964366,S,14349.268012,E,2,17,0.6,78.2,M,16.5,M,,*71
+
+11/14/2021 12:08:55 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200011.asd,GPGGA,000811.4,3126.964468,S,14349.269987,E,2,17,0.6,78.2,M,16.5,M,,*76
+
+11/14/2021 12:08:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200012.asd,GPGGA,000815.2,3126.964583,S,14349.272185,E,2,17,0.6,78.3,M,16.5,M,,*71
+
+11/14/2021 12:09:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200013.asd,GPGGA,000818.7,3126.964715,S,14349.273972,E,2,17,0.6,78.5,M,16.5,M,,*73
+
+11/14/2021 12:09:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200014.asd,GPGGA,000822.2,3126.965024,S,14349.276047,E,2,17,0.6,78.6,M,16.5,M,,*72
+
+11/14/2021 12:09:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200015.asd,GPGGA,000825.9,3126.965275,S,14349.278147,E,2,17,0.6,78.7,M,16.5,M,,*76
+
+11/14/2021 12:09:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200016.asd,GPGGA,000829.4,3126.965264,S,14349.280175,E,2,17,0.6,78.8,M,16.5,M,,*7E
+
+11/14/2021 12:09:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200017.asd,GPGGA,000832.9,3126.965360,S,14349.282103,E,2,17,0.6,78.9,M,16.5,M,,*7E
+
+11/14/2021 12:09:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200018.asd,GPGGA,000836.5,3126.965521,S,14349.284213,E,2,17,0.6,79.0,M,16.5,M,,*79
+
+11/14/2021 12:09:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200019.asd,GPGGA,000839.9,3126.965716,S,14349.286141,E,2,17,0.6,79.1,M,16.5,M,,*7B
+
+11/14/2021 12:09:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200020.asd,GPGGA,000843.5,3126.965982,S,14349.288336,E,2,17,0.6,79.1,M,16.5,M,,*75
+
+11/14/2021 12:09:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200021.asd,GPGGA,000847.2,3126.966014,S,14349.290469,E,2,17,0.6,79.2,M,16.5,M,,*74
+
+11/14/2021 12:09:34 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200022.asd,GPGGA,000850.8,3126.966105,S,14349.292548,E,2,17,0.6,79.2,M,16.5,M,,*79
+
+11/14/2021 12:09:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200023.asd,GPGGA,000854.5,3126.966302,S,14349.294672,E,2,17,0.6,79.3,M,16.5,M,,*78
+
+11/14/2021 12:09:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200024.asd,GPGGA,000857.9,3126.966813,S,14349.296835,E,2,17,0.6,79.2,M,16.5,M,,*72
+
+11/14/2021 12:09:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200025.asd,GPGGA,000901.6,3126.967219,S,14349.299026,E,2,15,0.6,79.2,M,16.5,M,,*79
+
+11/14/2021 12:09:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200026.asd,GPGGA,000905.1,3126.967673,S,14349.301050,E,2,17,0.6,79.2,M,16.5,M,,*71
+
+11/14/2021 12:09:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200027.asd,GPGGA,000908.6,3126.967981,S,14349.303135,E,2,17,0.6,79.4,M,16.5,M,,*7F
+
+11/14/2021 12:09:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200028.asd,GPGGA,000912.1,3126.968060,S,14349.305245,E,2,17,0.6,79.4,M,16.5,M,,*78
+
+11/14/2021 12:09:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200029.asd,GPGGA,000915.7,3126.968303,S,14349.307281,E,2,17,0.6,79.4,M,16.5,M,,*75
+
+11/14/2021 12:10:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200030.asd,GPGGA,000919.2,3126.968616,S,14349.309373,E,2,17,0.6,79.6,M,16.5,M,,*7D
+
+11/14/2021 12:10:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200031.asd,GPGGA,000922.8,3126.968891,S,14349.311460,E,2,15,0.6,79.7,M,16.5,M,,*71
+
+11/14/2021 12:10:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200032.asd,GPGGA,000947.8,3126.959048,S,14349.315298,E,2,17,0.6,79.7,M,16.5,M,,*7B
+
+11/14/2021 12:10:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln200033.asd,GPGGA,000951.3,3126.959048,S,14349.315298,E,2,17,0.6,79.7,M,16.5,M,,*77
+
+11/14/2021 12:11:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300000.asd,GPGGA,001057.0,3126.959022,S,14349.315274,E,1,17,0.6,79.7,M,16.5,M,,*77
+
+11/14/2021 12:11:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300001.asd,GPGGA,001100.4,3126.958929,S,14349.315296,E,1,17,0.6,79.7,M,16.5,M,,*7F
+
+11/14/2021 12:11:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300002.asd,GPGGA,001114.7,3126.963461,S,14349.312025,E,1,17,0.6,79.7,M,16.5,M,,*7D
+
+11/14/2021 12:12:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300003.asd,GPGGA,001118.3,3126.963265,S,14349.310135,E,1,17,0.6,79.7,M,16.5,M,,*75
+
+11/14/2021 12:12:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300004.asd,GPGGA,001121.9,3126.963225,S,14349.308240,E,1,17,0.6,79.6,M,16.5,M,,*78
+
+11/14/2021 12:12:09 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300005.asd,GPGGA,001125.3,3126.963050,S,14349.306255,E,1,17,0.6,79.6,M,16.5,M,,*7C
+
+11/14/2021 12:12:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300006.asd,GPGGA,001128.7,3126.962870,S,14349.304440,E,1,17,0.6,79.6,M,16.5,M,,*7E
+
+11/14/2021 12:12:16 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300007.asd,GPGGA,001132.2,3126.962735,S,14349.302420,E,1,17,0.6,79.5,M,16.5,M,,*7D
+
+11/14/2021 12:12:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300008.asd,GPGGA,001136.0,3126.962506,S,14349.300241,E,1,17,0.6,79.4,M,16.5,M,,*7B
+
+11/14/2021 12:12:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300009.asd,GPGGA,001139.6,3126.962447,S,14349.298204,E,1,17,0.6,79.3,M,16.5,M,,*70
+
+11/14/2021 12:12:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300010.asd,GPGGA,001143.2,3126.962346,S,14349.296049,E,1,17,0.6,79.1,M,16.5,M,,*78
+
+11/14/2021 12:12:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300011.asd,GPGGA,001146.6,3126.962174,S,14349.294000,E,1,17,0.6,79.0,M,16.5,M,,*74
+
+11/14/2021 12:12:34 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300012.asd,GPGGA,001150.2,3126.962106,S,14349.291879,E,1,17,0.6,78.8,M,16.5,M,,*78
+
+11/14/2021 12:12:37 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300013.asd,GPGGA,001153.5,3126.962041,S,14349.289960,E,1,17,0.6,78.7,M,16.5,M,,*71
+
+11/14/2021 12:12:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300014.asd,GPGGA,001157.2,3126.962057,S,14349.287851,E,1,17,0.6,78.6,M,16.5,M,,*79
+
+11/14/2021 12:12:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300015.asd,GPGGA,001200.8,3126.961931,S,14349.285739,E,1,17,0.6,78.5,M,16.5,M,,*78
+
+11/14/2021 12:12:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300016.asd,GPGGA,001204.5,3126.961757,S,14349.283520,E,1,17,0.6,78.4,M,16.5,M,,*72
+
+11/14/2021 12:12:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300017.asd,GPGGA,001207.9,3126.961662,S,14349.281384,E,1,17,0.6,78.1,M,16.5,M,,*75
+
+11/14/2021 12:12:55 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300018.asd,GPGGA,001211.4,3126.961453,S,14349.279371,E,1,17,0.6,78.1,M,16.5,M,,*72
+
+11/14/2021 12:12:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300019.asd,GPGGA,001215.0,3126.961144,S,14349.277396,E,1,17,0.6,77.9,M,16.5,M,,*71
+
+11/14/2021 12:13:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300020.asd,GPGGA,001218.2,3126.960996,S,14349.275529,E,1,17,0.6,77.8,M,16.5,M,,*79
+
+11/14/2021 12:13:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300021.asd,GPGGA,001222.1,3126.960800,S,14349.273195,E,1,17,0.6,77.7,M,16.5,M,,*77
+
+11/14/2021 12:13:09 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300022.asd,GPGGA,001225.7,3126.960583,S,14349.271100,E,1,17,0.6,77.6,M,16.5,M,,*7F
+
+11/14/2021 12:13:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300023.asd,GPGGA,001229.3,3126.960393,S,14349.268870,E,1,17,0.6,77.5,M,16.5,M,,*75
+
+11/14/2021 12:13:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300024.asd,GPGGA,001232.9,3126.960033,S,14349.266622,E,1,17,0.6,77.5,M,16.5,M,,*7B
+
+11/14/2021 12:13:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300025.asd,GPGGA,001236.4,3126.959757,S,14349.264516,E,1,17,0.6,77.5,M,16.5,M,,*7B
+
+11/14/2021 12:13:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300026.asd,GPGGA,001240.1,3126.959589,S,14349.262193,E,1,17,0.6,77.4,M,16.5,M,,*70
+
+11/14/2021 12:13:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300027.asd,GPGGA,001243.8,3126.959360,S,14349.259825,E,1,17,0.6,77.3,M,16.5,M,,*70
+
+11/14/2021 12:13:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300028.asd,GPGGA,001247.3,3126.959130,S,14349.257745,E,1,17,0.6,77.2,M,16.5,M,,*7E
+
+11/14/2021 12:13:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300029.asd,GPGGA,001250.9,3126.958864,S,14349.255725,E,1,17,0.6,77.2,M,16.5,M,,*7F
+
+11/14/2021 12:13:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300030.asd,GPGGA,001254.4,3126.958811,S,14349.253595,E,1,17,0.6,77.2,M,16.5,M,,*7B
+
+11/14/2021 12:13:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln300031.asd,GPGGA,001258.1,3126.958486,S,14349.251355,E,1,17,0.6,77.3,M,16.5,M,,*79
+
+11/14/2021 12:14:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400000.asd,GPGGA,001344.0,3126.951937,S,14349.249773,E,1,17,0.6,77.9,M,16.5,M,,*79
+
+11/14/2021 12:14:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400001.asd,GPGGA,001347.6,3126.952289,S,14349.251792,E,1,17,0.6,78.1,M,16.5,M,,*70
+
+11/14/2021 12:14:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400002.asd,GPGGA,001351.2,3126.952787,S,14349.253863,E,1,17,0.6,78.2,M,16.5,M,,*78
+
+11/14/2021 12:14:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400003.asd,GPGGA,001354.6,3126.953210,S,14349.255755,E,1,17,0.6,78.2,M,16.5,M,,*7F
+
+11/14/2021 12:14:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400004.asd,GPGGA,001358.2,3126.953624,S,14349.257816,E,1,17,0.6,78.1,M,16.5,M,,*7D
+
+11/14/2021 12:14:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400005.asd,GPGGA,001401.6,3126.953798,S,14349.259540,E,1,17,0.6,78.1,M,16.5,M,,*74
+
+11/14/2021 12:14:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400006.asd,GPGGA,001405.2,3126.953986,S,14349.261416,E,1,17,0.6,78.0,M,16.5,M,,*7D
+
+11/14/2021 12:14:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400007.asd,GPGGA,001408.7,3126.954031,S,14349.263190,E,1,17,0.6,78.0,M,16.5,M,,*7E
+
+11/14/2021 12:14:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400008.asd,GPGGA,001412.3,3126.954119,S,14349.265038,E,1,17,0.6,78.0,M,16.5,M,,*7F
+
+11/14/2021 12:15:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400009.asd,GPGGA,001415.8,3126.954306,S,14349.266884,E,1,17,0.6,77.9,M,16.5,M,,*75
+
+11/14/2021 12:15:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400010.asd,GPGGA,001419.5,3126.954438,S,14349.268967,E,1,17,0.6,77.8,M,16.5,M,,*7D
+
+11/14/2021 12:15:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400011.asd,GPGGA,001422.8,3126.954650,S,14349.270816,E,1,17,0.6,77.9,M,16.5,M,,*7B
+
+11/14/2021 12:15:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400012.asd,GPGGA,001426.4,3126.954823,S,14349.272732,E,1,17,0.6,77.8,M,16.5,M,,*73
+
+11/14/2021 12:15:14 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400013.asd,GPGGA,001430.0,3126.955015,S,14349.274765,E,1,17,0.6,77.9,M,16.5,M,,*79
+
+11/14/2021 12:15:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400014.asd,GPGGA,001433.6,3126.955078,S,14349.276906,E,1,17,0.6,77.9,M,16.5,M,,*7E
+
+11/14/2021 12:15:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400015.asd,GPGGA,001436.9,3126.955187,S,14349.278840,E,1,17,0.6,77.8,M,16.5,M,,*79
+
+11/14/2021 12:15:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400016.asd,GPGGA,001440.6,3126.955400,S,14349.281007,E,1,17,0.6,77.8,M,16.5,M,,*70
+
+11/14/2021 12:15:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400017.asd,GPGGA,001444.2,3126.955701,S,14349.283177,E,1,17,0.6,77.9,M,16.5,M,,*77
+
+11/14/2021 12:15:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400018.asd,GPGGA,001447.7,3126.956073,S,14349.285287,E,1,17,0.6,77.9,M,16.5,M,,*7A
+
+11/14/2021 12:15:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400019.asd,GPGGA,001451.3,3126.956437,S,14349.287426,E,1,17,0.6,78.1,M,16.5,M,,*75
+
+11/14/2021 12:15:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400020.asd,GPGGA,001455.0,3126.956762,S,14349.289626,E,1,17,0.6,78.0,M,16.5,M,,*7C
+
+11/14/2021 12:15:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400021.asd,GPGGA,001458.3,3126.957123,S,14349.291635,E,1,17,0.6,78.1,M,16.5,M,,*7A
+
+11/14/2021 12:15:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400022.asd,GPGGA,001501.8,3126.957367,S,14349.293698,E,1,17,0.6,78.1,M,16.5,M,,*7B
+
+11/14/2021 12:15:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400023.asd,GPGGA,001505.2,3126.957342,S,14349.295647,E,1,17,0.6,78.1,M,16.5,M,,*76
+
+11/14/2021 12:15:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400024.asd,GPGGA,001508.8,3126.957242,S,14349.297722,E,1,17,0.6,78.1,M,16.5,M,,*70
+
+11/14/2021 12:15:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400025.asd,GPGGA,001512.2,3126.957300,S,14349.299767,E,1,17,0.6,78.2,M,16.5,M,,*7A
+
+11/14/2021 12:16:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400026.asd,GPGGA,001515.8,3126.957466,S,14349.301788,E,1,17,0.6,78.2,M,16.5,M,,*71
+
+11/14/2021 12:16:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400027.asd,GPGGA,001519.3,3126.957526,S,14349.303874,E,1,17,0.6,78.2,M,16.5,M,,*7D
+
+11/14/2021 12:16:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400028.asd,GPGGA,001523.0,3126.957682,S,14349.306025,E,1,17,0.6,78.3,M,16.5,M,,*72
+
+11/14/2021 12:16:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400029.asd,GPGGA,001526.5,3126.957905,S,14349.308058,E,1,17,0.6,78.3,M,16.5,M,,*76
+
+11/14/2021 12:16:14 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400030.asd,GPGGA,001530.2,3126.957991,S,14349.310180,E,1,17,0.6,78.2,M,16.5,M,,*77
+
+11/14/2021 12:16:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400031.asd,GPGGA,001533.8,3126.958452,S,14349.312301,E,1,15,0.6,78.1,M,16.5,M,,*7B
+
+11/14/2021 12:16:32 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400032.asd,GPGGA,001548.2,3126.960035,S,14349.315157,E,1,16,0.6,78.0,M,16.5,M,,*77
+
+11/14/2021 12:16:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln400033.asd,GPGGA,001551.8,3126.960035,S,14349.315157,E,1,16,0.6,78.0,M,16.5,M,,*75
+
+11/14/2021 12:17:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500000.asd,GPGGA,001657.2,3126.959922,S,14349.315174,E,1,17,0.6,78.0,M,16.5,M,,*7F
+
+11/14/2021 12:17:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500001.asd,GPGGA,001700.8,3126.959895,S,14349.315166,E,1,17,0.6,78.0,M,16.5,M,,*78
+
+11/14/2021 12:18:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500002.asd,GPGGA,001722.0,3126.952946,S,14349.312296,E,1,16,0.6,78.0,M,16.5,M,,*7E
+
+11/14/2021 12:18:09 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500003.asd,GPGGA,001725.6,3126.952846,S,14349.310054,E,1,16,0.6,78.1,M,16.5,M,,*71
+
+11/14/2021 12:18:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500004.asd,GPGGA,001729.2,3126.952704,S,14349.307949,E,1,16,0.6,78.1,M,16.5,M,,*73
+
+11/14/2021 12:18:16 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500005.asd,GPGGA,001732.7,3126.952535,S,14349.305916,E,1,16,0.6,78.0,M,16.5,M,,*75
+
+11/14/2021 12:18:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500006.asd,GPGGA,001736.4,3126.952288,S,14349.303764,E,1,16,0.6,78.1,M,16.5,M,,*7F
+
+11/14/2021 12:18:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500007.asd,GPGGA,001739.6,3126.952201,S,14349.301814,E,1,16,0.6,78.1,M,16.5,M,,*79
+
+11/14/2021 12:18:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500008.asd,GPGGA,001743.4,3126.952140,S,14349.299679,E,1,16,0.6,78.1,M,16.5,M,,*75
+
+11/14/2021 12:18:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500009.asd,GPGGA,001746.9,3126.951946,S,14349.297585,E,1,16,0.6,78.0,M,16.5,M,,*7F
+
+11/14/2021 12:18:34 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500010.asd,GPGGA,001750.6,3126.951889,S,14349.295276,E,1,16,0.6,77.9,M,16.5,M,,*7A
+
+11/14/2021 12:18:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500011.asd,GPGGA,001754.1,3126.951772,S,14349.293090,E,1,16,0.6,77.9,M,16.5,M,,*7E
+
+11/14/2021 12:18:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500012.asd,GPGGA,001757.7,3126.951685,S,14349.290958,E,1,16,0.6,78.2,M,16.5,M,,*78
+
+11/14/2021 12:18:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500013.asd,GPGGA,001801.1,3126.951537,S,14349.289031,E,1,16,0.6,78.2,M,16.5,M,,*76
+
+11/14/2021 12:18:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500014.asd,GPGGA,001804.7,3126.951441,S,14349.286838,E,1,16,0.6,78.2,M,16.5,M,,*7B
+
+11/14/2021 12:18:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500015.asd,GPGGA,001808.2,3126.951292,S,14349.284689,E,1,16,0.6,78.2,M,16.5,M,,*7C
+
+11/14/2021 12:18:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500016.asd,GPGGA,001811.8,3126.951227,S,14349.282528,E,1,16,0.6,78.3,M,16.5,M,,*7F
+
+11/14/2021 12:18:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500017.asd,GPGGA,001815.2,3126.950930,S,14349.280543,E,1,16,0.6,78.4,M,16.5,M,,*75
+
+11/14/2021 12:19:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500018.asd,GPGGA,001818.7,3126.950765,S,14349.278458,E,1,16,0.6,78.6,M,16.5,M,,*7D
+
+11/14/2021 12:19:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500019.asd,GPGGA,001822.4,3126.950581,S,14349.276188,E,1,16,0.6,78.5,M,16.5,M,,*7A
+
+11/14/2021 12:19:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500020.asd,GPGGA,001826.0,3126.950434,S,14349.273979,E,1,16,0.6,78.4,M,16.5,M,,*77
+
+11/14/2021 12:19:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500021.asd,GPGGA,001829.6,3126.950261,S,14349.271769,E,1,16,0.6,78.5,M,16.5,M,,*74
+
+11/14/2021 12:19:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500022.asd,GPGGA,001833.2,3126.950115,S,14349.269573,E,1,16,0.6,78.5,M,16.5,M,,*7B
+
+11/14/2021 12:19:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500023.asd,GPGGA,001836.8,3126.949963,S,14349.267312,E,1,16,0.6,78.6,M,16.5,M,,*79
+
+11/14/2021 12:19:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500024.asd,GPGGA,001840.3,3126.949899,S,14349.265194,E,1,16,0.6,78.4,M,16.5,M,,*7B
+
+11/14/2021 12:19:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500025.asd,GPGGA,001843.8,3126.949609,S,14349.263034,E,1,16,0.6,78.3,M,16.5,M,,*7E
+
+11/14/2021 12:19:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500026.asd,GPGGA,001847.4,3126.949381,S,14349.260784,E,1,16,0.6,78.4,M,16.5,M,,*7B
+
+11/14/2021 12:19:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500027.asd,GPGGA,001851.1,3126.949069,S,14349.258477,E,1,16,0.6,78.3,M,16.5,M,,*7F
+
+11/14/2021 12:19:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500028.asd,GPGGA,001855.2,3126.948776,S,14349.256134,E,1,16,0.6,78.4,M,16.5,M,,*7B
+
+11/14/2021 12:19:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500029.asd,GPGGA,001858.6,3126.948529,S,14349.254170,E,1,16,0.6,78.3,M,16.5,M,,*7F
+
+11/14/2021 12:19:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500030.asd,GPGGA,001902.1,3126.948241,S,14349.252267,E,1,16,0.6,78.3,M,16.5,M,,*7C
+
+11/14/2021 12:19:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln500031.asd,GPGGA,001905.8,3126.948087,S,14349.250214,E,1,16,0.6,78.4,M,16.5,M,,*7B
+
+11/14/2021 12:20:32 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600000.asd,GPGGA,001948.7,3126.941967,S,14349.250248,E,1,15,0.7,78.8,M,16.5,M,,*74
+
+11/14/2021 12:20:36 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600001.asd,GPGGA,001952.2,3126.942488,S,14349.252067,E,1,15,0.7,78.9,M,16.5,M,,*79
+
+11/14/2021 12:20:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600002.asd,GPGGA,001955.8,3126.942603,S,14349.254090,E,1,15,0.7,78.8,M,16.5,M,,*7A
+
+11/14/2021 12:20:43 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600003.asd,GPGGA,001959.2,3126.942804,S,14349.256051,E,1,15,0.7,78.7,M,16.5,M,,*75
+
+11/14/2021 12:20:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600004.asd,GPGGA,002002.8,3126.942921,S,14349.257728,E,1,15,0.7,78.8,M,16.5,M,,*7A
+
+11/14/2021 12:20:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600005.asd,GPGGA,002006.4,3126.943089,S,14349.259566,E,1,15,0.7,78.8,M,16.5,M,,*7E
+
+11/14/2021 12:20:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600006.asd,GPGGA,002010.0,3126.943190,S,14349.261477,E,1,15,0.7,78.8,M,16.5,M,,*7E
+
+11/14/2021 12:20:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600007.asd,GPGGA,002013.4,3126.943305,S,14349.263407,E,1,15,0.7,78.8,M,16.5,M,,*72
+
+11/14/2021 12:21:01 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600008.asd,GPGGA,002017.2,3126.943341,S,14349.265510,E,1,15,0.7,78.7,M,16.5,M,,*7E
+
+11/14/2021 12:21:04 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600009.asd,GPGGA,002020.7,3126.943431,S,14349.267526,E,1,15,0.7,78.6,M,16.5,M,,*79
+
+11/14/2021 12:21:08 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600010.asd,GPGGA,002024.4,3126.943677,S,14349.269773,E,1,15,0.7,78.4,M,16.5,M,,*70
+
+11/14/2021 12:21:12 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600011.asd,GPGGA,002027.9,3126.943680,S,14349.271674,E,1,15,0.7,78.3,M,16.5,M,,*7E
+
+11/14/2021 12:21:15 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600012.asd,GPGGA,002031.6,3126.943774,S,14349.273684,E,1,15,0.7,78.2,M,16.5,M,,*70
+
+11/14/2021 12:21:19 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600013.asd,GPGGA,002035.1,3126.943921,S,14349.275753,E,1,15,0.7,78.0,M,16.5,M,,*72
+
+11/14/2021 12:21:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600014.asd,GPGGA,002038.7,3126.943995,S,14349.277883,E,1,15,0.7,78.0,M,16.5,M,,*76
+
+11/14/2021 12:21:26 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600015.asd,GPGGA,002042.3,3126.944188,S,14349.279950,E,1,15,0.7,78.0,M,16.5,M,,*7D
+
+11/14/2021 12:21:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600016.asd,GPGGA,002045.8,3126.944316,S,14349.282053,E,1,15,0.7,77.9,M,16.5,M,,*7C
+
+11/14/2021 12:21:33 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600017.asd,GPGGA,002049.4,3126.944337,S,14349.284172,E,1,15,0.7,77.9,M,16.5,M,,*7B
+
+11/14/2021 12:21:37 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600018.asd,GPGGA,002053.0,3126.944388,S,14349.286389,E,1,15,0.7,77.8,M,16.5,M,,*75
+
+11/14/2021 12:21:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600019.asd,GPGGA,002056.7,3126.944525,S,14349.288567,E,1,15,0.7,77.8,M,16.5,M,,*7E
+
+11/14/2021 12:21:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600020.asd,GPGGA,002100.3,3126.944673,S,14349.290636,E,1,15,0.7,77.7,M,16.5,M,,*79
+
+11/14/2021 12:21:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600021.asd,GPGGA,002103.7,3126.944749,S,14349.292699,E,1,15,0.7,77.8,M,16.5,M,,*7E
+
+11/14/2021 12:21:51 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600022.asd,GPGGA,002107.3,3126.944947,S,14349.294825,E,1,15,0.7,77.7,M,16.5,M,,*7E
+
+11/14/2021 12:21:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600023.asd,GPGGA,002110.8,3126.945077,S,14349.296837,E,1,15,0.7,77.7,M,16.5,M,,*79
+
+11/14/2021 12:21:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600024.asd,GPGGA,002114.4,3126.945224,S,14349.298848,E,1,15,0.7,77.7,M,16.5,M,,*73
+
+11/14/2021 12:22:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600025.asd,GPGGA,002118.0,3126.945450,S,14349.300986,E,1,15,0.7,77.8,M,16.5,M,,*72
+
+11/14/2021 12:22:05 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600026.asd,GPGGA,002121.6,3126.945510,S,14349.303085,E,1,15,0.7,77.9,M,16.5,M,,*73
+
+11/14/2021 12:22:09 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600027.asd,GPGGA,002125.2,3126.945734,S,14349.305168,E,1,15,0.7,77.8,M,16.5,M,,*72
+
+11/14/2021 12:22:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600028.asd,GPGGA,002128.8,3126.945885,S,14349.307177,E,1,15,0.7,77.8,M,16.5,M,,*7C
+
+11/14/2021 12:22:16 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600029.asd,GPGGA,002132.3,3126.946091,S,14349.309116,E,1,15,0.7,77.8,M,16.5,M,,*7B
+
+11/14/2021 12:22:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600030.asd,GPGGA,002136.0,3126.946315,S,14349.311227,E,1,15,0.7,77.8,M,16.5,M,,*7B
+
+11/14/2021 12:22:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600031.asd,GPGGA,002139.5,3126.946683,S,14349.313256,E,1,15,0.7,77.7,M,16.5,M,,*70
+
+11/14/2021 12:22:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600032.asd,GPGGA,002204.8,3126.937495,S,14349.317673,E,1,15,0.7,77.1,M,16.5,M,,*72
+
+11/14/2021 12:22:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln600033.asd,GPGGA,002208.3,3126.937495,S,14349.317673,E,1,15,0.7,77.1,M,16.5,M,,*75
+
+11/14/2021 12:23:55 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700000.asd,GPGGA,002311.6,3126.937484,S,14349.317664,E,1,14,0.7,77.2,M,16.5,M,,*7D
+
+11/14/2021 12:23:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700001.asd,GPGGA,002315.0,3126.937490,S,14349.317636,E,1,14,0.7,77.2,M,16.5,M,,*7D
+
+11/14/2021 12:24:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700002.asd,GPGGA,002336.1,3126.940750,S,14349.311126,E,1,15,0.7,77.6,M,16.5,M,,*77
+
+11/14/2021 12:24:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700003.asd,GPGGA,002339.6,3126.940772,S,14349.309510,E,1,15,0.7,77.8,M,16.5,M,,*79
+
+11/14/2021 12:24:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700004.asd,GPGGA,002343.3,3126.940798,S,14349.307526,E,1,13,0.7,77.9,M,16.5,M,,*79
+
+11/14/2021 12:24:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700005.asd,GPGGA,002346.8,3126.940673,S,14349.305723,E,1,13,0.7,77.8,M,16.5,M,,*77
+
+11/14/2021 12:24:34 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700006.asd,GPGGA,002350.4,3126.940529,S,14349.303865,E,1,13,0.7,77.5,M,16.5,M,,*76
+
+11/14/2021 12:24:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700007.asd,GPGGA,002354.0,3126.940660,S,14349.302021,E,1,13,0.7,77.4,M,16.5,M,,*70
+
+11/14/2021 12:24:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700008.asd,GPGGA,002357.6,3126.940648,S,14349.300024,E,1,13,0.7,77.4,M,16.5,M,,*78
+
+11/14/2021 12:24:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700009.asd,GPGGA,002401.3,3126.940530,S,14349.297901,E,1,13,0.7,77.3,M,16.5,M,,*73
+
+11/14/2021 12:24:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700010.asd,GPGGA,002403.8,3126.940427,S,14349.296557,E,1,13,0.7,77.1,M,16.5,M,,*71
+
+11/14/2021 12:24:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700011.asd,GPGGA,002407.5,3126.940378,S,14349.294333,E,1,13,0.7,77.1,M,16.5,M,,*73
+
+11/14/2021 12:24:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700012.asd,GPGGA,002411.2,3126.940498,S,14349.292037,E,1,13,0.7,77.2,M,16.5,M,,*78
+
+11/14/2021 12:24:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700013.asd,GPGGA,002415.3,3126.940224,S,14349.289610,E,1,14,0.7,77.3,M,16.5,M,,*73
+
+11/14/2021 12:25:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700014.asd,GPGGA,002418.7,3126.940083,S,14349.287400,E,1,14,0.7,77.2,M,16.5,M,,*79
+
+11/14/2021 12:25:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700015.asd,GPGGA,002422.6,3126.939978,S,14349.284824,E,1,14,0.7,77.0,M,16.5,M,,*79
+
+11/14/2021 12:25:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700016.asd,GPGGA,002426.1,3126.939859,S,14349.282724,E,1,14,0.7,77.0,M,16.5,M,,*71
+
+11/14/2021 12:25:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700017.asd,GPGGA,002429.7,3126.939576,S,14349.280706,E,1,14,0.7,77.1,M,16.5,M,,*7B
+
+11/14/2021 12:25:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700018.asd,GPGGA,002433.3,3126.939594,S,14349.278663,E,1,14,0.7,77.1,M,16.5,M,,*7D
+
+11/14/2021 12:25:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700019.asd,GPGGA,002437.0,3126.939521,S,14349.276531,E,1,14,0.7,77.0,M,16.5,M,,*7F
+
+11/14/2021 12:25:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700020.asd,GPGGA,002440.3,3126.939443,S,14349.274721,E,1,14,0.7,77.2,M,16.5,M,,*7A
+
+11/14/2021 12:25:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700021.asd,GPGGA,002444.0,3126.939275,S,14349.272485,E,1,14,0.7,77.2,M,16.5,M,,*75
+
+11/14/2021 12:25:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700022.asd,GPGGA,002447.7,3126.939134,S,14349.270364,E,1,14,0.7,77.3,M,16.5,M,,*7C
+
+11/14/2021 12:25:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700023.asd,GPGGA,002451.4,3126.938882,S,14349.268207,E,1,14,0.7,77.2,M,16.5,M,,*71
+
+11/14/2021 12:25:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700024.asd,GPGGA,002454.8,3126.938810,S,14349.266225,E,1,14,0.7,77.4,M,16.5,M,,*7B
+
+11/14/2021 12:25:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700025.asd,GPGGA,002458.5,3126.938708,S,14349.263948,E,1,14,0.7,77.4,M,16.5,M,,*79
+
+11/14/2021 12:25:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700026.asd,GPGGA,002502.1,3126.938580,S,14349.261825,E,1,14,0.7,77.3,M,16.5,M,,*7E
+
+11/14/2021 12:25:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700027.asd,GPGGA,002505.7,3126.938235,S,14349.259610,E,1,14,0.7,77.3,M,16.5,M,,*75
+
+11/14/2021 12:25:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700028.asd,GPGGA,002509.3,3126.937923,S,14349.257412,E,1,14,0.7,77.2,M,16.5,M,,*71
+
+11/14/2021 12:25:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700029.asd,GPGGA,002512.8,3126.937738,S,14349.255424,E,1,14,0.7,77.0,M,16.5,M,,*71
+
+11/14/2021 12:26:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700030.asd,GPGGA,002516.4,3126.937732,S,14349.253572,E,1,14,0.7,76.8,M,16.5,M,,*7E
+
+11/14/2021 12:26:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln700031.asd,GPGGA,002519.8,3126.937577,S,14349.251868,E,1,14,0.7,76.7,M,16.5,M,,*75
+
+11/14/2021 12:26:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800000.asd,GPGGA,002601.6,3126.931428,S,14349.251453,E,1,14,0.7,77.1,M,16.5,M,,*7F
+
+11/14/2021 12:26:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800001.asd,GPGGA,002605.1,3126.931731,S,14349.253117,E,1,14,0.7,77.6,M,16.5,M,,*77
+
+11/14/2021 12:26:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800002.asd,GPGGA,002608.7,3126.931940,S,14349.255226,E,1,14,0.7,77.9,M,16.5,M,,*7C
+
+11/14/2021 12:26:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800003.asd,GPGGA,002612.2,3126.932031,S,14349.257267,E,1,14,0.7,77.9,M,16.5,M,,*79
+
+11/14/2021 12:27:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800004.asd,GPGGA,002615.8,3126.932183,S,14349.259438,E,1,14,0.7,77.9,M,16.5,M,,*7E
+
+11/14/2021 12:27:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800005.asd,GPGGA,002619.4,3126.932191,S,14349.261331,E,1,14,0.7,77.9,M,16.5,M,,*78
+
+11/14/2021 12:27:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800006.asd,GPGGA,002623.0,3126.932067,S,14349.263156,E,1,14,0.7,78.1,M,16.5,M,,*7B
+
+11/14/2021 12:27:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800007.asd,GPGGA,002626.4,3126.932198,S,14349.265003,E,1,14,0.7,78.1,M,16.5,M,,*7C
+
+11/14/2021 12:27:14 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800008.asd,GPGGA,002630.1,3126.932115,S,14349.267135,E,1,14,0.7,78.2,M,16.5,M,,*7E
+
+11/14/2021 12:27:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800009.asd,GPGGA,002633.6,3126.932153,S,14349.268960,E,1,14,0.7,78.3,M,16.5,M,,*7E
+
+11/14/2021 12:27:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800010.asd,GPGGA,002637.2,3126.932300,S,14349.270978,E,1,14,0.7,78.3,M,16.5,M,,*7A
+
+11/14/2021 12:27:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800011.asd,GPGGA,002640.7,3126.932225,S,14349.273031,E,1,14,0.7,78.6,M,16.5,M,,*7B
+
+11/14/2021 12:27:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800012.asd,GPGGA,002644.4,3126.932265,S,14349.275126,E,1,14,0.7,78.8,M,16.5,M,,*77
+
+11/14/2021 12:27:32 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800013.asd,GPGGA,002647.8,3126.932169,S,14349.277150,E,1,14,0.7,78.8,M,16.5,M,,*74
+
+11/14/2021 12:27:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800014.asd,GPGGA,002651.5,3126.932276,S,14349.279258,E,1,14,0.7,78.6,M,16.5,M,,*78
+
+11/14/2021 12:27:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800015.asd,GPGGA,002655.2,3126.932435,S,14349.281371,E,1,14,0.7,78.8,M,16.5,M,,*79
+
+11/14/2021 12:27:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800016.asd,GPGGA,002658.8,3126.932607,S,14349.283409,E,1,14,0.7,78.8,M,16.5,M,,*77
+
+11/14/2021 12:27:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800017.asd,GPGGA,002702.4,3126.932767,S,14349.285437,E,1,14,0.7,78.7,M,16.5,M,,*76
+
+11/14/2021 12:27:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800018.asd,GPGGA,002706.0,3126.932825,S,14349.287684,E,1,14,0.7,78.8,M,16.5,M,,*78
+
+11/14/2021 12:27:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800019.asd,GPGGA,002709.6,3126.933013,S,14349.289714,E,1,14,0.7,78.8,M,16.5,M,,*7B
+
+11/14/2021 12:27:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800020.asd,GPGGA,002713.2,3126.933045,S,14349.291639,E,1,14,0.7,78.6,M,16.5,M,,*7E
+
+11/14/2021 12:28:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800021.asd,GPGGA,002716.8,3126.933079,S,14349.293812,E,1,14,0.7,78.6,M,16.5,M,,*7B
+
+11/14/2021 12:28:04 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800022.asd,GPGGA,002720.4,3126.933340,S,14349.295922,E,1,14,0.7,78.8,M,16.5,M,,*71
+
+11/14/2021 12:28:08 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800023.asd,GPGGA,002723.9,3126.933445,S,14349.297967,E,1,14,0.7,79.0,M,16.5,M,,*77
+
+11/14/2021 12:28:11 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800024.asd,GPGGA,002727.6,3126.933605,S,14349.300076,E,1,14,0.7,79.0,M,16.5,M,,*7C
+
+11/14/2021 12:28:15 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800025.asd,GPGGA,002731.2,3126.933675,S,14349.302192,E,1,14,0.7,79.2,M,16.5,M,,*73
+
+11/14/2021 12:28:18 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800026.asd,GPGGA,002734.8,3126.933706,S,14349.304437,E,1,14,0.7,79.1,M,16.5,M,,*76
+
+11/14/2021 12:28:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800027.asd,GPGGA,002738.3,3126.933873,S,14349.306757,E,1,14,0.7,79.0,M,16.5,M,,*7A
+
+11/14/2021 12:28:26 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800028.asd,GPGGA,002741.8,3126.933866,S,14349.308692,E,1,14,0.7,78.9,M,16.5,M,,*75
+
+11/14/2021 12:28:29 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800029.asd,GPGGA,002745.5,3126.934055,S,14349.310952,E,1,14,0.7,79.1,M,16.5,M,,*70
+
+11/14/2021 12:28:33 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800030.asd,GPGGA,002749.1,3126.934404,S,14349.313187,E,1,14,0.7,79.1,M,16.5,M,,*7B
+
+11/14/2021 12:28:36 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800031.asd,GPGGA,002752.7,3126.934659,S,14349.315335,E,1,14,0.7,79.0,M,16.5,M,,*71
+
+11/14/2021 12:28:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800032.asd,GPGGA,002810.5,3126.937823,S,14349.317303,E,1,11,0.8,79.2,M,16.5,M,,*75
+
+11/14/2021 12:28:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln800033.asd,GPGGA,002814.0,3126.937823,S,14349.317303,E,1,11,0.8,79.2,M,16.5,M,,*74
+
+11/14/2021 12:30:15 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900000.asd,GPGGA,002931.5,3126.937767,S,14349.317225,E,1,13,0.7,79.2,M,16.5,M,,*70
+
+11/14/2021 12:30:19 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900001.asd,GPGGA,002935.1,3126.937767,S,14349.317225,E,1,13,0.7,79.2,M,16.5,M,,*70
+
+11/14/2021 12:30:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900002.asd,GPGGA,002956.1,3126.929314,S,14349.317590,E,1,14,0.7,77.4,M,16.5,M,,*7C
+
+11/14/2021 12:30:43 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900003.asd,GPGGA,002959.5,3126.929290,S,14349.316543,E,1,14,0.7,77.5,M,16.5,M,,*74
+
+11/14/2021 12:30:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900004.asd,GPGGA,003006.6,3126.929270,S,14349.312531,E,1,14,0.7,78.1,M,16.5,M,,*71
+
+11/14/2021 12:30:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900005.asd,GPGGA,003010.3,3126.929239,S,14349.310567,E,1,14,0.7,78.3,M,16.5,M,,*7D
+
+11/14/2021 12:30:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900006.asd,GPGGA,003013.8,3126.929235,S,14349.308698,E,1,14,0.7,78.6,M,16.5,M,,*76
+
+11/14/2021 12:31:01 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900007.asd,GPGGA,003017.3,3126.929270,S,14349.306675,E,1,14,0.7,78.6,M,16.5,M,,*75
+
+11/14/2021 12:31:05 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900008.asd,GPGGA,003020.9,3126.929263,S,14349.304600,E,1,14,0.7,78.6,M,16.5,M,,*79
+
+11/14/2021 12:31:08 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900009.asd,GPGGA,003024.4,3126.929233,S,14349.302583,E,1,14,0.7,78.6,M,16.5,M,,*7B
+
+11/14/2021 12:31:12 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900010.asd,GPGGA,003028.0,3126.929220,S,14349.300385,E,1,14,0.7,78.7,M,16.5,M,,*72
+
+11/14/2021 12:31:15 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900011.asd,GPGGA,003031.6,3126.929213,S,14349.298299,E,1,14,0.7,78.7,M,16.5,M,,*70
+
+11/14/2021 12:31:19 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900012.asd,GPGGA,003035.1,3126.929169,S,14349.296485,E,1,14,0.7,78.8,M,16.5,M,,*77
+
+11/14/2021 12:31:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900013.asd,GPGGA,003038.7,3126.929097,S,14349.294536,E,1,14,0.7,78.9,M,16.5,M,,*76
+
+11/14/2021 12:31:26 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900014.asd,GPGGA,003042.2,3126.929139,S,14349.292522,E,1,14,0.7,78.8,M,16.5,M,,*79
+
+11/14/2021 12:31:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900015.asd,GPGGA,003046.0,3126.929065,S,14349.290303,E,1,14,0.7,78.8,M,16.5,M,,*70
+
+11/14/2021 12:31:33 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900016.asd,GPGGA,003049.6,3126.928944,S,14349.288305,E,1,14,0.7,78.8,M,16.5,M,,*7D
+
+11/14/2021 12:31:37 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900017.asd,GPGGA,003053.2,3126.928741,S,14349.286400,E,1,14,0.7,78.7,M,16.5,M,,*7A
+
+11/14/2021 12:31:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900018.asd,GPGGA,003056.7,3126.928677,S,14349.284255,E,1,14,0.7,78.6,M,16.5,M,,*7B
+
+11/14/2021 12:31:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900019.asd,GPGGA,003100.3,3126.928701,S,14349.282222,E,1,14,0.7,78.6,M,16.5,M,,*7B
+
+11/14/2021 12:31:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900020.asd,GPGGA,003103.6,3126.928701,S,14349.280312,E,1,14,0.7,78.8,M,16.5,M,,*73
+
+11/14/2021 12:31:51 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900021.asd,GPGGA,003107.3,3126.928420,S,14349.278009,E,1,14,0.7,78.9,M,16.5,M,,*7D
+
+11/14/2021 12:31:55 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900022.asd,GPGGA,003110.5,3126.928334,S,14349.276117,E,1,14,0.7,78.9,M,16.5,M,,*7F
+
+11/14/2021 12:31:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900023.asd,GPGGA,003114.5,3126.928287,S,14349.273772,E,1,14,0.7,79.1,M,16.5,M,,*7B
+
+11/14/2021 12:32:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900024.asd,GPGGA,003118.1,3126.928185,S,14349.271579,E,1,14,0.7,79.2,M,16.5,M,,*7A
+
+11/14/2021 12:32:05 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900025.asd,GPGGA,003121.8,3126.928105,S,14349.269524,E,1,14,0.7,79.2,M,16.5,M,,*70
+
+11/14/2021 12:32:09 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900026.asd,GPGGA,003125.3,3126.927965,S,14349.267419,E,1,14,0.7,79.2,M,16.5,M,,*7F
+
+11/14/2021 12:32:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900027.asd,GPGGA,003128.9,3126.927809,S,14349.265174,E,1,14,0.7,79.1,M,16.5,M,,*7C
+
+11/14/2021 12:32:16 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900028.asd,GPGGA,003132.5,3126.927724,S,14349.262937,E,1,14,0.7,79.3,M,16.5,M,,*71
+
+11/14/2021 12:32:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900029.asd,GPGGA,003136.1,3126.927585,S,14349.260722,E,1,14,0.7,79.3,M,16.5,M,,*70
+
+11/14/2021 12:32:23 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900030.asd,GPGGA,003139.6,3126.927375,S,14349.258473,E,1,14,0.7,79.3,M,16.5,M,,*7D
+
+11/14/2021 12:32:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900031.asd,GPGGA,003143.2,3126.927148,S,14349.256272,E,1,14,0.7,79.3,M,16.5,M,,*71
+
+11/14/2021 12:32:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900032.asd,GPGGA,003146.9,3126.926989,S,14349.254142,E,1,14,0.7,79.3,M,16.5,M,,*79
+
+11/14/2021 12:32:34 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln900033.asd,GPGGA,003150.4,3126.926949,S,14349.252653,E,1,14,0.7,79.4,M,16.5,M,,*79
+
+11/14/2021 12:33:14 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000032.asd,GPGGA,003230.0,3126.920682,S,14349.253931,E,1,13,0.7,79.1,M,16.5,M,,*7E
+
+11/14/2021 12:33:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000033.asd,GPGGA,003233.6,3126.920768,S,14349.256004,E,1,13,0.7,79.1,M,16.5,M,,*74
+
+11/14/2021 12:33:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000034.asd,GPGGA,003237.2,3126.920827,S,14349.258133,E,1,13,0.7,79.1,M,16.5,M,,*7B
+
+11/14/2021 12:33:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000035.asd,GPGGA,003240.8,3126.920893,S,14349.260161,E,1,13,0.7,79.2,M,16.5,M,,*71
+
+11/14/2021 12:33:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000036.asd,GPGGA,003244.4,3126.921003,S,14349.262289,E,1,13,0.7,79.3,M,16.5,M,,*7F
+
+11/14/2021 12:33:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000037.asd,GPGGA,003247.7,3126.921086,S,14349.264069,E,1,13,0.7,79.3,M,16.5,M,,*78
+
+11/14/2021 12:33:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000038.asd,GPGGA,003251.4,3126.921059,S,14349.266169,E,1,15,0.6,79.5,M,16.5,M,,*7C
+
+11/14/2021 12:33:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000039.asd,GPGGA,003255.1,3126.921104,S,14349.268249,E,1,15,0.6,79.6,M,16.5,M,,*78
+
+11/14/2021 12:33:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000040.asd,GPGGA,003258.6,3126.921133,S,14349.270333,E,1,15,0.6,79.6,M,16.5,M,,*73
+
+11/14/2021 12:33:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000041.asd,GPGGA,003302.1,3126.921198,S,14349.272389,E,1,15,0.6,79.6,M,16.5,M,,*78
+
+11/14/2021 12:33:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000042.asd,GPGGA,003305.8,3126.921238,S,14349.274513,E,1,15,0.6,79.7,M,16.5,M,,*7D
+
+11/14/2021 12:33:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000043.asd,GPGGA,003309.3,3126.921425,S,14349.276350,E,1,15,0.6,79.8,M,16.5,M,,*7C
+
+11/14/2021 12:33:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000044.asd,GPGGA,003312.8,3126.921424,S,14349.278330,E,1,15,0.6,80.0,M,16.5,M,,*7A
+
+11/14/2021 12:34:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000045.asd,GPGGA,003316.4,3126.921533,S,14349.280394,E,1,15,0.6,80.2,M,16.5,M,,*7E
+
+11/14/2021 12:34:04 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000046.asd,GPGGA,003319.9,3126.921673,S,14349.282447,E,1,15,0.6,80.1,M,16.5,M,,*73
+
+11/14/2021 12:34:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000047.asd,GPGGA,003323.4,3126.921771,S,14349.284509,E,1,15,0.6,80.1,M,16.5,M,,*79
+
+11/14/2021 12:34:11 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000048.asd,GPGGA,003327.1,3126.921886,S,14349.286664,E,1,15,0.6,79.8,M,16.5,M,,*7A
+
+11/14/2021 12:34:14 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000049.asd,GPGGA,003330.8,3126.921944,S,14349.289020,E,1,15,0.6,80.0,M,16.5,M,,*7D
+
+11/14/2021 12:34:18 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000050.asd,GPGGA,003334.3,3126.921913,S,14349.291127,E,1,15,0.6,80.0,M,16.5,M,,*7F
+
+11/14/2021 12:34:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000051.asd,GPGGA,003337.9,3126.922014,S,14349.293308,E,1,15,0.6,80.0,M,16.5,M,,*76
+
+11/14/2021 12:34:25 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000052.asd,GPGGA,003341.5,3126.922203,S,14349.295599,E,1,15,0.6,80.0,M,16.5,M,,*77
+
+11/14/2021 12:34:29 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000053.asd,GPGGA,003345.1,3126.922255,S,14349.297871,E,1,15,0.6,80.0,M,16.5,M,,*7D
+
+11/14/2021 12:34:32 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000054.asd,GPGGA,003348.7,3126.922193,S,14349.300220,E,1,14,0.6,80.1,M,16.5,M,,*7E
+
+11/14/2021 12:34:36 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000055.asd,GPGGA,003352.3,3126.922335,S,14349.302369,E,1,14,0.6,80.0,M,16.5,M,,*70
+
+11/14/2021 12:34:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000056.asd,GPGGA,003355.8,3126.922547,S,14349.304409,E,1,14,0.6,80.0,M,16.5,M,,*78
+
+11/14/2021 12:34:43 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000057.asd,GPGGA,003359.2,3126.922724,S,14349.306542,E,1,14,0.6,80.0,M,16.5,M,,*75
+
+11/14/2021 12:34:47 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000058.asd,GPGGA,003402.9,3126.922770,S,14349.309037,E,1,14,0.6,80.0,M,16.5,M,,*7E
+
+11/14/2021 12:34:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000059.asd,GPGGA,003406.4,3126.922950,S,14349.311331,E,1,14,0.6,79.9,M,16.5,M,,*78
+
+11/14/2021 12:34:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000060.asd,GPGGA,003410.1,3126.923252,S,14349.313807,E,1,14,0.6,79.9,M,16.5,M,,*7E
+
+11/14/2021 12:34:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000061.asd,GPGGA,003413.6,3126.923510,S,14349.316130,E,1,14,0.6,79.8,M,16.5,M,,*72
+
+11/14/2021 12:35:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000062.asd,GPGGA,003444.0,3126.937753,S,14349.316993,E,1,14,0.7,80.2,M,16.5,M,,*7A
+
+11/14/2021 12:35:33 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1000063.asd,GPGGA,003447.2,3126.937753,S,14349.316993,E,1,14,0.7,80.2,M,16.5,M,,*7B
+
+11/14/2021 12:36:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100000.asd,GPGGA,003536.4,3126.937810,S,14349.316938,E,1,14,0.7,80.1,M,16.5,M,,*70
+
+11/14/2021 12:36:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100001.asd,GPGGA,003540.0,3126.937810,S,14349.316938,E,1,14,0.7,80.1,M,16.5,M,,*75
+
+11/14/2021 12:36:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100002.asd,GPGGA,003615.0,3126.937806,S,14349.316937,E,1,14,0.7,80.0,M,16.5,M,,*7F
+
+11/14/2021 12:37:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100003.asd,GPGGA,003618.6,3126.937806,S,14349.316937,E,1,14,0.7,80.0,M,16.5,M,,*74
+
+11/14/2021 12:37:37 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100004.asd,GPGGA,003653.7,3126.919653,S,14349.317511,E,1,14,0.7,79.2,M,16.5,M,,*75
+
+11/14/2021 12:37:41 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100005.asd,GPGGA,003657.3,3126.919645,S,14349.314986,E,1,14,0.7,79.3,M,16.5,M,,*72
+
+11/14/2021 12:37:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100006.asd,GPGGA,003700.7,3126.919621,S,14349.312705,E,1,14,0.7,79.3,M,16.5,M,,*74
+
+11/14/2021 12:37:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100007.asd,GPGGA,003704.4,3126.919384,S,14349.310373,E,1,14,0.7,79.3,M,16.5,M,,*7E
+
+11/14/2021 12:37:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100008.asd,GPGGA,003707.9,3126.919195,S,14349.308225,E,1,14,0.7,79.4,M,16.5,M,,*7E
+
+11/14/2021 12:37:55 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100009.asd,GPGGA,003711.6,3126.919048,S,14349.305800,E,1,14,0.7,79.5,M,16.5,M,,*76
+
+11/14/2021 12:37:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100010.asd,GPGGA,003715.2,3126.918957,S,14349.303493,E,1,14,0.7,79.4,M,16.5,M,,*71
+
+11/14/2021 12:38:02 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100011.asd,GPGGA,003718.8,3126.918849,S,14349.301265,E,1,13,0.7,79.4,M,16.5,M,,*72
+
+11/14/2021 12:38:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100012.asd,GPGGA,003722.3,3126.918613,S,14349.299206,E,1,13,0.7,79.3,M,16.5,M,,*73
+
+11/14/2021 12:38:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100013.asd,GPGGA,003726.0,3126.918447,S,14349.296792,E,1,13,0.7,79.3,M,16.5,M,,*70
+
+11/14/2021 12:38:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100014.asd,GPGGA,003729.6,3126.918377,S,14349.294477,E,1,13,0.7,79.3,M,16.5,M,,*77
+
+11/14/2021 12:38:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100015.asd,GPGGA,003733.0,3126.918265,S,14349.292314,E,1,13,0.7,79.3,M,16.5,M,,*7C
+
+11/14/2021 12:38:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100016.asd,GPGGA,003736.6,3126.918140,S,14349.290094,E,1,13,0.7,79.3,M,16.5,M,,*72
+
+11/14/2021 12:38:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100017.asd,GPGGA,003740.3,3126.918061,S,14349.287732,E,1,13,0.7,79.3,M,16.5,M,,*79
+
+11/14/2021 12:38:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100018.asd,GPGGA,003743.8,3126.917924,S,14349.285513,E,1,13,0.7,79.3,M,16.5,M,,*75
+
+11/14/2021 12:38:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100019.asd,GPGGA,003747.3,3126.917853,S,14349.283331,E,1,14,0.7,79.3,M,16.5,M,,*7C
+
+11/14/2021 12:38:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100020.asd,GPGGA,003750.8,3126.917668,S,14349.281137,E,1,14,0.7,79.4,M,16.5,M,,*76
+
+11/14/2021 12:38:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100021.asd,GPGGA,003754.1,3126.917555,S,14349.279057,E,1,14,0.7,79.3,M,16.5,M,,*71
+
+11/14/2021 12:38:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100022.asd,GPGGA,003757.7,3126.917248,S,14349.276814,E,1,14,0.7,79.2,M,16.5,M,,*7E
+
+11/14/2021 12:38:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100023.asd,GPGGA,003801.3,3126.917128,S,14349.274594,E,1,14,0.7,79.2,M,16.5,M,,*74
+
+11/14/2021 12:38:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100024.asd,GPGGA,003804.9,3126.917142,S,14349.272309,E,1,14,0.7,79.2,M,16.5,M,,*73
+
+11/14/2021 12:38:52 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100025.asd,GPGGA,003808.4,3126.916950,S,14349.270046,E,1,14,0.7,79.2,M,16.5,M,,*72
+
+11/14/2021 12:38:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100026.asd,GPGGA,003812.0,3126.916688,S,14349.267880,E,1,14,0.7,79.2,M,16.5,M,,*73
+
+11/14/2021 12:38:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100027.asd,GPGGA,003815.3,3126.916617,S,14349.265822,E,1,13,0.7,79.2,M,16.5,M,,*7C
+
+11/14/2021 12:39:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100028.asd,GPGGA,003818.9,3126.916433,S,14349.263658,E,1,14,0.7,79.2,M,16.5,M,,*7D
+
+11/14/2021 12:39:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100029.asd,GPGGA,003822.6,3126.916260,S,14349.261579,E,1,14,0.7,79.1,M,16.5,M,,*7A
+
+11/14/2021 12:39:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100030.asd,GPGGA,003826.2,3126.916202,S,14349.259427,E,1,14,0.7,79.1,M,16.5,M,,*7F
+
+11/14/2021 12:39:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1100031.asd,GPGGA,003829.6,3126.915945,S,14349.257375,E,1,14,0.7,79.1,M,16.5,M,,*71
+
+11/14/2021 12:39:59 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200000.asd,GPGGA,003915.5,3126.915437,S,14349.253906,E,1,13,0.7,79.3,M,16.5,M,,*7B
+
+11/14/2021 12:40:03 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200001.asd,GPGGA,003919.0,3126.915806,S,14349.255521,E,1,13,0.7,79.3,M,16.5,M,,*73
+
+11/14/2021 12:40:06 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200002.asd,GPGGA,003922.6,3126.916396,S,14349.257339,E,1,13,0.7,79.3,M,16.5,M,,*71
+
+11/14/2021 12:40:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200003.asd,GPGGA,003926.1,3126.917022,S,14349.259237,E,1,13,0.7,79.1,M,16.5,M,,*7C
+
+11/14/2021 12:40:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200004.asd,GPGGA,003929.8,3126.917640,S,14349.260989,E,1,12,0.7,79.0,M,16.5,M,,*7C
+
+11/14/2021 12:40:17 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200005.asd,GPGGA,003933.3,3126.918301,S,14349.262751,E,1,12,0.7,78.8,M,16.5,M,,*73
+
+11/14/2021 12:40:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200006.asd,GPGGA,003936.9,3126.918884,S,14349.264631,E,1,12,0.7,78.7,M,16.5,M,,*74
+
+11/14/2021 12:40:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200007.asd,GPGGA,003940.5,3126.919541,S,14349.266523,E,1,12,0.7,78.6,M,16.5,M,,*7F
+
+11/14/2021 12:40:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200008.asd,GPGGA,003944.1,3126.920116,S,14349.268498,E,1,12,0.7,78.6,M,16.5,M,,*7C
+
+11/14/2021 12:40:31 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200009.asd,GPGGA,003947.7,3126.920678,S,14349.270423,E,1,12,0.7,78.6,M,16.5,M,,*7F
+
+11/14/2021 12:40:35 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200010.asd,GPGGA,003951.3,3126.921144,S,14349.272355,E,1,12,0.7,78.6,M,16.5,M,,*71
+
+11/14/2021 12:40:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200011.asd,GPGGA,003954.7,3126.921782,S,14349.273996,E,1,12,0.7,78.5,M,16.5,M,,*7B
+
+11/14/2021 12:40:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200012.asd,GPGGA,003958.4,3126.922487,S,14349.275959,E,1,12,0.7,78.4,M,16.5,M,,*75
+
+11/14/2021 12:40:46 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200013.asd,GPGGA,004002.2,3126.923339,S,14349.277928,E,1,12,0.7,78.3,M,16.5,M,,*72
+
+11/14/2021 12:40:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200014.asd,GPGGA,004005.8,3126.924027,S,14349.279697,E,1,12,0.7,78.3,M,16.5,M,,*71
+
+11/14/2021 12:40:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200015.asd,GPGGA,004009.3,3126.924597,S,14349.281674,E,1,12,0.7,78.3,M,16.5,M,,*72
+
+11/14/2021 12:40:57 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200016.asd,GPGGA,004012.8,3126.925057,S,14349.283708,E,1,12,0.7,78.2,M,16.5,M,,*72
+
+11/14/2021 12:41:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200017.asd,GPGGA,004016.2,3126.925848,S,14349.285475,E,1,12,0.7,78.1,M,16.5,M,,*76
+
+11/14/2021 12:41:04 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200018.asd,GPGGA,004019.8,3126.926367,S,14349.287517,E,1,12,0.7,77.9,M,16.5,M,,*76
+
+11/14/2021 12:41:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200019.asd,GPGGA,004023.4,3126.926942,S,14349.289506,E,1,12,0.7,77.9,M,16.5,M,,*70
+
+11/14/2021 12:41:11 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200020.asd,GPGGA,004027.0,3126.927516,S,14349.291486,E,1,12,0.7,77.7,M,16.5,M,,*72
+
+11/14/2021 12:41:14 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200021.asd,GPGGA,004030.6,3126.928262,S,14349.293476,E,1,12,0.7,77.7,M,16.5,M,,*74
+
+11/14/2021 12:41:18 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200022.asd,GPGGA,004034.3,3126.929105,S,14349.295530,E,1,12,0.7,77.6,M,16.5,M,,*72
+
+11/14/2021 12:41:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200023.asd,GPGGA,004037.8,3126.929805,S,14349.297407,E,1,12,0.7,77.8,M,16.5,M,,*7A
+
+11/14/2021 12:41:25 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200024.asd,GPGGA,004041.4,3126.930676,S,14349.299224,E,1,12,0.7,77.7,M,16.5,M,,*73
+
+11/14/2021 12:41:29 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200025.asd,GPGGA,004045.1,3126.931442,S,14349.301352,E,1,12,0.7,77.8,M,16.5,M,,*79
+
+11/14/2021 12:41:32 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200026.asd,GPGGA,004048.6,3126.932073,S,14349.303520,E,1,14,0.7,77.7,M,16.5,M,,*7E
+
+11/14/2021 12:41:36 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200027.asd,GPGGA,004052.2,3126.932596,S,14349.305670,E,1,14,0.7,77.9,M,16.5,M,,*71
+
+11/14/2021 12:41:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200028.asd,GPGGA,004056.3,3126.933202,S,14349.308065,E,1,14,0.7,77.9,M,16.5,M,,*70
+
+11/14/2021 12:41:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200029.asd,GPGGA,004059.9,3126.933891,S,14349.310011,E,1,14,0.7,77.8,M,16.5,M,,*7E
+
+11/14/2021 12:41:47 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200030.asd,GPGGA,004103.5,3126.934771,S,14349.311975,E,1,14,0.7,77.8,M,16.5,M,,*70
+
+11/14/2021 12:41:51 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200031.asd,GPGGA,004107.1,3126.935597,S,14349.313790,E,1,14,0.7,77.7,M,16.5,M,,*73
+
+11/14/2021 12:41:54 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200032.asd,GPGGA,004110.7,3126.936439,S,14349.315482,E,1,14,0.7,77.7,M,16.5,M,,*73
+
+11/14/2021 12:41:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200033.asd,GPGGA,004114.3,3126.937311,S,14349.317040,E,1,14,0.7,77.6,M,16.5,M,,*76
+
+11/14/2021 12:42:12 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200034.asd,GPGGA,004123.7,3126.937873,S,14349.318248,E,1,15,0.6,77.7,M,16.5,M,,*7D
+
+11/14/2021 12:42:16 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ln1200035.asd,GPGGA,004126.7,3126.937873,S,14349.318248,E,1,15,0.6,77.7,M,16.5,M,,*78
+
+11/14/2021 12:44:20 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00000.asd,GPGGA,004336.3,3126.973990,S,14349.322801,E,1,15,0.6,80.6,M,16.5,M,,*74
+
+11/14/2021 12:44:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00001.asd,GPGGA,004339.9,3126.973990,S,14349.322801,E,1,15,0.6,80.6,M,16.5,M,,*71
+
+11/14/2021 12:44:38 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00002.asd,GPGGA,004353.7,3126.975206,S,14349.322836,E,1,15,0.6,80.7,M,16.5,M,,*74
+
+11/14/2021 12:44:42 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00003.asd,GPGGA,004358.3,3126.975206,S,14349.322836,E,1,15,0.6,80.7,M,16.5,M,,*7B
+
+11/14/2021 12:44:49 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00004.asd,GPGGA,004405.5,3126.974764,S,14349.323678,E,1,15,0.6,80.4,M,16.5,M,,*74
+
+11/14/2021 12:44:53 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00005.asd,GPGGA,004409.1,3126.974764,S,14349.323678,E,1,15,0.6,80.4,M,16.5,M,,*7C
+
+11/14/2021 12:45:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00006.asd,GPGGA,004413.8,3126.974254,S,14349.323082,E,1,15,0.6,80.5,M,16.5,M,,*7A
+
+11/14/2021 12:45:04 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_soil00007.asd,GPGGA,004414.4,3126.974254,S,14349.323082,E,1,15,0.6,80.5,M,16.5,M,,*71
+
+11/14/2021 12:45:47 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00000.asd,GPGGA,004502.9,3126.974239,S,14349.323041,E,1,15,0.6,80.4,M,16.5,M,,*7F
+
+11/14/2021 12:45:50 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00001.asd,GPGGA,004506.4,3126.974239,S,14349.323041,E,1,15,0.6,80.4,M,16.5,M,,*76
+
+11/14/2021 12:46:08 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00002.asd,GPGGA,004522.7,3126.973098,S,14349.326595,E,1,15,0.6,80.4,M,16.5,M,,*74
+
+11/14/2021 12:46:12 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00003.asd,GPGGA,004525.8,3126.973098,S,14349.326595,E,1,15,0.6,80.4,M,16.5,M,,*7C
+
+11/14/2021 12:46:22 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00004.asd,GPGGA,004536.8,3126.971827,S,14349.325971,E,1,15,0.6,79.9,M,16.5,M,,*7E
+
+11/14/2021 12:46:26 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00005.asd,GPGGA,004540.7,3126.971827,S,14349.325971,E,1,13,0.7,79.9,M,16.5,M,,*77
+
+11/14/2021 12:46:40 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00006.asd,GPGGA,004556.2,3126.972791,S,14349.323754,E,1,15,0.6,80.0,M,16.5,M,,*73
+
+11/14/2021 12:46:44 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00007.asd,GPGGA,004600.0,3126.972791,S,14349.323754,E,1,15,0.6,80.0,M,16.5,M,,*71
+
+11/14/2021 12:46:58 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00008.asd,GPGGA,004611.3,3126.974396,S,14349.323120,E,1,14,0.7,79.8,M,16.5,M,,*7C
+
+11/14/2021 12:47:01 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_gtreenveg00009.asd,GPGGA,004617.5,3126.974396,S,14349.323120,E,1,15,0.6,79.8,M,16.5,M,,*7C
+
+11/14/2021 12:48:09 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00000.asd,GPGGA,004725.3,3126.974386,S,14349.323050,E,1,15,0.6,79.7,M,16.5,M,,*72
+
+11/14/2021 12:48:12 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00001.asd,GPGGA,004728.7,3126.974400,S,14349.323073,E,1,15,0.6,79.6,M,16.5,M,,*72
+
+11/14/2021 12:48:27 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00002.asd,GPGGA,004739.6,3126.976356,S,14349.321645,E,1,15,0.6,79.6,M,16.5,M,,*74
+
+11/14/2021 12:48:30 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00003.asd,GPGGA,004745.0,3126.976356,S,14349.321645,E,1,15,0.6,79.6,M,16.5,M,,*79
+
+11/14/2021 12:48:45 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00004.asd,GPGGA,004800.9,3126.976344,S,14349.318513,E,1,15,0.6,79.0,M,16.5,M,,*71
+
+11/14/2021 12:48:48 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00005.asd,GPGGA,004804.5,3126.976344,S,14349.318513,E,1,12,0.8,79.0,M,16.5,M,,*70
+
+11/14/2021 12:49:10 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00006.asd,GPGGA,004825.9,3126.972800,S,14349.322484,E,1,15,0.6,77.8,M,16.5,M,,*79
+
+11/14/2021 12:49:13 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00007.asd,GPGGA,004829.5,3126.972800,S,14349.322484,E,1,15,0.6,77.8,M,16.5,M,,*79
+
+11/14/2021 12:49:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00008.asd,GPGGA,004832.3,3126.973409,S,14349.322612,E,1,15,0.6,77.8,M,16.5,M,,*7C
+
+11/14/2021 12:49:28 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_scenesnt00009.asd,GPGGA,004832.3,3126.973409,S,14349.322612,E,1,15,0.6,77.8,M,16.5,M,,*7C
+
+11/14/2021 12:54:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00000.asd,GPGGA,005337.2,3126.973930,S,14349.320003,E,1,16,0.6,77.5,M,16.5,M,,*7F
+
+11/14/2021 12:54:24 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00001.asd,GPGGA,005340.6,3126.973930,S,14349.320003,E,1,16,0.6,77.5,M,16.5,M,,*7B
+
+11/14/2021 1:01:56 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00002.asd,GPGGA,010112.8,3126.974182,S,14349.319960,E,1,12,0.7,77.4,M,16.5,M,,*70
+
+11/14/2021 1:02:00 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00003.asd,GPGGA,010116.3,3126.974182,S,14349.319960,E,1,12,0.7,77.4,M,16.5,M,,*7F
+
+11/14/2021 1:02:07 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00004.asd,GPGGA,010123.4,3126.974182,S,14349.319960,E,1,14,0.7,77.4,M,16.5,M,,*78
+
+11/14/2021 1:02:11 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00005.asd,GPGGA,010127.0,3126.974182,S,14349.319960,E,1,14,0.7,77.4,M,16.5,M,,*78
+
+11/14/2021 1:02:21 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00006.asd,GPGGA,010137.8,3126.974199,S,14349.319997,E,1,14,0.7,77.4,M,16.5,M,,*73
+
+11/14/2021 1:02:25 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00007.asd,GPGGA,010141.4,3126.974199,S,14349.319997,E,1,14,0.7,77.4,M,16.5,M,,*7E
+
+11/14/2021 1:02:36 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00008.asd,GPGGA,010152.2,3126.974199,S,14349.319997,E,1,14,0.7,77.4,M,16.5,M,,*7A
+
+11/14/2021 1:02:39 PM,C:\Users\PCUser\Documents\data\L8_9_underfly\wilga2_ddfin00009.asd,GPGGA,010155.7,3126.974199,S,14349.319997,E,1,14,0.7,77.4,M,16.5,M,,*78
+

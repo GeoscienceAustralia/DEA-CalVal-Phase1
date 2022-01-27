@@ -10,10 +10,15 @@ def fudge_gps(ground_brdf, Corners, RockWalk, StartCorner):
     else:
         print('No good GPS Coordinates found, fudging...')
         if StartCorner == 'NE':
-            SpecHeight = (Corners[0]-Corners[4])
-            SpecWidth = (Corners[1]-Corners[5])
-            LineHeight = (Corners[6]-Corners[4])
-            LineWidth = (Corners[7]-Corners[5])
+            #SpecHeight = (Corners[0]-Corners[4])
+            #SpecWidth = (Corners[1]-Corners[5])
+            #LineHeight = (Corners[6]-Corners[4])
+            #LineWidth = (Corners[7]-Corners[5])
+
+            SpecHeight = (Corners[2]-Corners[0])
+            SpecWidth = (Corners[3]-Corners[1])
+            LineHeight = (Corners[2]-Corners[6])
+            LineWidth = (Corners[3]-Corners[7])
         elif StartCorner == 'SE':
             SpecHeight = (Corners[4]-Corners[0])
             SpecWidth = (Corners[5]-Corners[1])

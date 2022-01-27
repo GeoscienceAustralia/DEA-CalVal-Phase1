@@ -12,7 +12,9 @@ def FIG_sat_bigRGB(sat_array, sat_bigarray, output, field_data, fignum):
 
     fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
 
-    fig, axes = DEAPlotting.three_band_image(sat_bigarray, bands = ['nbart_red', 'nbart_green', 'nbart_blue'], time = 0, title='', contrast_enhance=False)
+    maxrgb = sorted([sat_bigarray.nbart_blue.max().values, sat_bigarray.nbart_green.max().values, sat_bigarray.nbart_red.max().values])[-1]
+
+    fig, axes = DEAPlotting.three_band_image(sat_bigarray, bands = ['nbart_red', 'nbart_green', 'nbart_blue'], time = 0, title='', contrast_enhance=True, reflect_stand=maxrgb)
 
     rect = patches.Rectangle((float(sat_array.x.min()),float(sat_array.y.min())), 100, 100, angle=0.0, fill=False, color='white', lw = 2.5)
     rect2 = patches.Rectangle((float(sat_array.x.min()),float(sat_array.y.min())), 100, 100, angle=0.0, fill=False, color='black', lw = 1)

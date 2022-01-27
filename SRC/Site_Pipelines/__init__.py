@@ -1,4 +1,5 @@
 from . import ApplyWeights
+from . import ASD_reader
 from . import BRDF
 from . import CalcStats
 from . import CalcStats_USGS

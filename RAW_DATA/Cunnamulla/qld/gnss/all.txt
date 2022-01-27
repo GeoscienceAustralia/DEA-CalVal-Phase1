@@ -1,0 +1,1440 @@
+sed -i 's/Altitude is 0/Altitude is 207.8228/' site2_211115_10000000000.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8223/' site2_211115_10000000001.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8273/' site2_211115_10000000002.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.822/' site2_211115_10000000003.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8198/' site2_211115_10000000004.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8227/' site2_211115_10000000005.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8186/' site2_211115_10000000006.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8248/' site2_211115_10000000007.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8212/' site2_211115_10000000008.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8205/' site2_211115_10000000009.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8527/' site2_211115_10000000010.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8819/' site2_211115_10000000011.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9385/' site2_211115_10000000012.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9512/' site2_211115_10000000013.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9757/' site2_211115_10000000014.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9641/' site2_211115_10000000015.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9718/' site2_211115_10000000016.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9798/' site2_211115_10000000017.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.968/' site2_211115_10000000018.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9895/' site2_211115_10000000019.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9997/' site2_211115_10000000020.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0177/' site2_211115_10000000021.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9839/' site2_211115_10000000022.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9403/' site2_211115_10000000023.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9098/' site2_211115_10000000024.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9089/' site2_211115_10000000025.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9284/' site2_211115_10000000026.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9439/' site2_211115_10000000027.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9275/' site2_211115_10000000028.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.903/' site2_211115_10000000029.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9126/' site2_211115_10000000030.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0089/' site2_211115_10000000031.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9465/' site2_211115_10000000032.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.961/' site2_211115_10000000033.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0193/' site2_211115_10000000034.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9708/' site2_211115_10000000035.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9898/' site2_211115_10000000036.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9459/' site2_211115_10000000037.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9496/' site2_211115_10000000038.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9745/' site2_211115_10000000039.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9956/' site2_211115_10000000040.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9716/' site2_211115_10000000041.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9539/' site2_211115_10000000042.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9223/' site2_211115_10000000043.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9273/' site2_211115_10000000044.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.955/' site2_211115_10000000045.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9721/' site2_211115_10000000046.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9742/' site2_211115_10000000047.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9654/' site2_211115_10000000048.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9446/' site2_211115_10000000049.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.956/' site2_211115_10000000050.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9571/' site2_211115_10000000051.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9523/' site2_211115_10000000052.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9615/' site2_211115_10000000053.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9288/' site2_211115_10000000054.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9659/' site2_211115_10000000055.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9824/' site2_211115_10000000056.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9693/' site2_211115_10000000057.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9741/' site2_211115_10000000058.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.976/' site2_211115_10000000059.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8066/' site2_211115_10000000060.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8194/' site2_211115_10000000061.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8/' site2_211115_10000000062.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8001/' site2_211115_10000000063.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.7966/' site2_211115_10000000064.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8019/' site2_211115_10000000065.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8029/' site2_211115_10000000066.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8038/' site2_211115_10000000067.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.7956/' site2_211115_10000000068.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8019/' site2_211115_10000000069.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8782/' site2_211115_10000000070.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8956/' site2_211115_10000000071.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9408/' site2_211115_10000000072.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0314/' site2_211115_10000000073.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.975/' site2_211115_10000000074.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0485/' site2_211115_10000000075.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0313/' site2_211115_10000000076.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0024/' site2_211115_10000000077.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0589/' site2_211115_10000000078.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0325/' site2_211115_10000000079.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0002/' site2_211115_10000000080.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0276/' site2_211115_10000000081.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.052/' site2_211115_10000000082.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0188/' site2_211115_10000000083.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0248/' site2_211115_10000000084.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0355/' site2_211115_10000000085.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0228/' site2_211115_10000000086.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0225/' site2_211115_10000000087.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.004/' site2_211115_10000000088.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0063/' site2_211115_10000000089.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0254/' site2_211115_10000000090.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9877/' site2_211115_10000000091.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0254/' site2_211115_10000000092.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0128/' site2_211115_10000000093.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0631/' site2_211115_10000000094.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9771/' site2_211115_10000000095.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.991/' site2_211115_10000000096.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9903/' site2_211115_10000000097.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9674/' site2_211115_10000000098.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9588/' site2_211115_10000000099.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9728/' site2_211115_10000000100.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9727/' site2_211115_10000000101.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9694/' site2_211115_10000000102.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9826/' site2_211115_10000000103.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9846/' site2_211115_10000000104.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9798/' site2_211115_10000000105.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9954/' site2_211115_10000000106.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9843/' site2_211115_10000000107.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9659/' site2_211115_10000000108.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9905/' site2_211115_10000000109.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9967/' site2_211115_10000000110.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0003/' site2_211115_10000000111.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9883/' site2_211115_10000000112.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0185/' site2_211115_10000000113.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9979/' site2_211115_10000000114.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0274/' site2_211115_10000000115.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0008/' site2_211115_10000000116.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0054/' site2_211115_10000000117.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0152/' site2_211115_10000000118.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9711/' site2_211115_10000000119.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.877/' site2_211115_10000000120.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.9101/' site2_211115_10000000121.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8642/' site2_211115_10000000122.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.872/' site2_211115_10000000123.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8652/' site2_211115_10000000124.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8558/' site2_211115_10000000125.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8682/' site2_211115_10000000126.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8598/' site2_211115_10000000127.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8953/' site2_211115_10000000128.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 207.8998/' site2_211115_10000000129.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0816/' site2_211115_10000000130.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.098/' site2_211115_10000000131.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.098/' site2_211115_10000000132.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1164/' site2_211115_10000000133.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0811/' site2_211115_10000000134.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0975/' site2_211115_10000000135.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0786/' site2_211115_10000000136.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0801/' site2_211115_10000000137.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0996/' site2_211115_10000000138.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1012/' site2_211115_10000000139.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0675/' site2_211115_10000000140.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0817/' site2_211115_10000000141.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0816/' site2_211115_10000000142.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.082/' site2_211115_10000000143.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0739/' site2_211115_10000000144.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0863/' site2_211115_10000000145.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0929/' site2_211115_10000000146.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0992/' site2_211115_10000000147.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1004/' site2_211115_10000000148.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0988/' site2_211115_10000000149.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1015/' site2_211115_10000000150.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0969/' site2_211115_10000000151.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.099/' site2_211115_10000000152.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0871/' site2_211115_10000000153.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0881/' site2_211115_10000000154.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0828/' site2_211115_10000000155.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0744/' site2_211115_10000000156.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0851/' site2_211115_10000000157.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1291/' site2_211115_10000000158.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1149/' site2_211115_10000000159.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1088/' site2_211115_10000000160.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.107/' site2_211115_10000000161.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1095/' site2_211115_10000000162.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1007/' site2_211115_10000000163.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.102/' site2_211115_10000000164.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1065/' site2_211115_10000000165.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1138/' site2_211115_10000000166.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1184/' site2_211115_10000000167.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0991/' site2_211115_10000000168.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.103/' site2_211115_10000000169.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0825/' site2_211115_10000000170.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0928/' site2_211115_10000000171.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0725/' site2_211115_10000000172.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0927/' site2_211115_10000000173.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0776/' site2_211115_10000000174.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0784/' site2_211115_10000000175.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1134/' site2_211115_10000000176.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0726/' site2_211115_10000000177.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.0778/' site2_211115_10000000178.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.1253/' site2_211115_10000000179.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.378/' site2_211115_10000000180.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3814/' site2_211115_10000000181.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3821/' site2_211115_10000000182.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3754/' site2_211115_10000000183.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3729/' site2_211115_10000000184.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3778/' site2_211115_10000000185.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.366/' site2_211115_10000000186.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3711/' site2_211115_10000000187.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.374/' site2_211115_10000000188.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3657/' site2_211115_10000000189.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.424/' site2_211115_10000000190.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3955/' site2_211115_10000000191.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3911/' site2_211115_10000000192.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4255/' site2_211115_10000000193.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4358/' site2_211115_10000000194.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4431/' site2_211115_10000000195.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4322/' site2_211115_10000000196.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4431/' site2_211115_10000000197.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4338/' site2_211115_10000000198.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4147/' site2_211115_10000000199.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4343/' site2_211115_10000000200.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4254/' site2_211115_10000000201.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4255/' site2_211115_10000000202.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4606/' site2_211115_10000000203.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4342/' site2_211115_10000000204.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4391/' site2_211115_10000000205.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.435/' site2_211115_10000000206.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4145/' site2_211115_10000000207.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.424/' site2_211115_10000000208.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4162/' site2_211115_10000000209.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3964/' site2_211115_10000000210.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4124/' site2_211115_10000000211.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.411/' site2_211115_10000000212.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4361/' site2_211115_10000000213.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4283/' site2_211115_10000000214.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3993/' site2_211115_10000000215.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4373/' site2_211115_10000000216.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4216/' site2_211115_10000000217.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4311/' site2_211115_10000000218.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4321/' site2_211115_10000000219.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4212/' site2_211115_10000000220.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4183/' site2_211115_10000000221.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4102/' site2_211115_10000000222.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4118/' site2_211115_10000000223.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4175/' site2_211115_10000000224.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4252/' site2_211115_10000000225.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4149/' site2_211115_10000000226.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4259/' site2_211115_10000000227.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4187/' site2_211115_10000000228.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4235/' site2_211115_10000000229.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.414/' site2_211115_10000000230.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4214/' site2_211115_10000000231.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4151/' site2_211115_10000000232.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4211/' site2_211115_10000000233.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4196/' site2_211115_10000000234.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3954/' site2_211115_10000000235.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4307/' site2_211115_10000000236.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4123/' site2_211115_10000000237.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3936/' site2_211115_10000000238.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4005/' site2_211115_10000000239.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3986/' site2_211115_10000000240.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3818/' site2_211115_10000000241.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.389/' site2_211115_10000000242.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3841/' site2_211115_10000000243.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3753/' site2_211115_10000000244.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3821/' site2_211115_10000000245.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3784/' site2_211115_10000000246.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3765/' site2_211115_10000000247.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3765/' site2_211115_10000000248.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3756/' site2_211115_10000000249.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3598/' site2_211115_10000000250.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3639/' site2_211115_10000000251.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4124/' site2_211115_10000000252.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4066/' site2_211115_10000000253.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4001/' site2_211115_10000000254.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3946/' site2_211115_10000000255.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3684/' site2_211115_10000000256.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3738/' site2_211115_10000000257.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3653/' site2_211115_10000000258.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3744/' site2_211115_10000000259.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3857/' site2_211115_10000000260.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3587/' site2_211115_10000000261.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3555/' site2_211115_10000000262.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3964/' site2_211115_10000000263.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3686/' site2_211115_10000000264.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3802/' site2_211115_10000000265.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.379/' site2_211115_10000000266.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3783/' site2_211115_10000000267.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3852/' site2_211115_10000000268.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3518/' site2_211115_10000000269.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.368/' site2_211115_10000000270.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3757/' site2_211115_10000000271.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3827/' site2_211115_10000000272.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3851/' site2_211115_10000000273.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3798/' site2_211115_10000000274.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3656/' site2_211115_10000000275.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3901/' site2_211115_10000000276.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3544/' site2_211115_10000000277.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3565/' site2_211115_10000000278.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3948/' site2_211115_10000000279.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.39/' site2_211115_10000000280.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3825/' site2_211115_10000000281.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3677/' site2_211115_10000000282.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3736/' site2_211115_10000000283.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3738/' site2_211115_10000000284.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3401/' site2_211115_10000000285.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3833/' site2_211115_10000000286.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3812/' site2_211115_10000000287.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3715/' site2_211115_10000000288.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3563/' site2_211115_10000000289.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3842/' site2_211115_10000000290.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3738/' site2_211115_10000000291.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.367/' site2_211115_10000000292.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3758/' site2_211115_10000000293.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3631/' site2_211115_10000000294.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.369/' site2_211115_10000000295.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3612/' site2_211115_10000000296.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3575/' site2_211115_10000000297.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3829/' site2_211115_10000000298.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3943/' site2_211115_10000000299.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3735/' site2_211115_10000000300.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3637/' site2_211115_10000000301.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.371/' site2_211115_10000000302.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3658/' site2_211115_10000000303.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3633/' site2_211115_10000000304.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3646/' site2_211115_10000000305.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3646/' site2_211115_10000000306.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3637/' site2_211115_10000000307.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3645/' site2_211115_10000000308.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3632/' site2_211115_10000000309.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3508/' site2_211115_10000000310.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3662/' site2_211115_10000000311.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.391/' site2_211115_10000000312.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3987/' site2_211115_10000000313.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3983/' site2_211115_10000000314.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4015/' site2_211115_10000000315.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.409/' site2_211115_10000000316.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.397/' site2_211115_10000000317.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.404/' site2_211115_10000000318.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3971/' site2_211115_10000000319.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3945/' site2_211115_10000000320.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.42/' site2_211115_10000000321.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4093/' site2_211115_10000000322.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4077/' site2_211115_10000000323.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4099/' site2_211115_10000000324.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4657/' site2_211115_10000000325.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4048/' site2_211115_10000000326.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4093/' site2_211115_10000000327.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4128/' site2_211115_10000000328.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4096/' site2_211115_10000000329.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4384/' site2_211115_10000000330.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.42/' site2_211115_10000000331.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4057/' site2_211115_10000000332.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.416/' site2_211115_10000000333.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4119/' site2_211115_10000000334.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3947/' site2_211115_10000000335.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3836/' site2_211115_10000000336.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4066/' site2_211115_10000000337.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4169/' site2_211115_10000000338.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.389/' site2_211115_10000000339.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3984/' site2_211115_10000000340.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.406/' site2_211115_10000000341.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4084/' site2_211115_10000000342.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4604/' site2_211115_10000000343.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4053/' site2_211115_10000000344.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3872/' site2_211115_10000000345.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4089/' site2_211115_10000000346.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3972/' site2_211115_10000000347.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3905/' site2_211115_10000000348.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4114/' site2_211115_10000000349.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3898/' site2_211115_10000000350.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3981/' site2_211115_10000000351.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4195/' site2_211115_10000000352.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3742/' site2_211115_10000000353.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.392/' site2_211115_10000000354.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3841/' site2_211115_10000000355.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3795/' site2_211115_10000000356.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3831/' site2_211115_10000000357.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.3836/' site2_211115_10000000358.asd.rad.txt
+sed -i 's/Altitude is 0/Altitude is 208.4126/' site2_211115_10000000359.asd.rad.txt
+sed -i 's/is S0/is S-2804.77239022/' site2_211115_10000000000.asd.rad.txt
+sed -i 's/is S0/is S-2804.77237954/' site2_211115_10000000001.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238074/' site2_211115_10000000002.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238584/' site2_211115_10000000003.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238638/' site2_211115_10000000004.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238998/' site2_211115_10000000005.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238902/' site2_211115_10000000006.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238842/' site2_211115_10000000007.asd.rad.txt
+sed -i 's/is S0/is S-2804.77239250/' site2_211115_10000000008.asd.rad.txt
+sed -i 's/is S0/is S-2804.77238998/' site2_211115_10000000009.asd.rad.txt
+sed -i 's/is S0/is S-2804.77294066/' site2_211115_10000000010.asd.rad.txt
+sed -i 's/is S0/is S-2804.77326328/' site2_211115_10000000011.asd.rad.txt
+sed -i 's/is S0/is S-2804.77423348/' site2_211115_10000000012.asd.rad.txt
+sed -i 's/is S0/is S-2804.77486990/' site2_211115_10000000013.asd.rad.txt
+sed -i 's/is S0/is S-2804.77599880/' site2_211115_10000000014.asd.rad.txt
+sed -i 's/is S0/is S-2804.77671838/' site2_211115_10000000015.asd.rad.txt
+sed -i 's/is S0/is S-2804.77780354/' site2_211115_10000000016.asd.rad.txt
+sed -i 's/is S0/is S-2804.77851664/' site2_211115_10000000017.asd.rad.txt
+sed -i 's/is S0/is S-2804.77957618/' site2_211115_10000000018.asd.rad.txt
+sed -i 's/is S0/is S-2804.78019088/' site2_211115_10000000019.asd.rad.txt
+sed -i 's/is S0/is S-2804.78118514/' site2_211115_10000000020.asd.rad.txt
+sed -i 's/is S0/is S-2804.78195560/' site2_211115_10000000021.asd.rad.txt
+sed -i 's/is S0/is S-2804.78277340/' site2_211115_10000000022.asd.rad.txt
+sed -i 's/is S0/is S-2804.78384518/' site2_211115_10000000023.asd.rad.txt
+sed -i 's/is S0/is S-2804.78461156/' site2_211115_10000000024.asd.rad.txt
+sed -i 's/is S0/is S-2804.78592952/' site2_211115_10000000025.asd.rad.txt
+sed -i 's/is S0/is S-2804.78680018/' site2_211115_10000000026.asd.rad.txt
+sed -i 's/is S0/is S-2804.78799946/' site2_211115_10000000027.asd.rad.txt
+sed -i 's/is S0/is S-2804.78885728/' site2_211115_10000000028.asd.rad.txt
+sed -i 's/is S0/is S-2804.79014458/' site2_211115_10000000029.asd.rad.txt
+sed -i 's/is S0/is S-2804.79098878/' site2_211115_10000000030.asd.rad.txt
+sed -i 's/is S0/is S-2804.79221752/' site2_211115_10000000031.asd.rad.txt
+sed -i 's/is S0/is S-2804.79340942/' site2_211115_10000000032.asd.rad.txt
+sed -i 's/is S0/is S-2804.79419830/' site2_211115_10000000033.asd.rad.txt
+sed -i 's/is S0/is S-2804.79541720/' site2_211115_10000000034.asd.rad.txt
+sed -i 's/is S0/is S-2804.79625324/' site2_211115_10000000035.asd.rad.txt
+sed -i 's/is S0/is S-2804.79753880/' site2_211115_10000000036.asd.rad.txt
+sed -i 's/is S0/is S-2804.79832000/' site2_211115_10000000037.asd.rad.txt
+sed -i 's/is S0/is S-2804.79958834/' site2_211115_10000000038.asd.rad.txt
+sed -i 's/is S0/is S-2804.80043866/' site2_211115_10000000039.asd.rad.txt
+sed -i 's/is S0/is S-2804.80174942/' site2_211115_10000000040.asd.rad.txt
+sed -i 's/is S0/is S-2804.80308712/' site2_211115_10000000041.asd.rad.txt
+sed -i 's/is S0/is S-2804.80401292/' site2_211115_10000000042.asd.rad.txt
+sed -i 's/is S0/is S-2804.80544872/' site2_211115_10000000043.asd.rad.txt
+sed -i 's/is S0/is S-2804.80638238/' site2_211115_10000000044.asd.rad.txt
+sed -i 's/is S0/is S-2804.80781008/' site2_211115_10000000045.asd.rad.txt
+sed -i 's/is S0/is S-2804.80921858/' site2_211115_10000000046.asd.rad.txt
+sed -i 's/is S0/is S-2804.81011960/' site2_211115_10000000047.asd.rad.txt
+sed -i 's/is S0/is S-2804.81146678/' site2_211115_10000000048.asd.rad.txt
+sed -i 's/is S0/is S-2804.81243608/' site2_211115_10000000049.asd.rad.txt
+sed -i 's/is S0/is S-2804.81384134/' site2_211115_10000000050.asd.rad.txt
+sed -i 's/is S0/is S-2804.81482600/' site2_211115_10000000051.asd.rad.txt
+sed -i 's/is S0/is S-2804.81622280/' site2_211115_10000000052.asd.rad.txt
+sed -i 's/is S0/is S-2804.81720374/' site2_211115_10000000053.asd.rad.txt
+sed -i 's/is S0/is S-2804.81868652/' site2_211115_10000000054.asd.rad.txt
+sed -i 's/is S0/is S-2804.81966620/' site2_211115_10000000055.asd.rad.txt
+sed -i 's/is S0/is S-2804.82091018/' site2_211115_10000000056.asd.rad.txt
+sed -i 's/is S0/is S-2804.82180958/' site2_211115_10000000057.asd.rad.txt
+sed -i 's/is S0/is S-2804.82275074/' site2_211115_10000000058.asd.rad.txt
+sed -i 's/is S0/is S-2804.82414526/' site2_211115_10000000059.asd.rad.txt
+sed -i 's/is S0/is S-2804.82942430/' site2_211115_10000000060.asd.rad.txt
+sed -i 's/is S0/is S-2804.82943084/' site2_211115_10000000061.asd.rad.txt
+sed -i 's/is S0/is S-2804.82943612/' site2_211115_10000000062.asd.rad.txt
+sed -i 's/is S0/is S-2804.82943708/' site2_211115_10000000063.asd.rad.txt
+sed -i 's/is S0/is S-2804.82943984/' site2_211115_10000000064.asd.rad.txt
+sed -i 's/is S0/is S-2804.82944290/' site2_211115_10000000065.asd.rad.txt
+sed -i 's/is S0/is S-2804.82945226/' site2_211115_10000000066.asd.rad.txt
+sed -i 's/is S0/is S-2804.82944992/' site2_211115_10000000067.asd.rad.txt
+sed -i 's/is S0/is S-2804.82945796/' site2_211115_10000000068.asd.rad.txt
+sed -i 's/is S0/is S-2804.82945670/' site2_211115_10000000069.asd.rad.txt
+sed -i 's/is S0/is S-2804.82779776/' site2_211115_10000000070.asd.rad.txt
+sed -i 's/is S0/is S-2804.82750868/' site2_211115_10000000071.asd.rad.txt
+sed -i 's/is S0/is S-2804.82664114/' site2_211115_10000000072.asd.rad.txt
+sed -i 's/is S0/is S-2804.82540922/' site2_211115_10000000073.asd.rad.txt
+sed -i 's/is S0/is S-2804.82450940/' site2_211115_10000000074.asd.rad.txt
+sed -i 's/is S0/is S-2804.82313474/' site2_211115_10000000075.asd.rad.txt
+sed -i 's/is S0/is S-2804.82179956/' site2_211115_10000000076.asd.rad.txt
+sed -i 's/is S0/is S-2804.82095764/' site2_211115_10000000077.asd.rad.txt
+sed -i 's/is S0/is S-2804.81964802/' site2_211115_10000000078.asd.rad.txt
+sed -i 's/is S0/is S-2804.81880958/' site2_211115_10000000079.asd.rad.txt
+sed -i 's/is S0/is S-2804.81758168/' site2_211115_10000000080.asd.rad.txt
+sed -i 's/is S0/is S-2804.81671708/' site2_211115_10000000081.asd.rad.txt
+sed -i 's/is S0/is S-2804.81541226/' site2_211115_10000000082.asd.rad.txt
+sed -i 's/is S0/is S-2804.81451802/' site2_211115_10000000083.asd.rad.txt
+sed -i 's/is S0/is S-2804.81320534/' site2_211115_10000000084.asd.rad.txt
+sed -i 's/is S0/is S-2804.81233492/' site2_211115_10000000085.asd.rad.txt
+sed -i 's/is S0/is S-2804.81103940/' site2_211115_10000000086.asd.rad.txt
+sed -i 's/is S0/is S-2804.81015464/' site2_211115_10000000087.asd.rad.txt
+sed -i 's/is S0/is S-2804.80896316/' site2_211115_10000000088.asd.rad.txt
+sed -i 's/is S0/is S-2804.80794130/' site2_211115_10000000089.asd.rad.txt
+sed -i 's/is S0/is S-2804.80731550/' site2_211115_10000000090.asd.rad.txt
+sed -i 's/is S0/is S-2804.80664932/' site2_211115_10000000091.asd.rad.txt
+sed -i 's/is S0/is S-2804.80615624/' site2_211115_10000000092.asd.rad.txt
+sed -i 's/is S0/is S-2804.80489888/' site2_211115_10000000093.asd.rad.txt
+sed -i 's/is S0/is S-2804.80407688/' site2_211115_10000000094.asd.rad.txt
+sed -i 's/is S0/is S-2804.80284832/' site2_211115_10000000095.asd.rad.txt
+sed -i 's/is S0/is S-2804.80195690/' site2_211115_10000000096.asd.rad.txt
+sed -i 's/is S0/is S-2804.80072498/' site2_211115_10000000097.asd.rad.txt
+sed -i 's/is S0/is S-2804.79986806/' site2_211115_10000000098.asd.rad.txt
+sed -i 's/is S0/is S-2804.79861004/' site2_211115_10000000099.asd.rad.txt
+sed -i 's/is S0/is S-2804.79779512/' site2_211115_10000000100.asd.rad.txt
+sed -i 's/is S0/is S-2804.79645802/' site2_211115_10000000101.asd.rad.txt
+sed -i 's/is S0/is S-2804.79518668/' site2_211115_10000000102.asd.rad.txt
+sed -i 's/is S0/is S-2804.79430246/' site2_211115_10000000103.asd.rad.txt
+sed -i 's/is S0/is S-2804.79306340/' site2_211115_10000000104.asd.rad.txt
+sed -i 's/is S0/is S-2804.79224944/' site2_211115_10000000105.asd.rad.txt
+sed -i 's/is S0/is S-2804.79138976/' site2_211115_10000000106.asd.rad.txt
+sed -i 's/is S0/is S-2804.79010228/' site2_211115_10000000107.asd.rad.txt
+sed -i 's/is S0/is S-2804.78872498/' site2_211115_10000000108.asd.rad.txt
+sed -i 's/is S0/is S-2804.78784160/' site2_211115_10000000109.asd.rad.txt
+sed -i 's/is S0/is S-2804.78649898/' site2_211115_10000000110.asd.rad.txt
+sed -i 's/is S0/is S-2804.78560804/' site2_211115_10000000111.asd.rad.txt
+sed -i 's/is S0/is S-2804.78438998/' site2_211115_10000000112.asd.rad.txt
+sed -i 's/is S0/is S-2804.78347036/' site2_211115_10000000113.asd.rad.txt
+sed -i 's/is S0/is S-2804.78210062/' site2_211115_10000000114.asd.rad.txt
+sed -i 's/is S0/is S-2804.78073682/' site2_211115_10000000115.asd.rad.txt
+sed -i 's/is S0/is S-2804.77979590/' site2_211115_10000000116.asd.rad.txt
+sed -i 's/is S0/is S-2804.77843000/' site2_211115_10000000117.asd.rad.txt
+sed -i 's/is S0/is S-2804.77753312/' site2_211115_10000000118.asd.rad.txt
+sed -i 's/is S0/is S-2804.77658722/' site2_211115_10000000119.asd.rad.txt
+sed -i 's/is S0/is S-2804.77668700/' site2_211115_10000000120.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682104/' site2_211115_10000000121.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682680/' site2_211115_10000000122.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682632/' site2_211115_10000000123.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682350/' site2_211115_10000000124.asd.rad.txt
+sed -i 's/is S0/is S-2804.77681798/' site2_211115_10000000125.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682506/' site2_211115_10000000126.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682260/' site2_211115_10000000127.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682326/' site2_211115_10000000128.asd.rad.txt
+sed -i 's/is S0/is S-2804.77682188/' site2_211115_10000000129.asd.rad.txt
+sed -i 's/is S0/is S-2804.77722586/' site2_211115_10000000130.asd.rad.txt
+sed -i 's/is S0/is S-2804.77769428/' site2_211115_10000000131.asd.rad.txt
+sed -i 's/is S0/is S-2804.77861630/' site2_211115_10000000132.asd.rad.txt
+sed -i 's/is S0/is S-2804.78003152/' site2_211115_10000000133.asd.rad.txt
+sed -i 's/is S0/is S-2804.78146576/' site2_211115_10000000134.asd.rad.txt
+sed -i 's/is S0/is S-2804.78237962/' site2_211115_10000000135.asd.rad.txt
+sed -i 's/is S0/is S-2804.78376646/' site2_211115_10000000136.asd.rad.txt
+sed -i 's/is S0/is S-2804.78469742/' site2_211115_10000000137.asd.rad.txt
+sed -i 's/is S0/is S-2804.78603758/' site2_211115_10000000138.asd.rad.txt
+sed -i 's/is S0/is S-2804.78695606/' site2_211115_10000000139.asd.rad.txt
+sed -i 's/is S0/is S-2804.78835052/' site2_211115_10000000140.asd.rad.txt
+sed -i 's/is S0/is S-2804.78928262/' site2_211115_10000000141.asd.rad.txt
+sed -i 's/is S0/is S-2804.79067678/' site2_211115_10000000142.asd.rad.txt
+sed -i 's/is S0/is S-2804.79159946/' site2_211115_10000000143.asd.rad.txt
+sed -i 's/is S0/is S-2804.79303220/' site2_211115_10000000144.asd.rad.txt
+sed -i 's/is S0/is S-2804.79393592/' site2_211115_10000000145.asd.rad.txt
+sed -i 's/is S0/is S-2804.79527968/' site2_211115_10000000146.asd.rad.txt
+sed -i 's/is S0/is S-2804.79616444/' site2_211115_10000000147.asd.rad.txt
+sed -i 's/is S0/is S-2804.79702202/' site2_211115_10000000148.asd.rad.txt
+sed -i 's/is S0/is S-2804.79828496/' site2_211115_10000000149.asd.rad.txt
+sed -i 's/is S0/is S-2804.79913126/' site2_211115_10000000150.asd.rad.txt
+sed -i 's/is S0/is S-2804.80041730/' site2_211115_10000000151.asd.rad.txt
+sed -i 's/is S0/is S-2804.80131730/' site2_211115_10000000152.asd.rad.txt
+sed -i 's/is S0/is S-2804.80260916/' site2_211115_10000000153.asd.rad.txt
+sed -i 's/is S0/is S-2804.80350982/' site2_211115_10000000154.asd.rad.txt
+sed -i 's/is S0/is S-2804.80486486/' site2_211115_10000000155.asd.rad.txt
+sed -i 's/is S0/is S-2804.80624816/' site2_211115_10000000156.asd.rad.txt
+sed -i 's/is S0/is S-2804.80715314/' site2_211115_10000000157.asd.rad.txt
+sed -i 's/is S0/is S-2804.80857076/' site2_211115_10000000158.asd.rad.txt
+sed -i 's/is S0/is S-2804.80946770/' site2_211115_10000000159.asd.rad.txt
+sed -i 's/is S0/is S-2804.81080042/' site2_211115_10000000160.asd.rad.txt
+sed -i 's/is S0/is S-2804.81213434/' site2_211115_10000000161.asd.rad.txt
+sed -i 's/is S0/is S-2804.81304652/' site2_211115_10000000162.asd.rad.txt
+sed -i 's/is S0/is S-2804.81442772/' site2_211115_10000000163.asd.rad.txt
+sed -i 's/is S0/is S-2804.81537536/' site2_211115_10000000164.asd.rad.txt
+sed -i 's/is S0/is S-2804.81674720/' site2_211115_10000000165.asd.rad.txt
+sed -i 's/is S0/is S-2804.81769682/' site2_211115_10000000166.asd.rad.txt
+sed -i 's/is S0/is S-2804.81860462/' site2_211115_10000000167.asd.rad.txt
+sed -i 's/is S0/is S-2804.81987002/' site2_211115_10000000168.asd.rad.txt
+sed -i 's/is S0/is S-2804.82074608/' site2_211115_10000000169.asd.rad.txt
+sed -i 's/is S0/is S-2804.82209692/' site2_211115_10000000170.asd.rad.txt
+sed -i 's/is S0/is S-2804.82299692/' site2_211115_10000000171.asd.rad.txt
+sed -i 's/is S0/is S-2804.82442102/' site2_211115_10000000172.asd.rad.txt
+sed -i 's/is S0/is S-2804.82535384/' site2_211115_10000000173.asd.rad.txt
+sed -i 's/is S0/is S-2804.82684490/' site2_211115_10000000174.asd.rad.txt
+sed -i 's/is S0/is S-2804.82782164/' site2_211115_10000000175.asd.rad.txt
+sed -i 's/is S0/is S-2804.82875236/' site2_211115_10000000176.asd.rad.txt
+sed -i 's/is S0/is S-2804.83012828/' site2_211115_10000000177.asd.rad.txt
+sed -i 's/is S0/is S-2804.83104988/' site2_211115_10000000178.asd.rad.txt
+sed -i 's/is S0/is S-2804.83249792/' site2_211115_10000000179.asd.rad.txt
+sed -i 's/is S0/is S-2804.83693162/' site2_211115_10000000180.asd.rad.txt
+sed -i 's/is S0/is S-2804.83693480/' site2_211115_10000000181.asd.rad.txt
+sed -i 's/is S0/is S-2804.83693090/' site2_211115_10000000182.asd.rad.txt
+sed -i 's/is S0/is S-2804.83693150/' site2_211115_10000000183.asd.rad.txt
+sed -i 's/is S0/is S-2804.83692970/' site2_211115_10000000184.asd.rad.txt
+sed -i 's/is S0/is S-2804.83692250/' site2_211115_10000000185.asd.rad.txt
+sed -i 's/is S0/is S-2804.83690810/' site2_211115_10000000186.asd.rad.txt
+sed -i 's/is S0/is S-2804.83692322/' site2_211115_10000000187.asd.rad.txt
+sed -i 's/is S0/is S-2804.83692004/' site2_211115_10000000188.asd.rad.txt
+sed -i 's/is S0/is S-2804.83689658/' site2_211115_10000000189.asd.rad.txt
+sed -i 's/is S0/is S-2804.83618156/' site2_211115_10000000190.asd.rad.txt
+sed -i 's/is S0/is S-2804.83534798/' site2_211115_10000000191.asd.rad.txt
+sed -i 's/is S0/is S-2804.83445164/' site2_211115_10000000192.asd.rad.txt
+sed -i 's/is S0/is S-2804.83306066/' site2_211115_10000000193.asd.rad.txt
+sed -i 's/is S0/is S-2804.83211332/' site2_211115_10000000194.asd.rad.txt
+sed -i 's/is S0/is S-2804.83073692/' site2_211115_10000000195.asd.rad.txt
+sed -i 's/is S0/is S-2804.82988270/' site2_211115_10000000196.asd.rad.txt
+sed -i 's/is S0/is S-2804.82855082/' site2_211115_10000000197.asd.rad.txt
+sed -i 's/is S0/is S-2804.82718822/' site2_211115_10000000198.asd.rad.txt
+sed -i 's/is S0/is S-2804.82633172/' site2_211115_10000000199.asd.rad.txt
+sed -i 's/is S0/is S-2804.82501148/' site2_211115_10000000200.asd.rad.txt
+sed -i 's/is S0/is S-2804.82414970/' site2_211115_10000000201.asd.rad.txt
+sed -i 's/is S0/is S-2804.82277096/' site2_211115_10000000202.asd.rad.txt
+sed -i 's/is S0/is S-2804.82187108/' site2_211115_10000000203.asd.rad.txt
+sed -i 's/is S0/is S-2804.82057898/' site2_211115_10000000204.asd.rad.txt
+sed -i 's/is S0/is S-2804.81967640/' site2_211115_10000000205.asd.rad.txt
+sed -i 's/is S0/is S-2804.81826784/' site2_211115_10000000206.asd.rad.txt
+sed -i 's/is S0/is S-2804.81738392/' site2_211115_10000000207.asd.rad.txt
+sed -i 's/is S0/is S-2804.81609638/' site2_211115_10000000208.asd.rad.txt
+sed -i 's/is S0/is S-2804.81530414/' site2_211115_10000000209.asd.rad.txt
+sed -i 's/is S0/is S-2804.81405650/' site2_211115_10000000210.asd.rad.txt
+sed -i 's/is S0/is S-2804.81324140/' site2_211115_10000000211.asd.rad.txt
+sed -i 's/is S0/is S-2804.81199724/' site2_211115_10000000212.asd.rad.txt
+sed -i 's/is S0/is S-2804.81114452/' site2_211115_10000000213.asd.rad.txt
+sed -i 's/is S0/is S-2804.80995100/' site2_211115_10000000214.asd.rad.txt
+sed -i 's/is S0/is S-2804.80911568/' site2_211115_10000000215.asd.rad.txt
+sed -i 's/is S0/is S-2804.80783504/' site2_211115_10000000216.asd.rad.txt
+sed -i 's/is S0/is S-2804.80705936/' site2_211115_10000000217.asd.rad.txt
+sed -i 's/is S0/is S-2804.80571650/' site2_211115_10000000218.asd.rad.txt
+sed -i 's/is S0/is S-2804.80479472/' site2_211115_10000000219.asd.rad.txt
+sed -i 's/is S0/is S-2804.80354552/' site2_211115_10000000220.asd.rad.txt
+sed -i 's/is S0/is S-2804.80259428/' site2_211115_10000000221.asd.rad.txt
+sed -i 's/is S0/is S-2804.80126744/' site2_211115_10000000222.asd.rad.txt
+sed -i 's/is S0/is S-2804.80034506/' site2_211115_10000000223.asd.rad.txt
+sed -i 's/is S0/is S-2804.79899806/' site2_211115_10000000224.asd.rad.txt
+sed -i 's/is S0/is S-2804.79805834/' site2_211115_10000000225.asd.rad.txt
+sed -i 's/is S0/is S-2804.79671938/' site2_211115_10000000226.asd.rad.txt
+sed -i 's/is S0/is S-2804.79582592/' site2_211115_10000000227.asd.rad.txt
+sed -i 's/is S0/is S-2804.79450898/' site2_211115_10000000228.asd.rad.txt
+sed -i 's/is S0/is S-2804.79362470/' site2_211115_10000000229.asd.rad.txt
+sed -i 's/is S0/is S-2804.79274744/' site2_211115_10000000230.asd.rad.txt
+sed -i 's/is S0/is S-2804.79141172/' site2_211115_10000000231.asd.rad.txt
+sed -i 's/is S0/is S-2804.79006466/' site2_211115_10000000232.asd.rad.txt
+sed -i 's/is S0/is S-2804.78914750/' site2_211115_10000000233.asd.rad.txt
+sed -i 's/is S0/is S-2804.78824510/' site2_211115_10000000234.asd.rad.txt
+sed -i 's/is S0/is S-2804.78684422/' site2_211115_10000000235.asd.rad.txt
+sed -i 's/is S0/is S-2804.78593120/' site2_211115_10000000236.asd.rad.txt
+sed -i 's/is S0/is S-2804.78453524/' site2_211115_10000000237.asd.rad.txt
+sed -i 's/is S0/is S-2804.78362858/' site2_211115_10000000238.asd.rad.txt
+sed -i 's/is S0/is S-2804.78230948/' site2_211115_10000000239.asd.rad.txt
+sed -i 's/is S0/is S-2804.78108122/' site2_211115_10000000240.asd.rad.txt
+sed -i 's/is S0/is S-2804.78106982/' site2_211115_10000000241.asd.rad.txt
+sed -i 's/is S0/is S-2804.78106076/' site2_211115_10000000242.asd.rad.txt
+sed -i 's/is S0/is S-2804.78105842/' site2_211115_10000000243.asd.rad.txt
+sed -i 's/is S0/is S-2804.78104954/' site2_211115_10000000244.asd.rad.txt
+sed -i 's/is S0/is S-2804.78105344/' site2_211115_10000000245.asd.rad.txt
+sed -i 's/is S0/is S-2804.78104582/' site2_211115_10000000246.asd.rad.txt
+sed -i 's/is S0/is S-2804.78105728/' site2_211115_10000000247.asd.rad.txt
+sed -i 's/is S0/is S-2804.78105446/' site2_211115_10000000248.asd.rad.txt
+sed -i 's/is S0/is S-2804.78104402/' site2_211115_10000000249.asd.rad.txt
+sed -i 's/is S0/is S-2804.78167036/' site2_211115_10000000250.asd.rad.txt
+sed -i 's/is S0/is S-2804.78226070/' site2_211115_10000000251.asd.rad.txt
+sed -i 's/is S0/is S-2804.78312578/' site2_211115_10000000252.asd.rad.txt
+sed -i 's/is S0/is S-2804.78443810/' site2_211115_10000000253.asd.rad.txt
+sed -i 's/is S0/is S-2804.78534830/' site2_211115_10000000254.asd.rad.txt
+sed -i 's/is S0/is S-2804.78678050/' site2_211115_10000000255.asd.rad.txt
+sed -i 's/is S0/is S-2804.78766658/' site2_211115_10000000256.asd.rad.txt
+sed -i 's/is S0/is S-2804.78901268/' site2_211115_10000000257.asd.rad.txt
+sed -i 's/is S0/is S-2804.78987086/' site2_211115_10000000258.asd.rad.txt
+sed -i 's/is S0/is S-2804.79076966/' site2_211115_10000000259.asd.rad.txt
+sed -i 's/is S0/is S-2804.79203452/' site2_211115_10000000260.asd.rad.txt
+sed -i 's/is S0/is S-2804.79290668/' site2_211115_10000000261.asd.rad.txt
+sed -i 's/is S0/is S-2804.79419728/' site2_211115_10000000262.asd.rad.txt
+sed -i 's/is S0/is S-2804.79505360/' site2_211115_10000000263.asd.rad.txt
+sed -i 's/is S0/is S-2804.79642448/' site2_211115_10000000264.asd.rad.txt
+sed -i 's/is S0/is S-2804.79731710/' site2_211115_10000000265.asd.rad.txt
+sed -i 's/is S0/is S-2804.79860968/' site2_211115_10000000266.asd.rad.txt
+sed -i 's/is S0/is S-2804.79951046/' site2_211115_10000000267.asd.rad.txt
+sed -i 's/is S0/is S-2804.80088026/' site2_211115_10000000268.asd.rad.txt
+sed -i 's/is S0/is S-2804.80173532/' site2_211115_10000000269.asd.rad.txt
+sed -i 's/is S0/is S-2804.80302088/' site2_211115_10000000270.asd.rad.txt
+sed -i 's/is S0/is S-2804.80384066/' site2_211115_10000000271.asd.rad.txt
+sed -i 's/is S0/is S-2804.80507750/' site2_211115_10000000272.asd.rad.txt
+sed -i 's/is S0/is S-2804.80595080/' site2_211115_10000000273.asd.rad.txt
+sed -i 's/is S0/is S-2804.80723090/' site2_211115_10000000274.asd.rad.txt
+sed -i 's/is S0/is S-2804.80812976/' site2_211115_10000000275.asd.rad.txt
+sed -i 's/is S0/is S-2804.80948474/' site2_211115_10000000276.asd.rad.txt
+sed -i 's/is S0/is S-2804.81037394/' site2_211115_10000000277.asd.rad.txt
+sed -i 's/is S0/is S-2804.81175040/' site2_211115_10000000278.asd.rad.txt
+sed -i 's/is S0/is S-2804.81264788/' site2_211115_10000000279.asd.rad.txt
+sed -i 's/is S0/is S-2804.81396092/' site2_211115_10000000280.asd.rad.txt
+sed -i 's/is S0/is S-2804.81484634/' site2_211115_10000000281.asd.rad.txt
+sed -i 's/is S0/is S-2804.81628748/' site2_211115_10000000282.asd.rad.txt
+sed -i 's/is S0/is S-2804.81717470/' site2_211115_10000000283.asd.rad.txt
+sed -i 's/is S0/is S-2804.81853790/' site2_211115_10000000284.asd.rad.txt
+sed -i 's/is S0/is S-2804.81946820/' site2_211115_10000000285.asd.rad.txt
+sed -i 's/is S0/is S-2804.82085252/' site2_211115_10000000286.asd.rad.txt
+sed -i 's/is S0/is S-2804.82175438/' site2_211115_10000000287.asd.rad.txt
+sed -i 's/is S0/is S-2804.82310840/' site2_211115_10000000288.asd.rad.txt
+sed -i 's/is S0/is S-2804.82404740/' site2_211115_10000000289.asd.rad.txt
+sed -i 's/is S0/is S-2804.82546244/' site2_211115_10000000290.asd.rad.txt
+sed -i 's/is S0/is S-2804.82643120/' site2_211115_10000000291.asd.rad.txt
+sed -i 's/is S0/is S-2804.82791626/' site2_211115_10000000292.asd.rad.txt
+sed -i 's/is S0/is S-2804.82892060/' site2_211115_10000000293.asd.rad.txt
+sed -i 's/is S0/is S-2804.83046308/' site2_211115_10000000294.asd.rad.txt
+sed -i 's/is S0/is S-2804.83155724/' site2_211115_10000000295.asd.rad.txt
+sed -i 's/is S0/is S-2804.83316428/' site2_211115_10000000296.asd.rad.txt
+sed -i 's/is S0/is S-2804.83421926/' site2_211115_10000000297.asd.rad.txt
+sed -i 's/is S0/is S-2804.83577344/' site2_211115_10000000298.asd.rad.txt
+sed -i 's/is S0/is S-2804.83677226/' site2_211115_10000000299.asd.rad.txt
+sed -i 's/is S0/is S-2804.84410924/' site2_211115_10000000300.asd.rad.txt
+sed -i 's/is S0/is S-2804.84409340/' site2_211115_10000000301.asd.rad.txt
+sed -i 's/is S0/is S-2804.84408704/' site2_211115_10000000302.asd.rad.txt
+sed -i 's/is S0/is S-2804.84408386/' site2_211115_10000000303.asd.rad.txt
+sed -i 's/is S0/is S-2804.84407858/' site2_211115_10000000304.asd.rad.txt
+sed -i 's/is S0/is S-2804.84408434/' site2_211115_10000000305.asd.rad.txt
+sed -i 's/is S0/is S-2804.84407672/' site2_211115_10000000306.asd.rad.txt
+sed -i 's/is S0/is S-2804.84407810/' site2_211115_10000000307.asd.rad.txt
+sed -i 's/is S0/is S-2804.84406760/' site2_211115_10000000308.asd.rad.txt
+sed -i 's/is S0/is S-2804.84406454/' site2_211115_10000000309.asd.rad.txt
+sed -i 's/is S0/is S-2804.84331646/' site2_211115_10000000310.asd.rad.txt
+sed -i 's/is S0/is S-2804.84295238/' site2_211115_10000000311.asd.rad.txt
+sed -i 's/is S0/is S-2804.84174548/' site2_211115_10000000312.asd.rad.txt
+sed -i 's/is S0/is S-2804.84087164/' site2_211115_10000000313.asd.rad.txt
+sed -i 's/is S0/is S-2804.83953976/' site2_211115_10000000314.asd.rad.txt
+sed -i 's/is S0/is S-2804.83864834/' site2_211115_10000000315.asd.rad.txt
+sed -i 's/is S0/is S-2804.83726624/' site2_211115_10000000316.asd.rad.txt
+sed -i 's/is S0/is S-2804.83637332/' site2_211115_10000000317.asd.rad.txt
+sed -i 's/is S0/is S-2804.83505188/' site2_211115_10000000318.asd.rad.txt
+sed -i 's/is S0/is S-2804.83417474/' site2_211115_10000000319.asd.rad.txt
+sed -i 's/is S0/is S-2804.83283218/' site2_211115_10000000320.asd.rad.txt
+sed -i 's/is S0/is S-2804.83195264/' site2_211115_10000000321.asd.rad.txt
+sed -i 's/is S0/is S-2804.83068706/' site2_211115_10000000322.asd.rad.txt
+sed -i 's/is S0/is S-2804.82982768/' site2_211115_10000000323.asd.rad.txt
+sed -i 's/is S0/is S-2804.82847714/' site2_211115_10000000324.asd.rad.txt
+sed -i 's/is S0/is S-2804.82775156/' site2_211115_10000000325.asd.rad.txt
+sed -i 's/is S0/is S-2804.82639514/' site2_211115_10000000326.asd.rad.txt
+sed -i 's/is S0/is S-2804.82543202/' site2_211115_10000000327.asd.rad.txt
+sed -i 's/is S0/is S-2804.82401782/' site2_211115_10000000328.asd.rad.txt
+sed -i 's/is S0/is S-2804.82312256/' site2_211115_10000000329.asd.rad.txt
+sed -i 's/is S0/is S-2804.82178426/' site2_211115_10000000330.asd.rad.txt
+sed -i 's/is S0/is S-2804.82090316/' site2_211115_10000000331.asd.rad.txt
+sed -i 's/is S0/is S-2804.81957950/' site2_211115_10000000332.asd.rad.txt
+sed -i 's/is S0/is S-2804.81873728/' site2_211115_10000000333.asd.rad.txt
+sed -i 's/is S0/is S-2804.81751640/' site2_211115_10000000334.asd.rad.txt
+sed -i 's/is S0/is S-2804.81668858/' site2_211115_10000000335.asd.rad.txt
+sed -i 's/is S0/is S-2804.81538130/' site2_211115_10000000336.asd.rad.txt
+sed -i 's/is S0/is S-2804.81456404/' site2_211115_10000000337.asd.rad.txt
+sed -i 's/is S0/is S-2804.81340358/' site2_211115_10000000338.asd.rad.txt
+sed -i 's/is S0/is S-2804.81255212/' site2_211115_10000000339.asd.rad.txt
+sed -i 's/is S0/is S-2804.81125378/' site2_211115_10000000340.asd.rad.txt
+sed -i 's/is S0/is S-2804.81029726/' site2_211115_10000000341.asd.rad.txt
+sed -i 's/is S0/is S-2804.80882234/' site2_211115_10000000342.asd.rad.txt
+sed -i 's/is S0/is S-2804.80795120/' site2_211115_10000000343.asd.rad.txt
+sed -i 's/is S0/is S-2804.80657552/' site2_211115_10000000344.asd.rad.txt
+sed -i 's/is S0/is S-2804.80561240/' site2_211115_10000000345.asd.rad.txt
+sed -i 's/is S0/is S-2804.80464670/' site2_211115_10000000346.asd.rad.txt
+sed -i 's/is S0/is S-2804.80314772/' site2_211115_10000000347.asd.rad.txt
+sed -i 's/is S0/is S-2804.80219432/' site2_211115_10000000348.asd.rad.txt
+sed -i 's/is S0/is S-2804.80069366/' site2_211115_10000000349.asd.rad.txt
+sed -i 's/is S0/is S-2804.79917332/' site2_211115_10000000350.asd.rad.txt
+sed -i 's/is S0/is S-2804.79815128/' site2_211115_10000000351.asd.rad.txt
+sed -i 's/is S0/is S-2804.79720112/' site2_211115_10000000352.asd.rad.txt
+sed -i 's/is S0/is S-2804.79577234/' site2_211115_10000000353.asd.rad.txt
+sed -i 's/is S0/is S-2804.79484246/' site2_211115_10000000354.asd.rad.txt
+sed -i 's/is S0/is S-2804.79329818/' site2_211115_10000000355.asd.rad.txt
+sed -i 's/is S0/is S-2804.79225142/' site2_211115_10000000356.asd.rad.txt
+sed -i 's/is S0/is S-2804.79070192/' site2_211115_10000000357.asd.rad.txt
+sed -i 's/is S0/is S-2804.78967256/' site2_211115_10000000358.asd.rad.txt
+sed -i 's/is S0/is S-2804.78817616/' site2_211115_10000000359.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447102/' site2_211115_10000000000.asd.rad.txt
+sed -i 's/is E0/is E-14602.97446454/' site2_211115_10000000001.asd.rad.txt
+sed -i 's/is E0/is E-14602.97446814/' site2_211115_10000000002.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447450/' site2_211115_10000000003.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447648/' site2_211115_10000000004.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447468/' site2_211115_10000000005.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447306/' site2_211115_10000000006.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447462/' site2_211115_10000000007.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447492/' site2_211115_10000000008.asd.rad.txt
+sed -i 's/is E0/is E-14602.97447270/' site2_211115_10000000009.asd.rad.txt
+sed -i 's/is E0/is E-14602.97460938/' site2_211115_10000000010.asd.rad.txt
+sed -i 's/is E0/is E-14602.97454638/' site2_211115_10000000011.asd.rad.txt
+sed -i 's/is E0/is E-14602.97423216/' site2_211115_10000000012.asd.rad.txt
+sed -i 's/is E0/is E-14602.97403032/' site2_211115_10000000013.asd.rad.txt
+sed -i 's/is E0/is E-14602.97365664/' site2_211115_10000000014.asd.rad.txt
+sed -i 's/is E0/is E-14602.97345774/' site2_211115_10000000015.asd.rad.txt
+sed -i 's/is E0/is E-14602.97310542/' site2_211115_10000000016.asd.rad.txt
+sed -i 's/is E0/is E-14602.97283320/' site2_211115_10000000017.asd.rad.txt
+sed -i 's/is E0/is E-14602.97254982/' site2_211115_10000000018.asd.rad.txt
+sed -i 's/is E0/is E-14602.97229140/' site2_211115_10000000019.asd.rad.txt
+sed -i 's/is E0/is E-14602.97202872/' site2_211115_10000000020.asd.rad.txt
+sed -i 's/is E0/is E-14602.97170724/' site2_211115_10000000021.asd.rad.txt
+sed -i 's/is E0/is E-14602.97148602/' site2_211115_10000000022.asd.rad.txt
+sed -i 's/is E0/is E-14602.97108768/' site2_211115_10000000023.asd.rad.txt
+sed -i 's/is E0/is E-14602.97087420/' site2_211115_10000000024.asd.rad.txt
+sed -i 's/is E0/is E-14602.97044868/' site2_211115_10000000025.asd.rad.txt
+sed -i 's/is E0/is E-14602.97014508/' site2_211115_10000000026.asd.rad.txt
+sed -i 's/is E0/is E-14602.96958516/' site2_211115_10000000027.asd.rad.txt
+sed -i 's/is E0/is E-14602.96930412/' site2_211115_10000000028.asd.rad.txt
+sed -i 's/is E0/is E-14602.96890518/' site2_211115_10000000029.asd.rad.txt
+sed -i 's/is E0/is E-14602.96861718/' site2_211115_10000000030.asd.rad.txt
+sed -i 's/is E0/is E-14602.96814762/' site2_211115_10000000031.asd.rad.txt
+sed -i 's/is E0/is E-14602.96769066/' site2_211115_10000000032.asd.rad.txt
+sed -i 's/is E0/is E-14602.96751252/' site2_211115_10000000033.asd.rad.txt
+sed -i 's/is E0/is E-14602.96721480/' site2_211115_10000000034.asd.rad.txt
+sed -i 's/is E0/is E-14602.96699028/' site2_211115_10000000035.asd.rad.txt
+sed -i 's/is E0/is E-14602.96662236/' site2_211115_10000000036.asd.rad.txt
+sed -i 's/is E0/is E-14602.96623980/' site2_211115_10000000037.asd.rad.txt
+sed -i 's/is E0/is E-14602.96574414/' site2_211115_10000000038.asd.rad.txt
+sed -i 's/is E0/is E-14602.96550084/' site2_211115_10000000039.asd.rad.txt
+sed -i 's/is E0/is E-14602.96509752/' site2_211115_10000000040.asd.rad.txt
+sed -i 's/is E0/is E-14602.96464860/' site2_211115_10000000041.asd.rad.txt
+sed -i 's/is E0/is E-14602.96431500/' site2_211115_10000000042.asd.rad.txt
+sed -i 's/is E0/is E-14602.96371224/' site2_211115_10000000043.asd.rad.txt
+sed -i 's/is E0/is E-14602.96327994/' site2_211115_10000000044.asd.rad.txt
+sed -i 's/is E0/is E-14602.96274606/' site2_211115_10000000045.asd.rad.txt
+sed -i 's/is E0/is E-14602.96214102/' site2_211115_10000000046.asd.rad.txt
+sed -i 's/is E0/is E-14602.96173626/' site2_211115_10000000047.asd.rad.txt
+sed -i 's/is E0/is E-14602.96125950/' site2_211115_10000000048.asd.rad.txt
+sed -i 's/is E0/is E-14602.96088042/' site2_211115_10000000049.asd.rad.txt
+sed -i 's/is E0/is E-14602.96034660/' site2_211115_10000000050.asd.rad.txt
+sed -i 's/is E0/is E-14602.96001912/' site2_211115_10000000051.asd.rad.txt
+sed -i 's/is E0/is E-14602.95953150/' site2_211115_10000000052.asd.rad.txt
+sed -i 's/is E0/is E-14602.95910472/' site2_211115_10000000053.asd.rad.txt
+sed -i 's/is E0/is E-14602.95854954/' site2_211115_10000000054.asd.rad.txt
+sed -i 's/is E0/is E-14602.95809636/' site2_211115_10000000055.asd.rad.txt
+sed -i 's/is E0/is E-14602.95715418/' site2_211115_10000000056.asd.rad.txt
+sed -i 's/is E0/is E-14602.95662984/' site2_211115_10000000057.asd.rad.txt
+sed -i 's/is E0/is E-14602.95644600/' site2_211115_10000000058.asd.rad.txt
+sed -i 's/is E0/is E-14602.95621080/' site2_211115_10000000059.asd.rad.txt
+sed -i 's/is E0/is E-14602.96758278/' site2_211115_10000000060.asd.rad.txt
+sed -i 's/is E0/is E-14602.96759010/' site2_211115_10000000061.asd.rad.txt
+sed -i 's/is E0/is E-14602.96759766/' site2_211115_10000000062.asd.rad.txt
+sed -i 's/is E0/is E-14602.96758872/' site2_211115_10000000063.asd.rad.txt
+sed -i 's/is E0/is E-14602.96759670/' site2_211115_10000000064.asd.rad.txt
+sed -i 's/is E0/is E-14602.96759832/' site2_211115_10000000065.asd.rad.txt
+sed -i 's/is E0/is E-14602.96759514/' site2_211115_10000000066.asd.rad.txt
+sed -i 's/is E0/is E-14602.96759808/' site2_211115_10000000067.asd.rad.txt
+sed -i 's/is E0/is E-14602.96760240/' site2_211115_10000000068.asd.rad.txt
+sed -i 's/is E0/is E-14602.96758734/' site2_211115_10000000069.asd.rad.txt
+sed -i 's/is E0/is E-14602.96679888/' site2_211115_10000000070.asd.rad.txt
+sed -i 's/is E0/is E-14602.96691840/' site2_211115_10000000071.asd.rad.txt
+sed -i 's/is E0/is E-14602.96719398/' site2_211115_10000000072.asd.rad.txt
+sed -i 's/is E0/is E-14602.96768688/' site2_211115_10000000073.asd.rad.txt
+sed -i 's/is E0/is E-14602.96797584/' site2_211115_10000000074.asd.rad.txt
+sed -i 's/is E0/is E-14602.96852934/' site2_211115_10000000075.asd.rad.txt
+sed -i 's/is E0/is E-14602.96898768/' site2_211115_10000000076.asd.rad.txt
+sed -i 's/is E0/is E-14602.96929836/' site2_211115_10000000077.asd.rad.txt
+sed -i 's/is E0/is E-14602.96971326/' site2_211115_10000000078.asd.rad.txt
+sed -i 's/is E0/is E-14602.97003960/' site2_211115_10000000079.asd.rad.txt
+sed -i 's/is E0/is E-14602.97047442/' site2_211115_10000000080.asd.rad.txt
+sed -i 's/is E0/is E-14602.97074220/' site2_211115_10000000081.asd.rad.txt
+sed -i 's/is E0/is E-14602.97122220/' site2_211115_10000000082.asd.rad.txt
+sed -i 's/is E0/is E-14602.97150090/' site2_211115_10000000083.asd.rad.txt
+sed -i 's/is E0/is E-14602.97199380/' site2_211115_10000000084.asd.rad.txt
+sed -i 's/is E0/is E-14602.97229872/' site2_211115_10000000085.asd.rad.txt
+sed -i 's/is E0/is E-14602.97279642/' site2_211115_10000000086.asd.rad.txt
+sed -i 's/is E0/is E-14602.97319596/' site2_211115_10000000087.asd.rad.txt
+sed -i 's/is E0/is E-14602.97358122/' site2_211115_10000000088.asd.rad.txt
+sed -i 's/is E0/is E-14602.97394596/' site2_211115_10000000089.asd.rad.txt
+sed -i 's/is E0/is E-14602.97417486/' site2_211115_10000000090.asd.rad.txt
+sed -i 's/is E0/is E-14602.97433398/' site2_211115_10000000091.asd.rad.txt
+sed -i 's/is E0/is E-14602.97453444/' site2_211115_10000000092.asd.rad.txt
+sed -i 's/is E0/is E-14602.97498372/' site2_211115_10000000093.asd.rad.txt
+sed -i 's/is E0/is E-14602.97535824/' site2_211115_10000000094.asd.rad.txt
+sed -i 's/is E0/is E-14602.97573174/' site2_211115_10000000095.asd.rad.txt
+sed -i 's/is E0/is E-14602.97594528/' site2_211115_10000000096.asd.rad.txt
+sed -i 's/is E0/is E-14602.97639786/' site2_211115_10000000097.asd.rad.txt
+sed -i 's/is E0/is E-14602.97668202/' site2_211115_10000000098.asd.rad.txt
+sed -i 's/is E0/is E-14602.97713838/' site2_211115_10000000099.asd.rad.txt
+sed -i 's/is E0/is E-14602.97744252/' site2_211115_10000000100.asd.rad.txt
+sed -i 's/is E0/is E-14602.97787752/' site2_211115_10000000101.asd.rad.txt
+sed -i 's/is E0/is E-14602.97833550/' site2_211115_10000000102.asd.rad.txt
+sed -i 's/is E0/is E-14602.97859590/' site2_211115_10000000103.asd.rad.txt
+sed -i 's/is E0/is E-14602.97901038/' site2_211115_10000000104.asd.rad.txt
+sed -i 's/is E0/is E-14602.97924462/' site2_211115_10000000105.asd.rad.txt
+sed -i 's/is E0/is E-14602.97954444/' site2_211115_10000000106.asd.rad.txt
+sed -i 's/is E0/is E-14602.97983898/' site2_211115_10000000107.asd.rad.txt
+sed -i 's/is E0/is E-14602.98014510/' site2_211115_10000000108.asd.rad.txt
+sed -i 's/is E0/is E-14602.98033758/' site2_211115_10000000109.asd.rad.txt
+sed -i 's/is E0/is E-14602.98078710/' site2_211115_10000000110.asd.rad.txt
+sed -i 's/is E0/is E-14602.98113066/' site2_211115_10000000111.asd.rad.txt
+sed -i 's/is E0/is E-14602.98171536/' site2_211115_10000000112.asd.rad.txt
+sed -i 's/is E0/is E-14602.98205484/' site2_211115_10000000113.asd.rad.txt
+sed -i 's/is E0/is E-14602.98264542/' site2_211115_10000000114.asd.rad.txt
+sed -i 's/is E0/is E-14602.98321686/' site2_211115_10000000115.asd.rad.txt
+sed -i 's/is E0/is E-14602.98365114/' site2_211115_10000000116.asd.rad.txt
+sed -i 's/is E0/is E-14602.98430802/' site2_211115_10000000117.asd.rad.txt
+sed -i 's/is E0/is E-14602.98476318/' site2_211115_10000000118.asd.rad.txt
+sed -i 's/is E0/is E-14602.98518486/' site2_211115_10000000119.asd.rad.txt
+sed -i 's/is E0/is E-14602.99766300/' site2_211115_10000000120.asd.rad.txt
+sed -i 's/is E0/is E-14602.99771634/' site2_211115_10000000121.asd.rad.txt
+sed -i 's/is E0/is E-14602.99773356/' site2_211115_10000000122.asd.rad.txt
+sed -i 's/is E0/is E-14602.99772576/' site2_211115_10000000123.asd.rad.txt
+sed -i 's/is E0/is E-14602.99772192/' site2_211115_10000000124.asd.rad.txt
+sed -i 's/is E0/is E-14602.99771136/' site2_211115_10000000125.asd.rad.txt
+sed -i 's/is E0/is E-14602.99771982/' site2_211115_10000000126.asd.rad.txt
+sed -i 's/is E0/is E-14602.99773242/' site2_211115_10000000127.asd.rad.txt
+sed -i 's/is E0/is E-14602.99771886/' site2_211115_10000000128.asd.rad.txt
+sed -i 's/is E0/is E-14602.99771856/' site2_211115_10000000129.asd.rad.txt
+sed -i 's/is E0/is E-14602.99884452/' site2_211115_10000000130.asd.rad.txt
+sed -i 's/is E0/is E-14602.99872494/' site2_211115_10000000131.asd.rad.txt
+sed -i 's/is E0/is E-14602.99849424/' site2_211115_10000000132.asd.rad.txt
+sed -i 's/is E0/is E-14602.99802882/' site2_211115_10000000133.asd.rad.txt
+sed -i 's/is E0/is E-14602.99753112/' site2_211115_10000000134.asd.rad.txt
+sed -i 's/is E0/is E-14602.99722326/' site2_211115_10000000135.asd.rad.txt
+sed -i 's/is E0/is E-14602.99676348/' site2_211115_10000000136.asd.rad.txt
+sed -i 's/is E0/is E-14602.99644800/' site2_211115_10000000137.asd.rad.txt
+sed -i 's/is E0/is E-14602.99590422/' site2_211115_10000000138.asd.rad.txt
+sed -i 's/is E0/is E-14602.99560530/' site2_211115_10000000139.asd.rad.txt
+sed -i 's/is E0/is E-14602.99517528/' site2_211115_10000000140.asd.rad.txt
+sed -i 's/is E0/is E-14602.99489400/' site2_211115_10000000141.asd.rad.txt
+sed -i 's/is E0/is E-14602.99433810/' site2_211115_10000000142.asd.rad.txt
+sed -i 's/is E0/is E-14602.99398506/' site2_211115_10000000143.asd.rad.txt
+sed -i 's/is E0/is E-14602.99349582/' site2_211115_10000000144.asd.rad.txt
+sed -i 's/is E0/is E-14602.99314422/' site2_211115_10000000145.asd.rad.txt
+sed -i 's/is E0/is E-14602.99264142/' site2_211115_10000000146.asd.rad.txt
+sed -i 's/is E0/is E-14602.99238438/' site2_211115_10000000147.asd.rad.txt
+sed -i 's/is E0/is E-14602.99214204/' site2_211115_10000000148.asd.rad.txt
+sed -i 's/is E0/is E-14602.99169744/' site2_211115_10000000149.asd.rad.txt
+sed -i 's/is E0/is E-14602.99139888/' site2_211115_10000000150.asd.rad.txt
+sed -i 's/is E0/is E-14602.99098494/' site2_211115_10000000151.asd.rad.txt
+sed -i 's/is E0/is E-14602.99071536/' site2_211115_10000000152.asd.rad.txt
+sed -i 's/is E0/is E-14602.99030598/' site2_211115_10000000153.asd.rad.txt
+sed -i 's/is E0/is E-14602.98998846/' site2_211115_10000000154.asd.rad.txt
+sed -i 's/is E0/is E-14602.98953288/' site2_211115_10000000155.asd.rad.txt
+sed -i 's/is E0/is E-14602.98906488/' site2_211115_10000000156.asd.rad.txt
+sed -i 's/is E0/is E-14602.98873626/' site2_211115_10000000157.asd.rad.txt
+sed -i 's/is E0/is E-14602.98821786/' site2_211115_10000000158.asd.rad.txt
+sed -i 's/is E0/is E-14602.98789278/' site2_211115_10000000159.asd.rad.txt
+sed -i 's/is E0/is E-14602.98745190/' site2_211115_10000000160.asd.rad.txt
+sed -i 's/is E0/is E-14602.98699038/' site2_211115_10000000161.asd.rad.txt
+sed -i 's/is E0/is E-14602.98664100/' site2_211115_10000000162.asd.rad.txt
+sed -i 's/is E0/is E-14602.98615224/' site2_211115_10000000163.asd.rad.txt
+sed -i 's/is E0/is E-14602.98584324/' site2_211115_10000000164.asd.rad.txt
+sed -i 's/is E0/is E-14602.98536132/' site2_211115_10000000165.asd.rad.txt
+sed -i 's/is E0/is E-14602.98501026/' site2_211115_10000000166.asd.rad.txt
+sed -i 's/is E0/is E-14602.98462224/' site2_211115_10000000167.asd.rad.txt
+sed -i 's/is E0/is E-14602.98413948/' site2_211115_10000000168.asd.rad.txt
+sed -i 's/is E0/is E-14602.98381680/' site2_211115_10000000169.asd.rad.txt
+sed -i 's/is E0/is E-14602.98339590/' site2_211115_10000000170.asd.rad.txt
+sed -i 's/is E0/is E-14602.98305540/' site2_211115_10000000171.asd.rad.txt
+sed -i 's/is E0/is E-14602.98253058/' site2_211115_10000000172.asd.rad.txt
+sed -i 's/is E0/is E-14602.98210818/' site2_211115_10000000173.asd.rad.txt
+sed -i 's/is E0/is E-14602.98163268/' site2_211115_10000000174.asd.rad.txt
+sed -i 's/is E0/is E-14602.98123536/' site2_211115_10000000175.asd.rad.txt
+sed -i 's/is E0/is E-14602.98084518/' site2_211115_10000000176.asd.rad.txt
+sed -i 's/is E0/is E-14602.98028106/' site2_211115_10000000177.asd.rad.txt
+sed -i 's/is E0/is E-14602.97995130/' site2_211115_10000000178.asd.rad.txt
+sed -i 's/is E0/is E-14602.97945000/' site2_211115_10000000179.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932066/' site2_211115_10000000180.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932216/' site2_211115_10000000181.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932258/' site2_211115_10000000182.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932120/' site2_211115_10000000183.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932492/' site2_211115_10000000184.asd.rad.txt
+sed -i 's/is E0/is E-14602.98933530/' site2_211115_10000000185.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932264/' site2_211115_10000000186.asd.rad.txt
+sed -i 's/is E0/is E-14602.98932642/' site2_211115_10000000187.asd.rad.txt
+sed -i 's/is E0/is E-14602.98933020/' site2_211115_10000000188.asd.rad.txt
+sed -i 's/is E0/is E-14602.98933974/' site2_211115_10000000189.asd.rad.txt
+sed -i 's/is E0/is E-14602.98935702/' site2_211115_10000000190.asd.rad.txt
+sed -i 's/is E0/is E-14602.98955166/' site2_211115_10000000191.asd.rad.txt
+sed -i 's/is E0/is E-14602.98980210/' site2_211115_10000000192.asd.rad.txt
+sed -i 's/is E0/is E-14602.99029428/' site2_211115_10000000193.asd.rad.txt
+sed -i 's/is E0/is E-14602.99061720/' site2_211115_10000000194.asd.rad.txt
+sed -i 's/is E0/is E-14602.99112798/' site2_211115_10000000195.asd.rad.txt
+sed -i 's/is E0/is E-14602.99144142/' site2_211115_10000000196.asd.rad.txt
+sed -i 's/is E0/is E-14602.99198376/' site2_211115_10000000197.asd.rad.txt
+sed -i 's/is E0/is E-14602.99245788/' site2_211115_10000000198.asd.rad.txt
+sed -i 's/is E0/is E-14602.99270070/' site2_211115_10000000199.asd.rad.txt
+sed -i 's/is E0/is E-14602.99316846/' site2_211115_10000000200.asd.rad.txt
+sed -i 's/is E0/is E-14602.99351130/' site2_211115_10000000201.asd.rad.txt
+sed -i 's/is E0/is E-14602.99401008/' site2_211115_10000000202.asd.rad.txt
+sed -i 's/is E0/is E-14602.99435082/' site2_211115_10000000203.asd.rad.txt
+sed -i 's/is E0/is E-14602.99480208/' site2_211115_10000000204.asd.rad.txt
+sed -i 's/is E0/is E-14602.99508912/' site2_211115_10000000205.asd.rad.txt
+sed -i 's/is E0/is E-14602.99555466/' site2_211115_10000000206.asd.rad.txt
+sed -i 's/is E0/is E-14602.99589108/' site2_211115_10000000207.asd.rad.txt
+sed -i 's/is E0/is E-14602.99633274/' site2_211115_10000000208.asd.rad.txt
+sed -i 's/is E0/is E-14602.99660988/' site2_211115_10000000209.asd.rad.txt
+sed -i 's/is E0/is E-14602.99698998/' site2_211115_10000000210.asd.rad.txt
+sed -i 's/is E0/is E-14602.99725794/' site2_211115_10000000211.asd.rad.txt
+sed -i 's/is E0/is E-14602.99767698/' site2_211115_10000000212.asd.rad.txt
+sed -i 's/is E0/is E-14602.99802312/' site2_211115_10000000213.asd.rad.txt
+sed -i 's/is E0/is E-14602.99846280/' site2_211115_10000000214.asd.rad.txt
+sed -i 's/is E0/is E-14602.99873880/' site2_211115_10000000215.asd.rad.txt
+sed -i 's/is E0/is E-14602.99917848/' site2_211115_10000000216.asd.rad.txt
+sed -i 's/is E0/is E-14602.99944950/' site2_211115_10000000217.asd.rad.txt
+sed -i 's/is E0/is E-14602.99990526/' site2_211115_10000000218.asd.rad.txt
+sed -i 's/is E0/is E-14603.00017088/' site2_211115_10000000219.asd.rad.txt
+sed -i 's/is E0/is E-14603.00067908/' site2_211115_10000000220.asd.rad.txt
+sed -i 's/is E0/is E-14603.00099714/' site2_211115_10000000221.asd.rad.txt
+sed -i 's/is E0/is E-14603.00146694/' site2_211115_10000000222.asd.rad.txt
+sed -i 's/is E0/is E-14603.00181182/' site2_211115_10000000223.asd.rad.txt
+sed -i 's/is E0/is E-14603.00226284/' site2_211115_10000000224.asd.rad.txt
+sed -i 's/is E0/is E-14603.00259314/' site2_211115_10000000225.asd.rad.txt
+sed -i 's/is E0/is E-14603.00306336/' site2_211115_10000000226.asd.rad.txt
+sed -i 's/is E0/is E-14603.00341778/' site2_211115_10000000227.asd.rad.txt
+sed -i 's/is E0/is E-14603.00383718/' site2_211115_10000000228.asd.rad.txt
+sed -i 's/is E0/is E-14603.00414414/' site2_211115_10000000229.asd.rad.txt
+sed -i 's/is E0/is E-14603.00450234/' site2_211115_10000000230.asd.rad.txt
+sed -i 's/is E0/is E-14603.00498552/' site2_211115_10000000231.asd.rad.txt
+sed -i 's/is E0/is E-14603.00553368/' site2_211115_10000000232.asd.rad.txt
+sed -i 's/is E0/is E-14603.00589092/' site2_211115_10000000233.asd.rad.txt
+sed -i 's/is E0/is E-14603.00627582/' site2_211115_10000000234.asd.rad.txt
+sed -i 's/is E0/is E-14603.00683328/' site2_211115_10000000235.asd.rad.txt
+sed -i 's/is E0/is E-14603.00717270/' site2_211115_10000000236.asd.rad.txt
+sed -i 's/is E0/is E-14603.00767220/' site2_211115_10000000237.asd.rad.txt
+sed -i 's/is E0/is E-14603.00809142/' site2_211115_10000000238.asd.rad.txt
+sed -i 's/is E0/is E-14603.00865128/' site2_211115_10000000239.asd.rad.txt
+sed -i 's/is E0/is E-14603.02175162/' site2_211115_10000000240.asd.rad.txt
+sed -i 's/is E0/is E-14603.02175804/' site2_211115_10000000241.asd.rad.txt
+sed -i 's/is E0/is E-14603.02176314/' site2_211115_10000000242.asd.rad.txt
+sed -i 's/is E0/is E-14603.02176086/' site2_211115_10000000243.asd.rad.txt
+sed -i 's/is E0/is E-14603.02176182/' site2_211115_10000000244.asd.rad.txt
+sed -i 's/is E0/is E-14603.02176410/' site2_211115_10000000245.asd.rad.txt
+sed -i 's/is E0/is E-14603.02176662/' site2_211115_10000000246.asd.rad.txt
+sed -i 's/is E0/is E-14603.02175312/' site2_211115_10000000247.asd.rad.txt
+sed -i 's/is E0/is E-14603.02175498/' site2_211115_10000000248.asd.rad.txt
+sed -i 's/is E0/is E-14603.02175846/' site2_211115_10000000249.asd.rad.txt
+sed -i 's/is E0/is E-14603.02240358/' site2_211115_10000000250.asd.rad.txt
+sed -i 's/is E0/is E-14603.02223894/' site2_211115_10000000251.asd.rad.txt
+sed -i 's/is E0/is E-14603.02198160/' site2_211115_10000000252.asd.rad.txt
+sed -i 's/is E0/is E-14603.02142582/' site2_211115_10000000253.asd.rad.txt
+sed -i 's/is E0/is E-14603.02106456/' site2_211115_10000000254.asd.rad.txt
+sed -i 's/is E0/is E-14603.02056026/' site2_211115_10000000255.asd.rad.txt
+sed -i 's/is E0/is E-14603.02031210/' site2_211115_10000000256.asd.rad.txt
+sed -i 's/is E0/is E-14603.01987644/' site2_211115_10000000257.asd.rad.txt
+sed -i 's/is E0/is E-14603.01956762/' site2_211115_10000000258.asd.rad.txt
+sed -i 's/is E0/is E-14603.01925586/' site2_211115_10000000259.asd.rad.txt
+sed -i 's/is E0/is E-14603.01885038/' site2_211115_10000000260.asd.rad.txt
+sed -i 's/is E0/is E-14603.01861470/' site2_211115_10000000261.asd.rad.txt
+sed -i 's/is E0/is E-14603.01818204/' site2_211115_10000000262.asd.rad.txt
+sed -i 's/is E0/is E-14603.01791564/' site2_211115_10000000263.asd.rad.txt
+sed -i 's/is E0/is E-14603.01748562/' site2_211115_10000000264.asd.rad.txt
+sed -i 's/is E0/is E-14603.01718646/' site2_211115_10000000265.asd.rad.txt
+sed -i 's/is E0/is E-14603.01667634/' site2_211115_10000000266.asd.rad.txt
+sed -i 's/is E0/is E-14603.01638990/' site2_211115_10000000267.asd.rad.txt
+sed -i 's/is E0/is E-14603.01596570/' site2_211115_10000000268.asd.rad.txt
+sed -i 's/is E0/is E-14603.01564164/' site2_211115_10000000269.asd.rad.txt
+sed -i 's/is E0/is E-14603.01518972/' site2_211115_10000000270.asd.rad.txt
+sed -i 's/is E0/is E-14603.01482594/' site2_211115_10000000271.asd.rad.txt
+sed -i 's/is E0/is E-14603.01436490/' site2_211115_10000000272.asd.rad.txt
+sed -i 's/is E0/is E-14603.01410618/' site2_211115_10000000273.asd.rad.txt
+sed -i 's/is E0/is E-14603.01364652/' site2_211115_10000000274.asd.rad.txt
+sed -i 's/is E0/is E-14603.01330044/' site2_211115_10000000275.asd.rad.txt
+sed -i 's/is E0/is E-14603.01285602/' site2_211115_10000000276.asd.rad.txt
+sed -i 's/is E0/is E-14603.01248594/' site2_211115_10000000277.asd.rad.txt
+sed -i 's/is E0/is E-14603.01196466/' site2_211115_10000000278.asd.rad.txt
+sed -i 's/is E0/is E-14603.01166394/' site2_211115_10000000279.asd.rad.txt
+sed -i 's/is E0/is E-14603.01113870/' site2_211115_10000000280.asd.rad.txt
+sed -i 's/is E0/is E-14603.01085412/' site2_211115_10000000281.asd.rad.txt
+sed -i 's/is E0/is E-14603.01039764/' site2_211115_10000000282.asd.rad.txt
+sed -i 's/is E0/is E-14603.01006128/' site2_211115_10000000283.asd.rad.txt
+sed -i 's/is E0/is E-14603.00954348/' site2_211115_10000000284.asd.rad.txt
+sed -i 's/is E0/is E-14603.00922752/' site2_211115_10000000285.asd.rad.txt
+sed -i 's/is E0/is E-14603.00872646/' site2_211115_10000000286.asd.rad.txt
+sed -i 's/is E0/is E-14603.00843684/' site2_211115_10000000287.asd.rad.txt
+sed -i 's/is E0/is E-14603.00790140/' site2_211115_10000000288.asd.rad.txt
+sed -i 's/is E0/is E-14603.00756066/' site2_211115_10000000289.asd.rad.txt
+sed -i 's/is E0/is E-14603.00700248/' site2_211115_10000000290.asd.rad.txt
+sed -i 's/is E0/is E-14603.00669474/' site2_211115_10000000291.asd.rad.txt
+sed -i 's/is E0/is E-14603.00607464/' site2_211115_10000000292.asd.rad.txt
+sed -i 's/is E0/is E-14603.00568290/' site2_211115_10000000293.asd.rad.txt
+sed -i 's/is E0/is E-14603.00508944/' site2_211115_10000000294.asd.rad.txt
+sed -i 's/is E0/is E-14603.00473106/' site2_211115_10000000295.asd.rad.txt
+sed -i 's/is E0/is E-14603.00407430/' site2_211115_10000000296.asd.rad.txt
+sed -i 's/is E0/is E-14603.00362346/' site2_211115_10000000297.asd.rad.txt
+sed -i 's/is E0/is E-14603.00304812/' site2_211115_10000000298.asd.rad.txt
+sed -i 's/is E0/is E-14603.00260010/' site2_211115_10000000299.asd.rad.txt
+sed -i 's/is E0/is E-14603.01087056/' site2_211115_10000000300.asd.rad.txt
+sed -i 's/is E0/is E-14603.01086900/' site2_211115_10000000301.asd.rad.txt
+sed -i 's/is E0/is E-14603.01087410/' site2_211115_10000000302.asd.rad.txt
+sed -i 's/is E0/is E-14603.01088022/' site2_211115_10000000303.asd.rad.txt
+sed -i 's/is E0/is E-14603.01088088/' site2_211115_10000000304.asd.rad.txt
+sed -i 's/is E0/is E-14603.01087860/' site2_211115_10000000305.asd.rad.txt
+sed -i 's/is E0/is E-14603.01088568/' site2_211115_10000000306.asd.rad.txt
+sed -i 's/is E0/is E-14603.01087728/' site2_211115_10000000307.asd.rad.txt
+sed -i 's/is E0/is E-14603.01088448/' site2_211115_10000000308.asd.rad.txt
+sed -i 's/is E0/is E-14603.01088964/' site2_211115_10000000309.asd.rad.txt
+sed -i 's/is E0/is E-14603.01248462/' site2_211115_10000000310.asd.rad.txt
+sed -i 's/is E0/is E-14603.01256160/' site2_211115_10000000311.asd.rad.txt
+sed -i 's/is E0/is E-14603.01303662/' site2_211115_10000000312.asd.rad.txt
+sed -i 's/is E0/is E-14603.01334964/' site2_211115_10000000313.asd.rad.txt
+sed -i 's/is E0/is E-14603.01378176/' site2_211115_10000000314.asd.rad.txt
+sed -i 's/is E0/is E-14603.01404366/' site2_211115_10000000315.asd.rad.txt
+sed -i 's/is E0/is E-14603.01450008/' site2_211115_10000000316.asd.rad.txt
+sed -i 's/is E0/is E-14603.01486008/' site2_211115_10000000317.asd.rad.txt
+sed -i 's/is E0/is E-14603.01535916/' site2_211115_10000000318.asd.rad.txt
+sed -i 's/is E0/is E-14603.01567764/' site2_211115_10000000319.asd.rad.txt
+sed -i 's/is E0/is E-14603.01611570/' site2_211115_10000000320.asd.rad.txt
+sed -i 's/is E0/is E-14603.01635300/' site2_211115_10000000321.asd.rad.txt
+sed -i 's/is E0/is E-14603.01681380/' site2_211115_10000000322.asd.rad.txt
+sed -i 's/is E0/is E-14603.01719666/' site2_211115_10000000323.asd.rad.txt
+sed -i 's/is E0/is E-14603.01759998/' site2_211115_10000000324.asd.rad.txt
+sed -i 's/is E0/is E-14603.01787352/' site2_211115_10000000325.asd.rad.txt
+sed -i 's/is E0/is E-14603.01831146/' site2_211115_10000000326.asd.rad.txt
+sed -i 's/is E0/is E-14603.01861326/' site2_211115_10000000327.asd.rad.txt
+sed -i 's/is E0/is E-14603.01906980/' site2_211115_10000000328.asd.rad.txt
+sed -i 's/is E0/is E-14603.01942824/' site2_211115_10000000329.asd.rad.txt
+sed -i 's/is E0/is E-14603.01991754/' site2_211115_10000000330.asd.rad.txt
+sed -i 's/is E0/is E-14603.02017572/' site2_211115_10000000331.asd.rad.txt
+sed -i 's/is E0/is E-14603.02056944/' site2_211115_10000000332.asd.rad.txt
+sed -i 's/is E0/is E-14603.02083236/' site2_211115_10000000333.asd.rad.txt
+sed -i 's/is E0/is E-14603.02126568/' site2_211115_10000000334.asd.rad.txt
+sed -i 's/is E0/is E-14603.02160048/' site2_211115_10000000335.asd.rad.txt
+sed -i 's/is E0/is E-14603.02200404/' site2_211115_10000000336.asd.rad.txt
+sed -i 's/is E0/is E-14603.02230098/' site2_211115_10000000337.asd.rad.txt
+sed -i 's/is E0/is E-14603.02270226/' site2_211115_10000000338.asd.rad.txt
+sed -i 's/is E0/is E-14603.02298318/' site2_211115_10000000339.asd.rad.txt
+sed -i 's/is E0/is E-14603.02344758/' site2_211115_10000000340.asd.rad.txt
+sed -i 's/is E0/is E-14603.02377668/' site2_211115_10000000341.asd.rad.txt
+sed -i 's/is E0/is E-14603.02423556/' site2_211115_10000000342.asd.rad.txt
+sed -i 's/is E0/is E-14603.02455320/' site2_211115_10000000343.asd.rad.txt
+sed -i 's/is E0/is E-14603.02507760/' site2_211115_10000000344.asd.rad.txt
+sed -i 's/is E0/is E-14603.02547066/' site2_211115_10000000345.asd.rad.txt
+sed -i 's/is E0/is E-14603.02587770/' site2_211115_10000000346.asd.rad.txt
+sed -i 's/is E0/is E-14603.02637270/' site2_211115_10000000347.asd.rad.txt
+sed -i 's/is E0/is E-14603.02675742/' site2_211115_10000000348.asd.rad.txt
+sed -i 's/is E0/is E-14603.02728074/' site2_211115_10000000349.asd.rad.txt
+sed -i 's/is E0/is E-14603.02784864/' site2_211115_10000000350.asd.rad.txt
+sed -i 's/is E0/is E-14603.02810790/' site2_211115_10000000351.asd.rad.txt
+sed -i 's/is E0/is E-14603.02838366/' site2_211115_10000000352.asd.rad.txt
+sed -i 's/is E0/is E-14603.02897670/' site2_211115_10000000353.asd.rad.txt
+sed -i 's/is E0/is E-14603.02936646/' site2_211115_10000000354.asd.rad.txt
+sed -i 's/is E0/is E-14603.02989002/' site2_211115_10000000355.asd.rad.txt
+sed -i 's/is E0/is E-14603.03033768/' site2_211115_10000000356.asd.rad.txt
+sed -i 's/is E0/is E-14603.03091860/' site2_211115_10000000357.asd.rad.txt
+sed -i 's/is E0/is E-14603.03133290/' site2_211115_10000000358.asd.rad.txt
+sed -i 's/is E0/is E-14603.03190470/' site2_211115_10000000359.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:32.000/' site2_211115_10000000000.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:35.000/' site2_211115_10000000001.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:37.000/' site2_211115_10000000002.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:40.000/' site2_211115_10000000003.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:42.000/' site2_211115_10000000004.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:45.000/' site2_211115_10000000005.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:47.000/' site2_211115_10000000006.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:50.000/' site2_211115_10000000007.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:52.000/' site2_211115_10000000008.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:58:55.000/' site2_211115_10000000009.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:07.000/' site2_211115_10000000010.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:10.000/' site2_211115_10000000011.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:13.000/' site2_211115_10000000012.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:15.000/' site2_211115_10000000013.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:18.000/' site2_211115_10000000014.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:20.000/' site2_211115_10000000015.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:23.000/' site2_211115_10000000016.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:25.000/' site2_211115_10000000017.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:28.000/' site2_211115_10000000018.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:30.000/' site2_211115_10000000019.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:33.000/' site2_211115_10000000020.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:35.000/' site2_211115_10000000021.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:37.000/' site2_211115_10000000022.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:40.000/' site2_211115_10000000023.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:42.000/' site2_211115_10000000024.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:45.000/' site2_211115_10000000025.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:47.000/' site2_211115_10000000026.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:50.000/' site2_211115_10000000027.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:52.000/' site2_211115_10000000028.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:55.000/' site2_211115_10000000029.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/23:59:57.000/' site2_211115_10000000030.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:00.000/' site2_211115_10000000031.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:03.000/' site2_211115_10000000032.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:05.000/' site2_211115_10000000033.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:08.000/' site2_211115_10000000034.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:10.000/' site2_211115_10000000035.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:13.000/' site2_211115_10000000036.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:15.000/' site2_211115_10000000037.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:18.000/' site2_211115_10000000038.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:20.000/' site2_211115_10000000039.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:23.000/' site2_211115_10000000040.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:26.000/' site2_211115_10000000041.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:28.000/' site2_211115_10000000042.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:31.000/' site2_211115_10000000043.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:33.000/' site2_211115_10000000044.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:36.000/' site2_211115_10000000045.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:39.000/' site2_211115_10000000046.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:41.000/' site2_211115_10000000047.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:44.000/' site2_211115_10000000048.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:46.000/' site2_211115_10000000049.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:49.000/' site2_211115_10000000050.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:51.000/' site2_211115_10000000051.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:54.000/' site2_211115_10000000052.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:56.000/' site2_211115_10000000053.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:00:59.000/' site2_211115_10000000054.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:01:01.000/' site2_211115_10000000055.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:01:04.000/' site2_211115_10000000056.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:01:06.000/' site2_211115_10000000057.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:01:08.000/' site2_211115_10000000058.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:01:11.000/' site2_211115_10000000059.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:02:45.000/' site2_211115_10000000060.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:02:47.000/' site2_211115_10000000061.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:02:50.000/' site2_211115_10000000062.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:02:52.000/' site2_211115_10000000063.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:02:55.000/' site2_211115_10000000064.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:02:57.000/' site2_211115_10000000065.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:00.000/' site2_211115_10000000066.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:02.000/' site2_211115_10000000067.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:05.000/' site2_211115_10000000068.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:07.000/' site2_211115_10000000069.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:20.000/' site2_211115_10000000070.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:23.000/' site2_211115_10000000071.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:25.000/' site2_211115_10000000072.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:28.000/' site2_211115_10000000073.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:30.000/' site2_211115_10000000074.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:33.000/' site2_211115_10000000075.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:36.000/' site2_211115_10000000076.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:38.000/' site2_211115_10000000077.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:41.000/' site2_211115_10000000078.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:43.000/' site2_211115_10000000079.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:46.000/' site2_211115_10000000080.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:48.000/' site2_211115_10000000081.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:51.000/' site2_211115_10000000082.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:53.000/' site2_211115_10000000083.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:56.000/' site2_211115_10000000084.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:03:58.000/' site2_211115_10000000085.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:01.000/' site2_211115_10000000086.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:03.000/' site2_211115_10000000087.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:06.000/' site2_211115_10000000088.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:09.000/' site2_211115_10000000089.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:11.000/' site2_211115_10000000090.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:14.000/' site2_211115_10000000091.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:16.000/' site2_211115_10000000092.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:19.000/' site2_211115_10000000093.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:21.000/' site2_211115_10000000094.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:24.000/' site2_211115_10000000095.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:26.000/' site2_211115_10000000096.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:29.000/' site2_211115_10000000097.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:31.000/' site2_211115_10000000098.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:34.000/' site2_211115_10000000099.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:36.000/' site2_211115_10000000100.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:39.000/' site2_211115_10000000101.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:42.000/' site2_211115_10000000102.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:44.000/' site2_211115_10000000103.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:47.000/' site2_211115_10000000104.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:49.000/' site2_211115_10000000105.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:51.000/' site2_211115_10000000106.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:54.000/' site2_211115_10000000107.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:57.000/' site2_211115_10000000108.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:04:59.000/' site2_211115_10000000109.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:02.000/' site2_211115_10000000110.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:04.000/' site2_211115_10000000111.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:07.000/' site2_211115_10000000112.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:09.000/' site2_211115_10000000113.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:12.000/' site2_211115_10000000114.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:15.000/' site2_211115_10000000115.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:17.000/' site2_211115_10000000116.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:20.000/' site2_211115_10000000117.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:22.000/' site2_211115_10000000118.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:24.000/' site2_211115_10000000119.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:54.000/' site2_211115_10000000120.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:57.000/' site2_211115_10000000121.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:05:59.000/' site2_211115_10000000122.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:02.000/' site2_211115_10000000123.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:04.000/' site2_211115_10000000124.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:07.000/' site2_211115_10000000125.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:09.000/' site2_211115_10000000126.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:12.000/' site2_211115_10000000127.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:14.000/' site2_211115_10000000128.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:17.000/' site2_211115_10000000129.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:06:58.000/' site2_211115_10000000130.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:01.000/' site2_211115_10000000131.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:03.000/' site2_211115_10000000132.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:06.000/' site2_211115_10000000133.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:09.000/' site2_211115_10000000134.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:11.000/' site2_211115_10000000135.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:14.000/' site2_211115_10000000136.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:16.000/' site2_211115_10000000137.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:19.000/' site2_211115_10000000138.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:21.000/' site2_211115_10000000139.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:24.000/' site2_211115_10000000140.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:26.000/' site2_211115_10000000141.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:29.000/' site2_211115_10000000142.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:31.000/' site2_211115_10000000143.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:34.000/' site2_211115_10000000144.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:36.000/' site2_211115_10000000145.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:39.000/' site2_211115_10000000146.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:41.000/' site2_211115_10000000147.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:43.000/' site2_211115_10000000148.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:46.000/' site2_211115_10000000149.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:48.000/' site2_211115_10000000150.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:51.000/' site2_211115_10000000151.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:53.000/' site2_211115_10000000152.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:56.000/' site2_211115_10000000153.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:07:58.000/' site2_211115_10000000154.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:01.000/' site2_211115_10000000155.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:04.000/' site2_211115_10000000156.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:06.000/' site2_211115_10000000157.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:09.000/' site2_211115_10000000158.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:11.000/' site2_211115_10000000159.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:14.000/' site2_211115_10000000160.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:17.000/' site2_211115_10000000161.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:19.000/' site2_211115_10000000162.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:22.000/' site2_211115_10000000163.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:24.000/' site2_211115_10000000164.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:27.000/' site2_211115_10000000165.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:29.000/' site2_211115_10000000166.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:31.000/' site2_211115_10000000167.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:34.000/' site2_211115_10000000168.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:36.000/' site2_211115_10000000169.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:39.000/' site2_211115_10000000170.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:41.000/' site2_211115_10000000171.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:44.000/' site2_211115_10000000172.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:46.000/' site2_211115_10000000173.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:49.000/' site2_211115_10000000174.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:51.000/' site2_211115_10000000175.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:53.000/' site2_211115_10000000176.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:56.000/' site2_211115_10000000177.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:08:58.000/' site2_211115_10000000178.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:09:01.000/' site2_211115_10000000179.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:10.000/' site2_211115_10000000180.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:12.000/' site2_211115_10000000181.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:15.000/' site2_211115_10000000182.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:17.000/' site2_211115_10000000183.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:20.000/' site2_211115_10000000184.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:22.000/' site2_211115_10000000185.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:25.000/' site2_211115_10000000186.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:27.000/' site2_211115_10000000187.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:30.000/' site2_211115_10000000188.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:32.000/' site2_211115_10000000189.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:40.000/' site2_211115_10000000190.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:43.000/' site2_211115_10000000191.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:45.000/' site2_211115_10000000192.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:48.000/' site2_211115_10000000193.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:50.000/' site2_211115_10000000194.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:53.000/' site2_211115_10000000195.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:55.000/' site2_211115_10000000196.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:11:58.000/' site2_211115_10000000197.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:01.000/' site2_211115_10000000198.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:03.000/' site2_211115_10000000199.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:06.000/' site2_211115_10000000200.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:08.000/' site2_211115_10000000201.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:11.000/' site2_211115_10000000202.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:13.000/' site2_211115_10000000203.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:16.000/' site2_211115_10000000204.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:18.000/' site2_211115_10000000205.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:21.000/' site2_211115_10000000206.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:23.000/' site2_211115_10000000207.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:26.000/' site2_211115_10000000208.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:28.000/' site2_211115_10000000209.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:31.000/' site2_211115_10000000210.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:33.000/' site2_211115_10000000211.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:36.000/' site2_211115_10000000212.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:38.000/' site2_211115_10000000213.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:41.000/' site2_211115_10000000214.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:43.000/' site2_211115_10000000215.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:46.000/' site2_211115_10000000216.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:48.000/' site2_211115_10000000217.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:51.000/' site2_211115_10000000218.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:53.000/' site2_211115_10000000219.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:56.000/' site2_211115_10000000220.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:12:58.000/' site2_211115_10000000221.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:01.000/' site2_211115_10000000222.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:03.000/' site2_211115_10000000223.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:06.000/' site2_211115_10000000224.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:08.000/' site2_211115_10000000225.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:11.000/' site2_211115_10000000226.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:13.000/' site2_211115_10000000227.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:16.000/' site2_211115_10000000228.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:18.000/' site2_211115_10000000229.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:20.000/' site2_211115_10000000230.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:23.000/' site2_211115_10000000231.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:26.000/' site2_211115_10000000232.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:28.000/' site2_211115_10000000233.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:30.000/' site2_211115_10000000234.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:33.000/' site2_211115_10000000235.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:35.000/' site2_211115_10000000236.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:38.000/' site2_211115_10000000237.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:40.000/' site2_211115_10000000238.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:13:43.000/' site2_211115_10000000239.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:28.000/' site2_211115_10000000240.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:31.000/' site2_211115_10000000241.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:33.000/' site2_211115_10000000242.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:36.000/' site2_211115_10000000243.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:38.000/' site2_211115_10000000244.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:41.000/' site2_211115_10000000245.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:43.000/' site2_211115_10000000246.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:46.000/' site2_211115_10000000247.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:48.000/' site2_211115_10000000248.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:14:50.000/' site2_211115_10000000249.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:15.000/' site2_211115_10000000250.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:18.000/' site2_211115_10000000251.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:20.000/' site2_211115_10000000252.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:23.000/' site2_211115_10000000253.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:25.000/' site2_211115_10000000254.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:28.000/' site2_211115_10000000255.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:30.000/' site2_211115_10000000256.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:33.000/' site2_211115_10000000257.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:35.000/' site2_211115_10000000258.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:37.000/' site2_211115_10000000259.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:40.000/' site2_211115_10000000260.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:42.000/' site2_211115_10000000261.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:45.000/' site2_211115_10000000262.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:47.000/' site2_211115_10000000263.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:50.000/' site2_211115_10000000264.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:52.000/' site2_211115_10000000265.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:55.000/' site2_211115_10000000266.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:15:57.000/' site2_211115_10000000267.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:00.000/' site2_211115_10000000268.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:02.000/' site2_211115_10000000269.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:05.000/' site2_211115_10000000270.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:07.000/' site2_211115_10000000271.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:10.000/' site2_211115_10000000272.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:12.000/' site2_211115_10000000273.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:15.000/' site2_211115_10000000274.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:17.000/' site2_211115_10000000275.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:20.000/' site2_211115_10000000276.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:22.000/' site2_211115_10000000277.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:25.000/' site2_211115_10000000278.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:27.000/' site2_211115_10000000279.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:30.000/' site2_211115_10000000280.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:32.000/' site2_211115_10000000281.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:35.000/' site2_211115_10000000282.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:37.000/' site2_211115_10000000283.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:40.000/' site2_211115_10000000284.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:42.000/' site2_211115_10000000285.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:45.000/' site2_211115_10000000286.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:47.000/' site2_211115_10000000287.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:50.000/' site2_211115_10000000288.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:52.000/' site2_211115_10000000289.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:55.000/' site2_211115_10000000290.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:16:57.000/' site2_211115_10000000291.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:00.000/' site2_211115_10000000292.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:02.000/' site2_211115_10000000293.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:05.000/' site2_211115_10000000294.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:07.000/' site2_211115_10000000295.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:10.000/' site2_211115_10000000296.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:12.000/' site2_211115_10000000297.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:15.000/' site2_211115_10000000298.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:17.000/' site2_211115_10000000299.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:49.000/' site2_211115_10000000300.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:52.000/' site2_211115_10000000301.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:54.000/' site2_211115_10000000302.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:57.000/' site2_211115_10000000303.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:17:59.000/' site2_211115_10000000304.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:02.000/' site2_211115_10000000305.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:04.000/' site2_211115_10000000306.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:07.000/' site2_211115_10000000307.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:09.000/' site2_211115_10000000308.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:12.000/' site2_211115_10000000309.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:25.000/' site2_211115_10000000310.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:27.000/' site2_211115_10000000311.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:30.000/' site2_211115_10000000312.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:32.000/' site2_211115_10000000313.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:35.000/' site2_211115_10000000314.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:37.000/' site2_211115_10000000315.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:40.000/' site2_211115_10000000316.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:42.000/' site2_211115_10000000317.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:45.000/' site2_211115_10000000318.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:47.000/' site2_211115_10000000319.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:50.000/' site2_211115_10000000320.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:52.000/' site2_211115_10000000321.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:55.000/' site2_211115_10000000322.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:18:57.000/' site2_211115_10000000323.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:00.000/' site2_211115_10000000324.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:02.000/' site2_211115_10000000325.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:05.000/' site2_211115_10000000326.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:07.000/' site2_211115_10000000327.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:10.000/' site2_211115_10000000328.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:12.000/' site2_211115_10000000329.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:15.000/' site2_211115_10000000330.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:17.000/' site2_211115_10000000331.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:20.000/' site2_211115_10000000332.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:22.000/' site2_211115_10000000333.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:25.000/' site2_211115_10000000334.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:27.000/' site2_211115_10000000335.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:30.000/' site2_211115_10000000336.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:32.000/' site2_211115_10000000337.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:35.000/' site2_211115_10000000338.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:37.000/' site2_211115_10000000339.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:40.000/' site2_211115_10000000340.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:42.000/' site2_211115_10000000341.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:45.000/' site2_211115_10000000342.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:47.000/' site2_211115_10000000343.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:50.000/' site2_211115_10000000344.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:52.000/' site2_211115_10000000345.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:54.000/' site2_211115_10000000346.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:57.000/' site2_211115_10000000347.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:19:59.000/' site2_211115_10000000348.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:02.000/' site2_211115_10000000349.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:05.000/' site2_211115_10000000350.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:07.000/' site2_211115_10000000351.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:09.000/' site2_211115_10000000352.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:12.000/' site2_211115_10000000353.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:14.000/' site2_211115_10000000354.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:17.000/' site2_211115_10000000355.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:19.000/' site2_211115_10000000356.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:22.000/' site2_211115_10000000357.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:24.000/' site2_211115_10000000358.asd.rad.txt
+sed -i 's/Thu Jan 01 11:00:00 1970/00:20:27.000/' site2_211115_10000000359.asd.rad.txt

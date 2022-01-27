@@ -52,7 +52,7 @@ def make_processed_array(ls8_bigarray, satname):
         ls8_cbgr_array = smooth_array_xy.drop(['nbart_red_edge_1',
                                         'nbart_red_edge_2', 'nbart_red_edge_3',
                                         'nbart_nir_1', 'nbart_nir_2', 
-                                        'nbart_swir_2', 'nbart_swir_3', 'fmask'])
+                                        'nbart_swir_2', 'nbart_swir_3'])#, 'fmask'])
 
     # Create median of all data, crunching along the time axis.
     ls8_median = ls8_cbgr_array.median(dim='time')
