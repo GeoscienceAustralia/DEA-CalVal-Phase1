@@ -210,10 +210,6 @@ def load_ASD_binary(infile, li, Corners):
     lon = int(lonString[1:4])+float(lonString[4:])/60
     df['Longitude'] = lon
 
-    # Add Altitude column
-    alt = array.array('d', rawSpec.md.gps_data[32:40])[0]
-    df['Altitude'] = alt
-
     # Add line number column
     df['Line'] = li
 
@@ -225,6 +221,10 @@ def load_ASD_binary(infile, li, Corners):
 
     # Add Instrument number / calibration number column
     df['Inst_number'] = str(rawSpec.md.instrument_num)+'/'+str(rawSpec.md.calibration)
+
+    # Add Altitude column
+    alt = array.array('d', rawSpec.md.gps_data[32:40])[0]
+    df['Altitude'] = alt
 
     #
     # The following lines could be added back in, if the information was
