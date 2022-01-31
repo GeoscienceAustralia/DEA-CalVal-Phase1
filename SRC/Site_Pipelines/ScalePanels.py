@@ -6,7 +6,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 def scale_panels(slope, intercept, coszenith, gpt, good_panels, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         ratio = gpt['Averaged_Panels']/(slope*(coszenith)+intercept)
 
         PanCount = []

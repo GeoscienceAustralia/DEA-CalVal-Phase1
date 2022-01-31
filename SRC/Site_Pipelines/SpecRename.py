@@ -6,7 +6,7 @@
 #
 def spec_rename(good_panel_spec, good_grounds_spec, firstGoodLine, firstGoodPanelSpec, firstGoodGroundSpec, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         gps_new_name = 'radiance'+str(firstGoodLine)+"-"+str(firstGoodPanelSpec)
         ggs_new_name = 'radiance'+str(firstGoodLine)+"-"+str(firstGoodGroundSpec)
 

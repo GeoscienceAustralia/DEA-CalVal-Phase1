@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 #
 def normalise_spectra(good_panel_mean, good_panel_spec, all_panel_spec, gpt, gpta, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         #
         # Create a mask to avoid wavelengths where atmospheric transmission is
         # close to zero: 1350-1480nm, 1801-1966nm and >2350nm
@@ -58,7 +58,7 @@ def normalise_spectra(good_panel_mean, good_panel_spec, all_panel_spec, gpt, gpt
 #
 def FIG_normalised_panels_timeline(gpt, gpta, output, field_data, fignum):
     # 5.
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
         fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(9.5, 4.5))
         #fig.suptitle(fig_title+': Time vs Wavelength-averaged Panels', fontweight='bold')

@@ -4,7 +4,7 @@ import numpy as np
 
 def Panel_BRF(good_panels, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         #
         # Read in Panel BRF factors from csv and calculate mean
         #

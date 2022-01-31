@@ -187,7 +187,7 @@ def load_ASD_binary(infile, li, Corners):
     #
     # Create dictionary which includes both wavelength and radiance columns
     #
-    OutSpecDict = {'Wavelength': rawSpec.wavelengths, 'radiance': radSpec}
+    OutSpecDict = {'Wavelength': rawSpec.wavelengths.astype(int), 'radiance': radSpec}
 
     #
     # Create Pandas dataframe with Wavelength and radiance.
@@ -196,6 +196,9 @@ def load_ASD_binary(infile, li, Corners):
 
     # Add filename column
     df['filename'] = infile.split('/')[-1:][0]
+
+    # Add time stamp column
+    df['date_saved'] = pd.Timestamp(GPSTime(rawSpec))
 
     # Add latitude column
     latString = str(array.array('d', rawSpec.md.gps_data[16:24])[0])
@@ -211,14 +214,14 @@ def load_ASD_binary(infile, li, Corners):
     alt = array.array('d', rawSpec.md.gps_data[32:40])[0]
     df['Altitude'] = alt
 
-    # Add time stamp column
-    df['date_saved'] = pd.Timestamp(GPSTime(rawSpec))
-
     # Add line number column
     df['Line'] = li
 
     # Add spectrum number column
-    df['Spec_number'] = int(infile[-7:-4])
+    try:
+        df['Spec_number'] = int(infile[-7:-4])
+    except ValueError:
+        df['Spec_number'] = int(infile[-6:-4])
 
     # Add Instrument number / calibration number column
     df['Inst_number'] = str(rawSpec.md.instrument_num)+'/'+str(rawSpec.md.calibration)

@@ -7,7 +7,7 @@ from scipy.stats import linregress
 
 def FIG_insolation_fit(gpt, output, field_data, fignum):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         fig_title = 'Figure '+str(fignum)+': '+field_data[0]+' '+field_data[1]+' '+field_data[2]+' '+field_data[3]
         fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(5, 5))
         #fig.suptitle(fig_title+': Cosine of Solar Zenith Angle vs. Wavelength-averaged Panel Radiance', fontweight='bold')

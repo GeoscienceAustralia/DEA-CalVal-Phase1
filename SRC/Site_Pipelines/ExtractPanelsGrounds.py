@@ -16,10 +16,10 @@ from datetime import datetime
 #
 def extract_panels_grounds(alldata, bad_pans, bad_grounds, field_data):
 
-    if field_data[5] == 'Radiance':
-        panel_names = alldata[(alldata['Wavelength']==350) & (alldata['radiance']>=0.05)]['filename']
-    else:
+    if field_data[5] == 'Reflectance':
         panel_names = alldata[(alldata['Wavelength']==350) & (alldata['radiance']>=0.1)]['filename']
+    else:
+        panel_names = alldata[(alldata['Wavelength']==350) & (alldata['radiance']>=0.05)]['filename']
 
     all_panels = alldata.loc[alldata['filename'].isin(panel_names)]
     good_panels = all_panels.loc[~all_panels['filename'].isin(bad_pans)]

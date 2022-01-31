@@ -18,7 +18,7 @@ import pandas as pd
 #
 def create_reflectances(good_panels, good_panel_spec, good_grounds_spec, k_f, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         frames = []
         for j in good_panels.Line.unique():
 

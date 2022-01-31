@@ -2,7 +2,7 @@ import numpy as np
 
 def scale_grounds(good_panels, good_grounds, slope, intercept, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         count=0
         for i in good_panels.Line.unique():
             count+=1

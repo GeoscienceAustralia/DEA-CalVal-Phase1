@@ -51,7 +51,7 @@ def add_solar(good_spectra, solang):
 
 def solar_angle(good_panels, good_grounds, field_data):
 
-    if field_data[5] == 'Radiance':
+    if (field_data[5] == 'Radiance') or (field_data[5] == 'Binary'):
         good_panels = add_solar(good_panels, solang)
         good_grounds = add_solar(good_grounds, solang)
 
